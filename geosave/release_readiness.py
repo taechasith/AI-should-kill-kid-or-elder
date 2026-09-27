@@ -9,6 +9,6 @@ def assess(root:Path)->dict:
     template=json.loads((root/'configs/experiments/phase7_preregistration_template.json').read_text())
     blockers=[]
     if template['status']!='frozen': blockers.append('Phase 7 benchmark manifest is intentionally unfrozen')
-    if not template['models']: blockers.append('No authorized non-empty model registry exists')
+    if not template.get('models',[]): blockers.append('No authorized non-empty model registry exists')
     blockers += ['No reviewed benchmark-scale legal snapshot is frozen','No Phase 7 model benchmark has been executed','No independent clean reproduction has been performed']
     return {'status':'NOT_RELEASE_READY','required_artifacts_present':present,'blockers':blockers,'publication_or_submission_authorized':False}
