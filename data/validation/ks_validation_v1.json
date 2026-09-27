@@ -1,0 +1,99 @@
+{
+  "a2_braking": {
+    "absolute_distance_error_m": 3.552713678800501e-15,
+    "absolute_time_error_s": 8.881784197001252e-16,
+    "acceleration_mps2": -7.0,
+    "analytical_stopping_distance_m": 4.960317460317461,
+    "analytical_stopping_time_s": 1.1904761904761905,
+    "initial_speed_mps": 8.333333333333334,
+    "numerical_stopping_distance_m": 4.960317460317465,
+    "numerical_stopping_time_s": 1.1904761904761914
+  },
+  "commonroad_derivative_crosscheck": {
+    "atol": 1e-10,
+    "case_count": 3,
+    "component_absolute_errors": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "max_derivative_error": 0.0,
+    "passed": true,
+    "rtol": 1e-10
+  },
+  "environment": {
+    "architecture": "x86_64",
+    "os": "Linux-6.8.0-1064-azure-x86_64-with-glibc2.36",
+    "python": "3.10.18"
+  },
+  "numerical_validation": {
+    "deterministic_replay_maximum_residual": 0,
+    "rk4_timestep_halving_absolute_differences": {
+      "orientation": 4.894418204060003e-13,
+      "steering_angle": 0.0,
+      "velocity": 3.552713678800501e-14,
+      "x": 1.0364407998508796e-08,
+      "y": 2.919005925861029e-09
+    },
+    "symmetry_maximum_residual": 0
+  },
+  "package_versions": {
+    "commonroad-drivability-checker": "2025.3.1",
+    "commonroad-io": "2024.3",
+    "commonroad-vehicle-models": "3.0.2",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "shapely": "2.1.2"
+  },
+  "pytest_totals": {
+    "failed": 0,
+    "passed": 19,
+    "skipped": 0
+  },
+  "simulation": {
+    "dt_s": 0.05,
+    "integrator": "RK4",
+    "model": "KS"
+  },
+  "validated_source_commit": "b9c31ba221b7406b86c672793425f27862fb59ac",
+  "validation_version": "ks-validation-v1",
+  "vehicle": {
+    "a_m": 0.88392,
+    "acceleration_bounds_mps2": [
+      -11.5,
+      11.5
+    ],
+    "b_m": 1.50876,
+    "commonroad_vehicle_type": "FORD_ESCORT",
+    "length_m": 4.298,
+    "steering_bounds_rad": [
+      -0.91,
+      0.91
+    ],
+    "steering_rate_bounds_rad_s": [
+      -0.4,
+      0.4
+    ],
+    "vehicle_params_version": "vehicle_params_v1",
+    "wheelbase_m": 2.3926800000000004,
+    "width_m": 1.674
+  }
+}
