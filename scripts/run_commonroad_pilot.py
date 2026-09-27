@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse, hashlib, json, platform, sys
+import os
 from importlib.metadata import version
 from pathlib import Path
 
@@ -60,6 +61,8 @@ def main() -> None:
     if not args.execute: raise SystemExit("select --write-manifest or --execute")
     outcome_path = BASE / "outcomes" / "commonroad_pilot_v1.jsonl"
     done = {json.loads(line)["run_id"] for line in outcome_path.read_text(encoding="utf-8").splitlines()} if outcome_path.exists() else set()
+    if len(done) != sum(1 for _ in outcome_path.open(encoding="utf-8")) if outcome_path.exists() else False:
+        raise RuntimeError("duplicate run IDs in outcome file; quarantine before resuming")
     with outcome_path.open("a", encoding="utf-8") as handle:
         for row in data["runs"]:
             if row["run_id"] in done: continue
