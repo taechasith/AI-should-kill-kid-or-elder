@@ -23,3 +23,7 @@ The classifier filters jurisdiction, subnational reach, scenario/action relation
 Physical-risk classification and legality remain separate. The existing baseline preserves physical infeasibility, safety-law conflict, safe-but-prohibited, unsafe-but-permitted, and legality-not-determined states without claiming survival, injury, or human worth. The deterministic baseline is not legal advice; classifications depend on sourced evidence, local law may differ, treaty applicability varies, and expert review may be required.
 
 Only synthetic `TEST-JURISDICTION-*` fixtures are used in this gate. No real-world law dataset, global collection, AI benchmark, or psychological analysis is included.
+
+## Structured output integration
+
+`GeoSAVEOutput` joins (without mutating) an immutable physical candidate record and a `LegalDecision`. It reports a physical-risk category, legal decision, explicit safety-law relation, and separate physical-model, legal-evidence, legal-interpretation, jurisdiction-applicability, and scenario-condition uncertainty fields. Relations include physical-risk-acceptable-but-prohibited, physical-risk-elevated-but-permitted, legality-not-determined, legal-evidence-conflict, and physically-infeasible. This is synthetic integration testing only; it does not apply legal classifications to any real jurisdiction.
