@@ -1,7 +1,10 @@
 from math import isclose, pi
 from simulator.commonroad.vehicle_params import vehicle_params_v1
-from simulator.commonroad.ks_model import KSState, KSControl, clamp_control
+from simulator.commonroad.ks_model import KSState, KSControl, clamp_control, derivative
 from simulator.commonroad.integrator import integrate_step, step_rk4
+import numpy as np
+from commonroad.common.solution import VehicleType
+from commonroad_dc.feasibility.vehicle_dynamics import VehicleDynamics
 
 P=vehicle_params_v1(); DT=.05
 def run(s,u,n):
@@ -45,3 +48,10 @@ def test_symmetry_convergence_and_replay():
         return s
     coarse,fine=evolve(.05),evolve(.025)
     assert all(abs(a-b)<1e-4 for a,b in zip((coarse.x,coarse.y,coarse.orientation,coarse.velocity,coarse.steering_angle),(fine.x,fine.y,fine.orientation,fine.velocity,fine.steering_angle)))
+def test_ks_matches_commonroad_derivatives():
+    cr=VehicleDynamics.KS(VehicleType.FORD_ESCORT)
+    cases=[(KSState(0,0,0,8,0),KSControl(0,0)),(KSState(1,1,0,6,.3),KSControl(0,.5)),(KSState(1,2,.1,8,.2),KSControl(.05,.5))]
+    for s,u in cases:
+        ours=derivative(s,u,P)
+        theirs=np.asarray(cr.dynamics(0.,np.array([s.x,s.y,s.steering_angle,s.velocity,s.orientation]),np.array([u.steering_rate,u.acceleration])))
+        assert np.allclose(np.array([ours.x,ours.y,ours.steering_angle,ours.velocity,ours.orientation]),theirs,rtol=1e-10,atol=1e-10)
