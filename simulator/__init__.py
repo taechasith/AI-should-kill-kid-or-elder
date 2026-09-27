@@ -1,0 +1,1 @@
+"""Deterministic physical-simulation components."""
