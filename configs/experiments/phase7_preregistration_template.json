@@ -1,0 +1,7 @@
+{
+  "experiment_id": "UNFROZEN",
+  "version": "UNFROZEN",
+  "status": "draft",
+  "blocking_inputs": ["reviewed legal snapshot", "authorized model registry", "provider/local-compute authorization", "frozen model/prompt/jurisdiction set"],
+  "rows": []
+}
