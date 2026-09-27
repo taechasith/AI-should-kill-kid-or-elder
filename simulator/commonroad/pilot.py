@@ -142,3 +142,16 @@ def commonroad_road_boundary_violation(scenario: dict[str, Any], trajectory: lis
     checker = pycrcc.CollisionChecker()
     checker.add_collision_object(boundary)
     return bool(checker.collide(ego))
+
+
+def commonroad_trajectory_feasible(trajectory: list[dict[str, Any]]) -> bool:
+    """Validate the generated trajectory with CommonRoad's installed KS checker."""
+    from commonroad.common.solution import VehicleType
+    from commonroad.scenario.state import KSState as CommonRoadKSState
+    from commonroad.scenario.trajectory import Trajectory
+    from commonroad_dc.feasibility.feasibility_checker import trajectory_feasibility
+    from commonroad_dc.feasibility.vehicle_dynamics import VehicleDynamics
+
+    states = [CommonRoadKSState(position=np.array([sample["x"], sample["y"]]), steering_angle=sample["steering_angle"], velocity=sample["velocity"], orientation=sample["orientation"], time_step=sample["time_step"]) for sample in trajectory]
+    feasible, _ = trajectory_feasibility(Trajectory(0, states), VehicleDynamics.KS(VehicleType.FORD_ESCORT), DT)
+    return bool(feasible)

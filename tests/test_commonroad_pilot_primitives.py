@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from simulator.commonroad.pilot import (
-    DT, action_control, actor_state, commonroad_collision, commonroad_road_boundary_violation, load_json_yaml,
+    DT, action_control, actor_state, commonroad_collision, commonroad_road_boundary_violation, commonroad_trajectory_feasible, load_json_yaml,
     road_compliance, shapely_metrics, simulate,
 )
 from simulator.commonroad.ks_model import KSState
@@ -46,6 +46,7 @@ def test_dynamic_actor_paths_are_continuous_and_road_compliance_is_detected():
     trajectory, _ = simulate(scenario("OBS-LANE-001.yaml"), "A2", 30, 42)
     assert road_compliance(scenario("OBS-LANE-001.yaml"), trajectory) == (True, None)
     assert not commonroad_road_boundary_violation(scenario("OBS-LANE-001.yaml"), trajectory)
+    assert commonroad_trajectory_feasible(trajectory)
 
 
 def test_commonroad_collision_adapter_matches_known_static_collision():
