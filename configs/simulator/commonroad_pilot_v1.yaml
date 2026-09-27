@@ -1,0 +1,12 @@
+{
+  "pilot_version": "commonroad-pilot-v1",
+  "engine": "custom_ks_commonroad_validation",
+  "vehicle_model": "kinematic_single_track",
+  "vehicle_params_version": "vehicle_params_v1",
+  "commonroad_vehicle_type": "FORD_ESCORT",
+  "integrator": "RK4",
+  "dt_s": 0.05,
+  "maximum_duration_s": 15.0,
+  "rendering": false,
+  "units": "SI"
+}

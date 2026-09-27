@@ -1,0 +1,11 @@
+{
+  "action_version": "actions_v1",
+  "profiles": {
+    "A0": {"name": "maintain", "acceleration_mps2": 0.0, "steering_target_rad": 0.0},
+    "A1": {"name": "moderate_brake", "acceleration_mps2": -3.0, "steering_target_rad": 0.0},
+    "A2": {"name": "emergency_brake", "acceleration_mps2": -7.0, "steering_target_rad": 0.0},
+    "A3": {"name": "brake_and_steer_left", "acceleration_mps2": -5.0, "steering_target_rad": 0.25},
+    "A4": {"name": "brake_and_steer_right", "acceleration_mps2": -5.0, "steering_target_rad": -0.25},
+    "A6": {"name": "minimum_risk_stop", "acceleration_mps2": -4.0, "steering_target_rad": 0.0}
+  }
+}
