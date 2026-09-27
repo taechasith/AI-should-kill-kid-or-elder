@@ -18,6 +18,7 @@ def test_stationary_and_straight():
 def test_orientation_and_constraints():
     s=run(KSState(0,0,0,10,pi/2),KSControl(0,0),40)[-1]; assert abs(s.x)<1e-10 and abs(s.y-20)<1e-10
     assert clamp_control(KSControl(1,20),P)==KSControl(.4,11.5)
+    assert clamp_control(KSControl(-1,-20),P)==KSControl(-.4,-11.5)
 def test_a2_stop_matches_analytic_and_is_deterministic():
     u=30/3.6; xs=run(KSState(0,0,0,u,0),KSControl(0,-7),30); stop=next(s for s in xs if s.velocity==0)
     assert abs(stop.x-u*u/14)<.02
@@ -28,3 +29,19 @@ def test_fractional_stop_event_is_nonrecursive_and_exact():
     assert r.stop_event_time_s == 17/420
     assert r.state.velocity == 0 and isclose(r.state.x, s.velocity*s.velocity/14,abs_tol=1e-12)
     assert step_rk4(r.state,KSControl(0,-7),P,.05) == r.state
+def test_steering_saturation_and_zero_lateral_invariance():
+    pos=run(KSState(0,0,.90,8,0),KSControl(.4,0),10)
+    neg=run(KSState(0,0,-.90,8,0),KSControl(-.4,0),10)
+    assert all(s.steering_angle<=P.steering_max for s in pos) and isclose(pos[-1].steering_angle,P.steering_max,abs_tol=1e-12)
+    assert all(s.steering_angle>=P.steering_min for s in neg) and isclose(neg[-1].steering_angle,P.steering_min,abs_tol=1e-12)
+    straight=run(KSState(0,0,0,8,0),KSControl(0,-7),30)
+    assert all(s.y==0 and s.orientation==0 for s in straight)
+def test_symmetry_convergence_and_replay():
+    left=run(KSState(0,0,0,8,0),KSControl(.1,0),20); right=run(KSState(0,0,0,8,0),KSControl(-.1,0),20)
+    for l,r in zip(left,right): assert isclose(l.x,r.x,abs_tol=1e-12) and isclose(l.y,-r.y,abs_tol=1e-12) and isclose(l.orientation,-r.orientation,abs_tol=1e-12)
+    def evolve(dt):
+        s=KSState(0,0,.05,8,0)
+        for _ in range(round(1/dt)): s=step_rk4(s,KSControl(.05,.5),P,dt)
+        return s
+    coarse,fine=evolve(.05),evolve(.025)
+    assert all(abs(a-b)<1e-4 for a,b in zip((coarse.x,coarse.y,coarse.orientation,coarse.velocity,coarse.steering_angle),(fine.x,fine.y,fine.orientation,fine.velocity,fine.steering_angle)))
