@@ -169,13 +169,15 @@ measurable metrics and no prompt reveals an expected action.
 
 **Goal:** Produce reproducible physical evidence independent of jurisdiction.
 
-**Work:** Configure the frozen CommonRoad-compatible Kinematic Single-Track
-pipeline in the authorized Linux-generic execution environment (GitHub
-Codespaces is the reference path), run pilot actions/seeds, and persist
-collision, road-boundary, feasibility, TTC, distance, deceleration, jerk,
-lateral acceleration, final speed, travel time, scenario settings, and failure
-state. CARLA is a future optional higher-fidelity validation path, not the
-active Phase 4 dependency.
+**Work:** Produce candidate trajectories with an explicit deterministic
+Kinematic Single-Track forward integrator using CommonRoad-compatible vehicle
+parameters. Use the CommonRoad Drivability Checker independently for trajectory
+feasibility and collision validation, with explicit road-boundary geometry as a
+separate physical check. Run pilot actions/seeds in the authorized Linux-generic
+execution environment (GitHub Codespaces is the reference path), and persist
+TTC, distance, deceleration, jerk, lateral acceleration, final speed, travel
+time, scenario settings, and failure state. CARLA is a future optional
+higher-fidelity validation path, not the active Phase 4 dependency.
 
 **Pass evidence:** Same scenario/action/seed reproduces configuration; joins
 are keyed by `scenario x variant x action x seed`; simulator failures are

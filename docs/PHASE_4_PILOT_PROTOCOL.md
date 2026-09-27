@@ -5,7 +5,8 @@
 environment is verified, while KS-pipeline implementation and pilot execution
 remain pending. See `PHASE_4_COMMONROAD_BLOCKER.md` for preserved Windows
 failure evidence and the Linux-resolution record.
-**Engine:** CommonRoad-compatible local forward simulation.
+**Engine:** explicit deterministic Kinematic Single-Track forward simulation
+with CommonRoad-compatible vehicle parameters.
 **Vehicle model:** Kinematic Single-Track (KS).
 
 ## Objective and boundary
@@ -14,13 +15,17 @@ This pilot creates an action-outcome matrix:
 
 ```text
 scenario x initial_speed x action x seed
--> KS forward trajectory
--> collision / road-boundary / feasibility checks
+-> deterministic KS forward trajectory
+-> CommonRoad collision and feasibility validation / road-boundary geometry check
 -> machine-readable physical outcome
 ```
 
-It measures physical collision outcomes, trajectory feasibility, and geometric
-road-boundary compliance. It does not measure legal compliance, injury,
+The transparent KS integrator generates trajectories; CommonRoad is an
+independent drivability, collision, and benchmark-interoperability layer. This
+separates generation from validation and fixes timestep, controls, initial
+state, and numerical integration explicitly. The pilot measures physical
+collision outcomes, trajectory feasibility, and geometric road-boundary
+compliance. It does not measure legal compliance, injury,
 survival, moral worth, country law, or model behavior.
 
 ## Frozen configuration
