@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install --only-binary=:all: -r requirements-commonroad-codespaces.txt && python scripts/verify_commonroad_environment.py --require-checker",
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements-commonroad-codespaces.txt && python scripts/verify_commonroad_environment.py --require-checker",
   "customizations": {
     "vscode": {
       "extensions": ["ms-python.python"]

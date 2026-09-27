@@ -2,8 +2,10 @@
 
 ## Status
 
-**Blocked before CommonRoad physical simulation on 2026-09-27.** No simulator
-outcome, trajectory, metric, or result summary has been generated.
+**Checker installation resolved via GitHub Codespaces on 2026-09-27.** The
+native-Windows failure below is preserved as historical evidence. Phase 4 itself
+remains unexecuted: no simulator outcome, trajectory, metric, or result summary
+has been generated.
 
 ## Working local environment
 
@@ -52,3 +54,20 @@ and `requirements-commonroad-codespaces.txt`, which request the official
 build. The exact distribution, architecture, Python, resolved package versions,
 Git commit, and resolution date must be appended here only after the checker
 imports there successfully.
+
+## STATUS: RESOLVED VIA GITHUB CODESPACES
+
+- Linux distribution: Debian GNU/Linux 12 (bookworm).
+- Architecture: x86_64.
+- Python: 3.10.18.
+- Checker: `commonroad-drivability-checker==2025.3.1` (programmatically
+  importable).
+- CommonRoad packages: `commonroad-io==2024.3`,
+  `commonroad-vehicle-models==3.0.2`, `numpy==2.2.6`, `scipy==1.15.3`, and
+  `shapely==2.1.2`.
+- Git commit: `61c4a5bdf32953bfd6b1571b6c33c0bef34b63c8`.
+- Resolution date: 2026-09-27.
+
+The checker was installed from its official CPython 3.10 manylinux wheel. Its
+declared `polygon3` dependency built locally because that dependency did not
+publish a compatible wheel; the checker itself was not built from source.

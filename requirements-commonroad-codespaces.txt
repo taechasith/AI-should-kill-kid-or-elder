@@ -3,6 +3,12 @@
 # Windows base environment has commonroad-io==2026.1, while this official
 # checker release requires commonroad-io<2025.
 #
-# The resolved transitive versions must be recorded only after a successful
-# Codespaces/Linux installation; do not treat this file as an outcome lock.
+# Resolved and programmatically verified in GitHub Codespaces on 2026-09-27.
+# The checker itself installs from the official CPython 3.10 manylinux wheel.
+# `polygon3` is its declared dependency and does not publish a compatible wheel.
 commonroad-drivability-checker==2025.3.1
+commonroad-io==2024.3
+commonroad-vehicle-models==3.0.2
+numpy==2.2.6
+scipy==1.15.3
+shapely==2.1.2

@@ -1,9 +1,10 @@
 # Phase 4 - Frozen CommonRoad Pilot Protocol
 
 **Protocol ID:** `commonroad-pilot-v1`
-**Status:** active protocol, blocked before execution pending the authorized
-GitHub Codespaces Linux checker verification documented in
-`PHASE_4_COMMONROAD_BLOCKER.md`.
+**Status:** active protocol; the authorized GitHub Codespaces Linux checker
+environment is verified, while KS-pipeline implementation and pilot execution
+remain pending. See `PHASE_4_COMMONROAD_BLOCKER.md` for preserved Windows
+failure evidence and the Linux-resolution record.
 **Engine:** CommonRoad-compatible local forward simulation.
 **Vehicle model:** Kinematic Single-Track (KS).
 

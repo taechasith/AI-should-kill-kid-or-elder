@@ -34,12 +34,12 @@ it contains no country-law score or demographic value field.
 therefore no CommonRoad simulation, trajectory, collision result, or physical
 outcome has been generated. See `PHASE_4_COMMONROAD_BLOCKER.md`.
 
-GitHub Codespaces Linux x86_64 is now the authorized reference execution
-environment for the checker. It replaces native Windows only for execution;
-it does not alter the scientific method, authorize WSL, or make an unexecuted
-installation a successful result. The repository's dev-container requests the
-official `commonroad-drivability-checker==2025.3.1` wheel, with resolved
-versions recorded only after its programmatic import succeeds.
+GitHub Codespaces Linux x86_64 is the verified reference execution environment
+for the checker: Debian 12, Python 3.10.18,
+`commonroad-drivability-checker==2025.3.1`, and
+`commonroad-io==2024.3` imported successfully at commit `61c4a5b`. It replaces
+native Windows only for execution; it does not alter the scientific method,
+authorize WSL, or make an unexecuted installation a successful pilot.
 
 ## Citation
 

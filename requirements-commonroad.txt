@@ -1,0 +1,9 @@
+# Frozen Linux Phase 4 CommonRoad environment (Python 3.10)
+# Verified in GitHub Codespaces on 2026-09-27. The native Windows base setup is
+# retained only as historical blocker evidence in docs/PHASE_4_COMMONROAD_BLOCKER.md.
+commonroad-drivability-checker==2025.3.1
+commonroad-io==2024.3
+commonroad-vehicle-models==3.0.2
+numpy==2.2.6
+scipy==1.15.3
+shapely==2.1.2
