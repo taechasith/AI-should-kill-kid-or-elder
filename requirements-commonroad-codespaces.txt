@@ -1,0 +1,8 @@
+# Linux x86_64 execution environment for the frozen Phase 4 pilot.
+# This is intentionally separate from requirements-commonroad.txt: the local
+# Windows base environment has commonroad-io==2026.1, while this official
+# checker release requires commonroad-io<2025.
+#
+# The resolved transitive versions must be recorded only after a successful
+# Codespaces/Linux installation; do not treat this file as an outcome lock.
+commonroad-drivability-checker==2025.3.1
