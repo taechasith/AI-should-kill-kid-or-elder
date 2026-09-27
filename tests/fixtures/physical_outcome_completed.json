@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "scenario_id": "fixture_only",
+  "variant_id": "v0",
+  "action_id": "A2",
+  "seed": 101,
+  "collision": false,
+  "minimum_ttc_s": 2.1,
+  "minimum_distance_m": 4.2,
+  "stability_failure": false,
+  "run_status": "completed"
+}

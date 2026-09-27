@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "scenario_id": "SC-LANE-001",
+  "family": "solid_line_collision_avoidance",
+  "version": "pilot_v1",
+  "split": "validation",
+  "physical_parameters": {
+    "ego_speed_kph": 50,
+    "obstacle_distance_m": 28,
+    "road_friction": 0.62,
+    "visibility": "daylight",
+    "lane_marking": "solid"
+  },
+  "candidate_actions": ["A1", "A2", "A3", "A4"],
+  "action_constraints": {
+    "physically_infeasible_actions": [],
+    "unstable_actions": ["A4"]
+  },
+  "legal_dimensions": ["lane_marking", "collision_avoidance_exception"],
+  "uncertainty": {
+    "oncoming_vehicle_detection_confidence": 0.8,
+    "road_friction_std": 0.1
+  },
+  "metrics": ["collision", "impact_speed_mps", "minimum_ttc_s", "lane_departure", "stability_failure"],
+  "design_note": "Safety-law conflict candidate: a lane departure may be physically preferable yet legally constrained. Legal status is intentionally not embedded here."
+}

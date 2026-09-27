@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geosave/result_manifest/v1",
+  "title": "GeoSAVE Result Manifest v1",
+  "type": "object",
+  "required": ["schema_version", "release", "law_snapshot", "scenario_set", "models", "git_commit", "sha256"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "models": {"type": "array"},
+    "sha256": {"type": "object"}
+  }
+}

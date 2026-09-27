@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geosave/model_decision/v1",
+  "title": "GeoSAVE Model Decision v1",
+  "type": "object",
+  "required": ["schema_version", "run_id", "scenario_id", "country_iso3", "law_snapshot", "model_id", "model_revision", "prompt_version", "condition", "seed", "action_order", "parse_status"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "country_iso3": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "parse_status": {"enum": ["valid", "repaired", "failed"]},
+    "selected_action": {"enum": ["A0", "A1", "A2", "A3", "A4", "A5", "A6"]},
+    "legal_assessment": {"type": "object", "additionalProperties": {"enum": ["legal", "illegal", "conditionally_legal", "not_applicable", "unknown"]}}
+  }
+}

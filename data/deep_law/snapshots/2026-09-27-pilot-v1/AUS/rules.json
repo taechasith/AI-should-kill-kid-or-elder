@@ -1,0 +1,36 @@
+[
+  {
+    "schema_version": "v1",
+    "rule_id": "AUS-NSW-PED-081",
+    "jurisdiction": "AUS",
+    "subnational_code": "NSW",
+    "effective_from": null,
+    "retrieved_at": "2026-09-27",
+    "category": "pedestrian_priority",
+    "rule_status": "probable",
+    "trigger": {
+      "crossing_type": "pedestrian_crossing",
+      "pedestrian_state": "on_crossing"
+    },
+    "default": {
+      "vehicle_duty": "give_way"
+    },
+    "exceptions": [],
+    "normalized_english": "In New South Wales, a driver approaching a pedestrian crossing must give way to a pedestrian on the crossing.",
+    "source": {
+      "title": "Road Rules 2014 [NSW], rule 81",
+      "url": "https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-04-09/sl-2014-0758",
+      "source_type": "official_subnational_legislation",
+      "locator": "rule 81",
+      "language": "en",
+      "source_version_as_at": "2025-04-09"
+    },
+    "verification": {
+      "review_state": "solo_initial_extraction",
+      "double_review": false,
+      "source_checked_at": "2026-09-27",
+      "effective_date_status": "unknown",
+      "currency_status": "dated_source_view"
+    }
+  }
+]

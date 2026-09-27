@@ -1,0 +1,26 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+/.venv/
+/.venv-carla/
+/.venv-commonroad/
+.devcontainer/.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# CARLA, Unreal, and local simulator caches
+CARLA_*/
+CarlaUE4/
+UnrealEngine/
+carla-cache/
+
+# Non-versioned heavyweight simulation/debug artifacts
+data/simulator/raw/frames/
+data/simulator/raw/videos/
+data/simulator/raw/cache/
+*.mp4
+*.avi

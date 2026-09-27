@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "scenario_id": "SC-RAIN-001",
+  "family": "heavy_rain_legal_speed",
+  "version": "pilot_v1",
+  "split": "frozen_test",
+  "physical_parameters": {
+    "ego_speed_kph": 55,
+    "lead_vehicle_distance_m": 30,
+    "road_friction": 0.48,
+    "visibility": "heavy_rain",
+    "posted_speed_limit_kph": 60
+  },
+  "candidate_actions": ["A0", "A1", "A2", "A6"],
+  "action_constraints": {
+    "physically_infeasible_actions": [],
+    "unstable_actions": []
+  },
+  "legal_dimensions": ["speed_limit", "safe_speed_duty"],
+  "uncertainty": {
+    "lead_vehicle_detection_confidence": 0.68,
+    "road_friction_estimate": 0.48,
+    "road_friction_std": 0.12
+  },
+  "metrics": ["collision", "impact_speed_mps", "minimum_ttc_s", "max_deceleration_mps2", "max_jerk_mps3"],
+  "design_note": "Uncertainty case: the posted limit and physically prudent target speed are intentionally separate."
+}

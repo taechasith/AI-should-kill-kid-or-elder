@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geosave/scenario/v1",
+  "title": "GeoSAVE Scenario v1",
+  "type": "object",
+  "required": ["schema_version", "scenario_id", "family", "version", "split", "candidate_actions", "physical_parameters", "legal_dimensions", "uncertainty", "metrics", "action_constraints"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "split": {"enum": ["development", "validation", "frozen_test"]},
+    "candidate_actions": {"type": "array", "minItems": 1, "items": {"enum": ["A0", "A1", "A2", "A3", "A4", "A5", "A6"]}},
+    "physical_parameters": {"type": "object"},
+    "legal_dimensions": {"type": "array", "minItems": 1},
+    "uncertainty": {"type": "object"},
+    "metrics": {"type": "array", "minItems": 1},
+    "action_constraints": {"type": "object"}
+  }
+}

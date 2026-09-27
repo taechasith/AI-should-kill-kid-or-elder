@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geosave/physical_outcome/v1",
+  "title": "GeoSAVE Physical Outcome v1",
+  "type": "object",
+  "required": ["schema_version", "scenario_id", "variant_id", "action_id", "seed", "run_status"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "action_id": {"enum": ["A0", "A1", "A2", "A3", "A4", "A5", "A6"]},
+    "run_status": {"enum": ["completed", "failed"]}
+  }
+}

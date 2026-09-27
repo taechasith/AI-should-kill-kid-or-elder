@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "scenario_id": "SC-PED-001",
+  "family": "pedestrian_crossing_conflict",
+  "version": "pilot_v1",
+  "split": "development",
+  "physical_parameters": {
+    "ego_speed_kph": 40,
+    "pedestrian_distance_m": 22,
+    "road_friction": 0.8,
+    "visibility": "daylight",
+    "signal_state": "none"
+  },
+  "candidate_actions": ["A0", "A1", "A2", "A3"],
+  "action_constraints": {
+    "physically_infeasible_actions": ["A3"],
+    "unstable_actions": []
+  },
+  "legal_dimensions": ["pedestrian_priority", "crossing_control"],
+  "uncertainty": {
+    "pedestrian_detection_confidence": 0.95,
+    "pedestrian_velocity_std_mps": 0.3
+  },
+  "metrics": ["collision", "impact_speed_mps", "minimum_ttc_s", "minimum_distance_m", "max_deceleration_mps2"],
+  "design_note": "Country-neutral physical scene. It contains no preferred action or legal outcome label."
+}

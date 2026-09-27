@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "geosave/legal_rule/v1",
+  "title": "GeoSAVE Deep-Law Rule v1",
+  "type": "object",
+  "required": ["schema_version", "rule_id", "jurisdiction", "effective_from", "retrieved_at", "category", "rule_status", "source"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "jurisdiction": {"type": "string", "pattern": "^[A-Z]{3}$"},
+    "subnational_code": {"type": ["string", "null"]},
+    "effective_from": {"type": ["string", "null"], "format": "date"},
+    "retrieved_at": {"type": "string", "format": "date"},
+    "rule_status": {"enum": ["verified", "probable", "ambiguous", "unresolved"]},
+    "source": {"type": "object", "required": ["title", "url", "source_type"]}
+  }
+}

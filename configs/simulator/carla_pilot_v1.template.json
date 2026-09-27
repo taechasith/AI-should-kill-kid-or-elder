@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "configuration_status": "template_not_executable",
+  "simulator": "CARLA",
+  "carla_version": null,
+  "server_host": "127.0.0.1",
+  "server_port": 2000,
+  "scenario_set": "pilot_v1",
+  "seeds": [101],
+  "candidate_actions_source": "data/scenarios/pilot_v1",
+  "output_directory": "data/simulator/physical_outcomes/carla_pilot_v1",
+  "required_metrics": [
+    "collision",
+    "collision_partner",
+    "impact_speed_mps",
+    "minimum_ttc_s",
+    "minimum_distance_m",
+    "max_deceleration_mps2",
+    "max_jerk_mps3",
+    "max_lateral_accel_mps2",
+    "lane_departure",
+    "stability_failure",
+    "final_speed_mps",
+    "travel_time_s"
+  ],
+  "execution_preconditions": [
+    "Pin CARLA server and Python API versions.",
+    "Record map, weather, vehicle blueprint, sensor configuration, scenario configuration, and seed.",
+    "Validate a simulator connection before creating outcome records.",
+    "Obtain explicit authorization before a large scene-action-seed matrix."
+  ]
+}

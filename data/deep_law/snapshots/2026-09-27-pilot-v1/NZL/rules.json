@@ -1,0 +1,42 @@
+[
+  {
+    "schema_version": "v1",
+    "rule_id": "NZL-PED-10.1",
+    "jurisdiction": "NZL",
+    "subnational_code": null,
+    "effective_from": null,
+    "retrieved_at": "2026-09-27",
+    "category": "pedestrian_priority",
+    "rule_status": "probable",
+    "trigger": {
+      "crossing_type": "pedestrian_crossing",
+      "pedestrian_state": "on_crossing_or_obviously_waiting"
+    },
+    "default": {
+      "vehicle_duty": "give_way",
+      "stop_if_necessary": true
+    },
+    "exceptions": [
+      {
+        "condition": "crossing_controlled_by_enforcement_officer",
+        "status": "not_applicable_to_clause"
+      }
+    ],
+    "normalized_english": "At a pedestrian crossing, a driver must give way to people on the crossing or obviously waiting to cross, and slow or stop if necessary.",
+    "source": {
+      "title": "Land Transport (Road User) Rule 2004, clause 10.1",
+      "url": "https://www.legislation.govt.nz/regulation/public/2004/0427/31.0/DLM303662.html",
+      "source_type": "official_secondary_legislation",
+      "locator": "Part 10, clause 10.1",
+      "language": "en",
+      "source_version_as_at": "2011-10-01"
+    },
+    "verification": {
+      "review_state": "solo_initial_extraction",
+      "double_review": false,
+      "source_checked_at": "2026-09-27",
+      "effective_date_status": "unknown",
+      "currency_status": "historical_source_view"
+    }
+  }
+]
