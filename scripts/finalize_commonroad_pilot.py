@@ -9,7 +9,9 @@ MANIFEST=BASE/'manifests/commonroad_pilot_v1.json'; OUTCOMES=BASE/'outcomes/comm
 SUMMARY=BASE/'summaries/commonroad_pilot_v1_summary.json'; HASHES=BASE/'hashes/commonroad_pilot_v1_sha256.json'
 
 def load(): return json.loads(MANIFEST.read_text()),[json.loads(x) for x in OUTCOMES.read_text().splitlines() if x]
-def digest(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def digest(p):
+ """Hash Git-portable canonical bytes (LF line endings) rather than platform checkout bytes."""
+ return hashlib.sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
 def numeric(v): return v is None or isinstance(v,(int,float)) and math.isfinite(v)
 
 def validate():
