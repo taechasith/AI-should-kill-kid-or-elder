@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geosave-research"
+version = "0.1.0"
+description = "Reproducibility contracts and Phase 4 research tooling"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["geosave*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
