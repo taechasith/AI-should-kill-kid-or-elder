@@ -1,0 +1,5 @@
+{
+  "registry_version": "model-registry-v1",
+  "execution_policy": "No model is enabled or invoked until an authorized Phase 6 pilot budget and model list are frozen.",
+  "models": []
+}
