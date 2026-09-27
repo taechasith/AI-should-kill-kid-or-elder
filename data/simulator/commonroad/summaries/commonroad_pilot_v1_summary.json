@@ -1,0 +1,149 @@
+{
+  "action_count": 6,
+  "canonical_analysis_runs": 180,
+  "collision_speed_summary": null,
+  "collision_summary": {
+    "count": 180,
+    "max": 1,
+    "mean": 0.4444444444444444,
+    "min": 0
+  },
+  "completed_runs": 180,
+  "data_commit": "d52baabc7658840f7c2ff63102c2f8fe3e97e058",
+  "deceleration_summary": {
+    "count": 180,
+    "max": 0.0,
+    "mean": -4.0,
+    "min": -7.0
+  },
+  "determinism_passed": true,
+  "distance_summary": {
+    "count": 180,
+    "max": 10.978843678044809,
+    "mean": 4.103714033463779,
+    "min": 0.0
+  },
+  "failed_runs": 0,
+  "feasibility_summary": {
+    "count": 180,
+    "max": 1,
+    "mean": 0.6666666666666666,
+    "min": 0
+  },
+  "final_execution_commit": "d52baabc7658840f7c2ff63102c2f8fe3e97e058",
+  "grouped_accounting": {
+    "action_id": {
+      "A0": {
+        "collisions": 25,
+        "feasible": 30,
+        "road_compliant": 30,
+        "runs": 30
+      },
+      "A1": {
+        "collisions": 15,
+        "feasible": 30,
+        "road_compliant": 30,
+        "runs": 30
+      },
+      "A2": {
+        "collisions": 5,
+        "feasible": 30,
+        "road_compliant": 30,
+        "runs": 30
+      },
+      "A3": {
+        "collisions": 10,
+        "feasible": 0,
+        "road_compliant": 15,
+        "runs": 30
+      },
+      "A4": {
+        "collisions": 10,
+        "feasible": 0,
+        "road_compliant": 0,
+        "runs": 30
+      },
+      "A6": {
+        "collisions": 15,
+        "feasible": 30,
+        "road_compliant": 30,
+        "runs": 30
+      }
+    },
+    "scenario_id": {
+      "MOTO-CUTIN-001": {
+        "collisions": 5,
+        "feasible": 40,
+        "road_compliant": 45,
+        "runs": 60
+      },
+      "OBS-LANE-001": {
+        "collisions": 55,
+        "feasible": 40,
+        "road_compliant": 45,
+        "runs": 60
+      },
+      "PED-CROSS-001": {
+        "collisions": 20,
+        "feasible": 40,
+        "road_compliant": 45,
+        "runs": 60
+      }
+    },
+    "speed_kph": {
+      "30": {
+        "collisions": 30,
+        "feasible": 60,
+        "road_compliant": 75,
+        "runs": 90
+      },
+      "50": {
+        "collisions": 50,
+        "feasible": 60,
+        "road_compliant": 60,
+        "runs": 90
+      }
+    }
+  },
+  "historical_duplicate_attempts": 348,
+  "integrity": {
+    "canonical_rows": 180,
+    "duplicate_attempt_rows": 348,
+    "errors": [],
+    "passed": true,
+    "planned_runs": 180
+  },
+  "jerk_summary": {
+    "count": 180,
+    "max": 0.0,
+    "mean": 0.0,
+    "min": 0.0
+  },
+  "lateral_acceleration_summary": {
+    "count": 180,
+    "max": 12.126797498160135,
+    "mean": 2.5067128854961025,
+    "min": 0.0
+  },
+  "manifest_path": "data/simulator/commonroad/manifests/commonroad_pilot_v1.json",
+  "manifest_sha256": "360cb58bda1f4f8cbf961a975b2cdd8b9b1b497b57c4239e1ca79b5419244b90",
+  "not_applicable_runs": 0,
+  "pilot_version": "commonroad-pilot-v1",
+  "planned_runs": 180,
+  "road_compliance_summary": {
+    "count": 180,
+    "max": 1,
+    "mean": 0.75,
+    "min": 0
+  },
+  "scenario_count": 3,
+  "seed_policy": "pipeline compatibility; baseline physics has no stochastic parameter",
+  "speed_count": 2,
+  "ttc_summary": {
+    "count": 180,
+    "max": 33.97415470802763,
+    "mean": 5.632556813441006,
+    "min": 0.00112190644977524
+  },
+  "validated_ks_commit": "b9c31ba221b7406b86c672793425f27862fb59ac"
+}
