@@ -14,6 +14,10 @@ import sys
 from importlib.metadata import version
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 import numpy as np
 from commonroad.common.solution import VehicleType
 from commonroad_dc.feasibility.vehicle_dynamics import VehicleDynamics
@@ -23,7 +27,6 @@ from simulator.commonroad.ks_model import KSControl, KSState, derivative
 from simulator.commonroad.vehicle_params import vehicle_params_v1
 
 
-ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "validation" / "ks_validation_v1.json"
 DT = 0.05
 
