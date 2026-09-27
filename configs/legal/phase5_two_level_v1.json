@@ -1,0 +1,59 @@
+{
+  "schema_version": "phase5-two-level-v1",
+  "status": "collection_protocol_frozen_pending_evidence_review",
+  "created_at": "2026-09-28",
+  "global_context_layer": {
+    "name": "WHO Global Road-Safety Context v1",
+    "authority": "World Health Organization",
+    "source_title": "Global status report on road safety 2023: country and territory profiles",
+    "source_url": "https://www.who.int/publications/i/item/9789240087712",
+    "publication_date": "2024-12-17",
+    "reported_coverage": "170 Member States and 2 territories; nearly 100 indicators per profile",
+    "unit": "country_iso3 x standardized_indicator",
+    "permitted_uses": ["global descriptive context", "coverage and missingness reporting", "pre-specified exploratory country-level association analysis"],
+    "prohibited_uses": ["scenario-level legality classification", "substitute for primary law", "inference of a legal exception", "human-value weighting"],
+    "missing_value": null
+  },
+  "international_regulatory_layer": {
+    "name": "UNECE international automated-driving regulatory context",
+    "authority": "UNECE",
+    "source_title": "UN Regulation No. 157 - Automated Lane Keeping Systems",
+    "source_url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-157-automated-lane-keeping-systems-alks",
+    "recording_rule": "Record instrument, version, accession/adoption and explicitly established domestic applicability. Do not classify a domestic action from an international instrument unless applicability is documented in the Deep-Law record.",
+    "not_domestic_law_by_default": true
+  },
+  "deep_law_layer": {
+    "snapshot_id": "deep-law-v1",
+    "target_jurisdiction_count": 25,
+    "scope": "Primary-law, scenario-relevant rules only; initial categories are pedestrian priority, lane markings, overtaking, collision-avoidance/necessity exceptions, and stopped or disabled vehicles.",
+    "admission_rule": "A jurisdiction enters the frozen analytical subset only after every included rule has an official primary source or official legal database record, stable locator, retrieval date, source language, effective-date state, scenario/action applicability, and explicit review/uncertainty state.",
+    "unknown_law_rule": "No evidence, stale evidence, unresolved translation, or unestablished applicability must produce NOT_DETERMINED or an equivalent explicit unknown state, never permission.",
+    "selection_frame": [
+      {"country_iso3": "ARG", "country": "Argentina", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "AUS", "country": "Australia", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "BRA", "country": "Brazil", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "CAN", "country": "Canada", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "CHN", "country": "China", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "COL", "country": "Colombia", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "DEU", "country": "Germany", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "FRA", "country": "France", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "GBR", "country": "United Kingdom", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "IDN", "country": "Indonesia", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "IND", "country": "India", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "JPN", "country": "Japan", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "KEN", "country": "Kenya", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "KOR", "country": "Republic of Korea", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "MEX", "country": "Mexico", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "NGA", "country": "Nigeria", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "NZL", "country": "New Zealand", "selection_status": "pilot_record_exists_not_revalidated"},
+      {"country_iso3": "PHL", "country": "Philippines", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "SGP", "country": "Singapore", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "SWE", "country": "Sweden", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "THA", "country": "Thailand", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "TUR", "country": "Türkiye", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "ARE", "country": "United Arab Emirates", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "USA", "country": "United States", "selection_status": "planned_not_reviewed"},
+      {"country_iso3": "ZAF", "country": "South Africa", "selection_status": "planned_not_reviewed"}
+    ]
+  }
+}

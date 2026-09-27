@@ -187,22 +187,33 @@ machine-readable; a deterministic simulator-free smoke test passes.
 explicit authorization with the estimated `scene x action x seed` count before
 a large physical-outcome matrix.
 
-### Phase 5 - GeoSAVE deterministic baseline
+### Phase 5 - GeoSAVE law layer and deterministic baseline
 
-**Goal:** Implement the separable constrained decision architecture without
-depending on a foundation model.
+**Goal:** Produce an auditable two-level legal dataset and apply it through the
+separable constrained decision architecture without depending on a foundation
+model.
 
-**Work:** Implement and test feasibility, catastrophic-risk, legal constraints,
-safety-law conflict resolution, and uncertainty preference. Preserve safe-illegal
-and unsafe-lawful outcomes as separate labels. Implement B0-B4 where inputs
-exist, especially deterministic GeoSAVE.
+**Work:** Build a broad Global Law Map from authoritative structured WHO data,
+but use it only as country-level context. Build a smaller 20-30-jurisdiction
+Deep-Law subset from official primary law, with scenario/action applicability,
+source locator, effective-date state, language/translation state, review state,
+and uncertainty. Record UNECE instruments as a separate international layer;
+they are not domestic law without documented applicability. Implement and test
+feasibility, catastrophic-risk, legal constraints, safety-law conflict
+resolution, and uncertainty preference. Preserve safe-illegal and unsafe-lawful
+outcomes as separate labels. Implement B0-B4 where inputs exist, especially
+deterministic GeoSAVE.
 
-**Pass evidence:** Tests demonstrate that infeasible actions are rejected,
-unknown law is not compliant, explicit exceptions are source/scenario scoped,
-and a safe-illegal action is not relabelled legal.
+**Pass evidence:** A versioned WHO context map has field-level provenance and
+explicit missingness; the selected Deep-Law subset has reviewed primary-law
+records and a frozen, hashed snapshot; validators preserve unknown/conflict
+states; and tests demonstrate that infeasible actions are rejected, unknown law
+is not compliant, explicit exceptions are source/scenario scoped, and a
+safe-illegal action is not relabelled legal.
 
-**Stop rule:** Do not claim GeoSAVE improves anything until comparison data is
-generated against physical and legal labels.
+**Stop rule:** WHO context must never classify scenario-level legality. Do not
+claim legal coverage, GeoSAVE improvement, or jurisdictional results until the
+reviewed snapshot and comparison data exist.
 
 ### Phase 6 - Model-interface pilot
 
