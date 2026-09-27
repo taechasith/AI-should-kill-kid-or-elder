@@ -119,3 +119,26 @@ def commonroad_collision(scenario: dict[str, Any], trajectory: list[dict[str, An
     checker = pycrcc.CollisionChecker()
     checker.add_collision_object(actor)
     return bool(checker.collide(ego))
+
+
+def commonroad_road_boundary_violation(scenario: dict[str, Any], trajectory: list[dict[str, Any]]) -> bool:
+    """Use the installed CommonRoad road-boundary constructor as the authority."""
+    from commonroad.scenario.lanelet import Lanelet
+    from commonroad.scenario.scenario import Scenario
+    from commonroad_dc import pycrcc
+    from commonroad_dc.boundary.boundary import create_road_boundary_obstacle
+
+    length = scenario["road"]["length_m"]
+    lower, upper = scenario["road"]["drivable_y_m"]
+    middle = (lower + upper) / 2
+    scenario_cr = Scenario(DT)
+    right = Lanelet(np.array([[0, lower], [length, lower]]), np.array([[0, 0], [length, 0]]), np.array([[0, 1.75], [length, 1.75]]), 1, adjacent_left=2, adjacent_left_same_direction=True)
+    left = Lanelet(np.array([[0, 1.75], [length, 1.75]]), np.array([[0, middle], [length, middle]]), np.array([[0, upper], [length, upper]]), 2, adjacent_right=1, adjacent_right_same_direction=True)
+    scenario_cr.add_objects([right, left])
+    _, boundary = create_road_boundary_obstacle(scenario_cr, method="obb_rectangles")
+    ego = pycrcc.TimeVariantCollisionObject(0)
+    for sample in trajectory:
+        ego.append_obstacle(pycrcc.RectOBB(PARAMS.length / 2, PARAMS.width / 2, sample["orientation"], sample["x"], sample["y"]))
+    checker = pycrcc.CollisionChecker()
+    checker.add_collision_object(boundary)
+    return bool(checker.collide(ego))
