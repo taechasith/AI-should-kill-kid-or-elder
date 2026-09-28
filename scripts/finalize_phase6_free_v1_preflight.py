@@ -44,6 +44,7 @@ def _targets() -> list[Path]:
         ROOT / "geosave" / "phase6_interface.py",
         ROOT / "geosave" / "phase6_prompts.py",
         ROOT / "scripts" / "build_phase6_free_v1_preflight.py",
+        ROOT / "scripts" / "probe_phase6_free_access.py",
         ROOT / "scripts" / "validate_phase6_free_v1_preflight.py",
         ROOT / "scripts" / "finalize_phase6_free_v1_preflight.py",
         ROOT / "scripts" / "verify_phase6_free_v1_preflight_hashes.py",

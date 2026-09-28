@@ -44,6 +44,12 @@ python scripts/finalize_phase6_free_v1_preflight.py
 python scripts/verify_phase6_free_v1_preflight_hashes.py
 ```
 
+With both secret names available, `python scripts/probe_phase6_free_access.py`
+may query only authenticated model-list metadata. It performs no inference,
+prints no secret, and records no raw provider payload. Its result still cannot
+prove an account's tier or billing state, so it cannot enable the three-call
+pilot.
+
 The preflight is not Phase 6 completion. The next permitted step is a live
 account-access verification after both user-managed secret names exist in the
 authorized Codespace environment.

@@ -48,6 +48,7 @@ geosave/phase6_free_adapters.py text eol=lf
 geosave/phase6_free_guard.py text eol=lf
 scripts/build_phase6_free_v1_preflight.py text eol=lf
 scripts/finalize_phase6_free_v1_preflight.py text eol=lf
+scripts/probe_phase6_free_access.py text eol=lf
 scripts/validate_phase6_free_v1_preflight.py text eol=lf
 scripts/verify_phase6_free_v1_preflight_hashes.py text eol=lf
 data/model_benchmark/phase6_free_v1/** text eol=lf

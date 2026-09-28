@@ -91,3 +91,6 @@ The preflight remains non-executable until both provider credentials are placed
 in an approved secret store and authenticated live checks establish a
 billing-disabled Free Tier / Free Plan, exact model availability, image input,
 and current rate-limit metadata. See `docs/PHASE_6_ZERO_COST_POLICY.md`.
+`python scripts/probe_phase6_free_access.py` is permitted after secret setup to
+query model-list metadata only; it performs no model generation and cannot
+substitute for the required account-tier evidence.
