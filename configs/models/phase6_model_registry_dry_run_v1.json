@@ -1,0 +1,81 @@
+{
+  "schema_version": "phase6-model-registry-v1",
+  "registry_id": "phase6-model-interface-v1-dry-run",
+  "status": "FROZEN_DRY_RUN_PENDING_AUTHORIZATION",
+  "selection_date": "2026-09-28",
+  "selection_rule": "Selected before benchmark results for image-plus-text API capability, version-addressable identifiers, three provider families, and official documentation. This is a candidate execution panel, not evidence that any provider account, quota, or budget is authorized.",
+  "execution_policy": {
+    "execution_enabled": false,
+    "closed_book_only": true,
+    "external_tools_permitted": false,
+    "provider_calls_permitted": false,
+    "authorization_required_before_any_call": true
+  },
+  "models": [
+    {
+      "panel_slot": "M1",
+      "provider": "OpenAI",
+      "model_id": "gpt-4.1-2025-04-14",
+      "model_revision": "gpt-4.1-2025-04-14",
+      "model_id_kind": "dated_snapshot",
+      "provider_adapter": "openai_responses_v1",
+      "vision_enabled": true,
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "context_limit_tokens": 1047576,
+      "parameter_count": null,
+      "sampling_parameters": {"temperature": null, "top_p": null, "seed": null, "policy": "No provider sampling parameter is sent until a real adapter pilot confirms the compatible setting; run IDs still deterministically control action order."},
+      "max_output_tokens": 500,
+      "pricing_snapshot_usd_per_million_tokens": {"input": 2.0, "output": 8.0, "cached_input": 0.5},
+      "official_sources": [
+        "https://developers.openai.com/api/docs/models/gpt-4.1",
+        "https://openai.com/index/gpt-4-1/"
+      ],
+      "provider_access_status": "not_authorized_for_execution"
+    },
+    {
+      "panel_slot": "M2",
+      "provider": "Anthropic",
+      "model_id": "claude-sonnet-5",
+      "model_revision": "claude-sonnet-5",
+      "model_id_kind": "canonical_pinned_model_id",
+      "provider_adapter": "anthropic_messages_v1",
+      "vision_enabled": true,
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "context_limit_tokens": 1000000,
+      "parameter_count": null,
+      "sampling_parameters": {"temperature": null, "top_p": null, "seed": null, "policy": "No provider sampling parameter is sent until a real adapter pilot confirms the compatible setting; run IDs still deterministically control action order."},
+      "max_output_tokens": 500,
+      "pricing_snapshot_usd_per_million_tokens": {"input": 2.0, "output": 10.0, "cached_input": null},
+      "official_sources": [
+        "https://platform.claude.com/docs/en/models/overview",
+        "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
+        "https://platform.claude.com/docs/en/build-with-claude/vision"
+      ],
+      "provider_access_status": "not_authorized_for_execution"
+    },
+    {
+      "panel_slot": "M3",
+      "provider": "Mistral AI",
+      "model_id": "mistral-large-2512",
+      "model_revision": "mistral-large-2512",
+      "model_id_kind": "versioned_release",
+      "provider_adapter": "mistral_chat_v1",
+      "vision_enabled": true,
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "context_limit_tokens": 256000,
+      "parameter_count": null,
+      "sampling_parameters": {"temperature": null, "top_p": null, "seed": null, "policy": "No provider sampling parameter is sent until a real adapter pilot confirms the compatible setting; run IDs still deterministically control action order."},
+      "max_output_tokens": 500,
+      "pricing_snapshot_usd_per_million_tokens": {"input": 0.5, "output": 1.5, "cached_input": 0.05},
+      "official_sources": [
+        "https://docs.mistral.ai/models/mistral-large-3-25-12",
+        "https://docs.mistral.ai/studio/conversations/vision",
+        "https://docs.mistral.ai/inference/pricing"
+      ],
+      "provider_access_status": "not_authorized_for_execution"
+    }
+  ]
+}

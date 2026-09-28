@@ -19,3 +19,24 @@ scripts/materialize_phase5_legal_snapshot.py text eol=lf
 scripts/validate_phase5_legal_snapshot.py text eol=lf
 scripts/verify_phase5_hashes.py text eol=lf
 scripts/verify_phase5_sources.py text eol=lf
+
+# Phase 6 dry-run hashes also bind exact generated inputs and manifests.
+configs/experiments/phase6_model_interface_dry_run_v1.json text eol=lf
+configs/models/phase6_model_registry_dry_run_v1.json text eol=lf
+schemas/v1/phase6_model_decision.schema.json text eol=lf
+prompts/phase6/decision_prompt_v1.md text eol=lf
+geosave/model_adapters.py text eol=lf
+geosave/phase6_inputs.py text eol=lf
+geosave/phase6_interface.py text eol=lf
+geosave/phase6_prompts.py text eol=lf
+scripts/build_phase6_dry_run.py text eol=lf
+scripts/finalize_phase6_dry_run.py text eol=lf
+scripts/validate_phase6_dry_run.py text eol=lf
+scripts/verify_phase6_dry_run_hashes.py text eol=lf
+data/model_inputs/phase6/** text eol=lf
+*.png binary
+data/model_benchmark/phase6/** text eol=lf
+data/validation/phase6_dry_run_validation_v1.json text eol=lf
+docs/PHASE_6_MODEL_INTERFACE.md text eol=lf
+docs/PHASE_6_COST_ESTIMATE.md text eol=lf
+docs/PHASE_6_BLOCKER.md text eol=lf

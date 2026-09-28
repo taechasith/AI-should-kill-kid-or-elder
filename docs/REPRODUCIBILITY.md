@@ -49,3 +49,25 @@ official URLs. The tracked processed context, source metadata, snapshot, and
 hash manifest retain the data necessary to audit the released result. Do not
 modify `phase5-legal-snapshot-v1` in place; create a new snapshot version for
 any new legal facts, sources, or interpretation.
+
+## Phase 6 offline dry run
+
+The Phase 6 dry-run is intentionally offline and must not make a provider API
+call. It rebuilds six deterministic initial-state bird's-eye packages, the
+closed-book condition contexts, blocked manifests, and the planning cost
+estimate. It then validates the input-information boundary, parser/adapters,
+and accounting.
+
+```bash
+python scripts/build_phase6_dry_run.py
+python scripts/validate_phase6_dry_run.py
+python scripts/finalize_phase6_dry_run.py
+python scripts/verify_phase6_dry_run_hashes.py
+python -m pytest -q
+```
+
+`docs/PHASE_6_BLOCKER.md` records the authorization boundary. These commands
+do not complete Phase 6 and must never be treated as permission to call a
+provider. A future authorized pilot must preserve raw responses and use a new
+versioned artifact if it changes the candidate panel, frozen inputs, or legal
+snapshot.

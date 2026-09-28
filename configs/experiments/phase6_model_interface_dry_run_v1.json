@@ -1,0 +1,80 @@
+{
+  "schema_version": "phase6-model-interface-dry-run-v1",
+  "experiment_id": "phase6-model-interface-v1-dry-run",
+  "status": "FROZEN_DRY_RUN_PENDING_AUTHORIZATION",
+  "phase4_canonical_commit": "d52baab",
+  "phase4_pilot_tag": "commonroad-pilot-v1",
+  "law_snapshot": "phase5-legal-snapshot-v1",
+  "input_package_version": "phase6-model-interface-v1",
+  "candidate_model_registry": "configs/models/phase6_model_registry_dry_run_v1.json",
+  "conditions": [
+    {
+      "condition_id": "C0",
+      "name": "physics_only",
+      "jurisdiction_context": false,
+      "legal_context": false,
+      "candidate_consequence_disclosure": false,
+      "deduplicate_across_jurisdictions": true
+    },
+    {
+      "condition_id": "C1",
+      "name": "jurisdiction_identity_only",
+      "jurisdiction_context": true,
+      "legal_context": false,
+      "candidate_consequence_disclosure": false,
+      "deduplicate_across_jurisdictions": false
+    },
+    {
+      "condition_id": "C2",
+      "name": "structured_legal_representation",
+      "jurisdiction_context": true,
+      "legal_context": "structured_frozen_snapshot",
+      "candidate_consequence_disclosure": false,
+      "deduplicate_across_jurisdictions": false
+    },
+    {
+      "condition_id": "C3",
+      "name": "raw_or_near_raw_primary_law_evidence",
+      "jurisdiction_context": true,
+      "legal_context": "requires_retained_action_level_evidence_text",
+      "candidate_consequence_disclosure": false,
+      "deduplicate_across_jurisdictions": false,
+      "eligibility_rule": "not_applicable when the frozen Phase 5 context lacks retained action-level original or working-translation text; source URLs and locators must not be substituted for the evidence text."
+    },
+    {
+      "condition_id": "C4",
+      "name": "geosave_constrained_structured_support",
+      "jurisdiction_context": true,
+      "legal_context": "structured_frozen_snapshot",
+      "candidate_consequence_disclosure": true,
+      "deduplicate_across_jurisdictions": false,
+      "disclosure_rationale": "This condition intentionally supplies deterministic candidate-action physical consequence summaries and explicit legal uncertainty from frozen Phase 4 and Phase 5 artifacts."
+    }
+  ],
+  "execution_settings": {
+    "main_repeat_count": 3,
+    "pilot_repeat_count": 1,
+    "maximum_automatic_retries": 1,
+    "retryable_failure_classes": ["rate_limit", "temporary_provider_failure", "transport_error", "malformed_structured_response"],
+    "non_retryable_reason": "An undesirable selected action is not retryable.",
+    "max_output_tokens": 500,
+    "action_order_policy": "SHA-256-seeded deterministic permutation of A0,A1,A2,A3,A4,A6 using run_id",
+    "model_web_browsing": "disabled",
+    "model_external_tools": "disabled",
+    "provider_sampling_parameter_policy": "No provider-specific sampling value is sent until pilot capability validation; repeat rows remain required because hosted inference can vary."
+  },
+  "cost_assumptions": {
+    "planned_input_tokens_per_request": 2000,
+    "planned_output_tokens_per_request": 500,
+    "image": "one 512x512 PNG per request; the input-token planning allowance includes the image, but final billing must use provider-reported usage.",
+    "cost_currency": "USD",
+    "retry_cost_policy": "Worst case permits one additional full request per eligible row."
+  },
+  "pilot_stratification": {
+    "input_package_ids": ["PED-CROSS-001__V030", "OBS-LANE-001__V050", "MOTO-CUTIN-001__V030"],
+    "jurisdiction_by_input_package": {"PED-CROSS-001__V030": "ARG", "OBS-LANE-001__V050": "THA", "MOTO-CUTIN-001__V030": "ZAF"},
+    "eligible_conditions": ["C0", "C1", "C2", "C4"],
+    "not_applicable_conditions": ["C3"],
+    "purpose": "Multiple scenarios, conditions, and jurisdictions; one request per candidate model/context before a full benchmark."
+  }
+}
