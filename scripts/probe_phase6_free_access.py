@@ -18,7 +18,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_PATH = ROOT / "data" / "validation" / "phase6_free_v1_access_probe.json"
+OUTPUT_DIR = ROOT / "data" / "validation" / "phase6_free_v1_access_probes"
 TIMEOUT_SECONDS = 20
 ALLOWED_RATE_HEADERS = {"retry-after", "x-ratelimit-limit-requests", "x-ratelimit-limit-tokens", "x-ratelimit-remaining-requests", "x-ratelimit-remaining-tokens", "x-ratelimit-reset-requests", "x-ratelimit-reset-tokens"}
 TARGETS = {
@@ -74,15 +74,18 @@ def _provider_record(provider: str, secret_present: bool, secret: str | None, op
     return record
 
 
-def probe(*, environ: dict[str, str] | None = None, opener: Callable[..., Any] = urlopen) -> dict[str, Any]:
+def probe(
+    *, environ: dict[str, str] | None = None, opener: Callable[..., Any] = urlopen, output_dir: Path = OUTPUT_DIR
+) -> dict[str, Any]:
     environment = os.environ if environ is None else environ
+    timestamp = datetime.now(timezone.utc).replace(microsecond=0)
     providers = [
         _provider_record(provider, bool(environment.get(env_name)), environment.get(env_name), opener)
         for provider, (env_name, _, _) in TARGETS.items()
     ]
     result = {
         "schema_version": "phase6-free-access-probe-v1",
-        "verification_timestamp_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "verification_timestamp_utc": timestamp.isoformat(),
         "purpose": "metadata-only exact-model availability probe; no inference request",
         "providers": providers,
         "all_target_models_listed": all(model["listed"] for provider in providers for model in provider["models"]),
@@ -94,8 +97,15 @@ def probe(*, environ: dict[str, str] | None = None, opener: Callable[..., Any] =
         "execution_status": "PREFLIGHT_BLOCKED_PENDING_ACCOUNT_TIER_ATTESTATION",
         "next_required_evidence": "Authenticated account/dashboard confirmation of Free Tier or Free Plan, billing disabled, and current quota limits; then one guarded multimodal capability-pilot request per model.",
     }
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / f"phase6_free_v1_access_probe_{timestamp.strftime('%Y%m%dT%H%M%SZ')}.json"
+    if output_path.exists():
+        raise FileExistsError(f"Refusing to overwrite prior access-probe evidence: {output_path}")
+    output_path.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    try:
+        result["output_path"] = output_path.relative_to(ROOT).as_posix()
+    except ValueError:  # Test callers may direct output outside the repository.
+        result["output_path"] = str(output_path)
     return result
 
 

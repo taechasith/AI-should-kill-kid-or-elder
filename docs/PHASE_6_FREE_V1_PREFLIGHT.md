@@ -64,6 +64,10 @@ prints no secret, and records no raw provider payload. Its result still cannot
 prove an account's tier or billing state, so it cannot enable the three-call
 pilot.
 
+Each later access probe is stored as a new timestamped file under
+`data/validation/phase6_free_v1_access_probes/`; the prior missing-credential
+record is retained and never overwritten.
+
 The preflight is not Phase 6 completion. The next permitted step is a live
 account-access verification after both user-managed secret names exist in the
 authorized Codespace environment.
