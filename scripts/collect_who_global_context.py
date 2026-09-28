@@ -94,7 +94,7 @@ def collect_one(country: dict) -> tuple[dict, dict | None]:
 
 
 def write_json(path: Path, payload: object) -> None:
-    path.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    path.write_bytes((json.dumps(payload, indent=2, sort_keys=True) + "\n").encode("utf-8"))
 
 
 def main() -> None:
@@ -114,13 +114,11 @@ def main() -> None:
     results.sort(key=lambda item: item["iso3"])
     fieldnames = list(rows[0]) if rows else []
     with (OUTDIR / "who_road_safety_2023_context_v1.csv").open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
-    with (OUTDIR / "who_road_safety_2023_collection_failures.jsonl").open("w", encoding="utf-8", newline="\n") as handle:
-        for result in results:
-            if result["status"] != "collected":
-                handle.write(json.dumps(result, sort_keys=True) + "\n")
+    failures = "".join(json.dumps(result, sort_keys=True) + "\n" for result in results if result["status"] != "collected")
+    (OUTDIR / "who_road_safety_2023_collection_failures.jsonl").write_bytes(failures.encode("utf-8"))
     write_json(OUTDIR / "who_road_safety_2023_acquisition_manifest.json", {
         "schema_version": "phase5-who-global-context-v1",
         "authority": "World Health Organization",

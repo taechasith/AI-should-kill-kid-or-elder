@@ -24,7 +24,7 @@ def jsonl(path: Path) -> list[dict]:
 
 
 def write_jsonl(path: Path, rows: list[dict]) -> None:
-    path.write_text("".join(json.dumps(row, sort_keys=True, ensure_ascii=False) + "\n" for row in rows), encoding="utf-8")
+    path.write_bytes("".join(json.dumps(row, sort_keys=True, ensure_ascii=False) + "\n" for row in rows).encode("utf-8"))
 
 
 def evidence_from_source(source: dict) -> dict:
@@ -123,7 +123,7 @@ def main() -> None:
     }
     write_jsonl(PHASE5 / "primary_evidence.jsonl", evidence)
     write_jsonl(PHASE5 / "legal_decisions.jsonl", decisions)
-    (PHASE5 / "jurisdiction_metadata.json").write_text(json.dumps(jurisdiction_metadata, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    (PHASE5 / "jurisdiction_metadata.json").write_bytes((json.dumps(jurisdiction_metadata, indent=2, sort_keys=True) + "\n").encode("utf-8"))
     print(f"Materialized {len(evidence)} evidence records and {len(decisions)} NOT_DETERMINED decisions")
 
 

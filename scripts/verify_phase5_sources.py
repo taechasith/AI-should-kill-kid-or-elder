@@ -51,7 +51,7 @@ def main() -> None:
         futures = [executor.submit(fetch, record) for record in registry]
         records = [future.result() for future in as_completed(futures)]
     records.sort(key=lambda record: record["country_iso3"])
-    OUTPUT.write_text(json.dumps({"schema_version": "phase5-source-metadata-v1", "jurisdictions": records}, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    OUTPUT.write_bytes((json.dumps({"schema_version": "phase5-source-metadata-v1", "jurisdictions": records}, indent=2, sort_keys=True) + "\n").encode("utf-8"))
     retrieved = sum(record["second_pass_access"] == "retrieved" for record in records)
     print(f"Phase 5 source second pass: {retrieved}/{len(records)} official sources retrieved")
 

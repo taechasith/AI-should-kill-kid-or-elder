@@ -16,7 +16,7 @@ def load(path: Path) -> dict:
 
 
 def write(name: str, body: str) -> None:
-    (DOCS / name).write_text(body.rstrip() + "\n", encoding="utf-8")
+    (DOCS / name).write_bytes((body.rstrip() + "\n").encode("utf-8"))
 
 
 def source_table(records: list[dict]) -> str:
