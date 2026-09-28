@@ -1,0 +1,90 @@
+{
+  "schema_version": "phase6-free-model-registry-v1",
+  "registry_id": "phase6-free-v1-candidate-panel",
+  "status": "PREFLIGHT_PENDING_CREDENTIALS",
+  "selection_date": "2026-09-28",
+  "supersedes_for_execution_only": "configs/models/phase6_model_registry_dry_run_v1.json",
+  "provenance": {
+    "prior_dry_run_commit": "17b140206b6e147ca391fc587992aac57357fb96",
+    "selection_rationale": "Before any model responses were collected, the candidate provider panel was re-frozen to models with provider-documented zero-cost API access because the study has a hard experimental compute/API budget of USD 0. This was not performance-driven and no model result had been observed.",
+    "prior_artifacts_preserved": true
+  },
+  "zero_cost_execution_policy": {
+    "budget_mode": "FREE_ONLY",
+    "max_authorized_usd": 0.0,
+    "max_authorized_thb": 0.0,
+    "allow_paid_fallback": false,
+    "allow_provider_upgrade": false,
+    "allow_credit_purchase": false,
+    "allow_automatic_billing": false,
+    "closed_book_only": true,
+    "external_tools_permitted": false,
+    "provider_grounding_permitted": false,
+    "credential_storage": "Codespaces Secrets or an equivalent uncommitted secret store only",
+    "credential_values_recorded": false
+  },
+  "preflight_requirements": [
+    "GEMINI_API_KEY and GROQ_API_KEY must be present without printing their values.",
+    "The account tier, billing-disabled state, exact model availability, image-plus-text capability, and current rate-limit metadata must be verified live before any request.",
+    "Exactly one multimodal capability-pilot request per model is permitted only after the registry status becomes FREE_ONLY_PILOT_AUTHORIZED.",
+    "A 429 or quota-exhausted result must be recorded as FREE_QUOTA_EXHAUSTED and must stop that provider; it never authorizes payment.",
+    "The main benchmark is forbidden until the three pilots succeed at no monetary cost and the registry is newly frozen as FREE_ACCESS_VERIFIED_EXECUTABLE."
+  ],
+  "models": [
+    {
+      "panel_slot": "M1",
+      "provider": "Google Gemini API",
+      "provider_key_environment": "GEMINI_API_KEY",
+      "provider_adapter": "gemini_generate_content_v1",
+      "model_id": "gemini-3.6-flash",
+      "model_revision": "gemini-3.6-flash",
+      "model_id_kind": "stable_provider_identifier",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "required_access_tier": "free_tier",
+      "provider_access_status": "provider_documented_account_unverified",
+      "official_sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "privacy_disclosure": "Google documents that Free Tier content may be used to improve its products. Benchmark inputs are limited to controlled simulation scenes and public or structured research evidence; no credentials or private personal data may be sent."
+    },
+    {
+      "panel_slot": "M2",
+      "provider": "Google Gemini API",
+      "provider_key_environment": "GEMINI_API_KEY",
+      "provider_adapter": "gemini_generate_content_v1",
+      "model_id": "gemini-2.5-flash-lite",
+      "model_revision": "gemini-2.5-flash-lite",
+      "model_id_kind": "stable_provider_identifier",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "required_access_tier": "free_tier",
+      "provider_access_status": "provider_documented_account_unverified",
+      "account_specific_caveat": "Google currently documents that access to Gemini 2.5 models may be limited to accounts that have actively used them previously. A live model-availability check is mandatory; no replacement may be made after benchmark execution begins.",
+      "official_sources": [
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "privacy_disclosure": "Google documents that Free Tier content may be used to improve its products. Benchmark inputs are limited to controlled simulation scenes and public or structured research evidence; no credentials or private personal data may be sent."
+    },
+    {
+      "panel_slot": "M3",
+      "provider": "Groq",
+      "provider_key_environment": "GROQ_API_KEY",
+      "provider_adapter": "groq_chat_completions_v1",
+      "model_id": "qwen/qwen3.8-27b",
+      "model_revision": "qwen/qwen3.8-27b",
+      "model_id_kind": "provider_identifier",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "required_access_tier": "free_plan",
+      "provider_access_status": "provider_documented_account_unverified",
+      "official_sources": [
+        "https://console.groq.com/docs/vision",
+        "https://console.groq.com/docs/rate-limits"
+      ],
+      "privacy_disclosure": "The applicable account terms and data-use conditions must be recorded at live preflight. Benchmark inputs remain limited to controlled simulation scenes and public or structured research evidence."
+    }
+  ]
+}

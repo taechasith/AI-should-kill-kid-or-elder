@@ -40,3 +40,17 @@ data/validation/phase6_dry_run_validation_v1.json text eol=lf
 docs/PHASE_6_MODEL_INTERFACE.md text eol=lf
 docs/PHASE_6_COST_ESTIMATE.md text eol=lf
 docs/PHASE_6_BLOCKER.md text eol=lf
+
+# Separately versioned zero-cost Phase 6 preflight hashes.
+configs/experiments/phase6_free_v1_preflight.json text eol=lf
+configs/models/phase6_free_v1_candidate_registry.json text eol=lf
+geosave/phase6_free_adapters.py text eol=lf
+geosave/phase6_free_guard.py text eol=lf
+scripts/build_phase6_free_v1_preflight.py text eol=lf
+scripts/finalize_phase6_free_v1_preflight.py text eol=lf
+scripts/validate_phase6_free_v1_preflight.py text eol=lf
+scripts/verify_phase6_free_v1_preflight_hashes.py text eol=lf
+data/model_benchmark/phase6_free_v1/** text eol=lf
+data/validation/phase6_free_v1_preflight_validation.json text eol=lf
+docs/PHASE_6_ZERO_COST_POLICY.md text eol=lf
+docs/PHASE_6_FREE_V1_PREFLIGHT.md text eol=lf

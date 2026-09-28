@@ -71,3 +71,23 @@ do not complete Phase 6 and must never be treated as permission to call a
 provider. A future authorized pilot must preserve raw responses and use a new
 versioned artifact if it changes the candidate panel, frozen inputs, or legal
 snapshot.
+
+## Phase 6 zero-cost preflight
+
+`phase6-free-v1` is a separate, fail-closed preflight authorized only under a
+USD 0.00 / THB 0.00 policy. It preserves the prior blocked dry-run and the
+frozen Phase 4 and Phase 5 source artifacts. It contains no credentials and
+makes no provider request.
+
+```bash
+python scripts/build_phase6_free_v1_preflight.py
+python scripts/validate_phase6_free_v1_preflight.py
+python scripts/finalize_phase6_free_v1_preflight.py
+python scripts/verify_phase6_free_v1_preflight_hashes.py
+python -m pytest -q tests/test_phase6_free_v1.py
+```
+
+The preflight remains non-executable until both provider credentials are placed
+in an approved secret store and authenticated live checks establish a
+billing-disabled Free Tier / Free Plan, exact model availability, image input,
+and current rate-limit metadata. See `docs/PHASE_6_ZERO_COST_POLICY.md`.

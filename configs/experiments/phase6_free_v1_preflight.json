@@ -1,0 +1,39 @@
+{
+  "schema_version": "phase6-free-preflight-v1",
+  "experiment_id": "phase6-free-v1-preflight",
+  "status": "PREFLIGHT_PENDING_CREDENTIALS",
+  "phase4_canonical_commit": "d52baab",
+  "phase4_pilot_tag": "commonroad-pilot-v1",
+  "law_snapshot": "phase5-legal-snapshot-v1",
+  "input_package_version": "phase6-model-interface-v1",
+  "candidate_model_registry": "configs/models/phase6_free_v1_candidate_registry.json",
+  "source_dry_run_manifest": "data/model_benchmark/phase6/manifests/phase6_dry_run_v1.json",
+  "conditions_source_config": "configs/experiments/phase6_model_interface_dry_run_v1.json",
+  "execution_settings": {
+    "main_repeat_count": 3,
+    "maximum_automatic_retries": 1,
+    "retryable_failure_classes": ["rate_limit", "temporary_provider_failure", "transport_error", "malformed_structured_response"],
+    "quota_exhaustion_class": "FREE_QUOTA_EXHAUSTED",
+    "quota_exhaustion_policy": "Persist completed records, stop the affected provider, and resume only in a later free-quota window. Never enable payment, purchase credit, upgrade a tier, or use a paid fallback.",
+    "max_output_tokens": 500,
+    "action_order_policy": "SHA-256-seeded deterministic permutation of A0,A1,A2,A3,A4,A6 using run_id",
+    "model_web_browsing": "disabled",
+    "model_external_tools": "disabled",
+    "provider_grounding": "disabled"
+  },
+  "pilot": {
+    "request_count": 3,
+    "one_request_per_model": true,
+    "input_package_id": "PED-CROSS-001__V030",
+    "country_iso3": "ARG",
+    "condition": "C2",
+    "purpose": "Multimodal transport-and-parser capability validation only; pilot responses are not main-benchmark observations and must not be analyzed as such."
+  },
+  "full_matrix": {
+    "planned_rows": 5454,
+    "provider_execution_rows": 4104,
+    "not_applicable_rows": 1350,
+    "preserved_repeat_policy": true,
+    "execution_forbidden_until": "all three zero-cost pilots complete successfully and the registry is frozen executable"
+  }
+}
