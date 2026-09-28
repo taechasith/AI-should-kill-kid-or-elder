@@ -1,0 +1,380 @@
+{
+  "jurisdictions": [
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "ARG",
+      "country_name": "Argentina",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-ARG-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "AUS",
+      "country_name": "Australia",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-AUS-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "BRA",
+      "country_name": "Brazil",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-BRA-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "CAN",
+      "country_name": "Canada",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-CAN-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "CHN",
+      "country_name": "China",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-CHN-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "COL",
+      "country_name": "Colombia",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-COL-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "DEU",
+      "country_name": "Germany",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-DEU-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "FRA",
+      "country_name": "France",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-FRA-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "GBR",
+      "country_name": "United Kingdom",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-GBR-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "IDN",
+      "country_name": "Indonesia",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-IDN-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "IND",
+      "country_name": "India",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-IND-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "JPN",
+      "country_name": "Japan",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-JPN-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "KEN",
+      "country_name": "Kenya",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-KEN-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "KOR",
+      "country_name": "Republic of Korea",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-KOR-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "MEX",
+      "country_name": "Mexico",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-MEX-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "NGA",
+      "country_name": "Nigeria",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-NGA-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "NZL",
+      "country_name": "New Zealand",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-NZL-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "PHL",
+      "country_name": "Philippines",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-PHL-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "SGP",
+      "country_name": "Singapore",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-SGP-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "SWE",
+      "country_name": "Sweden",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-SWE-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "THA",
+      "country_name": "Thailand",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-THA-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "TUR",
+      "country_name": "T\u00fcrkiye",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-TUR-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "ARE",
+      "country_name": "United Arab Emirates",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-ARE-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "USA",
+      "country_name": "United States",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-USA-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admitted_action_level_evidence_count": 0,
+      "country_iso3": "ZAF",
+      "country_name": "South Africa",
+      "not_determined_query_count": 36,
+      "query_count": 36,
+      "review_status": "two_pass_primary_source_verification_complete",
+      "source_record_ids": [
+        "P5S-ZAF-001"
+      ],
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    }
+  ],
+  "schema_version": "phase5-jurisdiction-metadata-v1"
+}

@@ -1,0 +1,762 @@
+{
+  "jurisdictions": [
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "ARE",
+      "country_name": "United Arab Emirates",
+      "http_status": 403,
+      "issuing_authority": "UAE Legislation, Cabinet Secretariat",
+      "notes": "Arabic controls; official English is informative. The law entered force 2025-03-29 according to official government notice.",
+      "official_source_url": "https://uaelegislation.gov.ae/en/legislations/2598/download",
+      "provision_identifiers": [
+        "Arts. 4-7"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "federal_with_executive_regulation_and_emirate_dependencies",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "ar",
+      "source_record_id": "P5S-ARE-001",
+      "source_title": "Federal Decree-Law No. 14 of 2024 on Traffic Regulation",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "not_admitted_for_unqualified_country_query",
+      "authority_level": "national",
+      "country_iso3": "ARG",
+      "country_name": "Argentina",
+      "http_status": 200,
+      "issuing_authority": "Honorable Congreso de la Naci\u00f3n Argentina via InfoLEG",
+      "notes": "Federal framework; a current official as-of date was not established during reopening.",
+      "official_source_url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/818/texact.htm",
+      "provision_identifiers": [
+        "Arts. 1",
+        "41(e)",
+        "42",
+        "48(c)-(d)",
+        "50"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_framework_with_provincial_adherence_limitation",
+      "second_pass_access": "retrieved",
+      "source_hash": "7c45976f50628a1bd32758cae92c0f36835ee270867d23c1f65598a10709f508",
+      "source_language": "es",
+      "source_record_id": "P5S-ARG-001",
+      "source_title": "Ley 24.449",
+      "source_type": "official_code",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "not_admitted_for_country_level_AUS_query",
+      "authority_level": "state/province",
+      "country_iso3": "AUS",
+      "country_name": "Australia",
+      "http_status": 403,
+      "issuing_authority": "NSW Parliamentary Counsel",
+      "notes": "The frozen country selection remains AUS; this source is retained only as scoped NSW provenance.",
+      "official_source_url": "https://legislation.nsw.gov.au/view/html/inforce/current/sl-2014-758",
+      "provision_identifiers": [
+        "rr. 81-82",
+        "139",
+        "147-148"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "new_south_wales_only",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "en",
+      "source_record_id": "P5S-AUS-001",
+      "source_title": "Road Rules 2014",
+      "source_type": "regulation",
+      "subnational_code": "NSW",
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "RemoteDisconnected: Remote end closed connection without response",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "BRA",
+      "country_name": "Brazil",
+      "http_status": null,
+      "issuing_authority": "Presid\u00eancia da Rep\u00fablica, Casa Civil",
+      "notes": "No universal emergency override for markings was identified.",
+      "official_source_url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+      "provision_identifiers": [
+        "Arts. 29",
+        "32",
+        "34-35",
+        "38",
+        "42-43",
+        "46",
+        "70"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_road_condition_dependencies",
+      "second_pass_access": "access_error",
+      "source_hash": null,
+      "source_language": "pt",
+      "source_record_id": "P5S-BRA-001",
+      "source_title": "Lei No. 9.503/1997 - C\u00f3digo de Tr\u00e2nsito Brasileiro",
+      "source_type": "official_code",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "not_admitted_for_country_level_CAN_query",
+      "authority_level": "state/province",
+      "country_iso3": "CAN",
+      "country_name": "Canada",
+      "http_status": 200,
+      "issuing_authority": "Ontario Legislature via Government of Ontario e-Laws",
+      "notes": "Canada has no single general nationwide road-traffic code for this scenario.",
+      "official_source_url": "https://www.ontario.ca/laws/statute/90h08",
+      "provision_identifiers": [
+        "s. 140(1)-(2)",
+        "s. 141",
+        "s. 144",
+        "s. 154"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "ontario_only",
+      "second_pass_access": "retrieved",
+      "source_hash": "5dd89711eb81f313d56ce4a846a551ff4051d9ada15b0f7e9c496f20dc443810",
+      "source_language": "en",
+      "source_record_id": "P5S-CAN-001",
+      "source_title": "Highway Traffic Act, RSO 1990 c H.8",
+      "source_type": "statute",
+      "subnational_code": "ON",
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "CHN",
+      "country_name": "China",
+      "http_status": 200,
+      "issuing_authority": "National People's Congress Standing Committee",
+      "notes": "2021 amendment history must be distinguished from older effective-date metadata.",
+      "official_source_url": "https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf7201d05ff&title=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E6%B3%95",
+      "provision_identifiers": [
+        "Arts. 42-47"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_local_sign_and_marking_dependencies",
+      "second_pass_access": "retrieved",
+      "source_hash": "d3f541c9c9a16c8a9a4b3fa36a7f16980b7974647f71fc24cc88fc99302938a7",
+      "source_language": "zh",
+      "source_record_id": "P5S-CHN-001",
+      "source_title": "Road Traffic Safety Law of the People's Republic of China",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+      "admission_status": "not_admitted_pending_current_primary_publication_check",
+      "authority_level": "national",
+      "country_iso3": "COL",
+      "country_name": "Colombia",
+      "http_status": null,
+      "issuing_authority": "Poder P\u00fablico - Rama Legislativa, published through DAFP Gestor Normativo",
+      "notes": "Portal notes informational currency status; direct reopening had an access failure.",
+      "official_source_url": "https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5557",
+      "provision_identifiers": [
+        "Arts. 1",
+        "55",
+        "57-58",
+        "60"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_current_effect_limitation",
+      "second_pass_access": "access_error",
+      "source_hash": null,
+      "source_language": "es",
+      "source_record_id": "P5S-COL-001",
+      "source_title": "Ley 769 de 2002",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "DEU",
+      "country_name": "Germany",
+      "http_status": 200,
+      "issuing_authority": "Federal Ministry of Justice and Federal Office of Justice",
+      "notes": "Official portal identifies last amendment in December 2024; German source controls.",
+      "official_source_url": "https://www.gesetze-im-internet.de/stvo_2013/BJNR036710013.html",
+      "provision_identifiers": [
+        "\u00a7\u00a7 1",
+        "3",
+        "5",
+        "7(5)",
+        "9",
+        "26"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_sign_and_crossing_condition_dependencies",
+      "second_pass_access": "retrieved",
+      "source_hash": "1d3e9eaebaac6ea1adc99b00dc13db7e72a787a48a2c152eb860dae083028047",
+      "source_language": "de",
+      "source_record_id": "P5S-DEU-001",
+      "source_title": "Stra\u00dfenverkehrs-Ordnung (StVO)",
+      "source_type": "regulation",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "FRA",
+      "country_name": "France",
+      "http_status": 403,
+      "issuing_authority": "R\u00e9publique Fran\u00e7aise, L\u00e9gifrance (DILA)",
+      "notes": "Use the displayed in-force version at snapshot time; French source controls.",
+      "official_source_url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006159599",
+      "provision_identifiers": [
+        "R412-6",
+        "R412-9",
+        "R414-4",
+        "R415-11"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_crossing_and_road_condition_dependencies",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "fr",
+      "source_record_id": "P5S-FRA-001",
+      "source_title": "Code de la route",
+      "source_type": "official_code",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "not_admitted_for_unqualified_GBR_query",
+      "authority_level": "national",
+      "country_iso3": "GBR",
+      "country_name": "United Kingdom",
+      "http_status": 200,
+      "issuing_authority": "UK Parliament via legislation.gov.uk",
+      "notes": "Northern Ireland is outside the cited instrument's territorial extent.",
+      "official_source_url": "https://www.legislation.gov.uk/uksi/2016/362/schedule/14/part/5/paragraph/7",
+      "provision_identifiers": [
+        "Schedule 14 Part 5 paragraph 7",
+        "Road Traffic Act 1988 s. 3"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "England_Wales_Scotland_only",
+      "second_pass_access": "retrieved",
+      "source_hash": "6849bfbcb449b0f8821e734bad7e263af7c85892bf47caa276e42d20bf3e3db2",
+      "source_language": "en",
+      "source_record_id": "P5S-GBR-001",
+      "source_title": "Traffic Signs Regulations and General Directions 2016",
+      "source_type": "regulation",
+      "subnational_code": "EWS",
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "IDN",
+      "country_name": "Indonesia",
+      "http_status": 403,
+      "issuing_authority": "Government of Indonesia, JDIH BPK",
+      "notes": "Official page records amendments; current consolidated effect requires care.",
+      "official_source_url": "https://peraturan.bpk.go.id/Details/38654/uu-no-22-tahun-2009",
+      "provision_identifiers": [
+        "Arts. 105",
+        "106",
+        "108-109",
+        "116-117",
+        "131"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_amendment_and_condition_dependencies",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "id",
+      "source_record_id": "P5S-IDN-001",
+      "source_title": "Undang-Undang Nomor 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "TimeoutError: The read operation timed out",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "IND",
+      "country_name": "India",
+      "http_status": null,
+      "issuing_authority": "India Code, Ministry of Road Transport and Highways",
+      "notes": "No exact primary emergency exception was identified.",
+      "official_source_url": "https://www.indiacode.nic.in/indiacode/handle/123456789/1798?col=123456789%2F1362&view_type=search",
+      "provision_identifiers": [
+        "ss. 118",
+        "119(1)",
+        "134",
+        "Rules of the Road Regulations regs. 2,4,6,8,11,18,19,23"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "central_framework_with_state_and_road_predicates",
+      "second_pass_access": "access_error",
+      "source_hash": null,
+      "source_language": "en",
+      "source_record_id": "P5S-IND-001",
+      "source_title": "Motor Vehicles Act, 1988",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "JPN",
+      "country_name": "Japan",
+      "http_status": 200,
+      "issuing_authority": "Japanese Government e-Gov Laws Search",
+      "notes": "Japanese e-Gov text controls; non-government translations are not retained as authority.",
+      "official_source_url": "https://laws.e-gov.go.jp/document?lawid=335AC0000000105",
+      "provision_identifiers": [
+        "Arts. 26",
+        "26-2",
+        "38",
+        "70",
+        "72"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_marking_and_crossing_condition_dependencies",
+      "second_pass_access": "retrieved",
+      "source_hash": "b2e5ede6447907450aadd16d512d97d3ffed4c35dac9e5ba0fa6a9859de8ab55",
+      "source_language": "ja",
+      "source_record_id": "P5S-JPN-001",
+      "source_title": "Road Traffic Act, Act No. 105",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "KEN",
+      "country_name": "Kenya",
+      "http_status": 200,
+      "issuing_authority": "Kenya Law, National Council for Law Reporting",
+      "notes": "No direct primary pedestrian-crossing priority rule was confirmed in this review.",
+      "official_source_url": "https://new.kenyalaw.org/akn/ke/act/1953/39/eng@2024-04-26",
+      "provision_identifiers": [
+        "Traffic Act ss. 45A,47,49,52,73",
+        "Traffic Rules rr. 73,78"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_missing_direct_pedestrian_crossing_provision",
+      "second_pass_access": "retrieved",
+      "source_hash": "afbca26911caa14098b7f2b96faf35836a9f4912198237c382ab73b537c28399",
+      "source_language": "en",
+      "source_record_id": "P5S-KEN-001",
+      "source_title": "Traffic Act (Cap. 403) and Traffic Rules",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "KOR",
+      "country_name": "Republic of Korea",
+      "http_status": 200,
+      "issuing_authority": "National Law Information Center, Ministry of Government Legislation",
+      "notes": "Korean source text controls.",
+      "official_source_url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1025449721",
+      "provision_identifiers": [
+        "Arts. 13",
+        "14(5)",
+        "27",
+        "48",
+        "54"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_marking_and_exception_predicates",
+      "second_pass_access": "retrieved",
+      "source_hash": "30940f4a658041feec6a6c81ee2b39da6d38e8c4dd6de1caabd54e11a68567ef",
+      "source_language": "ko",
+      "source_record_id": "P5S-KOR-001",
+      "source_title": "Road Traffic Act",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",
+      "admission_status": "not_admitted_for_unqualified_country_query",
+      "authority_level": "national",
+      "country_iso3": "MEX",
+      "country_name": "Mexico",
+      "http_status": null,
+      "issuing_authority": "C\u00e1mara de Diputados del H. Congreso de la Uni\u00f3n",
+      "notes": "Substantive traffic rules depend on road jurisdiction and local regulation.",
+      "official_source_url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LGMSV.pdf",
+      "provision_identifiers": [
+        "Arts. 6",
+        "49"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "federal_framework_with_state_and_municipal_road_dependencies",
+      "second_pass_access": "access_error",
+      "source_hash": null,
+      "source_language": "es",
+      "source_record_id": "P5S-MEX-001",
+      "source_title": "Ley General de Movilidad y Seguridad Vial",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 404",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "NGA",
+      "country_name": "Nigeria",
+      "http_status": 404,
+      "issuing_authority": "Federal Road Safety Corps",
+      "notes": "No exact lane-marking or emergency exception was confirmed.",
+      "official_source_url": "https://frsc.gov.ng/NATROADTRAFFICREGS2012.pdf",
+      "provision_identifiers": [
+        "Regs. 173",
+        "191-192",
+        "220"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_crossing_predicate_and_current_consolidation_limitation",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "en",
+      "source_record_id": "P5S-NGA-001",
+      "source_title": "National Road Traffic Regulations, 2012, S.I. No. 61",
+      "source_type": "regulation",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "empty response body",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "NZL",
+      "country_name": "New Zealand",
+      "http_status": 202,
+      "issuing_authority": "Parliamentary Counsel Office, New Zealand Legislation",
+      "notes": "A current official reprint must be preserved at freeze; no broad emergency exception was identified.",
+      "official_source_url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2004/427/en/latest/",
+      "provision_identifiers": [
+        "cls. 2.3",
+        "2.6-2.10",
+        "7.1",
+        "10.1",
+        "11.4-11.5"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_current_reprint_and_condition_dependencies",
+      "second_pass_access": "empty_response",
+      "source_hash": null,
+      "source_language": "en",
+      "source_record_id": "P5S-NZL-001",
+      "source_title": "Land Transport (Road User) Rule 2004",
+      "source_type": "regulation",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "PHL",
+      "country_name": "Philippines",
+      "http_status": 200,
+      "issuing_authority": "Supreme Court E-Library",
+      "notes": "Amendment/effectivity audit and contextual predicates remain necessary.",
+      "official_source_url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/2/26188",
+      "provision_identifiers": [
+        "\u00a7\u00a7 39",
+        "41",
+        "42(c)",
+        "44",
+        "48"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_crosswalk_district_and_control predicates",
+      "second_pass_access": "retrieved",
+      "source_hash": "e2584bdf1d6f747d51f8bd7af51ae7c75e4adb66e02f9de2b7099aef39c067e7",
+      "source_language": "en",
+      "source_record_id": "P5S-PHL-001",
+      "source_title": "Republic Act No. 4136 - Land Transportation and Traffic Code",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "SGP",
+      "country_name": "Singapore",
+      "http_status": 403,
+      "issuing_authority": "Singapore Statutes Online, Attorney-General's Chambers",
+      "notes": "No exact lane-marking provision was independently confirmed for OBS-LANE-001.",
+      "official_source_url": "https://sso.agc.gov.sg/SL/276-R24",
+      "provision_identifiers": [
+        "Rules 4",
+        "6",
+        "7",
+        "9",
+        "11"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_pedestrian_crossing predicates",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "en",
+      "source_record_id": "P5S-SGP-001",
+      "source_title": "Road Traffic (Pedestrian Crossings) Rules",
+      "source_type": "regulation",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "SWE",
+      "country_name": "Sweden",
+      "http_status": 200,
+      "issuing_authority": "Swedish Parliament",
+      "notes": "Swedish source controls; any English working translation must remain labeled.",
+      "official_source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "provision_identifiers": [
+        "3 kap. 11",
+        "32",
+        "36-40",
+        "43",
+        "47",
+        "58-62"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_marking_and_crosswalk predicates",
+      "second_pass_access": "retrieved",
+      "source_hash": "a1008ddb6033b1ef41ea8ea8e156a78880513867957c62b06bb62953c18d0d2b",
+      "source_language": "sv",
+      "source_record_id": "P5S-SWE-001",
+      "source_title": "Trafikf\u00f6rordning (1998:1276)",
+      "source_type": "regulation",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "access_limitation": "HTTPError: 403",
+      "admission_status": "not_admitted_pending_current_consolidated_primary_text",
+      "authority_level": "national",
+      "country_iso3": "THA",
+      "country_name": "Thailand",
+      "http_status": 403,
+      "issuing_authority": "Royal Gazette",
+      "notes": "Official amendment located but current consolidated provision was inaccessible during review.",
+      "official_source_url": "https://ratchakitcha.soc.go.th/DATA/PDF/2522/A/008/1.PDF",
+      "provision_identifiers": [
+        "Act \u00a743 as amended"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_but_current_consolidated_text_not_established",
+      "second_pass_access": "http_error",
+      "source_hash": null,
+      "source_language": "th",
+      "source_record_id": "P5S-THA-001",
+      "source_title": "Road Traffic Act B.E. 2522 (1979) and Amendment No. 13 B.E. 2565 (2022)",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "admitted_as_contextual_primary_evidence_only",
+      "authority_level": "national",
+      "country_iso3": "TUR",
+      "country_name": "T\u00fcrkiye",
+      "http_status": 200,
+      "issuing_authority": "Presidential Legislation Information System",
+      "notes": "Use the official Mevzuat version as canonical and retain Turkish original.",
+      "official_source_url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2918.pdf",
+      "provision_identifiers": [
+        "Arts. 46",
+        "47",
+        "54",
+        "56",
+        "74"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_with_marking_and_crosswalk predicates",
+      "second_pass_access": "retrieved",
+      "source_hash": "44a3394f7b3e5ad7495d26d862086afc699f7013fadc996be686dc3bee4fd8ce",
+      "source_language": "tr",
+      "source_record_id": "P5S-TUR-001",
+      "source_title": "Karayollar\u0131 Trafik Kanunu No. 2918",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "not_admitted_for_country_level_USA_query",
+      "authority_level": "state/province",
+      "country_iso3": "USA",
+      "country_name": "United States",
+      "http_status": 200,
+      "issuing_authority": "California Legislature",
+      "notes": "The country-level USA selection has no single general road-traffic code.",
+      "official_source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=VEH&sectionNum=21950.",
+      "provision_identifiers": [
+        "\u00a7\u00a7 21460",
+        "21658",
+        "21750",
+        "21950"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "california_only",
+      "second_pass_access": "retrieved",
+      "source_hash": "1a7c6e13cde35e7b7ecc11137d40500a7a16eff294b240ae4a95aaec606b1b55",
+      "source_language": "en",
+      "source_record_id": "P5S-USA-001",
+      "source_title": "California Vehicle Code",
+      "source_type": "statute",
+      "subnational_code": "CA",
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    },
+    {
+      "admission_status": "not_admitted_pending_current_regulations",
+      "authority_level": "national",
+      "country_iso3": "ZAF",
+      "country_name": "South Africa",
+      "http_status": 200,
+      "issuing_authority": "South African Government",
+      "notes": "Detailed pedestrian, lane, marking and overtaking duties are delegated; no current official consolidated regulations were verified.",
+      "official_source_url": "https://www.gov.za/documents/national-road-traffic-act",
+      "provision_identifiers": [
+        "National Road Traffic Regulations, 2000 required for detailed rules"
+      ],
+      "retrieved_at": "2026-09-28",
+      "review_status": "two_pass_primary_source_verification_complete",
+      "scope_status": "national_foundational_act_but_delegated_rules_not_currently_consolidated",
+      "second_pass_access": "retrieved",
+      "source_hash": "01f04b76caac9ff7c6511fe6a821cc33925c89defe369ec955f9a50a25eab889",
+      "source_language": "en",
+      "source_record_id": "P5S-ZAF-001",
+      "source_title": "National Road Traffic Act 93 of 1996",
+      "source_type": "statute",
+      "subnational_code": null,
+      "verification_passes": [
+        "discovery_extraction",
+        "independent_source_reverification"
+      ]
+    }
+  ],
+  "schema_version": "phase5-source-metadata-v1"
+}

@@ -1,0 +1,27 @@
+{
+  "decision_count": 900,
+  "decision_reason_counts": {
+    "material_legal_predicates_not_specified_in_frozen_overlay": 900
+  },
+  "decision_status_counts": {
+    "NOT_DETERMINED": 900
+  },
+  "evidence_count": 25,
+  "evidence_sufficiency_counts": {
+    "INSUFFICIENT": 25
+  },
+  "frozen_jurisdiction_count": 25,
+  "global_context_profile_count": 172,
+  "global_context_unavailable_or_unparseable_count": 62,
+  "interpretation": "All action-level decisions remain NOT_DETERMINED because material legal predicates were intentionally not invented in the frozen legal overlay. These counts must not be presented as action legality rates.",
+  "query_count": 900,
+  "schema_version": "phase5-coverage-v1",
+  "snapshot_id": "phase5-legal-snapshot-v1",
+  "source_hash_available_count": 13,
+  "source_second_pass_access_counts": {
+    "access_error": 4,
+    "empty_response": 1,
+    "http_error": 7,
+    "retrieved": 13
+  }
+}

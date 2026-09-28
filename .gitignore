@@ -24,3 +24,4 @@ data/simulator/raw/videos/
 data/simulator/raw/cache/
 *.mp4
 *.avi
+data/legal/phase5/global_context/raw/

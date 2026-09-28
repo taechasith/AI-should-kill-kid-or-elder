@@ -1,0 +1,32 @@
+{
+  "files": {
+    "configs/legal/phase5_two_level_v1.json": "e49a5781466be25ecf26041f87d941f16a28c161da1b08c4e6b07f8a6e857c9f",
+    "configs/simulator/actions_v1.yaml": "c44092e2d942fe7f29622b264582efcdf2ac55df8c0c9647b2fb3f20fbc5e019",
+    "data/legal/phase5/global_context/who_road_safety_2023_acquisition_manifest.json": "a704abe51e8b5f8f1a50ee7ee344f435c93cc91d6bde2447d12afbcd270f6c30",
+    "data/legal/phase5/global_context/who_road_safety_2023_collection_failures.jsonl": "5cb0c02b4af625ef69515e36d496bf2c6a5fc22bd3fd1bbb5ca76d6e5ec0aa15",
+    "data/legal/phase5/global_context/who_road_safety_2023_context_v1.csv": "c8a0820d8ae9bb11b8d4af3ee9a0690f8abdbb35f86c3cf4f4c81a9d7121468b",
+    "data/legal/phase5/jurisdiction_metadata.json": "95290bcac579106ac1ccad90a73e5ac88b8198a74b10ed86857c5bc7cb9e38ed",
+    "data/legal/phase5/legal_context_overlay_v1.json": "337e1ad592e6d2e3dc3442d5c68761e7bce54314fb7ad490e001c8f0469489b2",
+    "data/legal/phase5/legal_decisions.jsonl": "264854f065602b8982bc4d775fe37b9fc25995cc5e2cb20a351901273df75b80",
+    "data/legal/phase5/legal_queries.jsonl": "9d2e0034280e380ba9289cb02e3cf56baa494cfbab743a4ead16ac9ce90a7095",
+    "data/legal/phase5/phase5_coverage_v1.json": "6381064d508ba5b194e0bfba6b191fea6ef131ee30f0813ae429c0b7a98dfac4",
+    "data/legal/phase5/primary_evidence.jsonl": "d19305e0607daa1598bb159991b941bc42c43ab0b190e5770c7df3b2614be7ee",
+    "data/legal/phase5/snapshot/phase5_legal_snapshot_v1.json": "ae8b1194a5fc757bacb0f3356d8c0d65b8be1acbc9c59fe637cc469c8e98096d",
+    "data/legal/phase5/source_metadata.json": "acadd45ab29b88dce383f626edd285feb955f600d71ba2ebd073524950772da2",
+    "data/legal/phase5/source_registry_v1.json": "92191e25ed5a5733c2caa31e69a9de19744390568f0358cbee20850aac656697",
+    "docs/LEGAL_DATA_CARD.md": "1dc2414e36b0a2db80b9c53e2b3e27c17bda13c616869cb5007d6ed83328df02",
+    "docs/PHASE_5_COVERAGE.md": "840ea553be4d31a232fecb434f59fed5fb9e6a35472fbfdf176b3564920c23b3",
+    "docs/PHASE_5_LEGAL_REVIEW.md": "724de40d579cfa5e87f55fefe4f68d092f0668ba75f02f36ac568d35ca00b4a4",
+    "docs/PHASE_5_SOURCES.md": "89e9cf5a1c9622871d5f89302eaf06742014666884278bdf997f5e991b4ce7a5",
+    "requirements-phase5.txt": "19dd8adff6c0d5548cbb4e6eb8ce37f9c68d452f5700ab9c49a096fa8deb976f",
+    "scripts/build_phase5_query_universe.py": "0ad0ad9473591a670a6f0eed6259c9fc08328a59932ed3a30e073dd5a508a86c",
+    "scripts/collect_who_global_context.py": "c87768e9293aca0005b943539241a4ade149f152c59bedc109fb64318ba63583",
+    "scripts/generate_phase5_docs.py": "21301d3cc4a850346cc036845d2227133575c3d7eb35a206c02fec9a943c2747",
+    "scripts/materialize_phase5_legal_snapshot.py": "fad0d203e8098dccc007e91949ad34069145a72bc23037115d3b4c45ad95ceee",
+    "scripts/validate_phase5_legal_snapshot.py": "cac4b55865242115b13ab7c905387d235a701a7c80210cba8b0c0ef64153e78b",
+    "scripts/verify_phase5_sources.py": "503372ee917902aee9d267d7e451c1a199bda23bf5eb9e7183d8b9df067c7a7f"
+  },
+  "schema_version": "phase5-legal-hash-manifest-v1",
+  "self_hash_excluded": true,
+  "snapshot_id": "phase5-legal-snapshot-v1"
+}

@@ -1,0 +1,2 @@
+# Phase 5 collection only. Keep separate from frozen CommonRoad requirements.
+pypdf==6.10.2

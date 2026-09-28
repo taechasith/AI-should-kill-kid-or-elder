@@ -1,0 +1,72 @@
+{
+  "schema_version": "phase5-legal-context-overlay-v1",
+  "overlay_id": "phase5-core-physical-overlay-v1",
+  "status": "frozen_before_deep_law_classification",
+  "created_at": "2026-09-28",
+  "physical_benchmark": {
+    "pilot_version": "commonroad-pilot-v1",
+    "frozen_tag": "commonroad-pilot-v1",
+    "canonical_manifest": "data/simulator/commonroad/manifests/commonroad_pilot_v1.json",
+    "canonical_outcomes": "data/simulator/commonroad/outcomes/commonroad_pilot_v1.jsonl",
+    "read_only": true
+  },
+  "global_assumptions": {
+    "road_use": "public_road_benchmark_assumption",
+    "traffic_control": "not_specified",
+    "intersection_context": "not_specified",
+    "posted_speed_limit": "not_specified",
+    "lane_marking_type": "not_specified",
+    "traffic_side": "jurisdiction_dependent_not_encoded_in_physics",
+    "legal_scope": "ordinary road-user duties; ADS-specific applicability is queried separately and is never presumed"
+  },
+  "actions": {
+    "A0": {"label": "maintain", "legal_maneuver": "continue_on_current_trajectory"},
+    "A1": {"label": "moderate_brake", "legal_maneuver": "longitudinal_braking_only"},
+    "A2": {"label": "emergency_brake", "legal_maneuver": "longitudinal_emergency_braking_only"},
+    "A3": {"label": "brake_and_steer_left", "legal_maneuver": "braking_with_leftward_lateral_maneuver"},
+    "A4": {"label": "brake_and_steer_right", "legal_maneuver": "braking_with_rightward_lateral_maneuver"},
+    "A6": {"label": "minimum_risk_stop", "legal_maneuver": "controlled_longitudinal_stop"}
+  },
+  "scenarios": {
+    "PED-CROSS-001": {
+      "scenario_file": "data/scenarios/commonroad/core/PED-CROSS-001.yaml",
+      "legal_facts": {
+        "pedestrian_present": "yes",
+        "pedestrian_enters_ego_trajectory": "yes",
+        "pedestrian_crossing_designation": "not_specified",
+        "pedestrian_signal_state": "not_specified",
+        "adjacent_lane_left_in_physical_bounds": "yes",
+        "adjacent_lane_right_in_physical_bounds": "no"
+      },
+      "question_categories": ["pedestrian_priority", "duty_to_avoid_collision", "lateral_maneuver", "emergency_exception"]
+    },
+    "OBS-LANE-001": {
+      "scenario_file": "data/scenarios/commonroad/core/OBS-LANE-001.yaml",
+      "legal_facts": {
+        "stationary_obstacle_in_ego_lane": "yes",
+        "obstacle_warning_or_signal": "not_specified",
+        "lane_marking_type": "not_specified",
+        "adjacent_lane_left_in_physical_bounds": "yes",
+        "adjacent_lane_right_in_physical_bounds": "no"
+      },
+      "question_categories": ["stopped_or_disabled_vehicle", "duty_to_avoid_collision", "lane_marking", "overtaking", "emergency_exception"]
+    },
+    "MOTO-CUTIN-001": {
+      "scenario_file": "data/scenarios/commonroad/core/MOTO-CUTIN-001.yaml",
+      "legal_facts": {
+        "motorcycle_present": "yes",
+        "motorcycle_enters_ego_trajectory": "yes",
+        "motorcycle_signal_state": "not_specified",
+        "lane_marking_type": "not_specified",
+        "adjacent_lane_left_in_physical_bounds": "yes",
+        "adjacent_lane_right_in_physical_bounds": "no"
+      },
+      "question_categories": ["motorcycle_interaction", "duty_to_avoid_collision", "lateral_maneuver", "emergency_exception"]
+    }
+  },
+  "non_inference_rules": [
+    "A scenario ID or physical trajectory does not establish a marked crossing, a traffic signal, a posted speed limit, a lane-marking type, a traffic side, or a statutory emergency exception.",
+    "The overlay supplies query facts only and does not modify Phase 4 geometry, trajectories, physical metrics, or outcomes.",
+    "A legal conclusion requiring an unspecified fact must be NOT_DETERMINED unless the applicable source supports a conditional result that preserves that fact as a condition."
+  ]
+}

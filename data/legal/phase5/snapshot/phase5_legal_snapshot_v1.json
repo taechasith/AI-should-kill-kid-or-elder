@@ -1,0 +1,19 @@
+{
+  "coverage": "data/legal/phase5/phase5_coverage_v1.json",
+  "created_at": "2026-09-28",
+  "global_context": "data/legal/phase5/global_context/who_road_safety_2023_context_v1.csv",
+  "jurisdiction_metadata": "data/legal/phase5/jurisdiction_metadata.json",
+  "legal_context_overlay": "data/legal/phase5/legal_context_overlay_v1.json",
+  "legal_decisions": "data/legal/phase5/legal_decisions.jsonl",
+  "legal_queries": "data/legal/phase5/legal_queries.jsonl",
+  "legal_status_boundary": "NOT_DETERMINED is not permission and every non-unknown action-level conclusion would require sufficient domestic primary evidence and all material overlay predicates.",
+  "physical_benchmark_tag": "commonroad-pilot-v1",
+  "primary_evidence": "data/legal/phase5/primary_evidence.jsonl",
+  "schema_version": "phase5-legal-snapshot-v1",
+  "snapshot_id": "phase5-legal-snapshot-v1",
+  "source_metadata": "data/legal/phase5/source_metadata.json",
+  "source_protocol_commit": "5e81bf1",
+  "status": "frozen",
+  "unece_boundary": "UNECE instruments are not domestic law without documented applicability.",
+  "who_boundary": "WHO context data is not action-level legal authority."
+}

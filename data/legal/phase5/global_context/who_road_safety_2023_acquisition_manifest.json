@@ -1,0 +1,15 @@
+{
+  "action_level_legal_classification_prohibited": true,
+  "authority": "World Health Organization",
+  "collected_profile_count": 172,
+  "context_only": true,
+  "country_dimension_api": "https://ghoapi.azureedge.net/api/DIMENSION/COUNTRY/DimensionValues?%24top=500&%24format=json",
+  "country_dimension_count": 234,
+  "master_source_url": "https://www.who.int/publications/i/item/9789240087712",
+  "processed_file": "who_road_safety_2023_context_v1.csv",
+  "profile_url_pattern": "https://cdn.who.int/media/docs/default-source/country-profiles/road-safety/road-safety-2023-{iso3}.pdf?download=true",
+  "raw_cache": "raw/ (not committed; regenerate with this script)",
+  "retrieved_at": "2026-09-28",
+  "schema_version": "phase5-who-global-context-v1",
+  "unavailable_or_unparseable_count": 62
+}
