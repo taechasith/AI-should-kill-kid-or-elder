@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 from scripts.probe_phase6_free_access import probe
 
@@ -20,18 +21,17 @@ class _Response:
         return False
 
 
-def test_metadata_probe_records_only_allowlisted_nonsecret_metadata(tmp_path, monkeypatch):
+def test_metadata_probe_records_only_allowlisted_nonsecret_metadata(tmp_path):
     def opener(request, timeout):
         if "generativelanguage" in request.full_url:
             return _Response({"models": [{"name": "models/gemini-3.6-flash"}, {"name": "models/gemini-2.5-flash-lite"}]})
         return _Response({"data": [{"id": "qwen/qwen3.8-27b"}]})
 
-    monkeypatch.setattr("scripts.probe_phase6_free_access.OUTPUT_PATH", tmp_path / "probe.json")
-    result = probe(environ={"GEMINI_API_KEY": "gemini-secret", "GROQ_API_KEY": "groq-secret"}, opener=opener)
+    result = probe(environ={"GEMINI_API_KEY": "gemini-secret", "GROQ_API_KEY": "groq-secret"}, opener=opener, output_dir=tmp_path)
     assert result["all_target_models_listed"] is True
     assert result["model_generation_requests_made"] == 0
     assert result["free_tier_verified"] is False
-    persisted = (tmp_path / "probe.json").read_text(encoding="utf-8")
+    persisted = (tmp_path / Path(result["output_path"]).name).read_text(encoding="utf-8")
     assert "gemini-secret" not in persisted and "groq-secret" not in persisted
     assert "authorization" not in persisted.lower()
     assert "x-ratelimit-limit-requests" in persisted

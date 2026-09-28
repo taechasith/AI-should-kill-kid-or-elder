@@ -53,5 +53,6 @@ scripts/validate_phase6_free_v1_preflight.py text eol=lf
 scripts/verify_phase6_free_v1_preflight_hashes.py text eol=lf
 data/model_benchmark/phase6_free_v1/** text eol=lf
 data/validation/phase6_free_v1_preflight_validation.json text eol=lf
+data/validation/phase6_free_v1_access_probes/** text eol=lf
 docs/PHASE_6_ZERO_COST_POLICY.md text eol=lf
 docs/PHASE_6_FREE_V1_PREFLIGHT.md text eol=lf
