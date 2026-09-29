@@ -75,7 +75,10 @@ def persist(r,status,raw,headers,request_sha256=None,image_sha256=None,input_sha
  (d/f'attempt_{n:04}.json').write_bytes(enc(rec)+b'\n'); return rec
 def main(until_stop=False,max_calls=1):
  approved={x['provider']:set(x['verified_model_ids']) for x in load(ATTESTATION)['providers'] if not x['billing_enabled'] and x['quota_available']}; rows=load(MANIFEST)['rows']; next_ok={}; calls=0
- while calls<max_calls:
+ while until_stop or calls<max_calls:
+  remaining=[r for r in rows if r['execution_state']=='pending_zero_cost_authorization' and not terminal(r['run_id'])]
+  if not remaining:
+   print(json.dumps({'phase7_status':'COMPLETE','terminal_provider_rows':sum(r['execution_state']=='pending_zero_cost_authorization' for r in rows),'not_applicable_rows':sum(r['execution_state']=='not_applicable' for r in rows),'total_manifest_rows':len(rows),'unresolved_provider_rows':0},sort_keys=True)); break
   now=datetime.now(timezone.utc); candidate=next((r for r in rows if r['execution_state']=='pending_zero_cost_authorization' and not terminal(r['run_id']) and daily_paused(route(r),now) is None and now>=next_ok.get(route(r),now)),None)
   if not candidate:
    future=[v for v in next_ok.values() if v>now]
