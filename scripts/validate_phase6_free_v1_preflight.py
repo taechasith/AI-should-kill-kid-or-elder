@@ -83,7 +83,9 @@ def validate() -> dict[str, Any]:
     _assert(all(row["execution_state"] == "pending_free_access_preflight" for row in pilot["rows"]), "pilot must not contain invented responses")
     _assert(policy["monetary_cost_usd"] == 0.0 and policy["monetary_cost_thb"] == 0.0, "cost policy is not zero")
     _assert(policy["provider_calls_made"] == 0, "preflight must not contain provider calls")
-    _assert(not (ROOT / "data" / "model_benchmark" / "phase6_free_v1" / "raw").exists(), "raw model output exists before a provider pilot")
+    # This validator freezes planning artifacts.  After the pilot begins, its
+    # append-only raw/normalized directories are expected to coexist with this
+    # preflight and must be validated by the pilot-result validator instead.
 
     package_dir = INPUT_ROOT / "packages" / "PED-CROSS-001__V030"
     telemetry = _read_json(package_dir / "telemetry.json")

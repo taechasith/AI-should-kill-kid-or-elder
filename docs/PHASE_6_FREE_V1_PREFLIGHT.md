@@ -93,6 +93,11 @@ The preflight is not Phase 6 completion. The next permitted step is a live
 account-access verification after both user-managed secret names exist in the
 authorized Codespace environment.
 
+Once a pilot attempt exists, this preflight validator continues to validate
+only its frozen planning artifacts. Pilot raw responses and normalized records
+are append-only data validated by the pilot-result gate; their presence must
+not be treated as a modification of the preflight.
+
 ## Guarded pilot runner
 
 `scripts/run_phase6_free_pilot.py` is prepared but has not been run against a
