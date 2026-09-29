@@ -94,3 +94,11 @@ and current rate-limit metadata. See `docs/PHASE_6_ZERO_COST_POLICY.md`.
 `python scripts/probe_phase6_free_access.py` is permitted after secret setup to
 query model-list metadata only; it performs no model generation and cannot
 substitute for the required account-tier evidence.
+
+The recorded `phase6-free-v1` pilot did not pass. Validate its preserved
+attempts without sending a provider request:
+
+```bash
+python scripts/validate_phase6_free_pilot.py
+python -m pytest -q tests/test_phase6_free_pilot_validation.py
+```

@@ -1,0 +1,53 @@
+{
+  "completed_rows": 0,
+  "failed_rows": 3,
+  "model_generation_requests_attempted": 6,
+  "next_permitted_step": "Create a new explicitly authorized Phase 6 panel and manifest; do not alter this frozen failed pilot.",
+  "no_model_response_fabricated": true,
+  "normalized_record_files": 3,
+  "not_applicable_rows": 0,
+  "phase6_status": "BLOCKED_FROZEN_PANEL",
+  "planned_pilot_rows": 3,
+  "raw_response_files": 4,
+  "records": [
+    {
+      "attempt_id": "P6F-M1-PED-CROSS-001__V030-ARG-C2-R01",
+      "failure_reason": "TRANSPORT_ERROR",
+      "http_status": null,
+      "model_id": "gemini-3.6-flash"
+    },
+    {
+      "attempt_id": "P6F-M1-PED-CROSS-001__V030-ARG-C2-R01__retry1",
+      "failure_reason": "MALFORMED_RESPONSE",
+      "http_status": 200,
+      "model_id": "gemini-3.6-flash"
+    },
+    {
+      "attempt_id": "P6F-M2-PED-CROSS-001__V030-ARG-C2-R01",
+      "failure_reason": "PROVIDER_HTTP_ERROR",
+      "http_status": 404,
+      "model_id": "gemini-2.5-flash-lite"
+    },
+    {
+      "attempt_id": "P6F-M2-PED-CROSS-001__V030-ARG-C2-R01__retry1",
+      "failure_reason": "PROVIDER_HTTP_ERROR",
+      "http_status": 404,
+      "model_id": "gemini-2.5-flash-lite"
+    },
+    {
+      "attempt_id": "P6F-M3-PED-CROSS-001__V030-ARG-C2-R01",
+      "failure_reason": "MALFORMED_RESPONSE",
+      "http_status": 200,
+      "model_id": "qwen/qwen3.8-27b"
+    },
+    {
+      "attempt_id": "P6F-M3-PED-CROSS-001__V030-ARG-C2-R01__retry1",
+      "failure_reason": "MALFORMED_RESPONSE",
+      "http_status": 200,
+      "model_id": "qwen/qwen3.8-27b"
+    }
+  ],
+  "retry_attempts": 3,
+  "schema_version": "phase6-free-pilot-validation-v1",
+  "validation_status": "passed"
+}

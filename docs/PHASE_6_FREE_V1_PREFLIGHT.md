@@ -100,8 +100,8 @@ not be treated as a modification of the preflight.
 
 ## Guarded pilot runner
 
-`scripts/run_phase6_free_pilot.py` is prepared but has not been run against a
-model endpoint. It accepts a non-secret account-attestation JSON record, checks
+`scripts/run_phase6_free_pilot.py` was used for the preserved failed pilot. It
+accepts a non-secret account-attestation JSON record, checks
 the exact free-only policy and three-row pilot manifest, constructs only the
 frozen image-plus-text request, and writes provider responses append-only. A
 provider error is recorded as a failure with no invented raw response. It does
