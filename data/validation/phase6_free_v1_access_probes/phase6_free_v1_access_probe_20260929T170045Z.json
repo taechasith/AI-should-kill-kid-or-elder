@@ -1,0 +1,56 @@
+{
+  "all_target_models_listed": false,
+  "billing_disabled_verified": false,
+  "execution_status": "PREFLIGHT_BLOCKED_PENDING_ACCOUNT_TIER_ATTESTATION",
+  "free_tier_verified": false,
+  "model_generation_requests_made": 0,
+  "next_required_evidence": "Authenticated account/dashboard confirmation of Free Tier or Free Plan, billing disabled, and current quota limits; then one guarded multimodal capability-pilot request per model.",
+  "provider_calls_made": 0,
+  "providers": [
+    {
+      "access_tier": "unverified",
+      "billing_enabled": "unverified",
+      "credential_environment": "GEMINI_API_KEY",
+      "credential_present": true,
+      "http_status": 200,
+      "model_generation_request_made": false,
+      "models": [
+        {
+          "image_input_live_tested": false,
+          "listed": true,
+          "model_id": "gemini-2.5-flash-lite"
+        },
+        {
+          "image_input_live_tested": false,
+          "listed": true,
+          "model_id": "gemini-3.6-flash"
+        }
+      ],
+      "probe_status": "MODEL_LIST_VISIBLE",
+      "provider": "gemini",
+      "rate_limit_metadata": {}
+    },
+    {
+      "access_tier": "unverified",
+      "billing_enabled": "unverified",
+      "credential_environment": "GROQ_API_KEY",
+      "credential_present": true,
+      "http_status": 403,
+      "model_generation_request_made": false,
+      "models": [
+        {
+          "image_input_live_tested": false,
+          "listed": false,
+          "model_id": "qwen/qwen3.8-27b"
+        }
+      ],
+      "probe_status": "HTTP_ERROR",
+      "provider": "groq",
+      "rate_limit_metadata": {}
+    }
+  ],
+  "purpose": "metadata-only exact-model availability probe; no inference request",
+  "rate_limits_fully_verified": false,
+  "schema_version": "phase6-free-access-probe-v1",
+  "verification_timestamp_utc": "2026-09-29T17:00:45+00:00"
+}
