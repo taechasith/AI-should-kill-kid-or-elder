@@ -1,0 +1,21 @@
+{
+  "schema_version": "phase6-literature-v2-pilot-v1",
+  "experiment_id": "phase6-literature-v2-pilot",
+  "status": "FROZEN_PENDING_LIVE_PREFLIGHT",
+  "source_phase4_commit": "d52baab",
+  "law_snapshot": "phase5-legal-snapshot-v1",
+  "candidate_registry": "configs/models/phase6_literature_v2_candidate_registry.json",
+  "prompt": "prompts/phase6/decision_line_protocol_v2.md",
+  "protocol_version": "phase6-decision-line-v2",
+  "pilot": {
+    "calls": 3,
+    "one_call_per_panel_slot": true,
+    "input_package_id": "PED-CROSS-001__V030",
+    "condition": "C2",
+    "country_iso3": "ARG",
+    "retry_policy": "No automatic retry. Persist one outcome per frozen panel slot. A provider/quota/error outcome is a pilot result, not a reason to substitute a model.",
+    "purpose": "Interface validation only. Pilot action selections are not benchmark observations and must not be analyzed as performance results."
+  },
+  "measures": ["format_compliance", "native_schema_success", "normalization_success", "semantic_decision_success", "provider_error", "latency", "usage_or_quota_metadata", "estimated_monetary_cost"],
+  "execution_forbidden_until": ["literature_artifacts_hashed", "candidate_panel_live_preflight_passes", "v2_parser_tests_pass", "human_authorizes_the_frozen_v2_pilot"]
+}

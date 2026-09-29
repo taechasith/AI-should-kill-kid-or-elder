@@ -1,0 +1,61 @@
+{
+  "schema_version": "phase6-literature-v2-model-registry-v1",
+  "registry_id": "phase6-literature-v2-candidate-panel",
+  "status": "LITERATURE_GATE_FROZEN_PENDING_LIVE_PREFLIGHT",
+  "selection_date": "2026-09-30",
+  "selection_rule": "Models were selected before any v2 benchmark or pilot output was observed, using only documented text-plus-image capability, stable/current identifier, documented free-access pathway, provider diversity, and the hard USD 0 / THB 0 policy. No valid benchmark decision output from phase6-free-v1 was used to select this panel.",
+  "v1_preservation": {
+    "failed_panel_registry": "configs/models/phase6_free_v1_candidate_registry.json",
+    "failed_pilot_results": "docs/PHASE_6_FREE_V1_PILOT_RESULTS.md",
+    "mutation_forbidden": true
+  },
+  "zero_cost_execution_policy": {
+    "max_authorized_usd": 0.0,
+    "max_authorized_thb": 0.0,
+    "billing_enablement_forbidden": true,
+    "paid_fallback_forbidden": true,
+    "grounding_and_external_tools_forbidden": true,
+    "model_selection_after_pilot_forbidden": true
+  },
+  "models": [
+    {
+      "panel_slot": "M1",
+      "provider": "Google Gemini API",
+      "provider_key_environment": "GEMINI_API_KEY",
+      "model_id": "gemini-3.5-flash",
+      "model_family": "Google Gemini Flash",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "native_structured_output": true,
+      "required_access_tier": "free_tier",
+      "availability_status": "PENDING_LIVE_PREFLIGHT",
+      "official_sources": ["https://ai.google.dev/gemini-api/docs/models", "https://ai.google.dev/gemini-api/docs/pricing", "https://ai.google.dev/gemini-api/docs/image-understanding"]
+    },
+    {
+      "panel_slot": "M2",
+      "provider": "Google Gemini API",
+      "provider_key_environment": "GEMINI_API_KEY",
+      "model_id": "gemini-3.5-flash-lite",
+      "model_family": "Google Gemini Flash-Lite",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "native_structured_output": true,
+      "required_access_tier": "free_tier",
+      "availability_status": "PENDING_LIVE_PREFLIGHT",
+      "official_sources": ["https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite", "https://ai.google.dev/gemini-api/docs/pricing"]
+    },
+    {
+      "panel_slot": "M3",
+      "provider": "Groq",
+      "provider_key_environment": "GROQ_API_KEY",
+      "model_id": "qwen/qwen3.8-27b",
+      "model_family": "Qwen 3.8",
+      "input_modalities": ["text", "image"],
+      "output_modality": "text",
+      "native_structured_output": true,
+      "required_access_tier": "free_plan",
+      "availability_status": "PENDING_LIVE_PREFLIGHT",
+      "official_sources": ["https://console.groq.com/docs/vision", "https://console.groq.com/docs/model/qwen/qwen3.8-27b", "https://console.groq.com/docs/rate-limits"]
+    }
+  ]
+}
