@@ -1,0 +1,12 @@
+{
+  "schema_version": "phase6-literature-v2-pilot-manifest-v1",
+  "experiment_id": "phase6-literature-v2-pilot",
+  "purpose": "Interface validation only; pilot decisions are not benchmark observations.",
+  "row_count": 3,
+  "action_order": ["A0", "A1", "A2", "A3", "A4", "A6"],
+  "rows": [
+    {"run_id": "P6V2-M1-PED-CROSS-001__V030-ARG-C2-R01", "panel_slot": "M1", "provider": "gemini", "model_id": "gemini-3.5-flash"},
+    {"run_id": "P6V2-M2-PED-CROSS-001__V030-ARG-C2-R01", "panel_slot": "M2", "provider": "gemini", "model_id": "gemini-3.5-flash-lite"},
+    {"run_id": "P6V2-M3-PED-CROSS-001__V030-ARG-C2-R01", "panel_slot": "M3", "provider": "groq", "model_id": "qwen/qwen3.8-27b"}
+  ]
+}

@@ -102,3 +102,20 @@ attempts without sending a provider request:
 python scripts/validate_phase6_free_pilot.py
 python -m pytest -q tests/test_phase6_free_pilot_validation.py
 ```
+
+## Phase 6 literature-v2 pilot
+
+The v2 pilot has exactly three append-only provider attempts and is not the
+main benchmark. Its pre-generation manifest, non-secret attestation, raw
+responses, and per-attempt provenance are retained under
+`data/model_benchmark/phase6_literature_v2/` and `data/validation/`.
+Validation below makes no provider request:
+
+```bash
+python scripts/validate_phase6_literature_v2_pilot.py
+python scripts/verify_phase6_literature_v2_hashes.py
+python -m pytest -q
+```
+
+Do not run `scripts/run_phase6_literature_v2_pilot.py` again: its three
+attempts are append-only and the authorization was bounded to those calls.

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=PEDESTRIAN_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the pedestrian is currently located off the roadway and poses no immediate conflict.",
+            "thoughtSignature": "EmAKXgFpFH0TDliVrxJElmMU9AwFLsr3xmYonHLaoaa5akJthsCNpKdfMVQijnMlO+skMJB7dZF1IH+T9bnmpJ8o6coS0YPg/YZTTbcUqk6WqssXCDVVdZ8x5EmuuAyv13Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2361,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 2413,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1272
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "GxK8aqGkGdGHg8UP0riIoAI"
+}

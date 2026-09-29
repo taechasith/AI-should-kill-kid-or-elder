@@ -1,0 +1,9 @@
+{
+  "schema_version": "phase6-free-account-attestation-v1",
+  "verification_timestamp_utc": "2026-09-29T19:30:28Z",
+  "source": "Account owner authorization in Codex conversation; no account identity or credential value recorded.",
+  "providers": [
+    {"provider": "gemini", "access_tier": "free_tier", "billing_enabled": false, "quota_available": true, "verified_model_ids": ["gemini-3.5-flash", "gemini-3.5-flash-lite"]},
+    {"provider": "groq", "access_tier": "free_plan", "billing_enabled": false, "quota_available": true, "verified_model_ids": ["qwen/qwen3.8-27b"]}
+  ]
+}
