@@ -1,0 +1,26 @@
+{
+  "schema_version": "phase6-free-account-attestation-v1",
+  "verification_timestamp_utc": "<ISO-8601 UTC timestamp>",
+  "source": "<account owner manual verification; no account identity or credential value>",
+  "providers": [
+    {
+      "provider": "gemini",
+      "access_tier": "free_tier",
+      "billing_enabled": false,
+      "quota_available": true,
+      "verified_model_ids": [
+        "gemini-3.6-flash",
+        "gemini-2.5-flash-lite"
+      ]
+    },
+    {
+      "provider": "groq",
+      "access_tier": "free_plan",
+      "billing_enabled": false,
+      "quota_available": true,
+      "verified_model_ids": [
+        "qwen/qwen3.8-27b"
+      ]
+    }
+  ]
+}

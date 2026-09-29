@@ -38,6 +38,27 @@ restart may be necessary). Once they are present, the account owner must still
 confirm the Free Tier / Free Plan, billing-disabled state, and current quota
 limits before any capability-pilot inference is permitted.
 
+### 2026-09-29 access update
+
+The same authorized Codespace was rechecked in an interactive login shell.
+Both secret names were present there. The earlier non-interactive SSH command
+did not load that shell environment and is retained only as a failed
+environment-observation record. It is not evidence that the saved secret
+values were invalid.
+
+The append-only live metadata probe is preserved at
+`data/validation/phase6_free_v1_access_probes/phase6_free_v1_access_probe_20260929T032254Z.json`.
+It made two authenticated model-list requests and no model-generation request:
+
+| Provider | Result |
+| --- | --- |
+| Gemini | Both `gemini-3.6-flash` and `gemini-2.5-flash-lite` were listed. |
+| Groq | The initial generic client request returned HTTP 403. A request with the documented descriptive client header returned HTTP 200 and listed `qwen/qwen3.8-27b`; the probe now uses that header. |
+
+This establishes exact-model visibility, not account billing state, free-plan
+status, available quota, or successful multimodal inference. The three-call
+pilot remains blocked pending that account-level evidence.
+
 ## Frozen planning artifacts
 
 The offline preflight generates:
@@ -71,3 +92,12 @@ record is retained and never overwritten.
 The preflight is not Phase 6 completion. The next permitted step is a live
 account-access verification after both user-managed secret names exist in the
 authorized Codespace environment.
+
+## Guarded pilot runner
+
+`scripts/run_phase6_free_pilot.py` is prepared but has not been run against a
+model endpoint. It accepts a non-secret account-attestation JSON record, checks
+the exact free-only policy and three-row pilot manifest, constructs only the
+frozen image-plus-text request, and writes provider responses append-only. A
+provider error is recorded as a failure with no invented raw response. It does
+not read `.env` files and cannot execute the main 5,454-row manifest.
