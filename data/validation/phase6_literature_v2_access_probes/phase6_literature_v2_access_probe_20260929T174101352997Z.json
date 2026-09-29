@@ -1,0 +1,38 @@
+{
+  "account_tier_and_billing": "not inferred by metadata probe; prior user attestation remains separate evidence",
+  "all_target_models_listed": false,
+  "candidate_registry": "configs/models/phase6_literature_v2_candidate_registry.json",
+  "metadata_http_requests_made": 0,
+  "model_generation_requests_made": 0,
+  "next_required_evidence": "If all models are visible, freeze the access evidence and obtain the explicit v2 pilot authorization required by the frozen v2 experiment config.",
+  "providers": [
+    {
+      "credential_environment": "GEMINI_API_KEY",
+      "credential_present": false,
+      "metadata_http_requests_made": 0,
+      "model_generation_requests_made": 0,
+      "models": [
+        {"listed": false, "model_id": "gemini-3.5-flash"},
+        {"listed": false, "model_id": "gemini-3.5-flash-lite"}
+      ],
+      "probe_status": "MISSING_CREDENTIAL",
+      "provider": "gemini",
+      "rate_limit_metadata": {}
+    },
+    {
+      "credential_environment": "GROQ_API_KEY",
+      "credential_present": false,
+      "metadata_http_requests_made": 0,
+      "model_generation_requests_made": 0,
+      "models": [{"listed": false, "model_id": "qwen/qwen3.8-27b"}],
+      "probe_status": "MISSING_CREDENTIAL",
+      "provider": "groq",
+      "rate_limit_metadata": {}
+    }
+  ],
+  "purpose": "metadata-only exact-model availability probe; no inference request",
+  "runtime_commit": "1aa4c28dab102d3ebf606f173ee331b36338f52b",
+  "schema_version": "phase6-literature-v2-access-probe-v1",
+  "script_sha256": "92adca1d051df4738e124e49221b36b01e789d119f8d81a92e8b20787b9ec106",
+  "verification_timestamp_utc": "2026-09-29T17:41:01.352997+00:00"
+}

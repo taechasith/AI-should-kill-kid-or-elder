@@ -25,3 +25,14 @@ No valid benchmark decision outputs from the failed v1 panel were used to select
 ## Stop rule
 
 Before a v2 pilot, record non-generative availability for each exact route, account tier, billing-disabled state, quota status, and timestamp. If a route lacks free access, Phase 6 v2 is `NO-GO` under this panel. It must not be replaced after pilot execution begins; replacement needs a new versioned selection review.
+
+## First v2 metadata preflight
+
+The first v2 metadata-only probe ran in the existing Codespace at commit
+`1aa4c28`. It made **0 HTTP metadata requests** and **0 model-generation
+requests**, because the non-interactive SSH process did not inherit either
+credential environment variable. The append-only evidence is
+`data/validation/phase6_literature_v2_access_probes/phase6_literature_v2_access_probe_20260929T174101352997Z.json`.
+This is an execution-environment secret-injection failure; it does not test
+provider availability, quota, model capability, or the v2 protocol. No v2
+pilot is authorized or executed.
