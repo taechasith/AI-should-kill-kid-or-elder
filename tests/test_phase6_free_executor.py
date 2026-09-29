@@ -36,12 +36,22 @@ def test_success_preserves_raw_before_parse_and_is_append_only(tmp_path):
         execute(tmp_path, lambda: (200, VALID_RAW, {}))
 
 
-def test_provider_failure_never_creates_fake_raw_or_normalized_response(tmp_path):
+def test_one_retry_uses_separate_append_only_artifacts(tmp_path):
+    first = execute(tmp_path, lambda: (503, "temporary", {}))
+    second = execute_pilot_row(row=ROW, provider="gemini", policy=POLICY, registry_status="FREE_ONLY_PILOT_AUTHORIZED", credential_present=True, attestation=attestation(), attestation_sha256="a" * 64, source_commit="b" * 40, raw_root=tmp_path / "raw", normalized_root=tmp_path / "normalized", attempt_root=tmp_path, attempt_number=2, send=lambda: (200, VALID_RAW, {}))
+    assert first["attempt_id"] == ROW["run_id"] and first["attempt_number"] == 1
+    assert second["attempt_id"].endswith("__retry1") and second["attempt_number"] == 2
+    with pytest.raises(Phase6PilotError):
+        execute_pilot_row(row=ROW, provider="gemini", policy=POLICY, registry_status="FREE_ONLY_PILOT_AUTHORIZED", credential_present=True, attestation=attestation(), attestation_sha256="a" * 64, source_commit="b" * 40, raw_root=tmp_path / "raw", normalized_root=tmp_path / "normalized", attempt_root=tmp_path, attempt_number=3, send=lambda: (200, VALID_RAW, {}))
+
+
+def test_provider_failure_preserves_real_error_envelope_without_normalization(tmp_path):
     result = execute(tmp_path, lambda: (429, "not-to-be-saved", {"retry-after": "60"}))
     assert result["status"] == "failed"
     assert result["failure_reason"] == "FREE_QUOTA_EXHAUSTED"
-    assert result["raw_response_reference"] is None
-    assert not (tmp_path / "raw").exists()
+    assert Path(result["raw_response_reference"]).read_text() == "not-to-be-saved"
+    assert result["normalized_response_reference"] is None
+    assert not (tmp_path / "normalized").exists()
 
 
 def test_invalid_attestation_or_guard_blocks_before_sender(tmp_path):

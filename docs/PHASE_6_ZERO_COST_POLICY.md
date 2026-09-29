@@ -74,6 +74,12 @@ main benchmark manifest be frozen.
 stop that provider, and resume in a future free-quota window. Never pay to
 resume.
 
+The capability pilot permits one retry per initial row only for a transport
+error, a provider HTTP error, or a malformed response. A retry uses the same
+model ID, frozen image, prompt, condition, action order, and free-only policy.
+It receives a distinct append-only attempt ID; it must never overwrite the
+initial attempt or substitute a model.
+
 ## Data-use boundary
 
 Gemini's Free Tier documentation states that content may be used to improve

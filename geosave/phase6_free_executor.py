@@ -130,6 +130,7 @@ def execute_pilot_row(
     normalized_root: Path,
     attempt_root: Path,
     repository_root: Path | None = None,
+    attempt_number: int = 1,
     send: Callable[[], tuple[int, str, Mapping[str, str]]],
 ) -> Mapping[str, Any]:
     """Perform exactly one guarded request for one pilot row.
@@ -138,9 +139,12 @@ def execute_pilot_row(
     response is stored raw before parsing; neither output can be overwritten.
     """
     run_id = str(row["run_id"])
-    output_path = pilot_result_path(attempt_root, run_id)
+    if attempt_number not in {1, 2}:
+        raise Phase6PilotError("the frozen pilot permits at most one retry")
+    attempt_id = run_id if attempt_number == 1 else f"{run_id}__retry{attempt_number - 1}"
+    output_path = pilot_result_path(attempt_root, attempt_id)
     if output_path.exists():
-        raise Phase6PilotError(f"pilot run already has an append-only result: {run_id}")
+        raise Phase6PilotError(f"pilot attempt already has an append-only result: {attempt_id}")
     account = attestation.provider(provider, str(row["model_id"]))
     guard = FreeOnlyExecutionGuard.from_policy(policy, registry_status)
     guard.assert_request_permitted(
@@ -159,6 +163,8 @@ def execute_pilot_row(
         result = {
             "schema_version": "phase6-free-pilot-attempt-v1",
             "run_id": run_id,
+            "attempt_id": attempt_id,
+            "attempt_number": attempt_number,
             "provider": provider,
             "model_id": row["model_id"],
             "attempt_timestamp_utc": timestamp,
@@ -173,16 +179,22 @@ def execute_pilot_row(
         _write_once_json(output_path, result)
         return result
     if http_status != 200:
+        raw_path = raw_root / f"{attempt_id}.txt"
+        raw_reference = raw_path.relative_to(repository_root).as_posix() if repository_root else raw_path.as_posix()
+        raw_sha256 = persist_raw_response(raw_path, raw) if raw else None
         result = {
             "schema_version": "phase6-free-pilot-attempt-v1",
             "run_id": run_id,
+            "attempt_id": attempt_id,
+            "attempt_number": attempt_number,
             "provider": provider,
             "model_id": row["model_id"],
             "attempt_timestamp_utc": timestamp,
             "status": "failed",
             "failure_reason": "FREE_QUOTA_EXHAUSTED" if http_status == 429 else "PROVIDER_HTTP_ERROR",
             "http_status": http_status,
-            "raw_response_reference": None,
+            "raw_response_reference": raw_reference if raw_sha256 else None,
+            "raw_response_sha256": raw_sha256,
             "normalized_response_reference": None,
             "response_rate_limit_headers": {key: value for key, value in response_headers.items() if key.lower().startswith("x-ratelimit") or key.lower() == "retry-after"},
             "attestation_sha256": attestation_sha256,
@@ -190,7 +202,7 @@ def execute_pilot_row(
         }
         _write_once_json(output_path, result)
         return result
-    raw_path = raw_root / f"{run_id}.txt"
+    raw_path = raw_root / f"{attempt_id}.txt"
     raw_sha256 = persist_raw_response(raw_path, raw)
     try:
         model_text = _extract_provider_text(provider, raw)
@@ -198,7 +210,7 @@ def execute_pilot_row(
     except Phase6PilotError as error:
         parsed = parse_phase6_response("")
         parsed = parsed.__class__("failed", None, str(error), False)
-    normalized_path = normalized_root / f"{run_id}.json"
+    normalized_path = normalized_root / f"{attempt_id}.json"
     raw_reference = raw_path.relative_to(repository_root).as_posix() if repository_root else raw_path.as_posix()
     normalized_reference = normalized_path.relative_to(repository_root).as_posix() if repository_root else normalized_path.as_posix()
     normalized = normalized_record(
@@ -218,6 +230,8 @@ def execute_pilot_row(
     result = {
         "schema_version": "phase6-free-pilot-attempt-v1",
         "run_id": run_id,
+        "attempt_id": attempt_id,
+        "attempt_number": attempt_number,
         "provider": provider,
         "model_id": row["model_id"],
         "attempt_timestamp_utc": timestamp,
