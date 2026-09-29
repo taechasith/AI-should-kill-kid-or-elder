@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 import scripts.run_phase7_literature_v2 as runner
+from datetime import datetime, timezone
 
 def test_quota_classification_and_reset_evidence():
     assert runner.classify_429('QuotaId GenerateRequestsPerMinutePerProjectPerModel-FreeTier', {}) == 'FREE_MINUTE_REQUEST_LIMIT'
@@ -25,3 +26,12 @@ def test_attempts_are_numbered_and_append_only(tmp_path, monkeypatch):
     b=runner.persist(row,429,'input tokens per minute',{'retry-after':'2'})
     assert (a['attempt_number'],b['attempt_number']) == (1,2)
     assert len(list((tmp_path/'attempts'/'r').glob('*.json'))) == 2
+
+def test_daily_pause_is_reconstructed_from_immutable_attempt(tmp_path, monkeypatch):
+    monkeypatch.setattr(runner, 'OUT', tmp_path)
+    row={'run_id':'r','provider':'Google Gemini API','model_id':'gemini-3.5-flash'}
+    raw='QuotaId GenerateRequestsPerDayPerProjectPerModel-FreeTier'
+    record=runner.persist(row,429,raw,{})
+    assert record['quota_classification']=='FREE_DAILY_REQUEST_LIMIT'
+    assert runner.daily_paused(('gemini','gemini-3.5-flash'),datetime.now(timezone.utc))
+    assert not runner.daily_paused(('gemini','gemini-3.5-flash-lite'),datetime.now(timezone.utc))

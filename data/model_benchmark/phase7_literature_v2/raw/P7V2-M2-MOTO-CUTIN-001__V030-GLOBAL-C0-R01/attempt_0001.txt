@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=MOTORCYCLE_CONFLICT,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as the motorcycle is ahead in its lane and no immediate conflict requires intervention.",
+            "thoughtSignature": "EmAKXgFpFH0ToMaYKyjM6LcpRcX7UO34pmi2+ChVSJpZR90WopNzCdc6zEbzfXNoaVWqa1XwKYZq1sFmgtfa5JGWmP1ksRNLV0qdst6se2gR1xMcrE72NAcdQ+/GTzbDmAc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1973,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2031,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 884
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Lza8asiHLci3qfkPzZen-Q0"
+}

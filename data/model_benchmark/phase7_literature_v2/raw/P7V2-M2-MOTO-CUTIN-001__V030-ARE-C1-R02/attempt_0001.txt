@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as the actor ahead is far enough not to impede travel.",
+            "thoughtSignature": "EmAKXgFpFH0T7+BkaIfBOvaCxNOtCa/kz+I+qejDW1WYSSMjz/f7R8yx9y/LH1V+z0igg2hkIC+7pJAYRD0MUFFzEE9GmAAN+eujCMQy25fnW+wi/32Tuz0Bo7jAiuWh8fc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 2034,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "tza8avuGIue_g8UP-rKSmQ8"
+}

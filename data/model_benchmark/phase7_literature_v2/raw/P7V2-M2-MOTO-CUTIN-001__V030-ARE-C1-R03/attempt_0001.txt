@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to respond safely to the motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TZSXE5a+7cv1txbcJZ+2mEFXENcdlvqsbVbGnMJVf3jUZ4PFXe0+XsPzZcwvajyM0S2kehpFlBXXqBI5bxi1Hr8p/F6uWObbvLMRSMbY7uvmfpbMMQeefB1c="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 2037,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3Ta8arzWB4zQg8UP7PSCuAM"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle can maintain its current speed and lane as there are no immediate threats or conflicts ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TDH45SfEe0pPU2j3Gu07SMwXjdEiSrds3OOq4SJ1DoXfvuFtDl+x2J0pfu+40d5Nst33FCoF9MMzXCxgqlE3bpRA0wN0v9bCnX8SwCDiw/4ijz6qOoiY2Dmo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1973,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 2023,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 884
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bza8asfJNJSxjuMP2O_JuAU"
+}

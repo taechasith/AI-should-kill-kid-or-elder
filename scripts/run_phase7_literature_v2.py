@@ -2,6 +2,7 @@
 from __future__ import annotations
 import argparse, base64, json, os, re, sys, time
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 from hashlib import sha256
 from pathlib import Path
 from urllib.error import HTTPError
@@ -23,6 +24,22 @@ def classify_429(raw,headers):
  if 'perday' in s or 'per day' in s or 'daily' in s: return 'FREE_DAILY_REQUEST_LIMIT'
  if any('day' in str(v).lower() for v in headers.values()): return 'FREE_DAILY_TOKEN_LIMIT'
  return 'TRANSIENT_RATE_LIMIT'
+def next_daily_reset(timestamp):
+ """Gemini Free Tier RPD resets at midnight Pacific; keep UTC provenance."""
+ pacific=timestamp.astimezone(ZoneInfo('America/Los_Angeles'))
+ reset=(pacific+timedelta(days=1)).replace(hour=0,minute=0,second=0,microsecond=0)
+ return reset.astimezone(timezone.utc),reset
+def daily_paused(route_value,now):
+ """Reconstruct a route pause solely from immutable daily-quota attempts."""
+ latest=None
+ for p in (OUT/'attempts').glob('**/*.json'):
+  x=load(p)
+  if route(x)==route_value and x.get('quota_classification') in {'FREE_DAILY_REQUEST_LIMIT','FREE_DAILY_TOKEN_LIMIT'}:
+   t=datetime.fromisoformat(x['timestamp_utc'].replace('Z','+00:00'))
+   if latest is None or t>latest: latest=t
+ if latest is None:return None
+ reset_utc,reset_pacific=next_daily_reset(latest)
+ return {'reset_time_utc':reset_utc.isoformat(),'reset_time_pacific':reset_pacific.isoformat()} if now<reset_utc else None
 def delay_seconds(raw,headers):
  for v in (headers.get('retry-after'),headers.get('x-ratelimit-reset-tokens'),headers.get('x-ratelimit-reset-requests')):
   if v:
@@ -52,11 +69,14 @@ def persist(r,status,raw,headers,request_sha256=None,image_sha256=None,input_sha
    t=''.join(x.get('text','') for x in json.loads(raw)['candidates'][0]['content']['parts']) if r['provider']=='Google Gemini API' else json.loads(raw)['choices'][0]['message']['content']; z=parse_phase6_line_protocol(t); rec.update(status='completed',allowlisted_action_valid=z.decision_valid,selected_action_id=z.selected_action_id,format_compliance=z.format_compliant,normalization_success=z.format_compliant,parse_error=z.error)
   except Exception as e: rec.update(status='failed',failure_reason='MALFORMED_RESPONSE',parse_error=str(e))
  else: rec.update(status='quota_deferred' if status==429 else 'failed',failure_reason='QUOTA_DEFERRED' if status==429 else 'PROVIDER_HTTP_ERROR')
+ if rec['quota_classification'] in {'FREE_DAILY_REQUEST_LIMIT','FREE_DAILY_TOKEN_LIMIT'}:
+  reset_utc,reset_pacific=next_daily_reset(datetime.fromisoformat(rec['timestamp_utc']))
+  rec['daily_pause_reset_time_utc']=reset_utc.isoformat(); rec['daily_pause_reset_time_pacific']=reset_pacific.isoformat()
  (d/f'attempt_{n:04}.json').write_bytes(enc(rec)+b'\n'); return rec
 def main(until_stop=False,max_calls=1):
  approved={x['provider']:set(x['verified_model_ids']) for x in load(ATTESTATION)['providers'] if not x['billing_enabled'] and x['quota_available']}; rows=load(MANIFEST)['rows']; next_ok={}; calls=0
  while calls<max_calls:
-  now=datetime.now(timezone.utc); candidate=next((r for r in rows if r['execution_state']=='pending_zero_cost_authorization' and not terminal(r['run_id']) and now>=next_ok.get(route(r),now)),None)
+  now=datetime.now(timezone.utc); candidate=next((r for r in rows if r['execution_state']=='pending_zero_cost_authorization' and not terminal(r['run_id']) and daily_paused(route(r),now) is None and now>=next_ok.get(route(r),now)),None)
   if not candidate:
    future=[v for v in next_ok.values() if v>now]
    if until_stop and future:
@@ -69,6 +89,8 @@ def main(until_stop=False,max_calls=1):
   except HTTPError as e: status,raw,heads=e.code,e.read().decode(errors='replace'),{k.lower():v for k,v in e.headers.items() if k.lower() in RATE}
   rec=persist(candidate,status,raw,heads,sha256(enc(b)).hexdigest(),sha256(img.read_bytes()).hexdigest(),sha256(msg.encode()).hexdigest()); calls+=1
   if status==429:
+   if rec['quota_classification'] in {'FREE_DAILY_REQUEST_LIMIT','FREE_DAILY_TOKEN_LIMIT'}:
+    continue
    wait=rec['retry_reset_seconds']+3; next_ok[route(candidate)]=datetime.now(timezone.utc)+timedelta(seconds=wait)
    if not until_stop: break
    time.sleep(wait)
