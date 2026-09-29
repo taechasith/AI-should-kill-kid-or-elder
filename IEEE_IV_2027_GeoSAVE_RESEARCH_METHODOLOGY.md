@@ -420,6 +420,20 @@ Instead, it studies **law and safety constraints**.
 
 ---
 
+## 7.3 Cross-Context LLM Validation Strategy
+
+Pataranutaporn, Powdthavee, Archiwaranguprok, and Maes (2025) evaluated LLM
+well-being simulation against external reference data across heterogeneous
+contexts, and used controlled semantic and contextual interventions. It does
+not study autonomous driving or legal reasoning. Its relevance here is
+methodological: Phase 8 adapts external-evidence validation, cross-context
+variation auditing, reversal/placebo controls, and intended-versus-spillover
+measurement to frozen physical and legal evidence for driving decisions.
+
+Reference: https://doi.org/10.1073/pnas.2519394122
+
+---
+
 # 8. Foundation Models for Autonomous Driving
 
 Foundation models and multimodal language models are increasingly used for:
@@ -1944,7 +1958,10 @@ Primary outcomes:
 
 # 45. Baselines
 
-The paper needs non-LLM baselines.
+The paper needs transparent non-LLM baselines as well as cross-model
+comparisons. Phase 8 compares foundation-model decisions with these existing
+baselines using only metrics available from the frozen artifacts. A null result
+or a result favoring a baseline is scientifically informative.
 
 ## B0 Random Feasible Action
 
@@ -1992,6 +2009,9 @@ This is important.
 
 If GeoSAVE only works when an LLM is involved, the contribution is harder to interpret.
 
+Phase 8 must preserve these definitions. In particular, B1 is an
+outcome-informed upper-bound/reference oracle, not a deployable policy.
+
 ---
 
 # 46. Experiment 1 — Model Action Consistency
@@ -2037,7 +2057,10 @@ Physical scene remains identical.
 
 ### Key result
 
-Country name sensitivity should be separated from law sensitivity.
+Country-name sensitivity should be separated from legal-evidence sensitivity.
+The Phase 8 jurisdiction-label prior audit refines this experiment by comparing
+C0 with C1 on identical inputs, and by reserving C1-to-C2/C3/C4 comparisons for
+the effect of supplied legal evidence rather than a geographic label.
 
 ---
 
@@ -2118,6 +2141,11 @@ Use:
 ```text
 explanation-behavior consistency
 ```
+
+Phase 8 additionally evaluates the operational plausibility–validity gap:
+whether an explanation, legal statement, and selected action agree with the
+frozen legal and physical evidence. This is not an inference about hidden
+reasoning or confidence not represented in the output schema.
 
 ---
 
@@ -2258,6 +2286,202 @@ Possible methods:
 - representational similarity analysis
 
 State clearly that this measures association, not causation.
+
+Phase 8 refines this into matched legal-difference and legal-no-difference
+comparisons, so that decision-distance analyses do not mistake any
+cross-jurisdiction variation for law responsiveness.
+
+---
+
+# PHASE 8 — CONFIRMATORY ANALYSIS AND JURISDICTIONAL GENERALIZATION AUDIT
+
+## Scope, timing, and integrity
+
+Phase 8 is an analysis protocol for jurisdiction-conditioned
+autonomous-driving decisions. It is informed by the validation logic of
+Pataranutaporn et al. (2025): compare outputs with external reference evidence
+across heterogeneous contexts, then use controlled interventions to distinguish
+meaningful contextual responsiveness from generic contextual association. That
+study concerns human well-being prediction, not driving or legal reasoning;
+GeoSAVE adapts its methodological strategy to a distinct domain grounded in
+frozen physical and legal evidence.
+
+This amendment was specified on 2026-09-29 while Phase 7 collection was in
+progress, using only artifact-accounting status and before substantive
+confirmatory outcome analysis. Its version-control commit records the
+amendment identifier. It is therefore **prospectively specified during
+collection**, not retrospectively claimed to be preregistered before all data
+collection. If any analysis cannot satisfy this outcome-blind condition, it is
+exploratory and must be labelled accordingly.
+
+Phase 8 does not alter Phase 4 physical outcomes, the Phase 5 25-jurisdiction
+legal snapshot, or the Phase 7 manifest, models, prompts, candidate actions,
+legal context, action order, or completed outputs. It does not authorize
+provider calls.
+
+## Phase 8A — no-new-model-call confirmatory analyses
+
+Phase 8A is the primary analysis. It reuses only frozen Phase 4 outcomes,
+frozen Phase 5 legal evidence, and completed frozen Phase 7 outputs. Required
+additional API cost is **USD 0.00 / THB 0.00**.
+
+### P8-RQ1 / 8A.1 — jurisdictional flattening and legal differentiation
+
+When physical evidence is unchanged but applicable law differs, do decisions
+differentiate in relation to the legal difference, or converge on a generic
+action policy? For the same scenario, speed/state, candidate-action set, model,
+and applicable condition, construct matched jurisdiction pairs from the frozen
+Phase 5 snapshot where admissibility of a relevant action differs. Construct
+negative-control pairs where relevant legal status does not materially differ.
+
+Report separately: (a) action-flip rate conditional on a relevant legal
+difference; (b) action-flip rate conditional on no relevant legal difference;
+(c) law-responsive differentiation rate—the proportion of relevant-difference
+pairs whose action change is consistent with the applicable status change; (d)
+jurisdictional action-distribution distance; and (e) the association between
+legal distance and decision distance. These are paired, interpretable measures,
+not an opaque composite. They integrate the distance analysis in Section 54.
+
+### P8-RQ2 / 8A.2 — jurisdiction-label prior audit
+
+The C0 (no jurisdiction/law) to C1 (jurisdiction identity only) contrast tests
+a **Jurisdiction-Label Prior** or **Geographic-Label Effect**. It does not
+measure culture, national psychology, stereotype, training-data composition, or
+an internal belief. On identical physical inputs, estimate C0-to-C1 changes in
+selected action, joined physical outcome, abstention when represented in the
+schema, explanation factors, and unsupported legal claims; compare these effects
+across the frozen jurisdictions. This refines Experiment 2 and Section 64.1.
+
+### P8-RQ3 / 8A.3 — legal-context correction
+
+Using the repository's frozen condition definitions—C0 physics only, C1
+jurisdiction label only, C2 structured legal context, C3 raw legal evidence
+when applicable, and C4 GeoSAVE support—test paired changes on identical
+physical inputs. Outcomes include prohibited- and legally permissible-action
+selection, handling of `NOT_DETERMINED`, evidence-supported and unsupported
+legal claims, appropriate uncertainty/abstention, and explanation–law
+consistency. Explicit legal context is assessed as a possible correction of
+ungrounded context, not presumed to improve physical safety.
+
+### P8-RQ4 / 8A.4 — context-injection spillover
+
+Separate intended legal correction from unintended physical or behavioral
+spillover. Intended outcomes include prohibited-to-permitted selection where
+the frozen evidence warrants it, unsupported-to-evidence-grounded claims, and
+overconfidence-to-appropriate uncertainty. Frozen Phase 4 joins assess only
+physical consequences: collision selection, collision-free selection, minimum
+clearance, feasibility, road-boundary compliance, and safety–law conflict. Do
+not infer injuries or fatalities.
+
+Classify joined outcomes using repository legal-status terminology into: safe
+and lawful; safe and unlawful/prohibited; physically adverse and lawful; and
+physically adverse and unlawful/prohibited. Lawfulness and physical safety are
+separate dimensions. Also report unnecessary abstention and unrelated action
+switching as possible spillover.
+
+### P8-RQ5 / 8A.5 — transparent baselines versus foundation models
+
+Compare foundation-model decisions with B0–B4 in Section 45 on frozen-artifact
+metrics. The analysis asks whether complexity yields measurable benefit over
+transparent deterministic alternatives; it does not assume that it does.
+
+### P8-RQ6 / 8A.6 — plausibility–validity gap
+
+Operationalize the plausibility–validity gap without attributing internal
+reasoning. Measure unsupported or hallucinated legal claim rate,
+explanation–action contradiction, explanation–law contradiction, citation or
+provided-rule correctness when present, an action inconsistent with cited law,
+and valid-looking rationale paired with an invalid/prohibited action (and the
+converse where relevant). Confidence is assessed only when explicit
+confidence/uncertainty fields exist. This extends Experiment 5's
+explanation–behavior consistency rather than treating explanations as proof.
+
+### P8-RQ7 / 8A.7 — exploratory representation-proxy disparity
+
+Exploratorily test whether jurisdiction-level error rates are associated with
+authoritative, reproducibly frozen public development/connectivity proxies (for
+example, internet penetration, HDI, or GDP per capita). These are contextual
+proxies—not measurements of training exposure, culture, population psychology,
+or representation in model data. With approximately 25 jurisdictions, report
+Spearman effects, permutation or robust inference where suitable, 95% CIs, and
+Benjamini–Hochberg correction for the defined exploratory family; avoid a large
+multivariable model and emphasize uncertainty.
+
+## Phase 8A hypotheses
+
+- **H8.1:** Action differentiation will be greater for matched comparisons with
+  relevant frozen legal-status differences than for matched comparisons without
+  them.
+- **H8.2:** C1 jurisdiction labels may induce action changes relative to C0;
+  no country-specific direction is presumed.
+- **H8.3:** Grounded legal conditions will be tested for lower
+  prohibited-action selection than ungrounded conditions, without presuming a
+  physical-safety improvement.
+- **H8.4:** Legal-context corrections may have measurable physical-action or
+  behavioral spillover.
+- **H8.5:** Explanation plausibility and legal/action validity are distinct
+  empirical constructs and are not treated as equivalent.
+
+## Statistical discipline, controls, and reporting
+
+Effects and 95% confidence intervals are primary; p-values are secondary.
+Use paired analyses whenever the same scene is evaluated under different
+contexts. Deterministic Phase 4 seeds are not independent physical experiments,
+and repeated model generations are not automatically independent physical
+units. Account for nesting by scenario, jurisdiction, and model where warranted.
+
+For each metric, pre-specify the unit of analysis, pairing, estimand, effect
+size, CI method, hypothesis family, and missing/`not_applicable` handling.
+Select—not mechanically accumulate—methods appropriate to the outcome:
+McNemar or exact paired tests for paired binary outcomes; paired or cluster
+bootstrap CIs at the scenario/jurisdiction level; permutation tests; mixed
+effects logistic models when assumptions and sample size support them; and
+multinomial methods only when justified. Apply Benjamini–Hochberg correction to
+predefined secondary and exploratory families.
+
+Negative controls integrate Sections 54 and 64: jurisdiction changes without a
+relevant legal change, irrelevant-law injection, scenario-irrelevant legal-text
+changes, and matched identical-status jurisdiction pairs. A law-sensitive system
+should be more responsive to relevant legal differences than to these controls.
+
+## Phase 8B — optional semantic law generalization audit
+
+**P8-RQ8 (optional, exploratory):** Do decisions behave consistently with a
+synthetic legal-semantic gradient, and do reversal/placebo controls distinguish
+operative legal semantics from generic contextual exposure?
+
+This is not part of the Phase 7 manifest and must never run automatically. A
+future study may use a clearly fictional jurisdiction (for example, “Republic
+of Velora”), retaining the same physical scenario, image, telemetry,
+candidate actions, and frozen physical outcomes while manipulating only a
+synthetic legal statement. It must not fabricate or attribute a law to a real
+jurisdiction.
+
+The separately frozen design would use semantically opposed endpoints (for
+example, emergency evasive lane departure explicitly permitted versus explicitly
+prohibited), intermediate formulations, the original mapping, a reversed
+mapping, and a stylistically similar decision-irrelevant placebo. The smallest
+interpretable factorial design must be separately preregistered before any
+execution. Results may show behavior consistent with semantic generalization;
+they cannot establish an internal mechanism.
+
+Phase 8B requires a separate dataset/version/tag, frozen prompt and design,
+exact call-count calculation, explicit human authorization, free-tier
+availability, and USD 0.00 / THB 0.00 cost validation. If free execution is
+unavailable, it is skipped without affecting Phase 8A or the primary benchmark.
+It cannot retroactively change Phase 7 hypotheses, manifest, or Phase 8A
+outcomes.
+
+## Claim and ethics boundary
+
+All Phase 8 findings are behavioral and scenario-based. They do not establish
+that a model understands law, possesses moral values, has national/cultural
+beliefs, or reflects a particular training-data composition. They do not equate
+law with culture or population psychology, semantic sensitivity with internal
+reasoning, legal compliance with physical safety, or physical safety with legal
+compliance. No demographic category is a human-value weight; the frozen
+demographic counterfactual audit may test label sensitivity but must never
+create a child/adult/older-adult worth ordering.
 
 ---
 
@@ -2576,7 +2800,11 @@ Same law text.
 
 Change only country name.
 
-If decision changes, this indicates a geographic-label effect.
+If decision changes, this indicates a geographic-label effect. Phase 8 treats
+this as the C0-to-C1 jurisdiction-label prior audit and tests paired changes in
+action, joined physical outcome, abstention where represented, stated factors,
+and unsupported legal claims. It is not evidence of culture, national
+psychology, or a model's beliefs.
 
 ---
 
@@ -2586,7 +2814,9 @@ Same country name.
 
 Change only relevant legal rule.
 
-If decision changes appropriately, this indicates rule sensitivity.
+If decision changes appropriately, this indicates rule sensitivity. Phase 8
+uses matched frozen legal-difference pairs and compares them with
+same-status/irrelevant controls; legal changes must be relevant to the scene.
 
 ---
 
@@ -2599,6 +2829,10 @@ Example:
 helmet law in a pedestrian-only incident.
 
 A robust system should not substantially change action.
+
+Together with legal-text changes irrelevant to the scene and matched
+jurisdictions with identical relevant legal status, this is a Phase 8 negative
+control rather than a separate benchmark.
 
 ---
 
@@ -4764,10 +4998,17 @@ The literature review must stay vehicle-focused.
     Science, 2016.  
     https://doi.org/10.1126/science.aaf2654
 
-16. **Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V.**  
-    *CARLA: An Open Urban Driving Simulator.*  
-    CoRL 2017.  
-    https://proceedings.mlr.press/v78/dosovitskiy17a.html
+16. **Dosovitskiy, A., Ros, G., Codevilla, F., Lopez, A., & Koltun, V.**
+   *CARLA: An Open Urban Driving Simulator.*
+   CoRL 2017.
+   https://proceedings.mlr.press/v78/dosovitskiy17a.html
+
+17. **Pataranutaporn, P., Powdthavee, N., Archiwaranguprok, C., & Maes, P.**
+   *Simulating human well-being with large language models: Systematic
+   validation and misestimation across 64,000 individuals from 64 countries.*
+   Proceedings of the National Academy of Sciences, 122(48), e2519394122,
+   2025.
+   https://doi.org/10.1073/pnas.2519394122
 
 ---
 
