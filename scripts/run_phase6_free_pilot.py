@@ -50,10 +50,10 @@ def _sender(*, provider: str, endpoint: str, body: Mapping[str, Any], credential
     headers["x-goog-api-key" if provider == "gemini" else "Authorization"] = credential if provider == "gemini" else f"Bearer {credential}"
     request = Request(endpoint, data=json.dumps(body, ensure_ascii=True, separators=(",", ":")).encode("utf-8"), headers=headers, method="POST")
     try:
-        with urlopen(request, timeout=60) as response:
+        with urlopen(request, timeout=180) as response:
             return int(response.status), response.read().decode("utf-8"), _safe_headers(response.headers)
     except HTTPError as error:
-        return int(error.code), "", _safe_headers(error.headers) if error.headers else {}
+        return int(error.code), error.read().decode("utf-8", errors="replace"), _safe_headers(error.headers) if error.headers else {}
 
 
 def _row_inputs(row: Mapping[str, Any]) -> tuple[Path, str]:
@@ -77,14 +77,28 @@ def run(attestation_path: Path) -> list[Mapping[str, Any]]:
     model_provider = {model["model_id"]: "gemini" if model["provider"] == "Google Gemini API" else "groq" for model in registry["models"]}
     result_root = ROOT / "data" / "model_benchmark" / "phase6_free_v1"
     outputs: list[Mapping[str, Any]] = []
+    retryable_failures = {"TRANSPORT_ERROR", "PROVIDER_HTTP_ERROR", "MALFORMED_RESPONSE"}
     for row in manifest["rows"]:
         provider = model_provider[str(row["model_id"])]
+        initial_attempt_path = result_root / "attempts" / f"{row['run_id']}.json"
+        attempt_number = 1
+        if initial_attempt_path.exists():
+            initial = _read(initial_attempt_path)
+            if initial.get("status") == "completed":
+                raise Phase6PilotError(f"pilot row already completed: {row['run_id']}")
+            if initial.get("failure_reason") not in retryable_failures:
+                raise Phase6PilotError(f"pilot row is not retryable: {row['run_id']}")
+            attempt_number = 2
+            retry_attempt_path = result_root / "attempts" / f"{row['run_id']}__retry1.json"
+            if retry_attempt_path.exists():
+                raise Phase6PilotError(f"single retry already consumed: {row['run_id']}")
         credential = os.environ.get("GEMINI_API_KEY" if provider == "gemini" else "GROQ_API_KEY")
         image_path, user_message = _row_inputs(row)
         prepared = build_free_provider_request(provider=provider, model_id=str(row["model_id"]), image_path=image_path, system_message=SYSTEM_PROMPT, user_message=user_message, max_output_tokens=500)
         outputs.append(execute_pilot_row(
             row=row, provider=provider, policy=registry["zero_cost_execution_policy"], registry_status="FREE_ONLY_PILOT_AUTHORIZED", credential_present=bool(credential), attestation=attestation, attestation_sha256=attestation_hash, source_commit=source_commit,
             raw_root=result_root / "raw", normalized_root=result_root / "normalized", attempt_root=result_root, repository_root=ROOT,
+            attempt_number=attempt_number,
             send=lambda prepared=prepared, credential=credential, provider=provider: _sender(provider=provider, endpoint=prepared.endpoint, body=prepared.body, credential=credential or ""),
         ))
     return outputs
