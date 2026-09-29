@@ -28,23 +28,24 @@ def main(limit):
  att=load(ATTESTATION); approved={x['provider']:set(x['verified_model_ids']) for x in att['providers'] if x['billing_enabled'] is False and x['quota_available'] is True and x['access_tier'] in {'free_tier','free_plan'}}
  rows=load(MANIFEST)['rows']; disabled=set(); sent=0
  for r in rows:
-  if sent>=limit or r['execution_state']!='pending_zero_cost_authorization' or r['provider'] in disabled: continue
+  route=(r['provider'],r['model_id'])
+  if sent>=limit or r['execution_state']!='pending_zero_cost_authorization' or route in disabled: continue
   ap=OUT/'attempts'/f"{r['run_id']}.json"
   if ap.exists(): continue
   provider='gemini' if r['provider']=='Google Gemini API' else 'groq'
   if r['model_id'] not in approved.get(provider,set()): raise SystemExit('current free-access attestation does not authorize this model')
   img,msg=ctx(r); url,h,b=request(r,img,msg); ts=datetime.now(timezone.utc).isoformat()
   try:
-   with urlopen(Request(url,data=enc(b),headers=h,method='POST'),timeout=180) as x: status,raw=x.status,x.read().decode()
-  except HTTPError as e: status,raw=e.code,e.read().decode(errors='replace')
+   with urlopen(Request(url,data=enc(b),headers=h,method='POST'),timeout=180) as x: status,raw,rate=x.status,x.read().decode(),{k.lower():v for k,v in x.headers.items() if k.lower() in {'retry-after','x-ratelimit-limit-requests','x-ratelimit-limit-tokens','x-ratelimit-remaining-requests','x-ratelimit-remaining-tokens','x-ratelimit-reset-requests','x-ratelimit-reset-tokens'}}
+  except HTTPError as e: status,raw,rate=e.code,e.read().decode(errors='replace'),{k.lower():v for k,v in e.headers.items() if k.lower() in {'retry-after','x-ratelimit-limit-requests','x-ratelimit-limit-tokens','x-ratelimit-remaining-requests','x-ratelimit-remaining-tokens','x-ratelimit-reset-requests','x-ratelimit-reset-tokens'}}
   rawp=OUT/'raw'/f"{r['run_id']}.txt"; rawp.parent.mkdir(parents=True,exist_ok=True); rawp.write_text(raw,encoding='utf-8')
-  rec={'schema_version':'phase7-literature-v2-attempt-v1','run_id':r['run_id'],'provider':r['provider'],'model_id':r['model_id'],'timestamp_utc':ts,'http_status':status,'retry_count':0,'raw_response_reference':rawp.relative_to(ROOT).as_posix(),'raw_response_sha256':sha256(rawp.read_bytes()).hexdigest()}
+  rec={'schema_version':'phase7-literature-v2-attempt-v1','run_id':r['run_id'],'provider':r['provider'],'model_id':r['model_id'],'timestamp_utc':ts,'http_status':status,'retry_count':0,'raw_response_reference':rawp.relative_to(ROOT).as_posix(),'raw_response_sha256':sha256(rawp.read_bytes()).hexdigest(),'response_rate_limit_headers':rate}
   if status==200:
    try:
     text=''.join(p.get('text','') for p in json.loads(raw)['candidates'][0]['content']['parts']) if r['provider']=='Google Gemini API' else json.loads(raw)['choices'][0]['message']['content']; z=parse_phase6_line_protocol(text); rec.update(status='completed',format_compliance=z.format_compliant,normalization_success=z.format_compliant,allowlisted_action_valid=z.decision_valid,selected_action_id=z.selected_action_id,parse_error=z.error)
    except Exception as e: rec.update(status='failed',failure_reason='MALFORMED_RESPONSE',allowlisted_action_valid=False,parse_error=str(e))
   else:
-   rec.update(status='failed',failure_reason='FREE_QUOTA_EXHAUSTED' if status==429 else 'PROVIDER_HTTP_ERROR'); disabled.add(r['provider']) if status==429 else None
+   rec.update(status='failed',failure_reason='FREE_QUOTA_EXHAUSTED' if status==429 else 'PROVIDER_HTTP_ERROR',quota_classification='TRANSIENT_RATE_LIMIT' if status==429 else None); disabled.add(route) if status==429 else None
   ap.parent.mkdir(parents=True,exist_ok=True); ap.write_bytes(enc(rec)+b'\n'); sent+=1; print(json.dumps({'run_id':r['run_id'],'http_status':status,'status':rec['status']}))
 if __name__=='__main__':
  p=argparse.ArgumentParser(); p.add_argument('--max-calls',type=int,default=100); main(p.parse_args().max_calls)
