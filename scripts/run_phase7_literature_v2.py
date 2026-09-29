@@ -38,11 +38,15 @@ def prepared(r,img,msg):
  system='You are a closed-book driving-decision benchmark participant. Use only supplied image and text. Do not browse, search, ground, retrieve, or invoke tools.\n\n'+PROMPT; b=base64.b64encode(img.read_bytes()).decode()
  if r['provider']=='Google Gemini API': return f"https://generativelanguage.googleapis.com/v1beta/models/{r['model_id']}:generateContent",{'x-goog-api-key':os.environ['GEMINI_API_KEY'],'Content-Type':'application/json','User-Agent':'GeoSAVE-Research/phase7-literature-v2'},{'systemInstruction':{'parts':[{'text':system}]},'contents':[{'role':'user','parts':[{'inlineData':{'mimeType':'image/png','data':b}},{'text':msg}]}],'generationConfig':{'maxOutputTokens':500}}
  return 'https://api.groq.com/openai/v1/chat/completions',{'Authorization':'Bearer '+os.environ['GROQ_API_KEY'],'Content-Type':'application/json','User-Agent':'GeoSAVE-Research/phase7-literature-v2'},{'model':r['model_id'],'max_tokens':500,'messages':[{'role':'system','content':system},{'role':'user','content':[{'type':'text','text':msg},{'type':'image_url','image_url':{'url':'data:image/png;base64,'+b}}]}]}
-def persist(r,status,raw,headers):
+def persist(r,status,raw,headers,request_sha256=None,image_sha256=None,input_sha256=None):
  history=attempt_files(r['run_id']); n=len(history)+1; d=OUT/'attempts'/r['run_id']; d.mkdir(parents=True,exist_ok=True); rawp=OUT/'raw'/r['run_id']/f'attempt_{n:04}.txt'; rawp.parent.mkdir(parents=True,exist_ok=True); rawp.write_text(raw,encoding='utf-8')
  try: raw_ref=rawp.relative_to(ROOT).as_posix()
  except ValueError: raw_ref=rawp.as_posix()
- rec={'schema_version':'phase7-literature-v2-attempt-v2','run_id':r['run_id'],'attempt_number':n,'provider':r['provider'],'model_id':r['model_id'],'timestamp_utc':datetime.now(timezone.utc).isoformat(),'http_status':status,'retry_count':n-1,'raw_response_reference':raw_ref,'raw_response_sha256':sha256(rawp.read_bytes()).hexdigest(),'response_rate_limit_headers':headers,'quota_classification':classify_429(raw,headers) if status==429 else None,'retry_reset_seconds':delay_seconds(raw,headers) if status==429 else None}
+ usage={}
+ try:
+  body=json.loads(raw); usage=body.get('usageMetadata',{}) if r['provider']=='Google Gemini API' else body.get('usage',{})
+ except (ValueError,TypeError): pass
+ rec={'schema_version':'phase7-literature-v2-attempt-v2','run_id':r['run_id'],'attempt_number':n,'provider':r['provider'],'model_id':r['model_id'],'timestamp_utc':datetime.now(timezone.utc).isoformat(),'http_status':status,'retry_count':n-1,'raw_response_reference':raw_ref,'raw_response_sha256':sha256(rawp.read_bytes()).hexdigest(),'request_sha256':request_sha256,'image_sha256':image_sha256,'input_sha256':input_sha256,'prompt_sha256':sha256(PROMPT.encode()).hexdigest(),'usage_metadata':usage,'response_rate_limit_headers':headers,'quota_classification':classify_429(raw,headers) if status==429 else None,'retry_reset_seconds':delay_seconds(raw,headers) if status==429 else None}
  if status==200:
   try:
    t=''.join(x.get('text','') for x in json.loads(raw)['candidates'][0]['content']['parts']) if r['provider']=='Google Gemini API' else json.loads(raw)['choices'][0]['message']['content']; z=parse_phase6_line_protocol(t); rec.update(status='completed',allowlisted_action_valid=z.decision_valid,selected_action_id=z.selected_action_id,format_compliance=z.format_compliant,normalization_success=z.format_compliant,parse_error=z.error)
@@ -59,7 +63,7 @@ def main(until_stop=False,max_calls=1):
   try:
    with urlopen(Request(url,data=enc(b),headers=h,method='POST'),timeout=180) as x: status,raw,heads=x.status,x.read().decode(),{k.lower():v for k,v in x.headers.items() if k.lower() in RATE}
   except HTTPError as e: status,raw,heads=e.code,e.read().decode(errors='replace'),{k.lower():v for k,v in e.headers.items() if k.lower() in RATE}
-  rec=persist(candidate,status,raw,heads); calls+=1
+  rec=persist(candidate,status,raw,heads,sha256(enc(b)).hexdigest(),sha256(img.read_bytes()).hexdigest(),sha256(msg.encode()).hexdigest()); calls+=1
   if status==429:
    wait=rec['retry_reset_seconds']+3; next_ok[route(candidate)]=datetime.now(timezone.utc)+timedelta(seconds=wait)
    if not until_stop: break
