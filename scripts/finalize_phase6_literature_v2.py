@@ -21,7 +21,9 @@ FILES = (
     "configs/experiments/phase6_literature_v2_pilot.json",
     "prompts/phase6/decision_line_protocol_v2.md",
     "geosave/phase6_line_protocol.py",
+    "scripts/probe_phase6_literature_v2_access.py",
     "tests/test_phase6_line_protocol.py",
+    "tests/test_phase6_literature_v2_access_probe.py",
 )
 
 
