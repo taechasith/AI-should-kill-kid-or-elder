@@ -57,7 +57,11 @@ def main(until_stop=False,max_calls=1):
  approved={x['provider']:set(x['verified_model_ids']) for x in load(ATTESTATION)['providers'] if not x['billing_enabled'] and x['quota_available']}; rows=load(MANIFEST)['rows']; next_ok={}; calls=0
  while calls<max_calls:
   now=datetime.now(timezone.utc); candidate=next((r for r in rows if r['execution_state']=='pending_zero_cost_authorization' and not terminal(r['run_id']) and now>=next_ok.get(route(r),now)),None)
-  if not candidate: break
+  if not candidate:
+   future=[v for v in next_ok.values() if v>now]
+   if until_stop and future:
+    time.sleep(max(0,min((v-now).total_seconds() for v in future))); continue
+   break
   if candidate['model_id'] not in approved.get(route(candidate)[0],set()): raise SystemExit('unverified free route')
   img,msg=ctx(candidate); url,h,b=prepared(candidate,img,msg)
   try:
@@ -73,4 +77,7 @@ def main(until_stop=False,max_calls=1):
   elif route(candidate)[0]=='gemini': next_ok[route(candidate)]=datetime.now(timezone.utc)+timedelta(seconds=13)
   print(json.dumps({'run_id':candidate['run_id'],'attempt':rec['attempt_number'],'http_status':status,'status':rec['status']}))
 if __name__=='__main__':
- p=argparse.ArgumentParser(); p.add_argument('--until-quota-stop',action='store_true'); p.add_argument('--max-calls',type=int,default=1); a=p.parse_args(); main(a.until_quota_stop,a.max_calls)
+ p=argparse.ArgumentParser(); p.add_argument('--until-quota-stop',action='store_true'); p.add_argument('--run-until-daily-limit',action='store_true'); p.add_argument('--resume',action='store_true'); p.add_argument('--status',action='store_true'); p.add_argument('--max-calls',type=int,default=1); a=p.parse_args()
+ if a.status:
+  rows=load(MANIFEST)['rows']; attempts=[load(x) for x in (OUT/'attempts').glob('**/*.json')]; done={x['run_id'] for x in attempts if x.get('status')=='completed' and x.get('http_status')==200}; print(json.dumps({'manifest_rows':len(rows),'not_applicable':sum(r['execution_state']=='not_applicable' for r in rows),'provider_rows':sum(r['execution_state']=='pending_zero_cost_authorization' for r in rows),'terminal_http_200':len(done),'remaining':sum(r['execution_state']=='pending_zero_cost_authorization' and r['run_id'] not in done for r in rows),'attempts_by_http_status':{str(k):sum(x.get('http_status')==k for x in attempts) for k in sorted({x.get('http_status') for x in attempts})},'usd_spent':0.0,'thb_spent':0.0},sort_keys=True))
+ else: main(a.until_quota_stop or a.run_until_daily_limit or a.resume, 4104 if (a.run_until_daily_limit or a.resume) else a.max_calls)
