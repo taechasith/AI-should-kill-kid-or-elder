@@ -35,7 +35,12 @@ def main(until_stop: bool, max_calls: int):
     while until_stop or calls<max_calls:
         now=datetime.now(timezone.utc)
         candidates=[r for r in rows if not base.terminal(r['run_id']) and base.daily_paused(base.route(r),now) is None and now>=next_ok.get(base.route(r),now)]
-        if not candidates: break
+        if not candidates:
+            future=[value for value in next_ok.values() if value > now]
+            if until_stop and future:
+                time.sleep(max(0, min((value-now).total_seconds() for value in future)))
+                continue
+            break
         row=candidates[0]
         if row['model_id'] not in approved.get(base.route(row)[0],set()): raise SystemExit('unverified free route')
         image,message=base.ctx(row); url,headers,body=base.prepared(row,image,message)
