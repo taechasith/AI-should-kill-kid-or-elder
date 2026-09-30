@@ -2319,6 +2319,27 @@ legal snapshot, or the Phase 7 manifest, models, prompts, candidate actions,
 legal context, action order, or completed outputs. It does not authorize
 provider calls.
 
+## Phase 7 population-sampling amendment
+
+The immutable 4,104-row provider frame remains the Phase 7 inferential
+population; the 1,350 C3 `not_applicable` rows remain part of 5,454-row total
+accounting but outside that response population. Exhaustive provider execution
+was superseded for primary estimation because verified zero-cost quota limits
+made a census impractical, not because the frozen frame was invalid. The
+`phase7-psb-v1` protocol combines pre-amendment terminal HTTP-200 certainty
+units (`pi=1`) with an outcome-blind stratified probability sample of remaining
+units with known inclusion probabilities. It estimates benchmark-population
+rates using design weights and finite-population uncertainty; it never implies
+that all 4,104 rows were observed.
+
+Any purposively selected paired contrast panel is analytically separate from
+population-rate estimation unless it has valid probability inclusion weights.
+Micro-batching is disabled unless a separately frozen metadata-balanced
+equivalence gate establishes its limitations and provenance. Phase 8 reports
+probability-sampled population rates, certainty observations, and paired
+contrasts separately; analyses lacking adequate design coverage are limited or
+exploratory.
+
 ## Phase 8A — no-new-model-call confirmatory analyses
 
 Phase 8A is the primary analysis. It reuses only frozen Phase 4 outcomes,

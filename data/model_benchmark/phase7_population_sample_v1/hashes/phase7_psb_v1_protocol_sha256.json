@@ -1,0 +1,10 @@
+{
+  "schema_version": "phase7-psb-v1-hashes-v1",
+  "files": {
+    "IEEE_IV_2027_GeoSAVE_RESEARCH_METHODOLOGY.md": "0e0da3e21feb1a812b5342efaa066fcde76dcd318d72bd07d0ab8526b512d1ba",
+    "data/model_benchmark/phase7_population_sample_v1/manifests/phase7_psb_v1_sample.json": "d7fb241c13e9744e06636727ede126f1f1f668e8b58062bfc205e3346deb25fd",
+    "docs/PHASE_7_POPULATION_SAMPLING_AMENDMENT.md": "104e55bf649f0ec1e1b1f159588c39e1c0e49af3912de83c87e333fbbe688c6a",
+    "docs/PHASE_7_SAMPLING_ANALYSIS_PLAN.md": "6875d76aa727861668039ab924cfb2fd8144d13cd7b13b3af381c83586b4748e"
+  },
+  "selection_payload_sha256": "75a05f58bb234586be6ffd10a2015d934e67e3297ffcefa1eaaa437aa4d703d2"
+}
