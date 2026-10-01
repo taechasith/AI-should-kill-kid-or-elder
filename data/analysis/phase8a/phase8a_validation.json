@@ -1,0 +1,28 @@
+{
+  "schema_version": "phase8a-validation-v1",
+  "offline_validation": {
+    "phase7_population_sample_validator": "passed",
+    "phase8a_validator": "passed_before_final_hash_refresh",
+    "phase8a_focused_pytest": {
+      "status": "passed",
+      "passed": 5,
+      "failed": 0
+    },
+    "deterministic_regeneration": "passed: runner, documentation renderer, and hash manifest were generated twice with validation after each generation"
+  },
+  "broad_environment_checks": {
+    "pytest_q": {
+      "status": "environment_limited_not_passed",
+      "collection_errors": [
+        "ModuleNotFoundError: shapely",
+        "ModuleNotFoundError: vehiclemodels"
+      ],
+      "interpretation": "The local Windows Python environment cannot collect the existing CommonRoad test modules. This is not presented as a Phase 8A test pass or a Phase 8A regression."
+    },
+    "pip_check": {
+      "status": "environment_dependency_conflicts_detected",
+      "interpretation": "Unrelated global-environment conflicts were reported for mediapipe/protobuf, sse-starlette/starlette, tensorflow-intel/numpy/protobuf/typing-extensions, and torchaudio/torch. Phase 8A uses only the Python standard library."
+    }
+  },
+  "provider_or_simulator_execution": "not performed"
+}
