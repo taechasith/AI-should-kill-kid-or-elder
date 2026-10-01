@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,INSUFFICIENT_LEGAL_LEVIDENCE\nLEGAL_EVIDENCE=P5E-GBR-001\nUNCERTAINTY=Legal predicates are insufficient for definitive liability determination.\nRATIONALE=Moderate braking is required to safely manage potential conflict with the nearby actor ahead in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0T01ikU0kXa7OheTy2gjbUOXawGiD1ZiO9CeIkfWkXTrlBzn4i/X+Bc3qEpkzgHv0nUwvlK2z3Nq7ZQ9QR/hgv9JDSnJPnt9TEE4psX0FatCkmA+c3TRjbVX4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 86,
+    "totalTokenCount": 2452,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "M1O8asLSEvaiqfkP6MHh4AU"
+}

@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "An analysis of the scene reveals that the ego vehicle (blue) is directly behind a stationary vehicle",
+            "thoughtSignature": "EvoKCvcKAWkUfROuiNvSETSvG4DN4v571OHofpxhveWNbW0QUvgb1dQLHxwQ/XpGdEV77Vsfw6SpnvYw8LXpQ28dMJPoEZ/MeH0WCwZhi5p2bU9ztM7NJCaVhcFmS4fh+4n7rxaG4QXeGnZlOMN2+gk15IX2VT4nXwoguq3M4NHg23iSvvhjhEIlklRa7boc9hRSg3+b4g8JYSklPb11o8IdERbiXSWTDE8VaBhMOQdKUKVeIz9uX2mUoDHMHwBTC2baQNoRnMcCZDqF+Go5FsGTVy6q7K0o4uOVzg91QjKMq3c0/Jy4R4nIuYeIfuEqpSGlYyAmISqlha2n+chlT/SUJjh58SWeDEx7UR2quK+6XqvlAe6god8v9IerJ4isOyhKikAUXB6GKob1dfpp24hEgrz4n/vtEPUHunCJkuRExXhAip0Bcpn9f9PZbt5yBTH6olIekLEVa7cVOMXi38RK4l2DF6yCPEGMdfxlrX1CfozTbeq1IyNLtyky7HOz4X57eATP5l0o3infrbEfZGJ6g+Z+Z5pw8einYCunJf2HdJxUXoiq69VKsiRFcU8D2b7e0Wmc07SQTKocLxraLdyLLKq2YOsP9X2To4Gd8FrJmxn3LlNnWk59olm5JnfgezZg5PB8cKhODc1L6YQPqln2/Wru0AGemWeVrnL8rYBY9S6jheeHzScZXffM3QZqoIZV+e0Myu8naz7L3hoVVEtvb4vUA0H2E7XAhJJnMd6SpCBcRAiNhjQ2DoK3TySepLP40j65ICI9e2zXuaqQq3NVWpiCjUbLry5/6gSnaq+rSt3/BdQu6gJIJHa5RyrcIMQ33FF8aB3H/6vADNALTf3IhpE/J1iYmzKo/ucZStkIa4LHpYCNd99uYlzC+XZApDwN5ESUBm9tO6bNRPQQnp5yt4z2cq2HImgUvQ6Uc7y2mw8qpWekKwmzI/rOJISzUp3fL23/0yNCE0nZkMWQiSH3n+/6dhgFk8wZtQ/R34iC/nde6bBrsVGAzTpgbo4pZFygfX4SjWBn5mSjylwzIUkLTgXA4KlOMWfA9Ib9uA9WbugwDP9FLjiFAoAi0rANUEnZur06ZIhCyjuqpzpUums4FDpdB4Lle7PzikTkD7P2M82ZWl0VNk7FMGKNpkGbjdHOCLQtADLqefYFSBahilxQVMhqlfAyn7Nrrvqe0zXhJyQuj7cEXg1k8RFPn4dC6KDpcmIDjGggpClm9KHq4JxoyXSvZAwmPt7+t6VMB2fc0edeVvEuLxHai7CHCc8i+VFLhDk6/wzoIroYr/gx7NqFLd5TC3sxq2u4kxxcDB3JhLNdEA58gh8llsoBajRgDlEOFivMT4H22JBpnyB0blmB/C1ntJLi0VI3pGq1//DVBBLCrhw5lXiw3jha0ZGprvpk6q5P9KGMEycM1BrJHjeEUnRwSAqD+ynQxWX4OAzg9A4qFfktBNd8A/lHhRsKcHUX+npmJdCwolFyIg9j5REHx6e5vqxu6EANE0gq1GPeuQ5Wbgcp/wXPb8ZxbakmhR/wDEmGvzr8i88oECIi7XUnnpcZ3LB+bOtWuiK0E0v79b5p2kkS2aQE6uwaAvTsiejyAzgyZNHY2gbdNFmKWbcfGSsl+GR8vmAdd5IPEqUMQtNLJhPHS+81pdihwKfoMQGpTPMvATCF4yRZwSFlKbSSuZJGGgjkqJpVZPmQLJ/FfpbnwByvFG4iuPXE5AK8b/7ib4XkYEsF2damvmR3fsb4+sjUmZerYvX5IEB5h/kfXAWasciP5STH7gMsWwzdnKUCiZGjATk2rz0lgYOStUqPjYxQtFfgxKshZ+RG9Fr/jNKtTCDgoQI46IQ5D2lI7cJYlhI2nTZ/6E1Zfg=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2376,
+    "candidatesTokenCount": 19,
+    "totalTokenCount": 2901,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1287
+      }
+    ],
+    "thoughtsTokenCount": 506,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "yQS9avmUGrncg8UP9Njo6AM"
+}

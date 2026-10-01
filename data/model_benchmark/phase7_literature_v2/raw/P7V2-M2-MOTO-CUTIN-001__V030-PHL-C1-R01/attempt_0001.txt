@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as the road ahead is clear and no immediate conflict exists.",
+            "thoughtSignature": "EmAKXgFpFH0TfQFiC8YdrZAnR5lsdv2ibTHyufqeecAI0pEpHOva/f1fMhjHw3Qn2WrKUoQbuzWpxZkDH3j9sDLuVJyvJaxGiB5kdLpjEvs67HdVKDl9YmZoE/Y0WD/3OCk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 2032,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ZXm8aur8M4rFg8UP_pCI0QM"
+}

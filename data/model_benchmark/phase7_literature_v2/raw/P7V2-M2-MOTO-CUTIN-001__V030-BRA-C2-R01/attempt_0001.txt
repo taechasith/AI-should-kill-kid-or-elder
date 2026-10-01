@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-BRA-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as no immediate conflict requires intervention.",
+            "thoughtSignature": "EmAKXgFpFH0TDrPTfllr1lAtOiIzQZ39+vaP7ojjuTDDyb4/S+TXqLGqV2qZfRJ1YLLVhUcrcAF/VyO89lYMt93Nv3Cric7Ky3hYGq43hro1xdwaTmJnGhvyXnLKIQTla2Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2417,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "VkC8apL4Ndrdg8UPrJvP-Ag"
+}

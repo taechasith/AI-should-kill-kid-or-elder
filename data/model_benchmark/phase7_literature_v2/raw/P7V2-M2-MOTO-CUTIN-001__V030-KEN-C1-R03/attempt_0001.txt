@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed and lane position as the road ahead is clear and the other actor is in another lane.",
+            "thoughtSignature": "EmAKXgFpFH0TExkd/x22A/d9Kd9sHdxBuoEkWE0OrSgGoV7pwS/8ez7B72eaXp6plrd9jy3aCp+JFANUTJqhFD3MOuzqcDDu/+6ZxM+b1sZsxkTT8J9VWtRk3y/0E9/GOHE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 2044,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RmK8aoKeAqDB0-kP0em2sQ0"
+}

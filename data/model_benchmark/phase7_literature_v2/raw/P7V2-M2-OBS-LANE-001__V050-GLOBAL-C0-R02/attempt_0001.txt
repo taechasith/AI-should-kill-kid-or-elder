@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Emergency braking is required to avoid colliding with the obstacle vehicle ahead in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0Tx532fw891gBMegj6ejEM3W+H5GJiA45EzIdZgWzgPy9+X06mtzsbHad77jiGXBsDUJpGuJlW40riHJyndG7I/UfwxzjcQVuNCBD4qSQqODdWZRVyWo5c3Sc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1990,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2048,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 901
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "MP-8asqvDMiug8UPr9a_sAk"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as the ego vehicle and lead motorcycle maintain safe separation in their respective lanes.",
+            "thoughtSignature": "EmAKXgFpFH0TwkotMEc4jXcrSvwOws/WpfT2IXL8jqfYuMso5twdxS9pW00zZ7tTWURHWwX6++h3T7PgU9vuMOrNt3S4LgvqXq2TyBs8YL7rheoGp4lClpf8NBftabxrVig="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 2040,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "nEG8aue9BNGHg8UP7I2K-A8"
+}

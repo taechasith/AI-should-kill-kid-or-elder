@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-KOR-001\nUNCERTAINTY=NONE\nRATIONALE=Maintaining speed is feasible and safe as the motorcycle is ahead and no collision occurs in feasible trajectories.",
+            "thoughtSignature": "EmAKXgFpFH0TqSg9yV1USKVmuqFQ1BK8OBx7TLrWaBTnFvl9UioACmi98fzJn4OdUgqc6JNuNwYSbW1GxUQ4Pow1k4DsX3yt6Y0tQav149qHDwBFun/EjmR191V+G/XKhnY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 3411,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WWm8aruwDL7Qg8UP-4rNmQQ"
+}

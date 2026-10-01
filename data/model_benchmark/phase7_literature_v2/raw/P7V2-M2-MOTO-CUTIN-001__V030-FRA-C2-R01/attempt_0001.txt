@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking maintains safe control while an obstacle is ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T8QEH7F3vwVbgZA6CbYjQQytlJQzDl2HNqpC2yRNQx1zDSsLfgILhFPrfjY+Ifn/8qDQ4tXmNKwYkeatCdjdpkRGX1dlUAIchwEP497Jzmw74R35lvY0GXXY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 2410,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "rk68arn2C9usjuMPyN6J-As"
+}

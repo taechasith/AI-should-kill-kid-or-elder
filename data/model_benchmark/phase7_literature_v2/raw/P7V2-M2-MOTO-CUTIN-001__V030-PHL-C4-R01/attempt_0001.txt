@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as safe distance and TTC are sufficient relative to the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TCAwNGMqsCqaDmm3nQJ9h0uV1kcgcR7Ggah3E7wImFPNd+Lx6wFNssB2ex5a2DPIq9gJn/1pUlxk+jcn3tk48UUgi7ha8zzTNuKUkV4H2Daclk8slI0DKGPE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 3403,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "v3y8at7TBKjdg8UP4tzRmAs"
+}

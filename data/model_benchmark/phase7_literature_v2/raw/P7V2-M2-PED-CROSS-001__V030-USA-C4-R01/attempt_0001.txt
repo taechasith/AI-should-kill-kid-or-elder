@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,PEDESTRIAN_CONFLICT\nLEGAL_EVIDENCE=P5E-USA-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking avoids collision with the pedestrian while maintaining vehicle stability and stopping safely.",
+            "thoughtSignature": "EmAKXgFpFH0TROxVSCZSszae5baHmk0Ye3U0ow7LZeoxqjTVV+2HlBI60FDKRepKHXae5fyoOv7MVn8FUgYGf5lS/LWlH6yKVfw6kMpH2LnlLCcdxTjZ5YRuKQTMSxb7ahA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3315,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 3380,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2226
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "qAC9ar7IKZPbg8UPn6Xz-QU"
+}

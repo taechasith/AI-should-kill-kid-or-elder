@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as the motorcycle ahead maintains a safe distance and trajectory without immediate conflict.",
+            "thoughtSignature": "EmAKXgFpFH0TpFXKpmFofsHSSaLD5GXS3BzNgJ5iNrRsk6OHuWP4zyjMLRaVbU0qlJVjQdUcHxXjfCHOuYJsYCJLW8MMBVNfH8NdDcDUR07yjuTzeUeBIo3dXufNOeVUXow="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 3398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "qXe8avmVE6-GjuMP67qU2QM"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-CAN-001\nUNCERTAINTY=INSUFFICIENT_LEGAL_EVIDENCE\nRATIONALE=Moderate braking safely manages the conflict with the motorcycle ahead while avoiding collision.",
+            "thoughtSignature": "EmAKXgFpFH0TBy7Q25ytjAngnakG+Vk1ugNXprIc29fxEVxim+rycNsdsAdYBZKzExdhKRHxA1ydoBoezU80/N967g4LpZbrjLpHo9T9tQbw9MJQwn4110zYQZ/K4WRCgAo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 3407,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "tkK8avSJJci3qfkPzZen-Q0"
+}

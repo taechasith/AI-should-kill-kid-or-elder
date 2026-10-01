@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,OBSTACLE_CLEARANCE,VEHICLE_STABILITY\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is appropriate to maintain safe distance and speed control relative to the lead vehicle.",
+            "thoughtSignature": "EmAKXgFpFH0TFyJko2dYPweMirW5NVGmeSkCLqRh7kM23pxwXsLCc+NFpQ7IQhWAqzsCT/Z0NjbEqIq/HTwjV/zVu9/E2N8PuXIX5EUTqplv1nHTvsAQaizXHBqr5sn2wu8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2049,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0km8arerKpD1g8UPyZyV8AU"
+}

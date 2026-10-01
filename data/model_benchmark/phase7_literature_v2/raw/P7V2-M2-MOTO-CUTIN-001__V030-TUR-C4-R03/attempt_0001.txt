@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=MOTORCYCLE_CONFLICT,EGO_SPEED\nLEGAL_EVIDENCE=P5E-TUR-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the motorcycle ahead is maintaining safe distance and no collision threat exists.",
+            "thoughtSignature": "EmAKXgFpFH0TdrTvUVcULcLjG2tnbVdgoC3LtRAx6U4G3QpO7A55Zqdw9qhd2hfVwmeeQplu7ZaJmgE39jwyHGXm7dE/YYZzRUqnYZyaNo6tNVy7pFWjxrg9OP/+EPXWltE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 3398,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "c5S8av2UN_7cg8UP3Za3uAI"
+}

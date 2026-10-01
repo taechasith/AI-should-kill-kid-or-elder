@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=P5E-KEN-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as the lead vehicle/actor is sufficiently ahead in the adjacent lane space.",
+            "thoughtSignature": "EmAKXgFpFH0T3G2t3vs/Is28XsI8pEFC6pJlPEDBAJhBSYYDN433e3UePNsRjVXfAIDb/in3t9lOLkTbM5gFiUOuq1p0phy2kGbD/7p6zmegmB+l9lXcoGDU0p40j7hjPKs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 2427,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "xGK8atz0FO_dg8UPhf_QiQ8"
+}

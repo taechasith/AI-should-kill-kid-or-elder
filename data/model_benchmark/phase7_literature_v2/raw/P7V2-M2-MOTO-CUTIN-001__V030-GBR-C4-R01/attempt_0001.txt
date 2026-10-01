@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,EGO_SPEED\nLEGAL_EVIDENCE=P5E-GBR-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to ensure safe separation from the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TGg56SEWLQUtq3wOd7wCvqmXcRWqBcpsFGX5FTgcjPwvoKW6aflRoYM+VQOuOxvoW977+LMzuEpO6Ldwq9Inf6e+NjhMtnhvJdTlhE5B0W+3KKJwtNY9wzSc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 3409,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pVO8avugKNzeg8UPt4rF2Q4"
+}

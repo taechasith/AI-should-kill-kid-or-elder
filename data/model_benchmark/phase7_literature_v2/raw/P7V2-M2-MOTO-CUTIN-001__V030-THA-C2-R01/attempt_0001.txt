@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-THA-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking allows safe response to the conflicting actor ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TQ4wvtpal/9SWwkbOi3jGyjGg9VF6YrXDN3sftCrkjik3c2fGvA2BFB3MIMO8tgmKeCtF+MdCn4KMz/2zCPgOfjCYWGWx6A3IZ0Esct+JevualtUgYi5TgnI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2423,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "k4u8atehCICtg8UPirKKqAk"
+}

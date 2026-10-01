@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as the road is clear ahead and no immediate hazards require intervention.",
+            "thoughtSignature": "EmAKXgFpFH0TIIZ38AP0TW6zCcowjdqD2NSoT3JNlU9/yetWzcUlE7ndyMLCHZWn6B8FYYqVp+9lzHSv+tv5ydnkTN4ZZ8qoUZ7wgGv4jzPLVdRY/EjeuLg23oGrjTwRHQk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 2033,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "wG-8aoekIP2kg8UPv5Xt6Ak"
+}

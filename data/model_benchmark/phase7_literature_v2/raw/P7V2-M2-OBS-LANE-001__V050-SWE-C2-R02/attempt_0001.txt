@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-SWE-001\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle is approaching a stationary lead vehicle at high speed, requiring emergency braking to avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0TzIJ7a57MC75OUdQObWi3BgUHJ/Xrh3iVkc2xHiaS3fsRxhx+0H0igDBXaeTqDWPTSOxy8c4NnXI0aZxc/xeklHYd7bAjkuf/HA1hL32jJ4D7eBAsd3HBD88="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2376,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 2445,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1287
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "j_-8asOOLfvcg8UP3b6H0AM"
+}

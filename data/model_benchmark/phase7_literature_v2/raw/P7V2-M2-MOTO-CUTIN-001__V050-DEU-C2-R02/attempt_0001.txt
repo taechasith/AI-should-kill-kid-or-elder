@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,BRAKING_DISTANCE\nLEGAL_EVIDENCE=P5E-DEU-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to handle the motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TmFLpYLFSqatPnqCdUocX53XvXN7AEF6AGv9S6npaEI3/bDwqZhwH09gEdvBcAICV1poiE/Y5niZPXMajaGxJU1qQD5MzHWPtUf+LMUfmN11OkdwQQcMCP8Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 2433,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "nP68ariiBc_Cg8UPg5H1-Ao"
+}

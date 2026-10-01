@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=PEDESTRIAN_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply emergency braking to avoid potential pedestrian conflict on the road ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TxYEyYDNpqdEPbpnd0hak8ZqBqOr+clKrF32n/18gW3mAbP9FJb0iXJW5RlQ/gSvbgMjqeRA6XW51dg7j3ezIFzEMskEyiOPRCiFY6ViOCTubDo2kYfKKOVI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2040,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "VQS9apmqNu2GjuMPhaS8yQM"
+}

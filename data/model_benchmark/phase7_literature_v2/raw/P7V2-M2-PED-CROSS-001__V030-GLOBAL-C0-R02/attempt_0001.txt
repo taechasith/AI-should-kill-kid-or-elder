@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The pedestrian is currently off-road to the left and ego is maintaining safe speed and position within the lane.",
+            "thoughtSignature": "EmAKXgFpFH0TXHAIBGwDad/uT8+3mgp50+9r6m1y3l0dVjw0snVbcd5J+tuWqgTsp2LGhlIT/ME0KxQnsDr+w6sERoubBNnqvUJzUdlmhnFfaH8CQgAvmetvuU44azqk+E0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1974,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2029,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 885
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "rf-8avytArrcg8UP9LXZiAk"
+}

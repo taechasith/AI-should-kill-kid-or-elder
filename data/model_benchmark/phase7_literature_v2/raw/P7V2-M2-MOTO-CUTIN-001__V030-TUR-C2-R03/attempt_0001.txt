@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-TUR-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to manage speed and handle the motorcycle conflict ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TFHTYiGqjq5ziAOD0ajQTHAdDZqOBsc/9KfqStZ78YlkNYaI8mgtRphhceu2FZpwmH/Aid6xjDOqHx1+qQy288WRb61jey0eCuv5LIW/ztjLHf/ISz2vwXo4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 2418,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "k5K8aq-yIrO1g8UPiYOtoAg"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-KOR-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as the lead actor is maintaining separation within the lane.",
+            "thoughtSignature": "EmAKXgFpFH0TXa+UHxS/ViHlmVFpKJBz1QoM8i8PqJ+zL/JavnCX8LqZMnDnlL+Vs8AIgstEXgFWDXLrLt+GschHoj26BU1RcFy1bx26730Sxo5AFi2SZbBR7KG1XC2zi6k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 2427,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "zGe8aqGvNfXnqfkPt4376Ao"
+}

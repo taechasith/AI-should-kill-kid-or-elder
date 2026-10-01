@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-COL-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as no immediate emergency or legal rule requires braking.",
+            "thoughtSignature": "EmAKXgFpFH0Td/7g9T/PngfGHR4PWKiS6H/ScAzonfyrFiU+weSFB9/JBUystMydYIIVf4EBf59EQbk7iaphUxPdAmyhyJtxKb8IUvwLTVIT/gLpzTJFZ3sNLhbJgA0L9CQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2417,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Wki8asuTEcv2juMPj_OnoAY"
+}

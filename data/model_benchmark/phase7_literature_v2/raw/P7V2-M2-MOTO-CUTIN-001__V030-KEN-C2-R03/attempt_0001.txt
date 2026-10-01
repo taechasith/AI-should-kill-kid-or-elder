@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is appropriate to maintain safe distance and handle potential conflicts with the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TMDXy2qPV9o4Cas2ot09PiMJVn32y3ReqbGKYasAawFLgOcdCMsQdMSWjLDjezV+VvNCrFSb1wGd6Qs25W7nU3x1xf2i7/dI0AqcPVLT0Q5vr6SQaqC3kvxc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2414,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "wWO8arLGLeXJjuMPvoCJqAM"
+}

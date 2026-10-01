@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is required to maintain safe distance from the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TzOR9Ud0GUJAYtSz+jDOjUF4EqK2i+6xEh7EOeuoC1g4yl6b/qC2/WTl+lo/Rf5bXgk1z5MgAt3UoBep16OXP/uOpTeByzvfaS6OOdVjvUvrwQg1zHbQxuOo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2417,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "PVq8at_LL6Ovg8UP_IPVIA"
+}

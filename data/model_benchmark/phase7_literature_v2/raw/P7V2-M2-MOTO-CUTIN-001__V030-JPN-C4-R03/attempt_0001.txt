@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=MOTORCYCLE_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=P5E-JPN-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as the motorcycle maintains adequate distance ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TqjEPm6XFnZlPJFZ22PgGqsdor52KlMV4NjxWXsy092NuXpx3coVdcDCDs95vMOnWD2AVSONNuTRGdNz2EXgwh3mIU816spM8ZSRjLfN2CWgtZ6HIjWqC5H4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 3395,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0GC8auiOMaPt1e8PlprtaA"
+}

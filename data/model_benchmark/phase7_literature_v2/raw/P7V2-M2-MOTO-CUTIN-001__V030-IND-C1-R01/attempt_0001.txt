@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking to adjust speed relative to the motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0Tt7o32wawF8vK9xCqPnNlZe/L7WSg1H7Q+SnEnRkGM7CN6ZFN5iT4obCnDA6fj7rVxpuLzMOjgsrlFb/K1DUybRtP4D0LEy8bGhuyYiODnQYxPfjzPJWnbU0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 2037,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4li8aoPLM4Otg8UPy5nvuQc"
+}

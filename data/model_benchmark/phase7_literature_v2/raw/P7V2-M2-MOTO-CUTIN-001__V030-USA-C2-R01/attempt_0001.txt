@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A6\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Brake to avoid collision with the conflicting actor ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T2MD24D+4pDbnTRaZf2CFG5ALFAelYosUfUbnjVr+1ZRBxNBLw5WhcU453fxXRIgizerLktqnH/bThE4WPSz6oUQcvWsGG9uTdS0kQcOc184kkWiHYwuYiMM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2417,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "CZe8aq-SHNKrg8UP8av00QU"
+}

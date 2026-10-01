@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle maintains its speed and lane as the road is clear ahead and no immediate conflict requires altering control.",
+            "thoughtSignature": "EmAKXgFpFH0T3+TnLMSb+nfEy0zx6ql9d/Px9yReB7L+apPvaAZq4DQmaS7d00yGrak0vP+msmmYVf2ietlpa39xjSDN9bSKuVflfMwB72b7pthUlHnnvkLX5NiEOpla0UI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2040,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kUq8aoqtGfPcg8UP_LGVsQE"
+}

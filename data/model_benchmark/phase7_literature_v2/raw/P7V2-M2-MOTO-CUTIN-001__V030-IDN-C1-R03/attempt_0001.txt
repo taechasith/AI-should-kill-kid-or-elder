@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle approaches a motorcycle ahead in the same lane, requiring moderate deceleration to maintain safe distance.",
+            "thoughtSignature": "EmAKXgFpFH0TONlV08gD/T+p5fd7MNV2sq4QDPVdf4uGZndus2XiFa3IE2PqCpak7ncjZAKKThacC8A11P4r03VFSdvO248v3d+aMRJ4QxKaK2EcBvAUXBgvT2bee5/kNtw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 2050,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "zVW8atLsHuayjuMPsJiJgAs"
+}

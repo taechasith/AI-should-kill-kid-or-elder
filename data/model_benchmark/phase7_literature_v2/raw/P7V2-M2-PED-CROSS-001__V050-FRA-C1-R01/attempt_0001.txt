@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=PEDESTRIAN_CONFLICT,COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=Pedestrian on the left is approaching the roadway.\nRATIONALE=Apply emergency braking to mitigate potential pedestrian conflict ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T59LBlXas4Saw/wXWbFUvHZ/CqJOBcm14daMfHNF96LHmpXQZ6QfZqv6kBspu7JSWGwXzmfFlvXoaYKYJK3vxTLrTFKKqIHH7pII2zuShZjxIEAjlqgQj7Yw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 2051,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "2AC9auypIP-qg8UPloq3gAY"
+}

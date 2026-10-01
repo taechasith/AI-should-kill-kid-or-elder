@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-AUS-001\nUNCERTAINTY=INSUFFICIENT_LEGAL_EVIDENCE\nRATIONALE=Maintain speed as the motorcycle ahead is at a safe distance and trajectory is feasible.",
+            "thoughtSignature": "EmAKXgFpFH0TByVqVAR8YjaWhZRvVUbHQ1jwhk3oPtZJKNRXxwJM0C0oypj86zDQC5miKN8EaCNF8tIDzThFPa9S3G2GPHIvGAL2aQ6+V8I/zS3j75BFF5A7aqEiUiX9qUg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 3414,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bD-8avyBIeayjuMPwJmJgAs"
+}

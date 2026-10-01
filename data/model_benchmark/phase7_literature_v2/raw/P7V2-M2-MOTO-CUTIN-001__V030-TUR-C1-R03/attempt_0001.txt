@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the ego vehicle is in its own lane and continuing straight safely.",
+            "thoughtSignature": "EmAKXgFpFH0ToqkVFsnBbB0soY+ylwH7+c1+aGncUNxLyItH5AYpmt58aBAOvs+owxIkVpjyzEjvLJcMm8IhXlid3/UrnJiGKyNfj745/jMvMLZNiPSkA5SDqxFYQ29Z1qc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 49,
+    "totalTokenCount": 2033,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "mZC8aqLaH__Eg8UPnYuFoQg"
+}

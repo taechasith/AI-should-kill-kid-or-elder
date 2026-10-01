@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as the motorcycle ahead is distant and moving safely in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0TCCSAXpbgWLNqeIyvwleAcNtEKtFrA7nhaKaL15s/59ppzNCkObiLR5Vkg1vClJSDecScYTlm8wVV07XtVYmPOrEx0lOV+JkLaIJu3V2tvtEmNc0G90Stxo8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 3390,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cUm8aoKbJvD6juMPtLa16A4"
+}

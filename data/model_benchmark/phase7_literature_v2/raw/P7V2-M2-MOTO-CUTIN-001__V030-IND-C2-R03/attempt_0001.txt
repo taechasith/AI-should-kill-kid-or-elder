@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-IND-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is appropriate to safely manage closing speed and potential conflict with the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TIbs+2KVnQ9i/9qW0J652S7QSUhte6eht2tD+QS22RhqHwka0LPg3DEARwxnWL1TBH8Yd4hbrOp47ELwuYA6rTFqaXpHiQxuRYFMY9V33WMu+HRxm4PLDdxo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 2422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KFu8av7gK9usjuMPyN6J-As"
+}

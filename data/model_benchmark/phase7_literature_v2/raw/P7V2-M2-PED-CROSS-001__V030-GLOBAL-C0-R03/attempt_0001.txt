@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle can maintain its current trajectory as there are no immediate conflicts or obstacles requiring a change in speed or steering.",
+            "thoughtSignature": "EmAKXgFpFH0TfXpM/BCQuX3SZ+NHKE4gSJPSrSYCHLhDlHTKU2xO1fTPzEkJzMnzF8zU27zuCJnKF/8ZZ07hYagiqsHWiiS7oR77F5lu3WYvG13enu84eI7RalUBSmwO4V8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1974,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 2028,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 885
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "5f-8atO9KfDEg8UPoLWj0AM"
+}

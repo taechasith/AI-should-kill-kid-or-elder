@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-JPN-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is required to maintain safe clearance from the leading motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TZnRGy2MVfW6KnIxtIcKIGirsQ8LEeyZCJGJs3bkTi/vI8bXbweEEeBgwm0PLOBo6N+4kR2FZPLZATWx6mtAV2u2xnfUg3FxGUuFmHWf2CWClgM+yChn5h4k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 2430,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "a168aszHIfaiqfkP6MHh4AU"
+}

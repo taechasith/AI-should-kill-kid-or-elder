@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=PEDESTRIAN_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=P5E-BRA-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking avoids collision with the pedestrian crossing ahead while maintaining stability.",
+            "thoughtSignature": "EmAKXgFpFH0TCVY4h0UrUEt6dFm5Yq0iwEC/06XHrPAOg6JZoWMAlmR+7VT2d+2FIfHj2fznav5DWue61OoW3qy2Enk3EjlrEqz8IXeVItgGtOA0ZgJkDGttsqWeBV7WZng="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3315,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 3378,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2226
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NgC9atf0HvSjqfkP4ouZqQU"
+}

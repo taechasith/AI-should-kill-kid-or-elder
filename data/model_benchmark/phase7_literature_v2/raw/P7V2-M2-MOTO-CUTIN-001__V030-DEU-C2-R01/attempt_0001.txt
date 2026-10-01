@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-DEU-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is required to safely manage the conflict with the detected motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TSh6vdFLeYxt+8WmAHT0F1W4J0zCe5NIkvJaaCKMxiWgX6mfaTxO7smPh4zyl0+RXgd7ezcwFbmT3b0vqXmttJYwugoV2I5vB1daSBjCuGBlejSi15UXqo8E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 2435,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8Eq8arzLJpyog8UPpdahsQo"
+}

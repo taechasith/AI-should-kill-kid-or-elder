@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-THA-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as safe distance and time-to-collision remain adequate with no collision or obstacle violation.",
+            "thoughtSignature": "EmAKXgFpFH0TeKREaMOuuY2s/OAdM1dCUPoorS4KU4JSq60XDPmtgYTE3JebaWR4owAdLXx1gtybLVbXJaKhWngkuMT8KlwHoHPZETsXvY+Nqqxt34F+SEWLlh1KynBbN/M="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 3404,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "vo68arX-O7rDg8UP3MDMmAg"
+}

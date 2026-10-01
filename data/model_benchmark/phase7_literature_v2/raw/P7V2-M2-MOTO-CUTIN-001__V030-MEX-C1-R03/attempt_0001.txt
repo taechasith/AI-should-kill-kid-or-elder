@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as path ahead is clear and no immediate conflict requires braking.",
+            "thoughtSignature": "EmAKXgFpFH0TgLlBcHFILdGlFEt8LVJSUqn1NZnYGO2KdM6MHxldTsdGVn96scokAgzRRQRARwc2Jcwioslyn9CgRwd6IZ12lxCfqdtwRuueJfc+QpvhYh/h4n9TOhPBGIo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 44,
+    "totalTokenCount": 2028,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bmu8asvMM6jdg8UP4tzRmAs"
+}

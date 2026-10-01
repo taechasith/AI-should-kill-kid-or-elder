@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle is approaching a stationary vehicle ahead in its lane and must apply emergency braking to avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0T17sS8I/EVCsKSMjMs0CumNou1fILH4UhnLEdgU+TBWjS6AML0fTyTpnObHbUOa//aGdKdxX0YfESWTrIhmppdFsHwqyuNlPidlbY9AHJN+diYXTWiXQImUw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1990,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 2059,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 901
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "C_-8apCEGPf1g8UPmNuKgA8"
+}

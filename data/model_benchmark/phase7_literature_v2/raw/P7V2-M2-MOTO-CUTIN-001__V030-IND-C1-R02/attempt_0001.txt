@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as the road is clear ahead and the other vehicle is in another lane.",
+            "thoughtSignature": "EmAKXgFpFH0Tmjn1iog0+8Jvhr89VzncaIlLXNuq+j6SqG+R7/7/RQ6lYvYdXuT5aNrzW88I1yhxVAv6EAZPsgXNO5LAGMQ+JCbBQsYzVWxPd4PkjaRBV+nhSnO9zWIG4so="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 2037,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "VVm8aofNCdGHg8UP7I2K-A8"
+}

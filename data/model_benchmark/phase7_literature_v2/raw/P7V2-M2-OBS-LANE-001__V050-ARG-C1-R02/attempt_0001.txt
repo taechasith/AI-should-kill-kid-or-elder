@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to maintain safe distance and avoid the leading vehicle ahead in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0T7qkst+1xdwqtLiwYevm5oqXT4TpAl7aynzJyZVoBttO/E6hLuyHs4b1sQX/qXN4T3skTN6+A87SuyVrr62FMI4Q7xyUEoe+Bv8kIla1zk6L9qV90zKs3CFI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2001,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2065,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 912
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UP-8auLLNqjdg8UP4tzRmAs"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=INSUFFICIENT_LEGAL_EVIDENCE,OPERATIONAL_UNCERTAINTY\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=Legal predicates are insufficiently specified.\nRATIONALE=Maintain current trajectory since no immediate collision risk or legal mandate forces intervention.",
+            "thoughtSignature": "EmAKXgFpFH0TziCo+DUyx2E8IAuw4o/LfomCU9UEnjZrQJsIRB6VeX3bJ3DrtqBYx8EkJuvMNnIKIe3w17U7eykpiZhrLtRwCDVcaZS3BeZ6+jKFW24cie+H2Po9uwDzRCE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 2426,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gU-8apPQJKDSg8UPtMq_6As"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-DEU-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as there is sufficient distance and no immediate collision threat.",
+            "thoughtSignature": "EmAKXgFpFH0T5MqPj7DlL/v96cXfBJTdoWE6vFzR1KDlpN5S5NCvjlPcS13YvQ+zWOz45pELd0xLGAyaQFqi/rO90GZYFWUst4Ko60eSKiIyuMP1bB6Rsuz/ZEH3K8Bx9w4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 3408,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "C028ao_QMM3yg8UPvci0uAM"
+}

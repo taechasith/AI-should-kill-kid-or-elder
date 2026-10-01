@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=P5E-GBR-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to respond to the conflicting motorcycle ahead while maintaining a safe and feasible trajectory.",
+            "thoughtSignature": "EmAKXgFpFH0TNaR3Z9a7agK+KWFikGTt147VZr0lZe3IJMsEkOpQti0nGaUZ6XyTfTn3wuiz2FmtXo6DADG1HqXtaUoEBVRkllT6QaWp5XZ8HFTnkHGMit+r9NBs7qaneu8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 3410,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "FVS8auSOG-ayjuMPwJmJgAs"
+}

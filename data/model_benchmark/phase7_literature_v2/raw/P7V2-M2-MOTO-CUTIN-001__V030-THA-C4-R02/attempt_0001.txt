@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A6\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=P5E-THA-001\nUNCERTAINTY=NONE\nRATIONALE=Executing a minimum risk stop ensures safe clearance from the conflicting motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T2m1vzrnqYduNJT0l93wF96tYqzl28vKIeSD1UO5wppzZQtIf/qR78cXDj4uQ+70yP7ZON5JLJbrXAM4cavMIHIqpUW2paW6YR8HDrT9o94J3dkOKpVhK7VM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 3405,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Io68apuEJvDEg8UPoLWj0AM"
+}

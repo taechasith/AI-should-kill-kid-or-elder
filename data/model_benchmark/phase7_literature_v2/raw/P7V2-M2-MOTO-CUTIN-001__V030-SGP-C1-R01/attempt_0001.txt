@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT,OPERATIONAL_UNCERTAINTY\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=The motorcycle's future trajectory and intention are not supplied.\nRATIONALE=Apply moderate braking to manage potential interaction with the nearby motorcycle ahead in the adjacent lane.",
+            "thoughtSignature": "EmAKXgFpFH0T5ZW+AGCjI8CN2537lQWMVMvBQWPgXDxyzHz76Fx11SIhjl7CW4lr+2yRFGLt9d05hh+rVFDps0MtfT5SQ3wgfsfx1jz5Ane17WChZcGiBS3EnDGfdPMvJ0o="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 75,
+    "totalTokenCount": 2060,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lX68apaxGrrcg8UP9LXZiAk"
+}

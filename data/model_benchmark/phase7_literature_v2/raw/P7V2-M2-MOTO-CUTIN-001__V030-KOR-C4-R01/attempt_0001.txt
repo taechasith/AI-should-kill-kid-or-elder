@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-KOR-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to maintain safe distance from the nearby motorcycle conflict.",
+            "thoughtSignature": "EmAKXgFpFH0TNzzUwKxYLS56/OtYcBq7bHshYzd3BzZ9pUZot8VI+gNUFzT//wRN2BIgi4q2tVNgKOXVE1BwhkuxhxHsV93wqO5L9vJkFDqs3FrODSgtuSTBl5kUhhU7qGg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 3405,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "1Wi8av7oC6Dag8UP-bOvyQg"
+}

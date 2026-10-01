@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-COL-001\nUNCERTAINTY=INSUFFICIENT_LEGAL_EVIDENCE\nRATIONALE=Moderate braking allows safe speed management in response to the motorcycle conflict.",
+            "thoughtSignature": "EmAKXgFpFH0T3ifzJ6SXmDLSZjDBBGVMYO1V1ZIXR1kOiII9E0GjDvh8XhPeqcfYFQaOB+E8o52/bRWMr5tWQRR8nRYjpv8PEphlys4Nl4F+PSk2j0cxqiu0+uSse3C9OJI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 3404,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "t0i8avkQkdiO4w-n2KaABQ"
+}

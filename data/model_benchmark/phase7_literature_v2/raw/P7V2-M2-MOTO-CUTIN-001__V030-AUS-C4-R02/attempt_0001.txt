@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-AUS-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking allows safe deceleration and maintains comfortable distance from the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TsnkyYWmVCb7FD7om2CVbZw/24X8jfknPWI1DMAgYv80CrNFladU+fAXStf//mIAFpDD4+rZk9e3rovIOT3DG93YBLuhgSTHKIrJS15ANTsOMBDzowJpbmIg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 3398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kT-8arCVF5ORjuMPrKHO6As"
+}

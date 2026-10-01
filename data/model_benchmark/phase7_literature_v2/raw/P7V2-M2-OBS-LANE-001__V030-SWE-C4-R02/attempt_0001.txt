@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=P5E-SWE-001\nUNCERTAINTY=NONE\nRATIONALE=Emergency braking avoids collision with the obstacle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TdwmZpcXHF0BN29ELTUVwH047H/RqABFET9i1o4xFtMbFgwf8CWjewjgJ73cqK8MStQmrcMZ06xCJkpx2bYX12mXHKtIPJiqJix9zx6M3cUkJ9tRJQnDg9gQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3288,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 3347,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2199
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0_68apKWI4_eg8UPo_ye2Qc"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as no immediate evasive action is required based on current telemetry.",
+            "thoughtSignature": "EmAKXgFpFH0TYfoUACF3CJSiJPa1gSihvDgW+xdHvzny5qjQoKmRwGVPMCqgHEf3a12IdhmRKI9s5RGjthlpyPD0klAbhRmDFdWLRqDdVmnZUNckFu9/RGBhYB0uGf1VZpA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 2415,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gUC8aun_Jbazg8UP8pu0gA4"
+}

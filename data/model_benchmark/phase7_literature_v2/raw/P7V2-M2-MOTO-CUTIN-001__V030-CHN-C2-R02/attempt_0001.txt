@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as no immediate action is required.",
+            "thoughtSignature": "EmAKXgFpFH0TZU5PVp9ChIooXtxtGcq1mFVkapJMGe8KPQC4E+Ro01RQcjsDAUXXlYmdrl/zOcOxuLMM+q7c8jfWMxD6co6slJlq7sdzG7MWFlqXjWggZEhFs+MujAsppFI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 40,
+    "totalTokenCount": 2399,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0ES8arSeNvLVqfkP9InB0AE"
+}

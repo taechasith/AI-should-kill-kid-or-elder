@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,EGO_SPEED\nLEGAL_EVIDENCE=P5E-COL-001\nUNCERTAINTY=Legal predicates are insufficient to determine precise right-of-way.\nRATIONALE=Apply moderate braking to manage the potential motorcycle conflict ahead.",
+            "thoughtSignature": "EmAKXgFpFH0Tgp8h6KdKx3t3Hpj2jRolh5hkPCPKcmi0zDJVyzZbNs3Au/U4DPdYd63EaVQfoYmyC6CPSwvp/qD+3cfn75m3+WTKqXxLgJzs6JbRlsFsf373kisdHvBGBGs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 2428,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-Ue8aoHkK7uog8UP8NWdoQo"
+}

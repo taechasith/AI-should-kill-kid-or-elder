@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to maintain safe distance and handle potential conflict with the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T4aQ68choDgNh8g41aX1rPo2E/6wlXYAgmMWpDu2q+xArb4so7jpI2xwqJ7EzPMJDF3mYFoIyJVCWxPPiex+22aw1Xbz2/UEuy/hG9tjDC4Liy821Gc9dfc4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 2039,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Mkq8apyoFPSiqfkP-uzI6QI"
+}
