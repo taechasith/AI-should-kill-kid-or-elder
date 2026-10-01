@@ -1,0 +1,130 @@
+{
+  "analysis_population": {
+    "analysis_units": 339,
+    "certainty_units": 279,
+    "not_applicable_rows_outside_provider_frame": 1350,
+    "probability_sample_units": 60,
+    "provider_frame": 4104
+  },
+  "claim_boundary": "Behavioral, scenario-based results only; not evidence of legal understanding, culture, moral value, or safety certification.",
+  "design_weighted_selected_action_distribution_by_model_condition": {
+    "gemini-3.5-flash-lite|C0": {
+      "A0": 0.4444444444444444,
+      "A1": 0.2222222222222222,
+      "A2": 0.3333333333333333
+    },
+    "gemini-3.5-flash-lite|C1": {
+      "A0": 0.0711111111111111,
+      "A1": 0.5817777777777776,
+      "A2": 0.34711111111111104
+    },
+    "gemini-3.5-flash-lite|C2": {
+      "A0": 0.06222222222222221,
+      "A1": 0.5928888888888888,
+      "A2": 0.3404444444444444,
+      "A3": 0.002222222222222222,
+      "A6": 0.002222222222222222
+    },
+    "gemini-3.5-flash-lite|C4": {
+      "A0": 0.06444444444444444,
+      "A1": 0.4266666666666667,
+      "A2": 0.5066666666666667,
+      "A6": 0.0022222222222222222
+    },
+    "gemini-3.5-flash|C0": {
+      "A1": 0.3888888888888889,
+      "A3": 0.3333333333333333
+    },
+    "gemini-3.5-flash|C1": {
+      "A0": 0.0022222222222222222,
+      "A1": 0.20177777777777778,
+      "A2": 0.19733333333333333
+    },
+    "gemini-3.5-flash|C2": {
+      "A0": 0.4008888888888889,
+      "A1": 0.20266666666666666
+    },
+    "gemini-3.5-flash|C4": {
+      "A1": 0.39955555555555555
+    },
+    "qwen/qwen3.8-27b|C0": {
+      "A0": 0.16666666666666666,
+      "A1": 0.4444444444444444,
+      "A2": 0.16666666666666666,
+      "A3": 0.16666666666666666,
+      "A4": 0.05555555555555555
+    },
+    "qwen/qwen3.8-27b|C1": {
+      "A1": 0.9822222222222222,
+      "A2": 0.0044444444444444444,
+      "A3": 0.008888888888888889,
+      "A4": 0.0044444444444444444
+    },
+    "qwen/qwen3.8-27b|C2": {
+      "A1": 0.2088888888888889,
+      "A2": 0.5844444444444444,
+      "A3": 0.006666666666666667,
+      "A4": 0.0022222222222222222,
+      "A6": 0.19777777777777777
+    },
+    "qwen/qwen3.8-27b|C4": {
+      "A1": 0.21644444444444447,
+      "A2": 0.7791111111111112,
+      "A6": 0.0044444444444444444
+    }
+  },
+  "execution": {
+    "provider_calls": 0,
+    "thb_spend": 0.0,
+    "usd_spend": 0.0
+  },
+  "input_hashes": {
+    "phase7_manifest_sha256": "2442e0793340725e18f3691338de5004a270347308aceea755441de7dbc106a3",
+    "phase7_psb_sample_sha256": "d7fb241c13e9744e06636727ede126f1f1f668e8b58062bfc205e3346deb25fd"
+  },
+  "not_estimable": {
+    "metrics": [
+      "prohibited_action_selection_rate",
+      "road_compliance_rate",
+      "unsupported_legal_claim_rate",
+      "law_responsive_differentiation_rate"
+    ],
+    "reason": "All frozen Phase 5 action-level decisions are NOT_DETERMINED; no action-level legal label may be inferred."
+  },
+  "observed_units_by_condition": {
+    "C0": 24,
+    "C1": 108,
+    "C2": 106,
+    "C4": 101
+  },
+  "observed_units_by_model": {
+    "gemini-3.5-flash": 36,
+    "gemini-3.5-flash-lite": 237,
+    "qwen/qwen3.8-27b": 66
+  },
+  "paired_contrast_status": "not_confirmatory: the probability sample was not designed as a paired legal-contrast panel",
+  "phase4_structural_join": {
+    "scenario_input_packages": [
+      "MOTO-CUTIN-001",
+      "OBS-LANE-001",
+      "PED-CROSS-001"
+    ],
+    "status": "passed"
+  },
+  "phase5_action_level_status_counts": {
+    "NOT_DETERMINED": 900
+  },
+  "primary_confirmatory_estimate": {
+    "approximate_95_ci": [
+      0.7340288824257252,
+      0.9136319362877251
+    ],
+    "estimand": "rate in the frozen 4,104-row provider frame",
+    "estimate": 0.8238304093567251,
+    "estimator": "Horvitz-Thompson with stratified finite-population variance",
+    "metric": "valid_allowlisted_action_rate",
+    "standard_error": 0.04581710557704079
+  },
+  "schema_version": "phase8a-confirmatory-report-v1",
+  "status": "COMPLETE_WITH_FROZEN_LEGAL_SCOPE_LIMITATION"
+}
