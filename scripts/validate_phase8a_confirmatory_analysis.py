@@ -30,6 +30,11 @@ def main() -> None:
         errors.append("legal-scope limitation missing")
     if report.get("phase4_structural_join", {}).get("status") != "passed":
         errors.append("Phase 4 structural join failed")
+    physical = report.get("phase4_selected_action_outcomes", {})
+    if {"collision_free_all_seeds", "trajectory_feasible_all_seeds", "road_boundary_compliant_all_seeds", "minimum_clearance_m_across_seeds"} - set(physical):
+        errors.append("required selected-action physical outcomes missing")
+    if physical.get("missing_selected_action_units", 0) <= 0:
+        errors.append("expected invalid outputs to remain visible in physical join accounting")
     expected_hashes = {"phase7_manifest_sha256": sha256(MANIFEST), "phase7_psb_sample_sha256": sha256(SAMPLE)}
     if report.get("input_hashes") != expected_hashes:
         errors.append("frozen Phase 7 input hashes do not match")

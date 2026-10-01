@@ -24,4 +24,7 @@ python scripts/validate_phase8a_confirmatory_analysis.py
 
 The report retains only defensible outputs: design-weighted valid-action and
 selected-action summaries, structural Phase 4 joins, sampling provenance, and
-the claim boundary. It does not authorize Phase 8B or any new model execution.
+the claim boundary. Physical outcomes are reported only descriptively among
+outputs that parsed to an action; invalid outputs remain explicit and are never
+assigned a physical outcome. It does not authorize Phase 8B or any new model
+execution.

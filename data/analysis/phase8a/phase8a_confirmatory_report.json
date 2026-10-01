@@ -103,7 +103,32 @@
     "qwen/qwen3.8-27b": 66
   },
   "paired_contrast_status": "not_confirmatory: the probability sample was not designed as a paired legal-contrast panel",
+  "phase4_selected_action_outcomes": {
+    "collision_free_all_seeds": {
+      "count": 299,
+      "observed_selected_action_units": 323,
+      "proportion": 0.9256965944272446
+    },
+    "minimum_clearance_m_across_seeds": {
+      "confidence_interval": "not reported for this descriptive conditional summary",
+      "estimand": "mean of the minimum frozen Phase 4 clearance for each observed selected action",
+      "estimate": 8.05854968343117
+    },
+    "missing_selected_action_units": 16,
+    "road_boundary_compliant_all_seeds": {
+      "count": 316,
+      "observed_selected_action_units": 323,
+      "proportion": 0.978328173374613
+    },
+    "scope": "descriptive among observed rows with a parsed selected action; not a population rate because invalid outputs have no selected action to join",
+    "trajectory_feasible_all_seeds": {
+      "count": 308,
+      "observed_selected_action_units": 323,
+      "proportion": 0.9535603715170279
+    }
+  },
   "phase4_structural_join": {
+    "frozen_seed_groups_per_selected_action": 5,
     "scenario_input_packages": [
       "MOTO-CUTIN-001",
       "OBS-LANE-001",

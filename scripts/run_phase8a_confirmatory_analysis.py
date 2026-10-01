@@ -18,6 +18,7 @@ MANIFEST = ROOT / "data/model_benchmark/phase7_literature_v2/manifests/phase7_li
 SAMPLE = ROOT / "data/model_benchmark/phase7_population_sample_v1/manifests/phase7_psb_v1_sample.json"
 ATTEMPTS = ROOT / "data/model_benchmark/phase7_literature_v2/attempts"
 LEGAL = ROOT / "data/legal/phase5/legal_decisions.jsonl"
+PHYSICAL = ROOT / "data/simulator/commonroad/outcomes/commonroad_pilot_v1.jsonl"
 OUTPUT = ROOT / "data/analysis/phase8a/phase8a_confirmatory_report.json"
 
 
@@ -27,6 +28,26 @@ def load(path: Path):
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def physical_summary_by_action() -> dict[tuple[str, int, str], dict]:
+    """Conservatively collapse frozen Phase 4 seeds for each candidate action."""
+    grouped: dict[tuple[str, int, str], list[dict]] = defaultdict(list)
+    for line in PHYSICAL.read_text(encoding="utf-8").splitlines():
+        row = json.loads(line)
+        grouped[(row["scenario_id"], row["speed_kph"], row["action_id"])].append(row)
+    result = {}
+    for key, rows in grouped.items():
+        if not all(row["run_status"] == "completed" for row in rows):
+            raise SystemExit(f"incomplete frozen Phase 4 outcome group: {key}")
+        result[key] = {
+            "seed_count": len(rows),
+            "collision_free_all_seeds": all(bool(row["collision_free"]) for row in rows),
+            "trajectory_feasible_all_seeds": all(bool(row["trajectory_feasible"]) for row in rows),
+            "road_boundary_compliant_all_seeds": not any(bool(row["road_boundary_violation"]) for row in rows),
+            "minimum_clearance_m_across_seeds": min(row["minimum_distance_m"] for row in rows),
+        }
+    return result
 
 
 def main() -> None:
@@ -60,6 +81,30 @@ def main() -> None:
     )
     if missing_scenarios:
         raise SystemExit(f"missing frozen Phase 4 scenario input(s): {missing_scenarios}")
+    physical = physical_summary_by_action()
+    physical_outcomes = {}
+    for unit in units:
+        if unit["selected_action_id"] is None:
+            continue
+        scenario, speed_token = unit["input_package_id"].split("__", 1)
+        key = (scenario, int(speed_token.removeprefix("V")), unit["selected_action_id"])
+        if key not in physical:
+            raise SystemExit(f"missing frozen Phase 4 selected-action join: {key}")
+        physical_outcomes[unit["run_id"]] = physical[key]
+    physical_estimates = {"scope": "descriptive among observed rows with a parsed selected action; not a population rate because invalid outputs have no selected action to join"}
+    for name in ("collision_free_all_seeds", "trajectory_feasible_all_seeds", "road_boundary_compliant_all_seeds"):
+        count = sum(int(values[name]) for values in physical_outcomes.values())
+        physical_estimates[name] = {
+            "observed_selected_action_units": len(physical_outcomes),
+            "count": count,
+            "proportion": count / len(physical_outcomes),
+        }
+    physical_estimates["minimum_clearance_m_across_seeds"] = {
+        "estimand": "mean of the minimum frozen Phase 4 clearance for each observed selected action",
+        "estimate": sum(values["minimum_clearance_m_across_seeds"] for values in physical_outcomes.values()) / len(physical_outcomes),
+        "confidence_interval": "not reported for this descriptive conditional summary",
+    }
+    physical_estimates["missing_selected_action_units"] = len(units) - len(physical_outcomes)
 
     report = {
         "schema_version": "phase8a-confirmatory-report-v1",
@@ -84,7 +129,8 @@ def main() -> None:
         "design_weighted_selected_action_distribution_by_model_condition": distributions,
         "observed_units_by_model": dict(sorted(Counter(unit["model_id"] for unit in units).items())),
         "observed_units_by_condition": dict(sorted(Counter(unit["condition"] for unit in units).items())),
-        "phase4_structural_join": {"scenario_input_packages": sorted(scenario_ids), "status": "passed"},
+        "phase4_selected_action_outcomes": physical_estimates,
+        "phase4_structural_join": {"scenario_input_packages": sorted(scenario_ids), "status": "passed", "frozen_seed_groups_per_selected_action": 5},
         "phase5_action_level_status_counts": dict(sorted(legal_statuses.items())),
         "not_estimable": {
             "metrics": ["prohibited_action_selection_rate", "road_compliance_rate", "unsupported_legal_claim_rate", "law_responsive_differentiation_rate"],
