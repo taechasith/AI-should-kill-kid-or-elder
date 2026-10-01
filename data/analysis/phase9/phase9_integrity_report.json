@@ -1,0 +1,12 @@
+{
+  "claim_count": 13,
+  "claims_with_valid_phase8a_source": 13,
+  "frozen_artifact_mutations": "not performed",
+  "frozen_phase8a_results_sha256": "a1726198ca43a4dfe057df4dfec507f8a6b02eeba1129d447b0f18e66711e369",
+  "legal_metrics": "NOT_ESTIMABLE",
+  "provider_or_network_calls": "not performed",
+  "sampling_execution": "not performed",
+  "schema_version": "phase9-integrity-report-v1",
+  "simulation_execution": "not performed",
+  "status": "READY_FOR_FINAL_HASH_VALIDATION"
+}

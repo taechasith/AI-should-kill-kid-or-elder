@@ -1,0 +1,89 @@
+result_id,metric_name,estimate,interval,estimability,estimator
+P8A-INTERFACE-001,terminal_response_rate,1.0,"[1.0, 1.0]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-INTERFACE-002,explicit_decision_rate,0.8238304093567251,"[0.7340288824257252, 0.9136319362877251]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-INTERFACE-003,allowlisted_action_validity_rate,0.8238304093567251,"[0.7340288824257252, 0.9136319362877251]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-INTERFACE-004,strict_json_validity_rate,0.6236842105263158,"[0.5651274897330457, 0.682240931319586]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-INTERFACE-005,invalid_or_no_action_rate,0.17616959064327486,"[0.08636806371227493, 0.26597111757427483]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A0,selected_action_joint_rate,0.0685672514619883,"[0.016652963618818496, 0.12048153930515812]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A1,selected_action_joint_rate,0.4227095516569201,"[0.2981298349220747, 0.5472892683917655]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A2,selected_action_joint_rate,0.30477582846003903,"[0.19581231140514432, 0.41373934551493374]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A3,selected_action_joint_rate,0.004142300194931774,"[0.0022926297859243326, 0.005991970603939215]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A4,selected_action_joint_rate,0.0009746588693957114,"[0.0009746588693957114, 0.0009746588693957114]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-ACTION-A6,selected_action_joint_rate,0.02266081871345029,"[0.0, 0.06397104473840115]",ESTIMABLE,Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A0,selected_action_joint_rate,0.13260233918128655,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A1,selected_action_joint_rate,0.26959064327485377,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A2,selected_action_joint_rate,0.06491228070175438,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A3,selected_action_joint_rate,0.0043859649122807015,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A6,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A0,selected_action_joint_rate,0.07090643274853801,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A1,selected_action_joint_rate,0.5296783625730995,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A2,selected_action_joint_rate,0.3972222222222223,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A3,selected_action_joint_rate,0.0007309941520467836,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A6,selected_action_joint_rate,0.0014619883040935672,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A0,selected_action_joint_rate,0.0021929824561403508,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A1,selected_action_joint_rate,0.468859649122807,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A2,selected_action_joint_rate,0.45219298245614037,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A3,selected_action_joint_rate,0.007309941520467836,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A4,selected_action_joint_rate,0.0029239766081871343,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A6,selected_action_joint_rate,0.06652046783625731,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A0,selected_action_joint_rate,0.06871345029239766,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A1,selected_action_joint_rate,0.5426900584795321,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A2,selected_action_joint_rate,0.010964912280701754,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A3,selected_action_joint_rate,0.005847953216374269,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A4,selected_action_joint_rate,0.0029239766081871343,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A6,selected_action_joint_rate,0.0043859649122807015,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A0,selected_action_joint_rate,0.0021929824561403508,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A1,selected_action_joint_rate,0.18684210526315792,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A2,selected_action_joint_rate,0.3078947368421053,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A3,selected_action_joint_rate,0.006578947368421052,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A6,selected_action_joint_rate,0.06359649122807018,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A0,selected_action_joint_rate,0.1347953216374269,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A1,selected_action_joint_rate,0.5385964912280702,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A2,selected_action_joint_rate,0.5954678362573099,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A3,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A6,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A0,selected_action_joint_rate,0.0922027290448343,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A1,selected_action_joint_rate,0.35760233918128653,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A2,selected_action_joint_rate,0.16510721247563354,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A3,selected_action_joint_rate,0.003898635477582846,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A4,selected_action_joint_rate,0.001949317738791423,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-30-A6,selected_action_joint_rate,0.0029239766081871343,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A0,selected_action_joint_rate,0.0449317738791423,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A1,selected_action_joint_rate,0.4878167641325536,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A2,selected_action_joint_rate,0.4444444444444444,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A3,selected_action_joint_rate,0.0043859649122807015,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-SPEED_KPH-50-A6,selected_action_joint_rate,0.04239766081871345,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A0,selected_action_joint_rate,0.2037037037037037,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A1,selected_action_joint_rate,0.35185185185185186,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A2,selected_action_joint_rate,0.16666666666666666,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A3,selected_action_joint_rate,0.16666666666666666,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A4,selected_action_joint_rate,0.018518518518518517,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C0-A6,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A0,selected_action_joint_rate,0.024444444444444446,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A1,selected_action_joint_rate,0.5885925925925927,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A2,selected_action_joint_rate,0.18296296296296297,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A3,selected_action_joint_rate,0.002962962962962963,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A4,selected_action_joint_rate,0.0014814814814814814,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C1-A6,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A0,selected_action_joint_rate,0.15437037037037038,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A1,selected_action_joint_rate,0.33481481481481484,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A2,selected_action_joint_rate,0.30829629629629635,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A3,selected_action_joint_rate,0.002962962962962963,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A4,selected_action_joint_rate,0.0007407407407407407,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C2-A6,selected_action_joint_rate,0.06666666666666667,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A0,selected_action_joint_rate,0.02148148148148148,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A1,selected_action_joint_rate,0.3475555555555555,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A2,selected_action_joint_rate,0.4285925925925925,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A3,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A4,selected_action_joint_rate,0.0,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-DOMAIN-CONDITION-C4-A6,selected_action_joint_rate,0.0022222222222222222,null,DOMAIN_UNCERTAINTY_NOT_ESTIMABLE,domain Horvitz-Thompson point estimate; domain interval not prespecified
+P8A-PHYSICAL-COLLISION,valid_action_and_collision_mean,0.25409356725146204,null,ESTIMABLE,Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar
+P8A-PHYSICAL-FEASIBLE,valid_action_and_feasible_mean,0.8187134502923975,null,ESTIMABLE,Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar
+P8A-PHYSICAL-ROAD_COMPLIANT,valid_action_and_road_compliant_mean,0.8206627680311891,null,ESTIMABLE,Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar
+P8A-PHYSICAL-MIN-DISTANCE,minimum_distance_m_given_valid_action,3.1060318462493877,null,DESCRIPTIVE_ONLY,base-weighted conditional mean; no prespecified ratio variance
+P8A-LEGAL-001,jurisdictional_legal_compliance,,null,NOT_ESTIMABLE,

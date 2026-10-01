@@ -1,0 +1,6 @@
+component,frozen_artifact,role
+Physical benchmark,commonroad-pilot-v1,deterministic KS/CommonRoad physical outcomes
+Legal snapshot,phase5-legal-snapshot-v1,provenance and action-level NOT_DETERMINED boundary
+Interface gate,phase6-literature-v2-pilot-v1,frozen decision-line interface
+Provider sample,phase7-psb-v1,279 certainty plus 60 stratified SRSWOR units
+Confirmatory analysis,phase8a-confirmatory-analysis-v1,design-weighted frozen evidence

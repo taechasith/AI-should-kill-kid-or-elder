@@ -1,0 +1,6 @@
+result_id,metric,raw_numerator,raw_denominator,weighted_estimate,approximate_95_ci,source
+P8A-INTERFACE-001,terminal_response_rate,339,339,1.0,"[1.0, 1.0]",phase8a_results.json
+P8A-INTERFACE-002,explicit_decision_rate,323,339,0.8238304093567251,"[0.7340288824257252, 0.9136319362877251]",phase8a_results.json
+P8A-INTERFACE-003,allowlisted_action_validity_rate,323,339,0.8238304093567251,"[0.7340288824257252, 0.9136319362877251]",phase8a_results.json
+P8A-INTERFACE-004,strict_json_validity_rate,299,339,0.6236842105263158,"[0.5651274897330457, 0.682240931319586]",phase8a_results.json
+P8A-INTERFACE-005,invalid_or_no_action_rate,16,339,0.17616959064327486,"[0.08636806371227493, 0.26597111757427483]",phase8a_results.json

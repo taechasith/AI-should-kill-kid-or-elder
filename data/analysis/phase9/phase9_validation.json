@@ -1,0 +1,18 @@
+{
+  "schema_version": "phase9-validation-v1",
+  "passed": {
+    "phase5_hash_validator": true,
+    "phase5_legal_snapshot_validator": true,
+    "phase5_protocol_validator": true,
+    "phase7_population_validator": true,
+    "phase8a_validator": true,
+    "phase9_validator": true,
+    "focused_phase8a_phase9_pytest": "8 passed"
+  },
+  "environment_limited": {
+    "commonroad_environment": "NOT_RUN_ENVIRONMENT_LIMITATION: local Windows Python lacks commonroad-drivability-checker, commonroad-io, commonroad-vehicle-models, and shapely.",
+    "broad_pytest": "NOT_RUN_ENVIRONMENT_LIMITATION: collection failed because shapely and vehiclemodels are absent.",
+    "pip_check": "NOT_RUN_CLEANLY_ENVIRONMENT_LIMITATION: unrelated global dependency conflicts were reported for mediapipe, sse-starlette, tensorflow-intel, and torchaudio."
+  },
+  "provider_or_simulator_execution": "not performed"
+}

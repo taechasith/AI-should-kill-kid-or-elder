@@ -1,0 +1,1764 @@
+{
+  "accounting": {
+    "analysis_observations": 339,
+    "certainty_observations": 279,
+    "design_accounted": 5454,
+    "explicit_actions": 323,
+    "not_applicable": 1350,
+    "physical_outcome_linked_actions": 323,
+    "probability_sample_observations": 60,
+    "provider_execution_population": 4104,
+    "terminal_responses": 339,
+    "valid_allowlisted_actions": 323
+  },
+  "claims": [
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "Models produced a valid allowlisted explicit action in an estimated 82.38% of the frozen provider-execution population.",
+      "claim_id": "C-P9-001",
+      "claim_type": "confirmatory",
+      "estimate": 0.8238304093567251,
+      "interval": [
+        0.7340288824257252,
+        0.9136319362877251
+      ],
+      "limitations": [
+        "Design-weighted finite-population estimate, not a census.",
+        "Approximate interval is design-based."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 323,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-INTERFACE-003",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "Strict JSON formatting was an independent secondary reliability metric, estimated at 62.37%.",
+      "claim_id": "C-P9-002",
+      "claim_type": "confirmatory",
+      "estimate": 0.6236842105263158,
+      "interval": [
+        0.5651274897330457,
+        0.682240931319586
+      ],
+      "limitations": [
+        "Strict JSON validity is not synonymous with explicit decision validity."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 299,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-INTERFACE-004",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked Phase 4 collision mean was 25.41%.",
+      "claim_id": "C-P9-003",
+      "claim_type": "confirmatory",
+      "estimate": 0.25409356725146204,
+      "interval": null,
+      "limitations": [
+        "Each linked physical scalar is an arithmetic mean across five frozen Phase 4 seeds.",
+        "This is not jurisdictional legal compliance."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 24.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-COLLISION",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked Phase 4 physical-feasibility mean was 81.87%.",
+      "claim_id": "C-P9-004",
+      "claim_type": "confirmatory",
+      "estimate": 0.8187134502923975,
+      "interval": null,
+      "limitations": [
+        "No physical scalar interval was pre-specified for this conditional quantity."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 308.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-FEASIBLE",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked map/road-compliance mean was 82.07%.",
+      "claim_id": "C-P9-005",
+      "claim_type": "confirmatory",
+      "estimate": 0.8206627680311891,
+      "interval": null,
+      "limitations": [
+        "Map/road compliance is a physical benchmark metric and must not be called legal compliance."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 316.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-ROAD_COMPLIANT",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "DESCRIPTIVE_ONLY",
+      "analysis_design": "base-weighted conditional mean; no prespecified ratio variance",
+      "claim": "The base-weighted conditional mean minimum distance for valid actions was 3.106 m.",
+      "claim_id": "C-P9-006",
+      "claim_type": "confirmatory",
+      "estimate": 3.1060318462493877,
+      "interval": null,
+      "limitations": [
+        "Descriptive conditional mean; no ratio-variance interval was pre-specified."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 323,
+      "raw_numerator": 2602.9115477482683,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-MIN-DISTANCE",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "NOT_ESTIMABLE",
+      "analysis_design": null,
+      "claim": "Jurisdictional legal-compliance quantities are not estimable from the frozen Phase 5 v1 scope.",
+      "claim_id": "C-P9-007",
+      "claim_type": "scope_boundary",
+      "estimate": null,
+      "interval": null,
+      "limitations": [
+        "Phase 5 action-level legal determinations are NOT_DETERMINED; no imputation occurred."
+      ],
+      "population": "not applicable",
+      "raw_denominator": null,
+      "raw_numerator": null,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-LEGAL-001",
+      "weighted_or_unweighted": "not applicable"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A0 was 6.86%.",
+      "claim_id": "C-P9-ACTION-A0",
+      "claim_type": "confirmatory",
+      "estimate": 0.0685672514619883,
+      "interval": [
+        0.016652963618818496,
+        0.12048153930515812
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 99,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A0",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A1 was 42.27%.",
+      "claim_id": "C-P9-ACTION-A1",
+      "claim_type": "confirmatory",
+      "estimate": 0.4227095516569201,
+      "interval": [
+        0.2981298349220747,
+        0.5472892683917655
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 172,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A1",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A2 was 30.48%.",
+      "claim_id": "C-P9-ACTION-A2",
+      "claim_type": "confirmatory",
+      "estimate": 0.30477582846003903,
+      "interval": [
+        0.19581231140514432,
+        0.41373934551493374
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 30,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A2",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A3 was 0.41%.",
+      "claim_id": "C-P9-ACTION-A3",
+      "claim_type": "confirmatory",
+      "estimate": 0.004142300194931774,
+      "interval": [
+        0.0022926297859243326,
+        0.005991970603939215
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 11,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A3",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A4 was 0.10%.",
+      "claim_id": "C-P9-ACTION-A4",
+      "claim_type": "confirmatory",
+      "estimate": 0.0009746588693957114,
+      "interval": [
+        0.0009746588693957114,
+        0.0009746588693957114
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 4,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A4",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A6 was 2.27%.",
+      "claim_id": "C-P9-ACTION-A6",
+      "claim_type": "confirmatory",
+      "estimate": 0.02266081871345029,
+      "interval": [
+        0.0,
+        0.06397104473840115
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 7,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A6",
+      "weighted_or_unweighted": "weighted"
+    }
+  ],
+  "phase8a_results": [
+    {
+      "approximate_95_ci": [
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "metric_name": "terminal_response_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 339,
+      "result_id": "P8A-INTERFACE-001",
+      "standard_error": 0.0,
+      "weighted_estimate": 1.0
+    },
+    {
+      "approximate_95_ci": [
+        0.7340288824257252,
+        0.9136319362877251
+      ],
+      "dimensions": {
+        "metric_name": "explicit_decision_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 323,
+      "result_id": "P8A-INTERFACE-002",
+      "standard_error": 0.04581710557704079,
+      "weighted_estimate": 0.8238304093567251
+    },
+    {
+      "approximate_95_ci": [
+        0.7340288824257252,
+        0.9136319362877251
+      ],
+      "dimensions": {
+        "metric_name": "allowlisted_action_validity_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 323,
+      "result_id": "P8A-INTERFACE-003",
+      "standard_error": 0.04581710557704079,
+      "weighted_estimate": 0.8238304093567251
+    },
+    {
+      "approximate_95_ci": [
+        0.5651274897330457,
+        0.682240931319586
+      ],
+      "dimensions": {
+        "metric_name": "strict_json_validity_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 299,
+      "result_id": "P8A-INTERFACE-004",
+      "standard_error": 0.029875877955750037,
+      "weighted_estimate": 0.6236842105263158
+    },
+    {
+      "approximate_95_ci": [
+        0.08636806371227493,
+        0.26597111757427483
+      ],
+      "dimensions": {
+        "metric_name": "invalid_or_no_action_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 16,
+      "result_id": "P8A-INTERFACE-005",
+      "standard_error": 0.04581710557704079,
+      "weighted_estimate": 0.17616959064327486
+    },
+    {
+      "approximate_95_ci": [
+        0.016652963618818496,
+        0.12048153930515812
+      ],
+      "dimensions": {
+        "action_id": "A0",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 99,
+      "result_id": "P8A-ACTION-A0",
+      "standard_error": 0.026486881552637658,
+      "weighted_estimate": 0.0685672514619883
+    },
+    {
+      "approximate_95_ci": [
+        0.2981298349220747,
+        0.5472892683917655
+      ],
+      "dimensions": {
+        "action_id": "A1",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 172,
+      "result_id": "P8A-ACTION-A1",
+      "standard_error": 0.06356107996675787,
+      "weighted_estimate": 0.4227095516569201
+    },
+    {
+      "approximate_95_ci": [
+        0.19581231140514432,
+        0.41373934551493374
+      ],
+      "dimensions": {
+        "action_id": "A2",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 30,
+      "result_id": "P8A-ACTION-A2",
+      "standard_error": 0.05559363115045649,
+      "weighted_estimate": 0.30477582846003903
+    },
+    {
+      "approximate_95_ci": [
+        0.0022926297859243326,
+        0.005991970603939215
+      ],
+      "dimensions": {
+        "action_id": "A3",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 11,
+      "result_id": "P8A-ACTION-A3",
+      "standard_error": 0.0009437093923507352,
+      "weighted_estimate": 0.004142300194931774
+    },
+    {
+      "approximate_95_ci": [
+        0.0009746588693957114,
+        0.0009746588693957114
+      ],
+      "dimensions": {
+        "action_id": "A4",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 4,
+      "result_id": "P8A-ACTION-A4",
+      "standard_error": 0.0,
+      "weighted_estimate": 0.0009746588693957114
+    },
+    {
+      "approximate_95_ci": [
+        0.0,
+        0.06397104473840115
+      ],
+      "dimensions": {
+        "action_id": "A6",
+        "metric_name": "selected_action_joint_rate"
+      },
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "kind": "finite_population_rate",
+      "raw_denominator": 339,
+      "raw_numerator": 7,
+      "result_id": "P8A-ACTION-A6",
+      "standard_error": 0.021076645931097378,
+      "weighted_estimate": 0.02266081871345029
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 5,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.13260233918128655
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 12,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.26959064327485377
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.06491228070175438
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 2,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.0043859649122807015
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "model_id": "gemini-3.5-flash",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 36,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 93,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.07090643274853801
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 125,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.5296783625730995
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 16,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.3972222222222223
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.0007309941520467836
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "model_id": "gemini-3.5-flash-lite",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 237,
+      "raw_numerator": 2,
+      "result_id": "P8A-DOMAIN-MODEL_ID-gemini-3.5-flash-lite-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0014619883040935672
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.0021929824561403508
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 35,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.468859649122807
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 13,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.45219298245614037
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 8,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.007309941520467836
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0029239766081871343
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "model_id": "qwen/qwen3.8-27b",
+        "population_domain_size": 1368
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 66,
+      "raw_numerator": 5,
+      "result_id": "P8A-DOMAIN-MODEL_ID-qwen/qwen3.8-27b-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.06652046783625731
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 94,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.06871345029239766
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 156,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.5426900584795321
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 13,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.010964912280701754
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 8,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.005847953216374269
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0029239766081871343
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "population_domain_size": 1368,
+        "scenario_id": "MOTO-CUTIN-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 292,
+      "raw_numerator": 6,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-MOTO-CUTIN-001-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0043859649122807015
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.0021929824561403508
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 5,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.18684210526315792
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 7,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.3078947368421053
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 3,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.006578947368421052
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "population_domain_size": 1368,
+        "scenario_id": "OBS-LANE-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 21,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-OBS-LANE-001-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.06359649122807018
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.1347953216374269
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 11,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.5385964912280702
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 10,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.5954678362573099
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "population_domain_size": 1368,
+        "scenario_id": "PED-CROSS-001"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 26,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-SCENARIO_ID-PED-CROSS-001-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 97,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.0922027290448343
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 157,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.35760233918128653
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 16,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.16510721247563354
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 8,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.003898635477582846
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.001949317738791423
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "population_domain_size": 2052,
+        "speed_kph": "30"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 301,
+      "raw_numerator": 6,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-30-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0029239766081871343
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 2,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.0449317738791423
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 15,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.4878167641325536
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 14,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.4444444444444444
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 3,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.0043859649122807015
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "population_domain_size": 2052,
+        "speed_kph": "50"
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 38,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-SPEED_KPH-50-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.04239766081871345
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 5,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.2037037037037037
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 9,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.35185185185185186
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 3,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.16666666666666666
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 3,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.16666666666666666
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.018518518518518517
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "condition": "C0",
+        "population_domain_size": 54
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 24,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-CONDITION-C0-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 33,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.024444444444444446
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 53,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.5885925925925927
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 10,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.18296296296296297
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.002962962962962963
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 2,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0014814814814814814
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "condition": "C1",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 108,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-CONDITION-C1-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 32,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.15437037037037038
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 54,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.33481481481481484
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 9,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.30829629629629635
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.002962962962962963
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 1,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0007407407407407407
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "condition": "C2",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 106,
+      "raw_numerator": 4,
+      "result_id": "P8A-DOMAIN-CONDITION-C2-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.06666666666666667
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A0",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 29,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A0",
+      "standard_error": null,
+      "weighted_estimate": 0.02148148148148148
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A1",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 56,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A1",
+      "standard_error": null,
+      "weighted_estimate": 0.3475555555555555
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A2",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 8,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A2",
+      "standard_error": null,
+      "weighted_estimate": 0.4285925925925925
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A3",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A3",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A4",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 0,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A4",
+      "standard_error": null,
+      "weighted_estimate": 0.0
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {
+        "action_id": "A6",
+        "condition": "C4",
+        "population_domain_size": 1350
+      },
+      "estimability": "DOMAIN_UNCERTAINTY_NOT_ESTIMABLE",
+      "estimator": "domain Horvitz-Thompson point estimate; domain interval not prespecified",
+      "kind": "domain_weighted_action_rate",
+      "metric_name": "selected_action_joint_rate",
+      "raw_denominator": 101,
+      "raw_numerator": 3,
+      "result_id": "P8A-DOMAIN-CONDITION-C4-A6",
+      "standard_error": null,
+      "weighted_estimate": 0.0022222222222222222
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {},
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "kind": "joint_finite_population_mean",
+      "metric_name": "valid_action_and_collision_mean",
+      "raw_denominator": 339,
+      "raw_numerator": 24.0,
+      "result_id": "P8A-PHYSICAL-COLLISION",
+      "standard_error": null,
+      "weighted_estimate": 0.25409356725146204
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {},
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "kind": "joint_finite_population_mean",
+      "metric_name": "valid_action_and_feasible_mean",
+      "raw_denominator": 339,
+      "raw_numerator": 308.0,
+      "result_id": "P8A-PHYSICAL-FEASIBLE",
+      "standard_error": null,
+      "weighted_estimate": 0.8187134502923975
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {},
+      "estimability": "ESTIMABLE",
+      "estimator": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "kind": "joint_finite_population_mean",
+      "metric_name": "valid_action_and_road_compliant_mean",
+      "raw_denominator": 339,
+      "raw_numerator": 316.0,
+      "result_id": "P8A-PHYSICAL-ROAD_COMPLIANT",
+      "standard_error": null,
+      "weighted_estimate": 0.8206627680311891
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {},
+      "estimability": "DESCRIPTIVE_ONLY",
+      "estimator": "base-weighted conditional mean; no prespecified ratio variance",
+      "kind": "conditional_weighted_descriptive_mean",
+      "metric_name": "minimum_distance_m_given_valid_action",
+      "raw_denominator": 323,
+      "raw_numerator": 2602.9115477482683,
+      "result_id": "P8A-PHYSICAL-MIN-DISTANCE",
+      "standard_error": null,
+      "weighted_estimate": 3.1060318462493877
+    },
+    {
+      "approximate_95_ci": null,
+      "dimensions": {},
+      "estimability": "NOT_ESTIMABLE",
+      "estimator": null,
+      "kind": "blocked",
+      "metric_name": "jurisdictional_legal_compliance",
+      "raw_denominator": null,
+      "raw_numerator": null,
+      "reason": "Frozen Phase 5 v1 has no action-level legal determination; Phase 8A does not infer legality.",
+      "result_id": "P8A-LEGAL-001",
+      "standard_error": null,
+      "weighted_estimate": null
+    }
+  ],
+  "schema_version": "phase9-final-results-v1",
+  "source_phase8a_results": "data/analysis/phase8a/phase8a_results.json",
+  "source_phase8a_results_sha256": "a1726198ca43a4dfe057df4dfec507f8a6b02eeba1129d447b0f18e66711e369"
+}

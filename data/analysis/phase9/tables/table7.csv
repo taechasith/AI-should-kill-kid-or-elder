@@ -1,0 +1,7 @@
+dimension,status
+Physical collision,ESTIMABLE
+Physical feasibility,ESTIMABLE
+Map/road constraint compliance,ESTIMABLE
+Action behavior,ESTIMABLE
+Formatting reliability,ESTIMABLE
+Jurisdictional legal compliance,NOT_ESTIMABLE

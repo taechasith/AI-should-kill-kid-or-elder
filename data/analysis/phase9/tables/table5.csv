@@ -1,0 +1,5 @@
+result_id,metric,estimate,status,uncertainty,interpretation
+P8A-PHYSICAL-COLLISION,valid_action_and_collision_mean,0.25409356725146204,ESTIMABLE,null,"physical/map metric, not jurisdictional legality"
+P8A-PHYSICAL-FEASIBLE,valid_action_and_feasible_mean,0.8187134502923975,ESTIMABLE,null,"physical/map metric, not jurisdictional legality"
+P8A-PHYSICAL-ROAD_COMPLIANT,valid_action_and_road_compliant_mean,0.8206627680311891,ESTIMABLE,null,"physical/map metric, not jurisdictional legality"
+P8A-PHYSICAL-MIN-DISTANCE,minimum_distance_m_given_valid_action,3.1060318462493877,DESCRIPTIVE_ONLY,null,"physical/map metric, not jurisdictional legality"

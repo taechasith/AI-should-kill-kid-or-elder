@@ -1,0 +1,8 @@
+stage,count,denominator,status
+Design-accounted manifest,5454,design rows,frozen
+Structurally not applicable C3,1350,design rows,not applicable
+Provider-execution population,4104,design rows,finite population
+Certainty observations,279,provider population,pi=1
+Probability-sample observations,60,remaining stratum populations,terminal
+Terminal analysis observations,339,selected units,not a census
+Valid allowlisted actions / physical joins,323,terminal analysis observations,no action inferred
