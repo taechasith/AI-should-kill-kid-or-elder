@@ -1,0 +1,8 @@
+{
+  "legal_snapshot_date": "2026-10-01",
+  "retrieval_date_policy": "Each primary source must record its actual retrieval_date; temporal applicability is separately reviewed.",
+  "schema_version": "phase5-v2-preparation-manifest-v1",
+  "snapshot_id": "phase5-legal-snapshot-v2",
+  "status": "PREPARATION_ONLY_NOT_FROZEN",
+  "v1_boundary": "phase5-legal-snapshot-v1 is immutable historical provenance."
+}

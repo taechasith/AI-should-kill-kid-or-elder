@@ -1,0 +1,230 @@
+{
+  "jurisdictions": [
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "ARG",
+      "country_name": "Argentina",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "AUS",
+      "country_name": "Australia",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "BRA",
+      "country_name": "Brazil",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "CAN",
+      "country_name": "Canada",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "CHN",
+      "country_name": "China",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "COL",
+      "country_name": "Colombia",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "DEU",
+      "country_name": "Germany",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "FRA",
+      "country_name": "France",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "GBR",
+      "country_name": "United Kingdom",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "IDN",
+      "country_name": "Indonesia",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "IND",
+      "country_name": "India",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "JPN",
+      "country_name": "Japan",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "KEN",
+      "country_name": "Kenya",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "KOR",
+      "country_name": "Republic of Korea",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "MEX",
+      "country_name": "Mexico",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "NGA",
+      "country_name": "Nigeria",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "NZL",
+      "country_name": "New Zealand",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "PHL",
+      "country_name": "Philippines",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "SGP",
+      "country_name": "Singapore",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "SWE",
+      "country_name": "Sweden",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "THA",
+      "country_name": "Thailand",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "TUR",
+      "country_name": "T\u00fcrkiye",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "ARE",
+      "country_name": "United Arab Emirates",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "USA",
+      "country_name": "United States",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    },
+    {
+      "basis": "Not adjudicated: no official-source granularity review has yet occurred.",
+      "country_iso3": "ZAF",
+      "country_name": "South Africa",
+      "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW",
+      "official_source": null,
+      "required_subnational_code": null,
+      "status": "HUMAN_REVIEW_PENDING"
+    }
+  ],
+  "schema_version": "phase5-v2-granularity-audit-v1"
+}
