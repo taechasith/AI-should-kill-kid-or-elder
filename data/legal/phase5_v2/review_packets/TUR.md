@@ -4,7 +4,7 @@ Status: `HUMAN_REVIEW_PENDING`. These are not legal conclusions.
 
 ## Required review
 
-Confirm operative jurisdictional granularity from official sources; record every official search, admissible rule, translation method, effective-date state, exception, and unresolved fact.
+Confirm operative jurisdictional granularity from official sources. For every candidate source record authority, issuing body, URL/document ID, article/section, effective date, language, translation wording/method, hierarchy, required facts, exceptions, reviewer interpretation, and review notes.
 
 ## Prepared action questions
 

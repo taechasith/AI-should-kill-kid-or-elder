@@ -25,6 +25,9 @@ def main() -> None:
         if row["final_adjudication"] or row["review_state"] != "AI_PREPARED": errors.append("preparation data must not claim final human review")
         if row["status"] != "NOT_DETERMINED" or row["reason_code"] != "PRIMARY_SOURCE_SEARCH_PENDING": errors.append("unreviewed record must fail closed")
         if row["evidence_ids"] or row["applicable_rule_ids"]: errors.append("unreviewed record cannot claim law evidence")
+        if row.get("final_legal_status") is not None or row.get("reviewer_status") != "NOT_REVIEWED": errors.append("unreviewed record has a final legal conclusion")
+        if any(row.get(field) for field in ("source_search_completed", "primary_authority_cited", "explicit_no_authority_found_recorded", "applicability_assessed", "formalisation_traceable_to_evidence")):
+            errors.append("unreviewed record claims an unperformed completion-gate step")
     if not any(row["value"] == "UNKNOWN" for row in facts): errors.append("scenario-fact unknowns must remain explicit")
     queue = DATA / "review_queue_v2.csv"
     packets = list((DATA / "review_packets").glob("*.md"))

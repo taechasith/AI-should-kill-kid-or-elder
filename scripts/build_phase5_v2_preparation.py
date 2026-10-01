@@ -71,11 +71,13 @@ def build() -> None:
                 "legal_question_id": question["legal_question_id"], "scenario_id": question["scenario_id"], "initial_speed_kph": question["initial_speed_kph"], "action_id": question["action_id"],
                 "legal_snapshot_date": LEGAL_SNAPSHOT_DATE,
                 "scenario_fact_ids": question["facts_required"], "applicable_rule_ids": [], "evidence_ids": [],
-                "status": "NOT_DETERMINED", "conditions": [], "exceptions": [], "evidence_sufficiency": "NO_EVIDENCE",
+                "status": "NOT_DETERMINED", "final_legal_status": None, "conditions": [], "exceptions": [], "evidence_sufficiency": "NO_EVIDENCE",
                 "reason_code": "PRIMARY_SOURCE_SEARCH_PENDING", "human_review_required": True, "review_state": "AI_PREPARED", "final_adjudication": False,
+                "source_search_completed": False, "primary_authority_cited": False, "explicit_no_authority_found_recorded": False,
+                "reviewer_status": "NOT_REVIEWED", "applicability_assessed": False, "formalisation_traceable_to_evidence": False,
             })
     audits = [{"country_iso3": item["country_iso3"], "country_name": item["country"], "national_or_subnational": "UNRESOLVED_PENDING_OFFICIAL_SOURCE_REVIEW", "required_subnational_code": None, "basis": "Not adjudicated: no official-source granularity review has yet occurred.", "official_source": None, "status": "HUMAN_REVIEW_PENDING"} for item in jurisdictions]
-    searches = [{"country_iso3": item["country_iso3"], "search_status": "NOT_STARTED", "queries": [], "official_domains_searched": [], "sources_found": [], "sources_rejected": [], "missing_provisions": [], "review_state": "AI_PREPARED"} for item in jurisdictions]
+    searches = [{"country_iso3": item["country_iso3"], "source_search_completed": False, "search_status": "NOT_STARTED", "queries": [], "official_domains_searched": [], "sources_found": [], "sources_rejected": [], "missing_provisions": [], "review_state": "AI_PREPARED"} for item in jurisdictions]
     if len(facts) == 0 or len(questions) != 36 or len(matrix) != 900:
         raise ValueError("unexpected Phase 5 v2 preparation dimensions")
     write_jsonl(OUTPUT / "scenario_facts_v2.jsonl", facts)
@@ -105,7 +107,7 @@ def build() -> None:
             f"# Phase 5 v2 review packet — {jurisdiction['country']}", "",
             "Status: `HUMAN_REVIEW_PENDING`. These are not legal conclusions.", "",
             "## Required review", "",
-            "Confirm operative jurisdictional granularity from official sources; record every official search, admissible rule, translation method, effective-date state, exception, and unresolved fact.", "",
+            "Confirm operative jurisdictional granularity from official sources. For every candidate source record authority, issuing body, URL/document ID, article/section, effective date, language, translation wording/method, hierarchy, required facts, exceptions, reviewer interpretation, and review notes.", "",
             "## Prepared action questions", "",
             "| Scenario | Speed (km/h) | Action | Question ID | Current state |", "| --- | ---: | --- | --- | --- |",
         ]

@@ -1,0 +1,12 @@
+{
+  "schema_version": "phase5-v2-primary-evidence-workflow-v1",
+  "phase": "Phase 5.1 v2: Primary Legal Evidence Acquisition",
+  "ordering": ["official_source", "extracted_proposition", "reviewer_interpretation", "applicability", "formal_rule", "action_level_result"],
+  "unreviewed_status": "NOT_DETERMINED",
+  "final_outcome_ontology": ["PROHIBITED", "REQUIRED", "EXPLICITLY_PERMITTED", "CONDITIONALLY_PERMITTED", "NOT_APPLICABLE", "INSUFFICIENT_SCENARIO_FACTS", "LEGAL_AMBIGUITY", "CONFLICTING_AUTHORITIES", "NO_CONTROLLING_PRIMARY_RULE_FOUND"],
+  "reviewer_statuses": ["NOT_REVIEWED", "HUMAN_REVIEW_PENDING", "HUMAN_REVIEWED", "EXPERT_REVIEWED", "REJECTED_NEEDS_REVISION"],
+  "completion_gate": ["source_search_completed", "primary_authority_cited_or_explicit_no_authority_found_recorded", "reviewer_status_reviewed", "applicability_assessed", "formalisation_traceable_to_evidence", "no_unresolved_machine_generated_legal_conclusion"],
+  "source_hierarchy": ["official_consolidated_legislation", "official_statute_or_road_code", "official_regulation", "official_legal_database", "official_gazette", "binding_decision_when_necessary", "official_explanatory_material_for_context_only"],
+  "international_instrument_boundary": "Record treaty instruments as context only; they are never a substitute for domestic law unless jurisdiction-specific domestic applicability is evidenced and reviewed.",
+  "zero_cost_rule": {"usd": 0.0, "thb": 0.0}
+}
