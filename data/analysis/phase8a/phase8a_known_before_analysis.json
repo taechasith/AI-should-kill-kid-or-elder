@@ -1,0 +1,14 @@
+{
+  "schema_version": "phase8a-known-before-analysis-v1",
+  "disclosure": "Phase 8A is not strictly outcome-blind; these aggregate outcomes were known before the Phase 8A analysis specification was frozen.",
+  "phase7_known_aggregates": {
+    "full_manifest_rows": 5454,
+    "provider_population_rows": 4104,
+    "not_applicable_rows": 1350,
+    "certainty_observations": 279,
+    "probability_sample_observations": 60,
+    "valid_allowlisted_action_ht_estimate": 0.8238304093567251,
+    "valid_allowlisted_action_approximate_95_ci": [0.7340288824257252, 0.9136319362877251],
+    "legal_rates": "NOT_ESTIMABLE"
+  }
+}

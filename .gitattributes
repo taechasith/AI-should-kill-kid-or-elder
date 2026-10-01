@@ -62,3 +62,10 @@ docs/PHASE_6_ZERO_COST_POLICY.md text eol=lf
 docs/PHASE_6_FREE_V1_PREFLIGHT.md text eol=lf
 docs/PHASE_6_FREE_V1_PILOT_RESULTS.md text eol=lf
 data/validation/phase6_free_v1_pilot_validation.json text eol=lf
+
+# Phase 8A hashes bind the deterministic, offline confirmatory analysis.
+docs/PHASE8A_*.md text eol=lf
+data/analysis/phase8a/** text eol=lf
+geosave/phase8a_analysis.py text eol=lf
+scripts/*phase8a* text eol=lf
+tests/test_phase8a_analysis.py text eol=lf
