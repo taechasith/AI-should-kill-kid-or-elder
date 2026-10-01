@@ -1,0 +1,265 @@
+{
+  "claims": [
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "Models produced a valid allowlisted explicit action in an estimated 82.38% of the frozen provider-execution population.",
+      "claim_id": "C-P9-001",
+      "claim_type": "confirmatory",
+      "estimate": 0.8238304093567251,
+      "interval": [
+        0.7340288824257252,
+        0.9136319362877251
+      ],
+      "limitations": [
+        "Design-weighted finite-population estimate, not a census.",
+        "Approximate interval is design-based."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 323,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-INTERFACE-003",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "Strict JSON formatting was an independent secondary reliability metric, estimated at 62.37%.",
+      "claim_id": "C-P9-002",
+      "claim_type": "confirmatory",
+      "estimate": 0.6236842105263158,
+      "interval": [
+        0.5651274897330457,
+        0.682240931319586
+      ],
+      "limitations": [
+        "Strict JSON validity is not synonymous with explicit decision validity."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 299,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-INTERFACE-004",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked Phase 4 collision mean was 25.41%.",
+      "claim_id": "C-P9-003",
+      "claim_type": "confirmatory",
+      "estimate": 0.25409356725146204,
+      "interval": null,
+      "limitations": [
+        "Each linked physical scalar is an arithmetic mean across five frozen Phase 4 seeds.",
+        "This is not jurisdictional legal compliance."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 24.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-COLLISION",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked Phase 4 physical-feasibility mean was 81.87%.",
+      "claim_id": "C-P9-004",
+      "claim_type": "confirmatory",
+      "estimate": 0.8187134502923975,
+      "interval": null,
+      "limitations": [
+        "No physical scalar interval was pre-specified for this conditional quantity."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 308.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-FEASIBLE",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population mean; scalar outcome is five-seed Phase 4 arithmetic mean; variance not prespecified for this conditional physical scalar",
+      "claim": "The valid-action-linked map/road-compliance mean was 82.07%.",
+      "claim_id": "C-P9-005",
+      "claim_type": "confirmatory",
+      "estimate": 0.8206627680311891,
+      "interval": null,
+      "limitations": [
+        "Map/road compliance is a physical benchmark metric and must not be called legal compliance."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 316.0,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-ROAD_COMPLIANT",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "DESCRIPTIVE_ONLY",
+      "analysis_design": "base-weighted conditional mean; no prespecified ratio variance",
+      "claim": "The base-weighted conditional mean minimum distance for valid actions was 3.106 m.",
+      "claim_id": "C-P9-006",
+      "claim_type": "confirmatory",
+      "estimate": 3.1060318462493877,
+      "interval": null,
+      "limitations": [
+        "Descriptive conditional mean; no ratio-variance interval was pre-specified."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 323,
+      "raw_numerator": 2602.9115477482683,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-PHYSICAL-MIN-DISTANCE",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "NOT_ESTIMABLE",
+      "analysis_design": null,
+      "claim": "Jurisdictional legal-compliance quantities are not estimable from the frozen Phase 5 v1 scope.",
+      "claim_id": "C-P9-007",
+      "claim_type": "scope_boundary",
+      "estimate": null,
+      "interval": null,
+      "limitations": [
+        "Phase 5 action-level legal determinations are NOT_DETERMINED; no imputation occurred."
+      ],
+      "population": "not applicable",
+      "raw_denominator": null,
+      "raw_numerator": null,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-LEGAL-001",
+      "weighted_or_unweighted": "not applicable"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A0 was 6.86%.",
+      "claim_id": "C-P9-ACTION-A0",
+      "claim_type": "confirmatory",
+      "estimate": 0.0685672514619883,
+      "interval": [
+        0.016652963618818496,
+        0.12048153930515812
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 99,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A0",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A1 was 42.27%.",
+      "claim_id": "C-P9-ACTION-A1",
+      "claim_type": "confirmatory",
+      "estimate": 0.4227095516569201,
+      "interval": [
+        0.2981298349220747,
+        0.5472892683917655
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 172,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A1",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A2 was 30.48%.",
+      "claim_id": "C-P9-ACTION-A2",
+      "claim_type": "confirmatory",
+      "estimate": 0.30477582846003903,
+      "interval": [
+        0.19581231140514432,
+        0.41373934551493374
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 30,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A2",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A3 was 0.41%.",
+      "claim_id": "C-P9-ACTION-A3",
+      "claim_type": "confirmatory",
+      "estimate": 0.004142300194931774,
+      "interval": [
+        0.0022926297859243326,
+        0.005991970603939215
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 11,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A3",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A4 was 0.10%.",
+      "claim_id": "C-P9-ACTION-A4",
+      "claim_type": "confirmatory",
+      "estimate": 0.0009746588693957114,
+      "interval": [
+        0.0009746588693957114,
+        0.0009746588693957114
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 4,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A4",
+      "weighted_or_unweighted": "weighted"
+    },
+    {
+      "allowed_strength": "descriptive population estimate",
+      "analysis_design": "Horvitz-Thompson finite-population rate; stratified SRSWOR variance with FPC",
+      "claim": "The design-weighted joint selected-action rate for A6 was 2.27%.",
+      "claim_id": "C-P9-ACTION-A6",
+      "claim_type": "confirmatory",
+      "estimate": 0.02266081871345029,
+      "interval": [
+        0.0,
+        0.06397104473840115
+      ],
+      "limitations": [
+        "Joint with valid allowlisted extraction; invalid/no-action records are not reassigned."
+      ],
+      "population": "provider-execution population (4,104)",
+      "raw_denominator": 339,
+      "raw_numerator": 7,
+      "source_file": "data/analysis/phase8a/phase8a_results.json",
+      "source_result_id": "P8A-ACTION-A6",
+      "weighted_or_unweighted": "weighted"
+    }
+  ],
+  "schema_version": "phase9-claim-registry-v1"
+}

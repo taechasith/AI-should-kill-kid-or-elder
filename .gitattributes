@@ -69,3 +69,9 @@ data/analysis/phase8a/** text eol=lf
 geosave/phase8a_analysis.py text eol=lf
 scripts/*phase8a* text eol=lf
 tests/test_phase8a_analysis.py text eol=lf
+
+# Phase 9 final evidence-package hashes bind exact deterministic text bytes.
+docs/PHASE9_*.md text eol=lf
+data/analysis/phase9/** text eol=lf
+scripts/*phase9* text eol=lf
+tests/test_phase9_synthesis.py text eol=lf

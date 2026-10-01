@@ -1,0 +1,46 @@
+{
+  "offline_only": true,
+  "phase4": {
+    "canonical_data_commit": "d52baab",
+    "hash_manifest": "data/simulator/commonroad/hashes/commonroad_pilot_v1_sha256.json",
+    "hash_manifest_sha256": "3e29ac73005161a1575902042cfc930be7f6e28bfbd108bc5ff56a10cda7b436",
+    "tag": "commonroad-pilot-v1"
+  },
+  "phase5": {
+    "commit": "db1c73a42ff07dfe3768aabcc282dbf15e812f78",
+    "hash_manifest": "data/legal/phase5/hashes/phase5_legal_snapshot_v1_sha256.json",
+    "hash_manifest_sha256": "0fac7b4df73cce5019e194e556bd532db7275e8bf20e9d0f90dc8763549c3e65",
+    "tag": "phase5-legal-snapshot-v1"
+  },
+  "phase6": {
+    "commit": "4571ae8c1e36b1d35e09d1d45c0325be1ece04c1",
+    "interface_report": "docs/PHASE_6_V2_PILOT_REPORT.md",
+    "tag": "phase6-literature-v2-pilot-v1"
+  },
+  "phase6_7_qwen_provenance": {
+    "historical_protocol_validity": "RETAIN",
+    "model": "qwen/qwen3.8-27b",
+    "provider": "Groq",
+    "v2a_openrouter_compliance": "NOT_APPLICABLE_TO_HISTORICAL_RUN"
+  },
+  "phase7": {
+    "execution_report": "data/model_benchmark/phase7_population_sample_v1/reports/phase7_psb_v1_execution_report.json",
+    "recovered_commit": "99551fa86bf11e5771339fd68c035943a149d3ee",
+    "recovered_tag": "phase7-population-sample-recovered-v1",
+    "sampling_manifest": "data/model_benchmark/phase7_population_sample_v1/manifests/phase7_psb_v1_sample.json"
+  },
+  "phase8a": {
+    "analysis_plan_commit": "548132630503dd2e98159e2677d59ac6bd9cf407",
+    "completion_commit": "852df37d30a43f431346f3e177dba260b6e47560",
+    "hash_manifest": "data/analysis/phase8a/phase8a_hashes.sha256",
+    "hash_manifest_sha256": "f02bd010286d6b3c965081b878419ccfde26e6106fc92709f983d7afcc7242a8",
+    "results": "data/analysis/phase8a/phase8a_results.json",
+    "results_sha256": "a1726198ca43a4dfe057df4dfec507f8a6b02eeba1129d447b0f18e66711e369",
+    "tag": "phase8a-confirmatory-analysis-v1"
+  },
+  "schema_version": "phase9-input-manifest-v1",
+  "software": {
+    "implementation": "CPython",
+    "python": "3.10.4"
+  }
+}

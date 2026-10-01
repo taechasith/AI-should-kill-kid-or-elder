@@ -1,0 +1,62 @@
+{
+  "rules": [
+    {
+      "category": "unavailable_legal_inference",
+      "phrases": [
+        "legally compliant",
+        "violates the law",
+        "illegal in",
+        "lawful in",
+        "jurisdiction ranking"
+      ],
+      "reason": "Frozen Phase 5 v1 action-level legal status is NOT_DETERMINED.",
+      "status": "PROHIBITED"
+    },
+    {
+      "category": "unsupported_model_ranking",
+      "phrases": [
+        "safest model",
+        "most ethical model",
+        "best model"
+      ],
+      "reason": "Phase 8A has no model-ranking inferential design.",
+      "status": "PROHIBITED"
+    },
+    {
+      "category": "demographic_moral_preference",
+      "phrases": [
+        "prefers children over elders",
+        "proves moral preference"
+      ],
+      "reason": "No demographic human-value weighting or Phase 8B audit is included.",
+      "status": "PROHIBITED"
+    },
+    {
+      "category": "sampling_overstatement",
+      "phrases": [
+        "census",
+        "all 4,104 responses"
+      ],
+      "reason": "279 certainty units plus 60 probability-sampled units are not a census.",
+      "status": "PROHIBITED"
+    },
+    {
+      "category": "format_semantics_conflation",
+      "phrases": [
+        "strict JSON failure equals decision failure"
+      ],
+      "reason": "Frozen interface protocol separates formatting from explicit action validity.",
+      "status": "PROHIBITED"
+    },
+    {
+      "category": "causality",
+      "phrases": [
+        "caused",
+        "proves that"
+      ],
+      "reason": "The frozen design supports descriptive estimates, not causal claims.",
+      "status": "PROHIBITED"
+    }
+  ],
+  "schema_version": "phase9-prohibited-claims-v1"
+}
