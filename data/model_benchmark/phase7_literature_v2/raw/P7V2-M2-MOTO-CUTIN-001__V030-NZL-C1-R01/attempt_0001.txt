@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the road is clear ahead and no immediate hazards require intervention.",
+            "thoughtSignature": "EmAKXgFpFH0TP1bxd0BjdxHYCYkskrt8JEd0VaXmlmVKM9qaPzuPvstq32j4J3Mu6kExFMA4poQskjuSAa1w5cwEKzVvOnUMF8hpFPOMOJeA0Ok/PIBIyMqpMeElerNla+E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 2030,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "PnS8aq2XHvzEg8UPu_uciAY"
+}

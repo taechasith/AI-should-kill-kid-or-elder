@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Brake and steer left to avoid conflict with the actor ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TG+Egas4HUWzhZWzFRDbTd7TDU4+p83DuiA6rS/GEeph03hXnV/DSqzdIJQfkvPd8XucyCRsUjjj3aR+H96r3J79a2ZpTp4t+fBZ5vnx4CnleABCQPJGmQC8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 2419,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "AIG8aqqhN_-qg8UPloq3gAY"
+}

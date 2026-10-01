@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,INSUFFICIENT_LEGAL_EVIDENCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=Legal status cannot be determined due to insufficient legal evidence.\nRATIONALE=Moderate braking allows safe speed reduction relative to the leading motorcycle while maintaining trajectory feasibility.",
+            "thoughtSignature": "EmAKXgFpFH0TFegMc1+uT6cpD/8eUIC/pn0kytY1U+oS930qKlPas1gPPD73qQyItIhntQMaCHQoe9JZLh3VH3x7UeHTUB/rEEiMCCVZw0vSTV5Y84y4syKu+idmbn/2jM8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 3406,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-Ie8aqmdNemwg8UPos6YwQk"
+}

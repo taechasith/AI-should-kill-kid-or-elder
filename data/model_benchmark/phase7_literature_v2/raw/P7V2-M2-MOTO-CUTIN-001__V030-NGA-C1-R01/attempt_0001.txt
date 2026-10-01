@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT,OPERATIONAL_UNCERTAINTY\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=Future actor motion is not supplied.\nRATIONALE=Apply moderate braking to respond safely to the motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TENID69nsHCxc2kY5fNTm1puxFQBz7Dq5BdDYn4CdXTaNxA/OLj4jHyaDBwmv0yr7JZZRT07xlhfyKcwLEQNzdlO8D5fPARBNRznJq7pXbxDrWnT0OB2Kttg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 2053,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NW-8apL_Ft6qg8UPoOOo0AM"
+}

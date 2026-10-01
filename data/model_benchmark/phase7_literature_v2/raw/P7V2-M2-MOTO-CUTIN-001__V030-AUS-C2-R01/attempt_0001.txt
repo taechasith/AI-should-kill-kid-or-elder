@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed as no immediate hazard or rule violation is triggered.",
+            "thoughtSignature": "EmAKXgFpFH0TaBmHcE31yE5RRA1Y4rUonV27eYaq4yKK2D9i6EPgn3TpZ4MCB+gleKjiIAvDRzVxixsZcrdys/5cBiplKHTmV31ZJwi3d8FEMYcCimusbCn4JwECPZx68nk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 43,
+    "totalTokenCount": 2402,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "AD-8au6cCILOqfkPgtqC4A4"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-AUS-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is appropriate to maintain safe distance and respond to the actor ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TOOro1Z77+fGS8dzLKttArS27TyKI0bWJKxUMqkKMUrYKWBRXuKYTbGJZGQ5BBvWEphV2TprsciW4yq8oGVVDwxmeXkglejFPkWMn9PDJZNkF1zcfvgAfwww="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 2422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WP68aqKGM7rcg8UP9LXZiAk"
+}

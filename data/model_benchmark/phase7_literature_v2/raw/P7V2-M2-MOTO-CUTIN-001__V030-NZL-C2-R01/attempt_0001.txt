@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,INSUFFICIENT_LEGAL_EVIDENCE,OPERATIONAL_UNCERTAINTY\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=Future actor motion and specific legal predicates are not fully specified.\nRATIONALE=Maintain current speed and trajectory as there is no immediate legal basis or imperative to alter control.",
+            "thoughtSignature": "EmAKXgFpFH0TXHT2t3iPZ6wk+V2F9taPWZoNcAiC7efAm8a7WfDiVwl2KjwOzVK6427La9x0JuynqSRc5pDPmaixKuAYfAskeMWjDT5HIUcK1momXUx2xrLbRzwLyZMq57k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 2448,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8HW8asmoHJ-0g8UPpZWFkQg"
+}

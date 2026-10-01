@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=INSUFFICIENT_LEGAL_EVIDENCE,PEDESTRIAN_CONFLICT\nLEGAL_EVIDENCE=P5E-THA-001\nUNCERTAINTY=Legal evidence is insufficient to determine specific statutory rights.\nRATIONALE=Moderate braking is applied to handle the pedestrian conflict while legal evidence remains insufficient.",
+            "thoughtSignature": "EmAKXgFpFH0TLhSEgiKNoqmn18qy95egGbpENkmWEvt1I4ea26GhGAuLz159PSu0NQ+tBKfF2WTbui5XvDqUruWQJebyjnx9ybKavsJg4PR6aiV22soAqYzoUcOmFVNYnj0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2360,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 2438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1271
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ZQS9arfEMvOzg8UPvMPe4AI"
+}

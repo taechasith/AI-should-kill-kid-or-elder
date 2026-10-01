@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as there is adequate distance to the ahead obstacle.",
+            "thoughtSignature": "EmAKXgFpFH0TkzB7I8HN8n9tk9s646f+sCZY8Bz+Jrx6Rr6YuqLKGmcs728p9HeTb9ZjM/Ymf/75fJjNcqV049HYpNB/brHDokOpyuRPm8IRyIThVBKObxI/2hzYybXtpq8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2414,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bEK8avu6MPaiqfkP6MHh4AU"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,PEDESTRIAN_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to respond to a pedestrian near the roadway.",
+            "thoughtSignature": "EmAKXgFpFH0ThRY5Wn3Z6r15jucyvUDd3uH2DXGuD1zMIkiBnZR26fEPceJgiQ3PUnfiDKsiJeZLGxBtzr61M4uT2zO2qKqPEwyFQ3EB13a7I1tCbf8XnIqTTQgDep0Vmcc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1986,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 2038,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 897
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KgG9aoy9Isvfg8UPxNra6As"
+}

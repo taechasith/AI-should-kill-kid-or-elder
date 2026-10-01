@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as there is no immediate collision conflict with the actor ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TRGn7RBtpr+Kp0DXcq56+W8Kv4BY5ir65bxNLq/WyAiuYIeZ364BYq88++Rk9EkVUu4jbnpxOgb1i2GQmB+HXxgG4zXGiShuVpyBhCI0FVJgwXv3FJqhIIy0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 2039,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OYS8asXSC_f1g8UPmNuKgA8"
+}

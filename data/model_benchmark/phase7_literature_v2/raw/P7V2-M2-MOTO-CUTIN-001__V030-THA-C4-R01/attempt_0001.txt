@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the motorcycle maintains safe separation and no collision is imminent.",
+            "thoughtSignature": "EmAKXgFpFH0TJwy8AUnqi6Op12prddzgxBWOKtxFKYQ2PBmmGZkVcIg/3E+eWKFZ8FpiuZAqZVFjlIVau2TGdEqWZ3Fg76daZC/XyZ2TcRkcK7Ctt6zTfdQRmjlNMXerUJk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 3388,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hI28aoDZIv7_4-EP8NC8kAU"
+}

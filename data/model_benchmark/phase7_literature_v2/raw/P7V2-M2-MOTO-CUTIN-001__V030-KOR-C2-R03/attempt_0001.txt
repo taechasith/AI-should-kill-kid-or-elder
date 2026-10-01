@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT,INSUFFICIENT_LEGAL_EVIDENCE\nLEGAL_EVIDENCE=P5E-KOR-001\nUNCERTAINTY=Future actor motion and specific legal predicates are not fully specified.\nRATIONALE=Moderate braking is appropriate given the motorcycle conflict ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0T/k1q6GQNP7rRqdmel91ATLj5mwpXNIV1Xledt2Slm7mv/AljU/sUcx8Q6tPWevwxbFcJ3kqJBk2J/0Apgv3NBneAiV3U/43e4uZEzSYoFIyJXSxsiQolFhA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 83,
+    "totalTokenCount": 2449,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UWi8aoOvOPaIg8UP3vGX0QM"
+}

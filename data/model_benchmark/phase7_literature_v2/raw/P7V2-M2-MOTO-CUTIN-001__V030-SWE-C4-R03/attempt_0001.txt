@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-SWE-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed and lane as the leading motorcycle poses no immediate conflict or collision risk.",
+            "thoughtSignature": "EmAKXgFpFH0TpZeB66yGM4OTSwi4FMPHPH6kQUCcF/+NeWqX1Ox1qiIFvIgzhqEJ4wRj5GWHkP7OrkH0p76rl3SFNTHuyNdgw5y99iYHWy98SaH/6Xg8rShaIdA/0DWnKoI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 3398,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "LIm8aq70KNmwg8UPrsjrsQI"
+}

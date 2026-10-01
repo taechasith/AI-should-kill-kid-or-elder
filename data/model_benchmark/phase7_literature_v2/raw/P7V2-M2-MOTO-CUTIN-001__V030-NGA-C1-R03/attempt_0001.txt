@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=The ego vehicle is traveling straight and maintaining speed safely in its lane, with no immediate obstacles requiring braking or steering changes.",
+            "thoughtSignature": "EmAKXgFpFH0Tx5zBXheiPkEG4pLug0TB6yvnaUMM8FGJZ0agd5q+Zpz4PvnWZDEElCnTzNEkwwZUlI+OwtT2ayAQr80IRCJ4m7bAAJq+ijnYOCW/L1PqEEqC+3z65QDSves="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 2039,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "S3C8avbaL6Dbg8UPzZOgyQs"
+}

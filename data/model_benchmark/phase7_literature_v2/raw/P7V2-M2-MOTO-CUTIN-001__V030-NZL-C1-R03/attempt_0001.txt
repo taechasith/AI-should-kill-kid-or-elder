@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as there is no immediate conflict or hazard requiring braking or steering adjustment.",
+            "thoughtSignature": "EmAKXgFpFH0TS3l+fvD5T9/bWvuN/8Q6WdnZiLySt/RGvVEbIO5N5aq/NC4QxdranZEBVor2iZ/BmLk++O5N2bMgRvfpRayv+1K5s/pgOECSjD7YvVLcssf2nzzfxMMVhxw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 46,
+    "totalTokenCount": 2031,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "X3W8apWiIYmtg8UP1_XB6Qc"
+}

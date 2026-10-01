@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE",
+            "thoughtSignature": "EsIJCr8JAWkUfRNy83S8po7T2+RYvG/oyBmBMJ0GCHjUaT6UL/gcYE8cuqYqszdAlIYjCE1thIUlZvRMBBTbRKqbx+o/qCR4L5TNUyEcZwXLpCbGg58BsuTYWD9Oj35sebvDZpAFu2tqwYwXbXpVsEER3dnOhLO2h3HDcbbhLNQICSKXT/XJ2Y+sx+UsZyX8pxwMW06b7XLPHxEhEu1pqs+yHEWszhBq3EbRMp/luorsyzqazelMkI6mBFPsRwA/9yYa9RXzkke43iS/2smbNbWSrVzR5Qta4pMra+mNrZUn2sRhWqV1hd7EfulqrS9qKppABe9T5AiKfrg7wCDEeKd8gSMvO2RBZA9aQfBmfbXv+mXIhSOPGsU23/t9+MX5a+hEQwCJF8ihrJFpG0hAcm4WbhMoBfRAD2o+WAVpIbMZQ/pUlRXgr+d/tOKAY0J9mGEXqHVHaKOepR84uSQhx1ZXN37uolm0Qop/e48Lylp+ZrnVcZWqG49VWKIP7raHVNs4sRhrpk0QgNoYqpsyL/3RFjQ0X7ZjqGEtGT2bCbKlK6ysoE5mntVtx99jL13qyX6F3/695lNrskXPwUVaKeBEDWuVla+hkiIMJMGRrexD4vcvRp3S2NiiV2sWz3eB9ATQjKA18dZEZlx+P+OTTLB3YHL49XRbn0TAjmvtX2+ZClXVg6kKqzuzxMax2EBG3V3o1OaOES12JPEnzfQCvFoR1+MFi/vWI5EOq1HNfCGIpLePlL/Lf+Qi18d2hCIKxoFNKSBJT8ckqbTwKjfA0HqmtPTyGgnIZkULaSgiNOblg1BbZPCM32TCprhvUYkQK7yoOpNcuxDciKJrLk1QNlmbBB+L4bqqcLVVtxRh1r2z82nkQIo6mr8HN1Wjg8KvsYsK9iSQP8y1lT9clSNoJPh4DBZvQ23guCSkTjCT7UqWJXFZyHBh/+LkN5HEKp1PUNhR+JV5y2mnrkOvrXWzvw+hSpVifPwxQI5AKz84qGuZ3rOHAGgmCrU3a3QuS8R/hsps62sISMZQoID0FICRqAVwJT/pceFv8CyPmYkS+IIHy8akWz0xVsyUEOLjaN+XIBOYrp0X+3mbysx2hTB3MzjxM6Qya6blxFDMyDGSfDe1Drq7IsN32JmsWndqLXxs1M2G5gcCv8/yGmjavc9UIaEssxmuQR2vFwbLUGrI8uR2NDWdqYWgZQtz91MeS6LGkQoSlE/mGpr7E8/EBnQYkN9tT5moZp6Z0jDuRoNNc0/6Q7BTr7zf/4QjInAHIhqKXuDueWVbCm5mPM7vaRYgK2QdhHIx/BRkeOFcZd/kVuuoCGKvC0EimlfosGP7vKfrdxfDoTKAS1gWvK6Iw3tpBzUHUHVpfO7yKOKJvcjNjyWC7MIydybHZI1ssX1Ao4uArn40BQr/7reHbtkLgi7bfsre8FWUqcMkUMs5yfpD5a690lI/7HOwGNYluA1VL7IEh1EM/Ibk7Liaekm8QDx1IbR02cSozef6XQWPyWEpzzldbpyoJ3Y1qheoMVmUrBcCzac/Qeb9SHw2IcqHWkIM8YPRsDx+9ulYEtpObNTKfuAVVJM2Mkub97f1j4U6/+83UE1tfvPkfZehYiVHD4SEi3HLiNR4"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1990,
+    "candidatesTokenCount": 18,
+    "totalTokenCount": 2486,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 901
+      }
+    ],
+    "thoughtsTokenCount": 478,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "2G6-avGeBNCxg8UP3-fGqQU"
+}

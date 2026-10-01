@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,OBSTACLE_CLEARANCE,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply emergency braking to avoid collision with the obstacle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TaoXWPctQ90GSk8+jzYdAX6GQSsAhkrOagckYN9roVS7iLqxhhIGWpqKztIMb13rd/PzhxxgrkhssqLj+DLrO7NWxWMzizP+EQ+QM/G8xypwX6kFHkvnQZss="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2417,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "5V68avHGEOWyg8UPlJCZwAM"
+}

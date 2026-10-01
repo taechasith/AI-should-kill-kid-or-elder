@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-ARG-001\nUNCERTAINTY=Insufficient legal evidence to determine strict liability predicates\nRATIONALE=Maintain speed and lane position while monitoring the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TmL1yVp7RHMXk2lkemciO2ZNxg4Le/fEvDgH2ea8+KMaOG7rI1VdVfxR3bAne5Fp5HEpf5PKBXRBkkwVJGPADxx6Q5sWOsoY0zJ3IQkD3uBEVaMu8NBh8gUo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2423,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Az68aqLlL6DSg8UP5arQ-AI"
+}

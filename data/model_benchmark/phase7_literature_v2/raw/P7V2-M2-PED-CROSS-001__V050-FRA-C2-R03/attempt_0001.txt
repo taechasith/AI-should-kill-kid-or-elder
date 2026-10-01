@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,PEDESTRIAN_CONFLICT\nLEGAL_EVIDENCE=P5E-FRA-001\nUNCERTAINTY=NONE\nRATIONALE=Emergency braking is required to avoid a collision with the pedestrian crossing the road ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TQQR8/P5vQniolK6RslA1N48+aj034yJ4lfVKtbved+IjqercFnljg1UTD2pLOxwOpdbbDTqNUyD2CYy2AeL20Xcmdas0dufmmA1mo7t/60+YWXOGQEBVwjQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2360,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 2426,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1271
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "BAG9aunaDL2og8UP_8S8sAc"
+}

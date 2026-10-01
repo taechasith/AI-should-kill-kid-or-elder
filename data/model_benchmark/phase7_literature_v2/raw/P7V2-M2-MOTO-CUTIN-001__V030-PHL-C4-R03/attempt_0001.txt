@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=P5E-PHL-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as a safe distance is maintained without immediate conflict.",
+            "thoughtSignature": "EmAKXgFpFH0T4Hc6XnR4dU/ujyaTsGzAVVcNVG0BkmbRrnR8f4nJnmS+YPWL/W8ZIS8H5xXvB8AVe9UquKbpqlZT4wofaIOP678Dkj+aCLlBUkNeIgMsiGiAFoyq8881AEc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 3412,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "7H28arbQGKqtg8UPwbHj2AQ"
+}

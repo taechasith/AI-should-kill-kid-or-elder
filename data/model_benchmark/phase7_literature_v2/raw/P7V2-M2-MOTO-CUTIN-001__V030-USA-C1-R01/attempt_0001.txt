@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nFACTORS=COLLISION_AVOIDANCE,MOTORCYCLE_CONFLICT,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Emergency braking is necessary to avoid a collision with the motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T7M9kTWIBHOnxsrTFHaGpf50ToRadszwSzDVNUmJC7LpnFzCWgzC8+tWfo4CY4u/BAOVdHhApYqGLcPw9nBHPGlbFm/UqdXod/6F+kjuK58dtDp7YFOeKIik="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 2042,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "GpW8au3uNILCg8UP8sWcsAU"
+}

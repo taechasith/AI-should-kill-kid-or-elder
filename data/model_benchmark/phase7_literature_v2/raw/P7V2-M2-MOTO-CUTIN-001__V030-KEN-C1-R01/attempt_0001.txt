@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is required to maintain a safe distance behind the motorcycle ahead in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TpZ/KJabxZp3gkbpr+cRRtwT6JHj5mJ4WB/cOj83//ACDYqAmL7dUOMSBVT+kguB/E4DvNn0DpeVHtZa6A7Wk69MlSfZrnvi3nPrnOroksHjGLtcacW+Qcl4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 2040,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "TWG8apu1Aa6xg8UPz6mPoA8"
+}

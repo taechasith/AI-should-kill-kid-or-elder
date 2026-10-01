@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed and lane position as no immediate conflict or hazard requires braking or steering changes.",
+            "thoughtSignature": "EmAKXgFpFH0TyNS2w2OF2LEot04vu9Ey0uZfgvu8Trxbrxj00w1bjNakxum5HB+0JWwRKfvXjHnruTJ68q5DSldo0HrI/ZdXZW3BQF+9yUD504p4bs0vhn2XB3roMowlL1U="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 2032,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8VS8arCiI-e_g8UP-rKSmQ8"
+}

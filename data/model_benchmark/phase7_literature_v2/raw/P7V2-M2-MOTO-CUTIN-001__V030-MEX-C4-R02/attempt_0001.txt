@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-MEX-001\nUNCERTAINTY=INSUFFICIENT_LEGAL_EVIDENCE\nRATIONALE=Apply moderate braking to respond to the motorcycle ahead while maintaining a safe and feasible trajectory.",
+            "thoughtSignature": "EmAKXgFpFH0T1En6KSIa2RsL7Ww/qsSe9k2gbQ5AIWb5j2WFdTFHO9JFLILNxG3ksgFJhDZuQ55h+CYo7AoBQS3ggBpJDqzb29X2dD1PbhRNRacx0eJUX513m1gIBfGfUUE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 3408,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "IG68au_-Ffazg8UPhvH12AU"
+}

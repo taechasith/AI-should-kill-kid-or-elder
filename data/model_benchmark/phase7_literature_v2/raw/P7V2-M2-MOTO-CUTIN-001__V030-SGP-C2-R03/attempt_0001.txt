@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-SGP-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as ego is traveling straight and legal evidence is insufficient to determine specific right-of-way outcomes.",
+            "thoughtSignature": "EmAKXgFpFH0Thzm0naICCSo5U9S7vgMRbIZPSi6KawATO4QMiqtlG9+fjFNKhBmmnx7nBNkdVhOTgrNi2G+XW5reeBaWSwfVKW4bJMen7pSOwqtDAZj6Y6yRvGSigEH79mM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 2435,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "mIG8avXYOP7cg8UP3Za3uAI"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to respond to the conflicting motorcycle ahead.",
+            "thoughtSignature": "EmAKXgFpFH0TrSO2pmUVwL2vMYgLQlQSj14yMe3x2h86HFuMkG5RQ3dp8WcrLhxFAZv7TpIXZWm9Pr6jPx4tSTmLFY1zcEi+zRXXMhWQGmbx6vHfmCKKBUjYFX/iw1qPNoE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 2415,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "2oy8aq_PG4LCg8UPopeI4Ao"
+}

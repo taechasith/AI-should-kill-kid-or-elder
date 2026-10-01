@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking is required to safely respond to the motorcycle ahead within the lane.",
+            "thoughtSignature": "EmAKXgFpFH0TQxkKPbetdoGTomuXoqA0JDEPliY/hbodVdLIdosGSlfFtnx/2ETld3ZxhYuJY7jjsU072hJ7Q0QvisvfhRaov7rRHh1Yi3ALt7TQryG7kUVYhD63jQGFhTo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 2045,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "znS8aoHyI_DEg8UPoLWj0AM"
+}

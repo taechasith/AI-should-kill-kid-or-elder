@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and trajectory as there is no immediate conflict or obstacle in the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0TldTv2dVIm2MJZt9Yp0LGFnDyJ1BKcMiKFAIxZ5VaVGJRs4SNEl4eAgdA3M+WxN3S61G2u6JHjqzc3hFwICZjXWzLOuEBJ9HYkbfO5g4XkAsbQYn5V1bE2z8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 2035,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "40a8ap-SKtzeg8UPt4rF2Q4"
+}

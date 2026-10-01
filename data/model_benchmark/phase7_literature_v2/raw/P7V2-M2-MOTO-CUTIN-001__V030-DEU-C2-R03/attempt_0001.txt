@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=OBSTACLE_CLEARANCE,EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as the orange obstacle is ahead in the adjacent lane and poses no immediate conflict.",
+            "thoughtSignature": "EmAKXgFpFH0TLA0Jz998BO417B+VCh1zR/+5uDGROiJ1EABoicGHFWXb8uOgaBCwMrIbXaPApkRr8gTzHD2BmbI9aIIwN5aGznoOH7NL+UCtR0PhxLFUYHzacbp3AKPUgWY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 2427,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "xUu8apeUE8WujuMP_oaOmA8"
+}

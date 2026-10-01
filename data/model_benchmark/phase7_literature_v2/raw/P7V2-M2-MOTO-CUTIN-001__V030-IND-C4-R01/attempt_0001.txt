@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-IND-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to maintain safe distance from the ahead actor while preserving feasibility.",
+            "thoughtSignature": "EmAKXgFpFH0T9/Q2m6KFGFSpFu9jRylwQTojYXBoLOIfhEu8Y1TYKNUzuDydWcRvwpoWt7bT40ItvH6Yi0gfiYNfbV1vaimskKu3gjCSsnH8HvWzKjSNB2mle2rhv+1euUo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 3399,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "nlu8ap3_N5uBjuMPvbO5iAw"
+}

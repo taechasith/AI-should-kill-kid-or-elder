@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=P5E-FRA-001\nUNCERTAINTY=INSUFFICIENT_LEGAL_EVIDENCE\nRATIONALE=Moderate braking maintains safe distance to the leading motorcycle while avoiding harsh deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0Txby0xZqm/BgOJKsDBp0cZI0X1H9Bxy6gDqewGQP5Qe1fu2NksFnmfUsfSEDv+JCdya2jXDNweSsJ0/rzo9FWBdDBk8wvp5F24HBQCenwLuGAZO55EVki5Wc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 3407,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "T1C8aonBJ7DQjuMP6_7ZmA4"
+}

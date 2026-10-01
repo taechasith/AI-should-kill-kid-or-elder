@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-NZL-001\nUNCERTAINTY=NONE\nRATIONALE=Maintaining ego speed safely accommodates the lead motorcycle ahead without requiring immediate deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0TszBizx1mseLhOaWfk8daUlK2RPp0ogDZXmJoLp7ZsUpmxsuk0mBHwYS04iZFhr6vD/+64jWbCSOrrK9I4MniL0+jPeC3tDVJTZCOgynvRgtaPGsZC7WSnWA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 3404,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0Xi8ao7rDpazg8UPi9L4-Ac"
+}

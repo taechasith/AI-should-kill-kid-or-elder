@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-IDN-001\nUNCERTAINTY=NONE\nRATIONALE=Maintaining speed is safe and feasible since no collision occurs and sufficient distance is maintained from the lead actor.",
+            "thoughtSignature": "EmAKXgFpFH0TmQgDeAgwf8nr/1hRfCDFy0PRcpLYyDHM/ehNInNnlAFO6+L5xBPOB8GGeqfUyVwv+4LQUsGAhhi6O00+OHgOluQgybaeTFCmywAQzKN4bFPybR0RtFwt/5Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 3412,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cFi8aqKWJre6juMPk-uHwAo"
+}

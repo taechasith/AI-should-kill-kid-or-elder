@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-MEX-001\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to maintain safe distance from the lead obstacle.",
+            "thoughtSignature": "EmAKXgFpFH0Tjoe/Q7Y8hlPQj1Zq/6djqNgzpNquiQRxiFYe7BS45Y8x6r7or+TSYq2YXfhSIp82exuKqcDdvQe81l2ew27qiFBm1yHdfd0rRocwqlrIwhl7TPYnk5LAOm8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 2419,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "D228auyqCKvfg8UP-YmowQs"
+}

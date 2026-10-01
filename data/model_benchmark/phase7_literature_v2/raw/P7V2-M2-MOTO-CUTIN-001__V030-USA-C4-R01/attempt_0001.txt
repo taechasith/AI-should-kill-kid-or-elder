@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,BRAKING_DISTANCE,EGO_SPEED\nLEGAL_EVIDENCE=P5E-USA-001\nUNCERTAINTY=Legal status is undetermined due to insufficient legal evidence.\nRATIONALE=Apply moderate braking to respond safely to the preceding motorcycle while maintaining vehicle stability and avoiding potential conflict.",
+            "thoughtSignature": "EmAKXgFpFH0Tv6MiwNFhFJAbucpB6BNDU407sZCvAwFAh6ukQ/TpyDiv7j5DuLL9tFiwzrEUj9O8IKG2G+z4CEc19LG5Xkpa4z42AWgvQxcs6H0CWcXGSKaUZLOiFkUhxr4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 79,
+    "totalTokenCount": 3415,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "_Ji8apu_A5Pdg8UPmYS7iAk"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-KOR-001\nUNCERTAINTY=NONE\nRATIONALE=Maintaining speed is safe as the motorcycle maintains sufficient distance and separation.",
+            "thoughtSignature": "EmAKXgFpFH0TnpTAauQwDx1ghzkT2Li0oQ4EatGhgXm5J6eX8FqhkWepMbSeOy46QBEHCO7uG9+rYHJcrM7nzGjZxGTqEErZ+EOpvFndFpONr9aJvvfGBPiQlV6HXPMK7gY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3343,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 3403,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2254
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3Wm8asigJqvfg8UP-YmowQs"
+}

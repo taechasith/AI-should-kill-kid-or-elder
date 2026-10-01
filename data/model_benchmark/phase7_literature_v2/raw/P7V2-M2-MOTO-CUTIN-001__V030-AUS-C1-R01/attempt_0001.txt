@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=MOTORCYCLE_CONFLICT,COLLISION_AVOIDANCE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Apply moderate braking to handle the motorcycle ahead cutting into the ego lane.",
+            "thoughtSignature": "EmAKXgFpFH0Tazo2v672vhKGIvOnAcm1kYK0OQ3loNLwq+75Fcbw1XcZUT1sQ2cjzdzhHtxSJQWjE3iriT+N6B3M5rw5zqm4/tu3TC1DxIKGSf/5+9x86MAa92EZDxqLyQo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 2038,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "nj68apehG4LOqfkPgdqC4A4"
+}

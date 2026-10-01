@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,OBSTACLE_CLEARANCE\nLEGAL_EVIDENCE=P5E-AUS-001\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed as the lead vehicle is at a safe distance ahead in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0THeDKfwTyCS79oBFPl//pA5wQLwiPEmVIEWWfau9KpxuYWPHHCmgVAdnCKW9xbqN53RpK4/lLNPfR0Ku9jaR4zTxzxn2jRFIVm83rkMFYWgEU+94G1UM/m7E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2359,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2423,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1270
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "JD-8atrFAp-_juMPuI6DqAc"
+}

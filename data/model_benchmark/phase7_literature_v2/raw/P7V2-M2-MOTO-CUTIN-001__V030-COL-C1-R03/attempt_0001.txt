@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain speed and lane position as there is no immediate hazard requiring braking.",
+            "thoughtSignature": "EmAKXgFpFH0Tocg/45cWjkeVJF2XmlBGBHiqQHNR4mUSpuRzWTDGHzpv7pv7k51STek66+DYOCqRPOL7Sielsh36kTKNl5J2ck81inCZlJLIk6TmJYjBGmU2bsYDAZkcuHI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1984,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 2031,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 895
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "P0e8asL7Arazg8UP8pu0gA4"
+}

@@ -1,0 +1,44 @@
+{
+  "attempts_by_http_status": {
+    "200": 60,
+    "429": 18,
+    "503": 12
+  },
+  "certainty_observations": 279,
+  "full_manifest_rows": 5454,
+  "not_applicable_rows": 1350,
+  "not_estimable_from_frozen_phase5_snapshot": [
+    "prohibited_action_selection_rate",
+    "road_compliance_rate",
+    "unsupported_legal_claim_rate"
+  ],
+  "population_provider_rows": 4104,
+  "primary_estimates": {
+    "valid_allowlisted_action_rate": {
+      "approximate_95_ci": [
+        0.7340288824257252,
+        0.9136319362877251
+      ],
+      "estimate": 0.8238304093567251,
+      "estimator": "Horvitz-Thompson",
+      "standard_error": 0.04581710557704079
+    }
+  },
+  "probability_sample_observations": 60,
+  "sample_terminal": 60,
+  "sample_unresolved": 0,
+  "schema_version": "phase7-psb-v1-report-v1",
+  "spend": {
+    "thb": 0.0,
+    "usd": 0.0
+  },
+  "status": "COMPLETE_WITH_FROZEN_LEGAL_SCOPE_LIMITATION",
+  "validation": {
+    "parser_outputs": "passed",
+    "phase4_input_package_join": "structural_manifest_join_preserved",
+    "phase5_action_level_scope": "NOT_DETERMINED; no legality-rate claim made",
+    "raw_response_hashes": "passed",
+    "sample_invariants": "passed",
+    "terminal_uniqueness": "passed"
+  }
+}

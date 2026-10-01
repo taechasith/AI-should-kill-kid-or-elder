@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-PHL-001\nUNCERTAINTY=None\nRATIONALE=Maintain speed as the lead motorcycle is maintaining a safe longitudinal distance ahead in the lane.",
+            "thoughtSignature": "EmAKXgFpFH0TK6Ze9kZhSAwZ2GQLZB6o7bkPRY4GyWjeDYXXyuVKnMy+rFZNFVmCxQSUs3aGeuMsxxaJwEbk2+oVGMdZv400fTlkDqcPTSqbQHweGGmXhnYskoEjN25WqAg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 2366,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 2430,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1277
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pXu8aprNCuOsg8UPqJ3o0QU"
+}

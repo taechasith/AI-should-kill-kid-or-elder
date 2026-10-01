@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nFACTORS=NONE\nLEGAL_EVIDENCE=NONE\nUNCERTAINTY=NONE\nRATIONALE=Maintain current speed and path as no immediate conflicts are present.",
+            "thoughtSignature": "EmAKXgFpFH0TknLjXzJL4kiwhbld/33VA8ldtq3YgeoZ7iRepwhk0VsRWGpKtGB7qM/cFaUaCQ2taoyIndepYpsX1tB0jq/Hk2JqiUQMIIWtCnwtavRLM0zlYQAjo9aN54c="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1985,
+    "candidatesTokenCount": 42,
+    "totalTokenCount": 2027,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 896
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "i3q8aoL0O4rfg8UPh6al0QU"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nFACTORS=COLLISION_AVOIDANCE,EGO_SPEED,MOTORCYCLE_CONFLICT\nLEGAL_EVIDENCE=P5E-AUS-001\nUNCERTAINTY=NONE\nRATIONALE=Moderate braking allows safe deceleration while responding to the nearby motorcycle conflict ahead.",
+            "thoughtSignature": "EmAKXgFpFH0T1hZljOg0E68BKO+vURcIxdTse4EyU1C7NgQ+cus8RzRgnfFqDcK1vbSOkkOY9BNRmZeS1biZ/HQ6a1cFppg9ZR1FjKoB26hL2AJK6H++hnfs4E2y6LPyMGY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 3336,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 3403,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1089
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 2247
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "tj-8aqrAN-ayjuMPsJiJgAs"
+}
