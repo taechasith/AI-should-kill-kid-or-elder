@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a pedestrian crossing from the left at a speed of 50 kph. Decelerating moderately (A2) provides a safe response to prevent potential conflict with the crossing pedestrian while maintaining smooth driving dynamics.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TnVOXzkLYlz0bTxsGmITjztiINaGGIjve7JGIzHOmj45qPMLRc/GV1/hiZiTGq9kE4bZ7c2NIL9JWNE0/YpnXebCgQEKHbLcMAqVomhxN2QZdmMer/rY7qqI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1478,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 1548,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "jeC_aumFJ__Fg8UPz--duAo"
+}

@@ -28,7 +28,11 @@ def verified(row):
     return current
 
 def next_safe(all_rows,ledger):
+    # K6 is a separate frozen experiment and may not begin new dispatches until K5 completes.
+    k5_incomplete=any(not ledger.terminal(row['observation_id']) for row in all_rows if row['phase']=='K5')
+    eligible_phase='K5' if k5_incomplete else 'K6'
     for row in all_rows:
+        if row['phase'] != eligible_phase: continue
         if ledger.state(row['observation_id'])['state'] in {'PLANNED','RETRY_DEFERRED'}: return row
     return None
 

@@ -88,6 +88,15 @@ class ExecutionMatrix(unittest.TestCase):
    with self.subTest(status=status), tempfile.TemporaryDirectory() as t:
     root=Path(t); row=self.row(root); ledger=Ledger(root); ledger.finalize(row,ledger.start(row),status,b'{}',{},transport)
     self.assertTrue(ledger.terminal('O1')); self.assertIsNone(ledger.start(row))
+ def test_k6_dispatch_is_held_until_k5_terminal(self):
+  repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner_order',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+  class Fake:
+   def __init__(self,terminal): self.terminal_ids=terminal
+   def terminal(self,oid): return oid in self.terminal_ids
+   def state(self,oid): return {'state':'PLANNED'}
+  rows=[{'observation_id':'k6','phase':'K6','execution_order_key':0},{'observation_id':'k5','phase':'K5','execution_order_key':1}]
+  self.assertEqual(module.next_safe(rows,Fake(set()))['observation_id'],'k5')
+  self.assertEqual(module.next_safe(rows,Fake({'k5'}))['observation_id'],'k6')
  def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
   repo=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as t:
