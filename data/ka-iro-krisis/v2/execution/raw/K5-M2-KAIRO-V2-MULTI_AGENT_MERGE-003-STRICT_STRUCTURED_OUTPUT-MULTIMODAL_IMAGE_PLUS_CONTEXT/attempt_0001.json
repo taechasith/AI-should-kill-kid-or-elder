@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"There is a merging vehicle ahead and a crossing cyclist further down the road. Maintaining speed or slight deceleration while monitoring the merge vehicle is appropriate.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tx0o/z6Sf/YfjdMpSsrSlu0kp3HTKZetxhDY1NBxewGzSYe/5XCK9vcrzp11z+ht2HTY7mXefd2+NXVU/r+xnrxHH+TWBiJiNHZnW+A+IxgskaoKtCp2b4Ls="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1562,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 1613,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 470
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lOK_avaGHvy4g8UP5pKX-AQ"
+}
