@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A6\",\n  \"rationale\": \"The ego vehicle is approaching a static obstacle blocking the lane, with no adjacent drivable lane available to bypass safely, so it must stop (A6).\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TsnEy2Y3vzi4+imXCHMl5f/tDIhEKexjcbRwm+3B/GyVVzXwhZprzYf35hGI//aM3HC8E6APVS+yYEEh/9ckGEzsKerQ/SutHkO1qv0C/6ODMxNEZnEQqIU4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1448,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 1502,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 356
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-eG_aumHC5mwg8UPp_H2yAk"
+}

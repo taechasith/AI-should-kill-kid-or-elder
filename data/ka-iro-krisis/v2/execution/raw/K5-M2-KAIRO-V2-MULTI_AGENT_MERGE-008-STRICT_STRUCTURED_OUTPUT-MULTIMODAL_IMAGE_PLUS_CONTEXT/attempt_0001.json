@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is traveling straight along the road while approaching a merging vehicle and a cyclist crossing further ahead. Maintaining a steady speed or mild deceleration (A1) ensures safety and gives time to react to the merging vehicle and upcoming crossing obstacle.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TtA+M+dtQ/ezfbq85anrsvwfmelp/xksGB2h18IrplKKryZhJmhVt1fbGDQ7vmBP8jC9gFaCsjbCg6Ut+VDZ9jjBX63HKK1C1xNC7WoaXsBY9GLIPCQ/1/pE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1590,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 1661,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 498
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "qeG_aqXOEIK5g8UPpZbPwQk"
+}

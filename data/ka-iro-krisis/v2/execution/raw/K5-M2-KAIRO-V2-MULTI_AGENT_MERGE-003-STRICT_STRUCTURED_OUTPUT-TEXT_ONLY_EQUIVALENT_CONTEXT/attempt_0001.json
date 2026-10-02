@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting in from the right at x=18.8m, y=3.5m, and a cyclist is crossing ahead. Decelerating (A3) is the safest action to yield to the merging vehicle and maintain control.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TIixJt4+3f7JI8dwRbu34mXr7UoPG/QpIcyIBl/hif4PAiu89x5byxaoEnkKV6WUcAnSPfFPXuQx7ywteYL5pgofvog9oBjoV0LEI/5qxVV6BzkURjSHS5aI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 477,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 477
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "F-K_avTEBZfNjuMPsL3EkAo"
+}

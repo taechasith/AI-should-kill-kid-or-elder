@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A stationary obstacle is directly ahead in the ego lane at 27.4 meters. To avoid a collision, the ego vehicle must perform a lane change maneuver.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TgP6m3LBEbI5kVdstJryequ0ZKcUgHXHAWQcP+ojiK1hxSELxwvcLZFowz1PzLr+t6tCZOgSjcuJluMK1dyqd2jM7u0gyRVhUQrb1vNSCvj5w9mgNhdn+N7Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 407,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "COK_avP7BYHUqfkPk5aN2QQ"
+}
