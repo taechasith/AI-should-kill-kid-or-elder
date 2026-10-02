@@ -4,7 +4,10 @@ set -euo pipefail
 ROOT=/workspaces/ka-iro-krisis-v2-codespace
 [[ -d "$ROOT/.git" ]] || { echo '{"runner":"BLOCKED","reason":"AUTHORITATIVE_WORKTREE_MISSING"}'; exit 2; }
 cd "$ROOT"
-[[ "$(git branch --show-current)" == ka-iro-krisis-v2 ]] || { echo '{"runner":"BLOCKED","reason":"WRONG_BRANCH"}'; exit 2; }
+if [[ "$(git branch --show-current)" != ka-iro-krisis-v2 ]]; then
+  # Supervisor rehydration intentionally uses a detached worktree pinned to origin.
+  [[ "$(git rev-parse HEAD)" == "$(git rev-parse origin/ka-iro-krisis-v2)" ]] || { echo '{"runner":"BLOCKED","reason":"WRONG_BRANCH_OR_HEAD"}'; exit 2; }
+fi
 [[ "$(git remote get-url origin)" == *taechasith/AI-should-kill-kid-or-elder* ]] || { echo '{"runner":"BLOCKED","reason":"UNEXPECTED_REMOTE"}'; exit 2; }
 for tag in ka-iro-krisis-k4-v2 ka-iro-krisis-k5-design-v1 ka-iro-krisis-k6-design-v1 ka-iro-krisis-request-serialization-v1; do
   git rev-parse -q --verify "$tag^{}" >/dev/null || { echo "{\"runner\":\"BLOCKED\",\"reason\":\"MISSING_TAG\",\"tag\":\"$tag\"}"; exit 2; }

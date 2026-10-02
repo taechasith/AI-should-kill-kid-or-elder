@@ -39,5 +39,14 @@ class LifecycleTests(unittest.TestCase):
   blob='\n'.join(p.read_text() for p in paths)
   self.assertIn('laughing-space-waffle-9795jw95xg64f7j79',blob); self.assertIn('KA-IRO-KRISIS-CodespaceSupervisor',blob)
   for forbidden in ('GEMINI_API_KEY','GROQ_API_KEY','ghp_','Bearer '): self.assertNotIn(forbidden,blob)
+ def test_bootstrap_downloads_fail_closed_and_validate_scripts(self):
+  repo=Path(__file__).resolve().parents[1]; text=(repo/'docs/ka-iro-krisis/templates/bootstrap_kairo_supervisor.ps1').read_text()
+  self.assertIn('$LASTEXITCODE -ne 0',text); self.assertIn('[scriptblock]::Create',text); self.assertIn('download failed',text)
+  self.assertIn('invalid PowerShell download',text); self.assertLess(text.index('Get-ValidatedScript'),text.index("& (Join-Path $dir 'install_kairo_supervisor.ps1')"))
+ def test_supervisor_daily_recurrence_and_safe_rehydration(self):
+  repo=Path(__file__).resolve().parents[1]
+  installer=(repo/'docs/ka-iro-krisis/templates/install_kairo_supervisor.ps1').read_text(); supervisor=(repo/'docs/ka-iro-krisis/templates/kairo_codespace_supervisor.ps1').read_text()
+  self.assertIn('New-ScheduledTaskTrigger -Daily',installer); self.assertIn("RepetitionInterval='PT5M'",installer); self.assertIn("RepetitionDuration='P1D'",installer)
+  self.assertIn('worktree add --detach',supervisor); self.assertIn('fetch origin',supervisor); self.assertIn('rev-parse HEAD',supervisor); self.assertIn('rev-parse origin/',supervisor)
 
 if __name__=='__main__': unittest.main()
