@@ -3,8 +3,10 @@ from __future__ import annotations
 import json, os, signal, subprocess
 from datetime import datetime, timezone
 from pathlib import Path
+from .execution import atomic
 
 LOCK = Path('/tmp/ka-iro-runner.lock'); STATE = Path('/tmp/ka-iro-lifecycle.json'); HEARTBEAT_PID = Path('/tmp/ka-iro-heartbeat.pid'); SESSION = Path('/tmp/ka-iro-session.json'); QUOTA_WAIT = Path('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT'); ROLLOVER = Path('/tmp/KA_IRO_NEEDS_RESTART')
+HEARTBEAT_SCRIPT = Path('/tmp/ka-iro-heartbeat.sh')
 LONG_WAIT_SECONDS = 25 * 60; ROLLOVER_SECONDS = int(10.5 * 60 * 60)
 def now() -> str: return datetime.now(timezone.utc).isoformat()
 def write(path: Path, value: dict) -> None:
@@ -41,7 +43,24 @@ def set_quota_wait(next_resume_utc: str | None, provider: str, phase: str | None
 def clear_quota_wait() -> None: QUOTA_WAIT.unlink(missing_ok=True)
 def set_rollover(phase: str) -> None:
     write(ROLLOVER, {'state':'CODESPACE_ROLLOVER_REQUIRED','phase':phase,'updated_utc':now()}); state('ROLLOVER', phase=phase)
+def _ensure_heartbeat_script() -> None:
+    """Recreate the non-scientific helper after a Codespace /tmp reset."""
+    source=b'''#!/usr/bin/env bash
+set -u
+runner="${1:?runner PID required}"
+pidfile=/tmp/ka-iro-heartbeat.pid
+printf '%s\\n' "$$" > "$pidfile"
+trap 'rm -f "$pidfile"; exit 0' TERM INT EXIT
+while kill -0 "$runner" 2>/dev/null; do
+  printf '[KA-IRO heartbeat] %s | runner=%s | state=active\\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$runner"
+  sleep 300
+done
+'''
+    if not HEARTBEAT_SCRIPT.exists() or HEARTBEAT_SCRIPT.read_bytes() != source:
+        atomic(HEARTBEAT_SCRIPT, source)
+        HEARTBEAT_SCRIPT.chmod(0o700)
 def heartbeat_start(repo: Path) -> int | None:
+    _ensure_heartbeat_script()
     if HEARTBEAT_PID.exists():
         try:
             existing=int(HEARTBEAT_PID.read_text().strip())
@@ -51,7 +70,7 @@ def heartbeat_start(repo: Path) -> int | None:
                 os.kill(existing, signal.SIGTERM)
         except ValueError: pass
         HEARTBEAT_PID.unlink(missing_ok=True)
-    proc=subprocess.Popen(['/tmp/ka-iro-heartbeat.sh',str(os.getpid())], cwd=repo, stdout=None, stderr=None, start_new_session=True)
+    proc=subprocess.Popen([str(HEARTBEAT_SCRIPT),str(os.getpid())], cwd=repo, stdout=None, stderr=None, start_new_session=True)
     return proc.pid
 def heartbeat_stop() -> None:
     try:

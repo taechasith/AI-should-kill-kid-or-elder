@@ -25,6 +25,13 @@ class LifecycleTests(unittest.TestCase):
    lc.set_quota_wait('2099-01-01T00:00:00Z','Groq'); self.assertEqual(lc.read_state()['state'],'QUOTA_WAIT'); self.assertTrue(lc.QUOTA_WAIT.exists())
    lc.clear_quota_wait(); self.assertFalse(lc.QUOTA_WAIT.exists()); lc.set_rollover('K5'); self.assertEqual(lc.read_state()['state'],'ROLLOVER'); self.assertTrue(lc.ROLLOVER.exists())
   finally: lc.QUOTA_WAIT,lc.ROLLOVER=oldq,oldr
+ def test_heartbeat_helper_is_recreated_after_ephemeral_reset(self):
+  old=lc.HEARTBEAT_SCRIPT; lc.HEARTBEAT_SCRIPT=self.root/'heartbeat'
+  try:
+   lc._ensure_heartbeat_script()
+   self.assertTrue(lc.HEARTBEAT_SCRIPT.is_file())
+   self.assertTrue(lc.HEARTBEAT_SCRIPT.stat().st_mode & 0o100)
+  finally: lc.HEARTBEAT_SCRIPT=old
  def test_resume_and_health_contracts(self):
   repo=Path(__file__).resolve().parents[1]
   resume=(repo/'scripts/kairo_resume.sh').read_text(); health=(repo/'scripts/kairo_health.sh').read_text()
