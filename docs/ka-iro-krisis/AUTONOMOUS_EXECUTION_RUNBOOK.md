@@ -1,0 +1,5 @@
+# KA-IRO KRISIS v2 autonomous execution runbook
+
+Execute only the frozen K5 (720) and K6 (480) manifests using the dedicated, append-only KA-IRO executor. Verify every frozen input immediately before one explicit HTTP dispatch; persist attempt start, raw response, ledger state, parse, and terminal state atomically. Never retry terminal model content; retain retries only for the frozen transient transport policy, preserve ambiguity, and defer quota-limited rows until reset. Budget is USD 0.00 / THB 0.00: stop rather than pay, upgrade, substitute, or expose credentials. Continue K5, K6, K7, the frozen Nature gate, and K8 autonomously; all results, including null and failed states, are evidence.
+
+Codespaces are expected to die and restart. Lifecycle events, quota waits, `CODESPACE_ROLLOVER_REQUIRED`, and `EXTERNAL_QUOTA_WAIT_REQUIRED` are operational states, never scientific exclusions. Restarts cannot alter membership or terminal observations; the runner is safe to invoke repeatedly. A stopped Codespace requires external supervision, and no GitHub/API/provider credential may enter repository files.
