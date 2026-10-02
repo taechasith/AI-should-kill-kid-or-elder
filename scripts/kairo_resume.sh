@@ -2,7 +2,8 @@
 # Canonical, idempotent operational entry point. It never deletes state.
 set -euo pipefail
 ROOT=/workspaces/ka-iro-krisis-v2-codespace
-[[ -d "$ROOT/.git" ]] || { echo '{"runner":"BLOCKED","reason":"AUTHORITATIVE_WORKTREE_MISSING"}'; exit 2; }
+# A linked Git worktree stores .git as a file, while a primary checkout uses a directory.
+[[ -e "$ROOT/.git" ]] || { echo '{"runner":"BLOCKED","reason":"AUTHORITATIVE_WORKTREE_MISSING"}'; exit 2; }
 cd "$ROOT"
 if [[ "$(git branch --show-current)" != ka-iro-krisis-v2 ]]; then
   # Supervisor rehydration intentionally uses a detached worktree pinned to origin.
