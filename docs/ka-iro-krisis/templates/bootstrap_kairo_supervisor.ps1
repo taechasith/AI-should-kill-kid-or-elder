@@ -19,6 +19,6 @@ function Get-ValidatedScript([string]$Name) {
 }
 Get-ValidatedScript 'kairo_codespace_supervisor.ps1'
 Get-ValidatedScript 'install_kairo_supervisor.ps1'
-& (Join-Path $dir 'install_kairo_supervisor.ps1')
-if (-not (Get-ScheduledTask -TaskName 'KA-IRO-KRISIS-CodespaceSupervisor' -ErrorAction SilentlyContinue)) { throw 'Scheduled Task registration failed' }
+Get-ValidatedScript 'test_kairo_windows_host.ps1'
+& (Join-Path $dir 'test_kairo_windows_host.ps1')
 Write-Host 'KA-IRO bootstrap succeeded.'
