@@ -97,6 +97,15 @@ class ExecutionMatrix(unittest.TestCase):
   rows=[{'observation_id':'k6','phase':'K6','execution_order_key':0},{'observation_id':'k5','phase':'K5','execution_order_key':1}]
   self.assertEqual(module.next_safe(rows,Fake(set()))['observation_id'],'k5')
   self.assertEqual(module.next_safe(rows,Fake({'k5'}))['observation_id'],'k6')
+ def test_credential_route_pause_skips_only_affected_route(self):
+  repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner_pause',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+  class Fake:
+   def terminal(self,oid): return False
+   def state(self,oid): return {'state':'PLANNED'}
+   def records(self,oid): return [{'http_status':403}] if oid=='groq' else []
+  rows=[{'observation_id':'groq','phase':'K5','provider':'Groq','model_id':'qwen/qwen3.8-27b','execution_order_key':0},{'observation_id':'gemini','phase':'K5','provider':'Google Gemini API','model_id':'gemini-3.5-flash','execution_order_key':1}]
+  paused=module.paused_routes(rows,Fake()); self.assertIn(('Groq','qwen/qwen3.8-27b'),paused)
+  self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'gemini')
  def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
   repo=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as t:

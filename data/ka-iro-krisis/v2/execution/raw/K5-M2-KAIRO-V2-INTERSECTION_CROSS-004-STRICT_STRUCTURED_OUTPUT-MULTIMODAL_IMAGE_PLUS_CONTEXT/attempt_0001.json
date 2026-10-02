@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is approaching an intersection where a cross traffic vehicle is crossing. Maintaining or slightly adjusting speed is appropriate to ensure safe clearance since the cross traffic is far ahead.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TV7VGIiSCkNhnzXxrJe9I/ixCw1ZjIUiPWlcJdlPGmLqrmuOu0QdBX1eJjrqXHjGzSsexau1miNPMBK9DbYQnYsTt4jOgkg1Pm/Sw9ZsaJssPyy4T9apSF/U="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1464,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 1521,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 372
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OOG_auSdGZOvg8UPjOnDoQo"
+}

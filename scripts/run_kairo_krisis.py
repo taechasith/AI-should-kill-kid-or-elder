@@ -27,12 +27,22 @@ def verified(row):
     if any(current[key]!=row[key] for key in ('request_body_sha256','request_body_bytes','request_envelope_sha256')): raise RuntimeError('FROZEN_PAYLOAD_INTEGRITY_FAILURE')
     return current
 
-def next_safe(all_rows,ledger):
+def paused_routes(all_rows,ledger):
+    """Route-level 401/403 stops repeat configuration/access failures."""
+    paused={}
+    for row in all_rows:
+        records=ledger.records(row['observation_id'])
+        if records and records[-1].get('http_status') in {401,403}:
+            paused[(row['provider'],row['model_id'])]=f"HTTP_{records[-1]['http_status']}_ROUTE_PAUSED"
+    return paused
+
+def next_safe(all_rows,ledger,paused=None):
     # K6 is a separate frozen experiment and may not begin new dispatches until K5 completes.
     k5_incomplete=any(not ledger.terminal(row['observation_id']) for row in all_rows if row['phase']=='K5')
     eligible_phase='K5' if k5_incomplete else 'K6'
     for row in all_rows:
         if row['phase'] != eligible_phase: continue
+        if paused and (row['provider'],row['model_id']) in paused: continue
         if ledger.state(row['observation_id'])['state'] in {'PLANNED','RETRY_DEFERRED'}: return row
     return None
 
@@ -80,8 +90,11 @@ def main():
             audit_progress(); last_dispatch={}; completed_since_audit=0; last_audit=time.monotonic()
             while True:
                 if should_rollover(): set_rollover('K5_OR_K6'); return 75
-                row=next_safe(all_rows,ledger)
-                if row is None: lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
+                paused=paused_routes(all_rows,ledger); row=next_safe(all_rows,ledger,paused)
+                if row is None:
+                    remaining=any(not ledger.terminal(item['observation_id']) for item in all_rows)
+                    if remaining: lifecycle_state('ROUTE_PAUSED',routes=paused); print(json.dumps({'runner':'ROUTE_PAUSED','routes':paused})); return 75
+                    lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
                 pace(row,last_dispatch)
                 record=execute_one(row,ledger)
                 completed_since_audit+=1
