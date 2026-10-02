@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is maintaining its lane at a steady speed of 50 kph, while the blue vehicle on the right is merging/turning into the ego's lane path. To respond appropriately to the cut-in maneuver, decelerating (A1) is necessary to maintain a safe following distance.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TPiU8uoAtzXIFhCTZSYrlv+2EqCj+vXLihi6voXV1VpP1OTJSPYetgm+u47tPimeu2+om4FNzHis5uLDyADl9SCa2sVmtS6q/dHkyS8oDowEArJPp2+0rhkw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1493,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 1578,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "QOK_auO7FpWzg8UPltbm0Ak"
+}

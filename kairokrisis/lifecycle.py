@@ -1,6 +1,6 @@
 """Non-scientific local lifecycle controls for restart-safe execution."""
 from __future__ import annotations
-import json, os, subprocess
+import json, os, signal, subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -44,14 +44,18 @@ def set_rollover(phase: str) -> None:
 def heartbeat_start(repo: Path) -> int | None:
     if HEARTBEAT_PID.exists():
         try:
-            if _alive(int(HEARTBEAT_PID.read_text().strip())): return None
+            existing=int(HEARTBEAT_PID.read_text().strip())
+            if _alive(existing):
+                command=subprocess.check_output(['ps','-p',str(existing),'-o','args='],text=True).strip()
+                if str(os.getpid()) in command: return None
+                os.kill(existing, signal.SIGTERM)
         except ValueError: pass
         HEARTBEAT_PID.unlink(missing_ok=True)
-    proc=subprocess.Popen(['/tmp/ka-iro-heartbeat.sh',str(os.getpid())], cwd=repo, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+    proc=subprocess.Popen(['/tmp/ka-iro-heartbeat.sh',str(os.getpid())], cwd=repo, stdout=None, stderr=None, start_new_session=True)
     return proc.pid
 def heartbeat_stop() -> None:
     try:
         pid=int(HEARTBEAT_PID.read_text().strip())
-        if _alive(pid): os.kill(pid, 15)
+        if _alive(pid): os.kill(pid, signal.SIGTERM)
     except (FileNotFoundError,ValueError): pass
     HEARTBEAT_PID.unlink(missing_ok=True)
