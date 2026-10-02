@@ -114,6 +114,16 @@ class ExecutionMatrix(unittest.TestCase):
   rows=[{'observation_id':'groq','phase':'K5','provider':'Groq','model_id':'qwen/qwen3.8-27b','execution_order_key':0},{'observation_id':'gemini','phase':'K5','provider':'Google Gemini API','model_id':'gemini-3.5-flash','execution_order_key':1}]
   paused=module.paused_routes(rows,Fake()); self.assertIn(('Groq','qwen/qwen3.8-27b'),paused)
   self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'gemini')
+ def test_quota_pause_is_route_isolated(self):
+  repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner_quota_pause',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+  class Fake:
+   def terminal(self,oid): return False
+   def records(self,oid): return []
+   def state(self,oid): return {'state':'QUOTA_DEFERRED' if oid=='flash' else 'PLANNED'}
+  rows=[{'observation_id':'flash','phase':'K5','provider':'Google Gemini API','model_id':'gemini-3.5-flash','execution_order_key':0},{'observation_id':'lite','phase':'K5','provider':'Google Gemini API','model_id':'gemini-3.5-flash-lite','execution_order_key':1}]
+  paused=module.paused_routes(rows,Fake())
+  self.assertEqual(paused[('Google Gemini API','gemini-3.5-flash')],'QUOTA_DEFERRED')
+  self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'lite')
  def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
   repo=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as t:

@@ -57,8 +57,10 @@ else:
     except ValueError: print('WAIT')
 PY
 )
-  [[ "$gate" == READY ]] || { echo '{"runner":"QUOTA_WAIT"}'; exit 0; }
-  rm -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT
+  # A paused route does not block pre-frozen interleaved work on another
+  # route.  The runner excludes durable QUOTA_DEFERRED rows and will return
+  # without dispatch if every remaining route is paused.
+  [[ "$gate" == READY ]] && rm -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT
 fi
 git rev-parse -q --verify 'ka-iro-krisis-executor-v1^{}' >/dev/null || { echo '{"runner":"PRELIVE","state":"EXECUTOR_FREEZE_REQUIRED"}'; exit 0; }
 exec env KAIRO_LIVE_EXECUTION_ENABLED=1 python scripts/run_kairo_krisis.py --run-until-stop

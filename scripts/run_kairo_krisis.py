@@ -28,12 +28,14 @@ def verified(row):
     return current
 
 def paused_routes(all_rows,ledger):
-    """Route-level 401/403 stops repeat configuration/access failures."""
+    """Pause only the affected route for access failures or quota windows."""
     paused={}
     for row in all_rows:
         records=ledger.records(row['observation_id'])
         if records and records[-1].get('http_status') in {401,403}:
             paused[(row['provider'],row['model_id'])]=f"HTTP_{records[-1]['http_status']}_ROUTE_PAUSED"
+        if ledger.state(row['observation_id']).get('state') == 'QUOTA_DEFERRED':
+            paused[(row['provider'],row['model_id'])]='QUOTA_DEFERRED'
     return paused
 
 def next_safe(all_rows,ledger,paused=None):
@@ -141,7 +143,10 @@ def main():
                 completed_since_audit+=1
                 lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
                 if record['parsed_terminal_state']=='FREE_QUOTA_EXHAUSTED':
-                    set_quota_wait(record.get('next_eligible_utc'),row['provider'],row['phase']); return 75
+                    set_quota_wait(record.get('next_eligible_utc'),row['provider'],row['phase'])
+                    # A quota affects scheduling only for this exact route.
+                    print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
+                    continue
                 print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
                 if completed_since_audit>=20 or time.monotonic()-last_audit>=600:
                     audit_progress(); completed_since_audit=0; last_audit=time.monotonic()
