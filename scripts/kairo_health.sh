@@ -22,7 +22,14 @@ if [[ -f /tmp/KA_IRO_NEEDS_RESTART ]]; then runner=ROLLOVER; fi
 if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT && "$runner" == STOPPED ]]; then runner=QUOTA_WAIT; fi
 if [[ -f /tmp/ka-iro-lifecycle.json ]]; then
   local_state=$(python -c 'import json; print(json.load(open("/tmp/ka-iro-lifecycle.json")).get("state","STOPPED"))')
-  [[ "$runner" == STOPPED ]] && runner="$local_state"
+  # RUNNING is authoritative only when a currently live PID established it.
+  # A Codespace/session interruption can leave the durable local state behind;
+  # never let that stale marker suppress safe recovery on the next audit.
+  if [[ "$runner" == STOPPED ]]; then
+    case "$local_state" in
+      DONE|BLOCKED|QUOTA_WAIT|ROLLOVER|PRELIVE) runner="$local_state" ;;
+    esac
+  fi
 fi
 heartbeat_age=null
 if [[ -f /tmp/ka-iro-heartbeat.pid ]] && kill -0 "$(< /tmp/ka-iro-heartbeat.pid)" 2>/dev/null; then heartbeat_age=0; fi
