@@ -12,8 +12,8 @@ Commands: `python scripts/run_kairo_krisis.py --dry-run`; `bash scripts/kairo_he
 - [x] K5/K6 manifest dry run verifies 1,200 rows
 - [x] Durable production executor/recovery matrix: mocked HTTP ontology, retries, raw persistence, crash recovery, ambiguity, hash hard-stops, and zero hidden urllib retry.
 - [x] Lifecycle and supervisor test matrix: local singleton/stale-lock, rollover, state, shell and safe-template checks pass. Windows runtime execution remains a bootstrap self-test because this Linux Codespace has no Windows host.
-- [ ] Executor/lifecycle checkpoint and tag
-- [ ] Windows bootstrap action record
+- [ ] Corrected executor/lifecycle checkpoint and remote tag
+- [x] Windows bootstrap action record committed and pushed
 - [ ] WINDOWS_BOOTSTRAP_REQUIRED
 
 **THIS EXECPLAN IS NOT COMPLETE UNTIL WINDOWS_BOOTSTRAP_REQUIRED IS READY.**

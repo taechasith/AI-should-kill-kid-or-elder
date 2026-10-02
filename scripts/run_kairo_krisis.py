@@ -5,7 +5,7 @@ import argparse, json, os, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]; sys.path.insert(0, str(ROOT))
 from kairokrisis.execution import Ledger, authenticated_headers, dispatch_once, verify
-from kairokrisis.lifecycle import acquire, release, state as lifecycle_state, should_rollover
+from kairokrisis.lifecycle import acquire, release, state as lifecycle_state, should_rollover, set_rollover, set_quota_wait, heartbeat_start, heartbeat_stop
 from kairokrisis.serialization import serialized
 K5 = ROOT / 'data/ka-iro-krisis/v2/request_serialization_v1/k5_execution_manifest.json'
 K6 = ROOT / 'data/ka-iro-krisis/v2/request_serialization_v1/k6_execution_manifest.json'
@@ -32,6 +32,13 @@ def next_safe(all_rows,ledger):
         if ledger.state(row['observation_id'])['state'] in {'PLANNED','RETRY_DEFERRED'}: return row
     return None
 
+def execute_one(row, ledger, dispatch=dispatch_once, headers_factory=authenticated_headers):
+    """Production attempt path; tests inject only the single-dispatch boundary."""
+    current=verified(row); ordinal=ledger.start(row)
+    if ordinal is None: return None
+    status,raw,rate_headers,transport=dispatch(current['endpoint'],headers_factory(row['provider']),current['request_body'])
+    return ledger.finalize(row,ordinal,status,raw,rate_headers,transport)
+
 def summary(all_rows,ledger):
     counts={'K5':{'planned':720,'terminal':0},'K6':{'planned':480,'terminal':0}}; attempts=0; statuses={}
     for row in all_rows:
@@ -42,7 +49,7 @@ def summary(all_rows,ledger):
     return {'k5':counts['K5'],'k6':counts['K6'],'total_planned':1200,'total_terminal':counts['K5']['terminal']+counts['K6']['terminal'],'total_attempts':attempts,'http_statuses':statuses,'live_generation_calls':attempts}
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--status',action='store_true'); parser.add_argument('--run-one',action='store_true'); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--status',action='store_true'); parser.add_argument('--run-one',action='store_true'); parser.add_argument('--run-until-stop',action='store_true'); args=parser.parse_args()
     all_rows=rows(); ledger=Ledger(OUT)
     if args.status: print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
     if not acquire(): print(json.dumps({'runner':'ALREADY_RUNNING'})); return 0
@@ -51,17 +58,21 @@ def main():
         if args.dry_run:
             for row in all_rows: verified(row)
             lifecycle_state('PRELIVE',verified_rows=len(all_rows)); print(json.dumps({'dry_run':True,'verified_rows':len(all_rows),'provider_requests':0})); return 0
-        if should_rollover():
-            lifecycle_state('ROLLOVER',reason='CODESPACE_ROLLOVER_REQUIRED'); Path('/tmp/KA_IRO_NEEDS_RESTART').write_text('rollover required; no scientific state changed\n'); return 75
-        if not args.run_one or os.environ.get('KAIRO_LIVE_EXECUTION_ENABLED')!='1': raise RuntimeError('LIVE_EXECUTION_GATE_CLOSED')
-        row=next_safe(all_rows,ledger)
-        if row is None: lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
-        current=verified(row); ordinal=ledger.start(row)
-        if ordinal is None: return 0
-        status,raw,rate_headers,transport=dispatch_once(current['endpoint'],authenticated_headers(row['provider']),current['request_body'])
-        record=ledger.finalize(row,ordinal,status,raw,rate_headers,transport)
-        lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
-        print(json.dumps({'observation_id':row['observation_id'],'attempt':ordinal,'terminal_state':record['parsed_terminal_state']})); return 0
+        if should_rollover(): set_rollover('K5_OR_K6'); return 75
+        if not (args.run_one or args.run_until_stop) or os.environ.get('KAIRO_LIVE_EXECUTION_ENABLED')!='1': raise RuntimeError('LIVE_EXECUTION_GATE_CLOSED')
+        heartbeat_start(ROOT)
+        try:
+            while True:
+                if should_rollover(): set_rollover('K5_OR_K6'); return 75
+                row=next_safe(all_rows,ledger)
+                if row is None: lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
+                record=execute_one(row,ledger)
+                lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
+                if record['parsed_terminal_state']=='FREE_QUOTA_EXHAUSTED':
+                    set_quota_wait(None,row['provider']); return 75
+                print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
+                if args.run_one: return 0
+        finally: heartbeat_stop()
     finally: release()
 
 if __name__=='__main__': raise SystemExit(main())

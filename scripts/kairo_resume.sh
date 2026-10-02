@@ -13,6 +13,20 @@ python scripts/run_kairo_krisis.py --dry-run >/dev/null
 for key in GEMINI_API_KEY GROQ_API_KEY; do
   [[ -n "${!key:-}" ]] || { echo "{\"runner\":\"PRELIVE\",\"credential\":\"$key\",\"presence\":\"MISSING\"}"; exit 3; }
 done
+if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]]; then
+  gate=$(python - <<'PY'
+import json
+from datetime import datetime, timezone
+v=json.load(open('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT')); when=v.get('next_resume_utc')
+if not when: print('WAIT')
+else:
+    try: print('READY' if datetime.fromisoformat(when.replace('Z','+00:00')) <= datetime.now(timezone.utc) else 'WAIT')
+    except ValueError: print('WAIT')
+PY
+)
+  [[ "$gate" == READY ]] || { echo '{"runner":"QUOTA_WAIT"}'; exit 0; }
+  rm -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT
+fi
 if [[ -f /tmp/KA_IRO_WINDOWS_BOOTSTRAP_REQUIRED ]]; then
   echo '{"runner":"PRELIVE","state":"WINDOWS_BOOTSTRAP_REQUIRED"}'; exit 0
 fi

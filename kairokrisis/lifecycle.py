@@ -1,10 +1,10 @@
 """Non-scientific local lifecycle controls for restart-safe execution."""
 from __future__ import annotations
-import json, os
+import json, os, subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-LOCK = Path('/tmp/ka-iro-runner.lock'); STATE = Path('/tmp/ka-iro-lifecycle.json'); HEARTBEAT_PID = Path('/tmp/ka-iro-heartbeat.pid'); SESSION = Path('/tmp/ka-iro-session.json')
+LOCK = Path('/tmp/ka-iro-runner.lock'); STATE = Path('/tmp/ka-iro-lifecycle.json'); HEARTBEAT_PID = Path('/tmp/ka-iro-heartbeat.pid'); SESSION = Path('/tmp/ka-iro-session.json'); QUOTA_WAIT = Path('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT'); ROLLOVER = Path('/tmp/KA_IRO_NEEDS_RESTART')
 LONG_WAIT_SECONDS = 25 * 60; ROLLOVER_SECONDS = int(10.5 * 60 * 60)
 def now() -> str: return datetime.now(timezone.utc).isoformat()
 def write(path: Path, value: dict) -> None:
@@ -35,3 +35,23 @@ def session_age_seconds() -> int:
     try: return max(0, int((datetime.now(timezone.utc) - datetime.fromisoformat(json.loads(SESSION.read_text())['started_utc'])).total_seconds()))
     except Exception: return 0
 def should_rollover() -> bool: return session_age_seconds() >= ROLLOVER_SECONDS
+def set_quota_wait(next_resume_utc: str | None, provider: str) -> None:
+    write(QUOTA_WAIT, {'state':'EXTERNAL_QUOTA_WAIT_REQUIRED','provider':provider,'next_resume_utc':next_resume_utc,'updated_utc':now()})
+    state('QUOTA_WAIT', provider=provider, next_resume_utc=next_resume_utc)
+def clear_quota_wait() -> None: QUOTA_WAIT.unlink(missing_ok=True)
+def set_rollover(phase: str) -> None:
+    write(ROLLOVER, {'state':'CODESPACE_ROLLOVER_REQUIRED','phase':phase,'updated_utc':now()}); state('ROLLOVER', phase=phase)
+def heartbeat_start(repo: Path) -> int | None:
+    if HEARTBEAT_PID.exists():
+        try:
+            if _alive(int(HEARTBEAT_PID.read_text().strip())): return None
+        except ValueError: pass
+        HEARTBEAT_PID.unlink(missing_ok=True)
+    proc=subprocess.Popen(['/tmp/ka-iro-heartbeat.sh',str(os.getpid())], cwd=repo, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+    return proc.pid
+def heartbeat_stop() -> None:
+    try:
+        pid=int(HEARTBEAT_PID.read_text().strip())
+        if _alive(pid): os.kill(pid, 15)
+    except (FileNotFoundError,ValueError): pass
+    HEARTBEAT_PID.unlink(missing_ok=True)

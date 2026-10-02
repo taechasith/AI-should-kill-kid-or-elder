@@ -1,6 +1,6 @@
 """Mock-only recovery matrix for the production KA-IRO execution core."""
 from __future__ import annotations
-import json, tempfile, unittest
+import importlib.util, json, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
 from kairokrisis.execution import Ledger, classify, dispatch_once, sha, verify
@@ -73,5 +73,20 @@ class ExecutionMatrix(unittest.TestCase):
   k5=json.loads((root/'data/ka-iro-krisis/v2/request_serialization_v1/k5_execution_manifest.json').read_text())['rows']
   k6=json.loads((root/'data/ka-iro-krisis/v2/request_serialization_v1/k6_execution_manifest.json').read_text())['rows']
   self.assertEqual((len(k5),len(k6),len(k5)+len(k6)),(720,480,1200))
+ def test_production_execute_path_one_dispatch_and_offline_parse(self):
+  repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t); row=self.row(root); row.update({'request_body_sha256':'x','request_body_bytes':1,'request_envelope_sha256':'y','execution_order_key':1.0})
+   # Substitute frozen verifier only at the fixture boundary; dispatch is still the production core boundary.
+   calls=[]
+   with patch.object(module,'verified',return_value={'endpoint':'https://example.invalid','request_body':b'{}'}):
+    record=module.execute_one(row,Ledger(root),lambda *a:(calls.append(a) or (200,VALID,{},'HTTP_RESPONSE')),lambda p:{})
+   self.assertEqual(len(calls),1); self.assertEqual(record['parsed_terminal_state'],'VALID_ACTION')
+   raw=Path(record['raw_response_reference']).read_bytes(); self.assertEqual(classify(200,raw)[0],record['parsed_terminal_state'])
+ def test_nonretryable_and_ambiguous_never_retry(self):
+  for status,transport in ((400,'HTTP_RESPONSE'),(None,'AMBIGUOUS_TRANSPORT_OUTCOME')):
+   with self.subTest(status=status), tempfile.TemporaryDirectory() as t:
+    root=Path(t); row=self.row(root); ledger=Ledger(root); ledger.finalize(row,ledger.start(row),status,b'{}',{},transport)
+    self.assertTrue(ledger.terminal('O1')); self.assertIsNone(ledger.start(row))
 
 if __name__=='__main__': unittest.main()
