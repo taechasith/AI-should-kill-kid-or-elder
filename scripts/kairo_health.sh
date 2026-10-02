@@ -3,7 +3,19 @@ set -euo pipefail
 ROOT=/workspaces/ka-iro-krisis-v2-codespace
 cd "$ROOT"
 runner=STOPPED
-if [[ -f /tmp/ka-iro-autonomous.pid ]] && kill -0 "$(< /tmp/ka-iro-autonomous.pid)" 2>/dev/null; then runner=RUNNING; fi
+for pidfile in /tmp/ka-iro-runner.lock /tmp/ka-iro-autonomous.pid; do
+  if [[ -f "$pidfile" ]]; then
+    candidate=$(python - "$pidfile" <<'PY'
+import json,sys
+try:
+    value=open(sys.argv[1]).read().strip()
+    print(json.loads(value).get('pid','') if sys.argv[1].endswith('.lock') else value)
+except Exception: pass
+PY
+)
+    if [[ -n "$candidate" ]] && kill -0 "$candidate" 2>/dev/null; then runner=RUNNING; break; fi
+  fi
+done
 if [[ -f /tmp/KA_IRO_NEEDS_RESTART ]]; then runner=ROLLOVER; fi
 if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]]; then runner=QUOTA_WAIT; fi
 if [[ -f /tmp/ka-iro-lifecycle.json ]]; then
@@ -13,4 +25,13 @@ fi
 heartbeat_age=null
 if [[ -f /tmp/ka-iro-heartbeat.pid ]] && kill -0 "$(< /tmp/ka-iro-heartbeat.pid)" 2>/dev/null; then heartbeat_age=0; fi
 next=null; [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]] && next=$(python -c 'import json; print(json.dumps(json.load(open("/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT")).get("next_resume_utc")))')
-printf '{"runner":"%s","phase":"K5_K6_PRELIVE","heartbeat_age_seconds":%s,"last_checkpoint":"%s","next_resume_utc":%s,"head":"%s","branch":"%s"}\n' "$runner" "$heartbeat_age" "$(git rev-parse --short HEAD)" "$next" "$(git rev-parse HEAD)" "$(git branch --show-current)"
+phase=$(python - <<'PY'
+from scripts.run_kairo_krisis import OUT, rows
+from kairokrisis.execution import Ledger
+ledger=Ledger(OUT); all_rows=rows()
+k5=sum(ledger.terminal(r['observation_id']) for r in all_rows if r['phase']=='K5')
+k6=sum(ledger.terminal(r['observation_id']) for r in all_rows if r['phase']=='K6')
+print('K5' if k5 < 720 else ('K6' if k6 < 480 else 'K7'))
+PY
+)
+printf '{"runner":"%s","phase":"%s","heartbeat_age_seconds":%s,"last_checkpoint":"%s","next_resume_utc":%s,"head":"%s","branch":"%s"}\n' "$runner" "$phase" "$heartbeat_age" "$(git rev-parse --short HEAD)" "$next" "$(git rev-parse HEAD)" "$(git branch --show-current)"

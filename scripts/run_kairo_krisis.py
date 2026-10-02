@@ -141,7 +141,7 @@ def main():
                 completed_since_audit+=1
                 lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
                 if record['parsed_terminal_state']=='FREE_QUOTA_EXHAUSTED':
-                    set_quota_wait(record.get('next_eligible_utc'),row['provider']); return 75
+                    set_quota_wait(record.get('next_eligible_utc'),row['provider'],row['phase']); return 75
                 print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
                 if completed_since_audit>=20 or time.monotonic()-last_audit>=600:
                     audit_progress(); completed_since_audit=0; last_audit=time.monotonic()

@@ -31,6 +31,21 @@ if candidate:
     current['next_resume_utc']=candidate
     path.write_text(json.dumps(current,sort_keys=True)+'\n')
 PY
+  # Legacy quota markers can predate phase metadata; infer it solely from
+  # durable observation state for concise operational health reporting.
+  python - <<'PY'
+import json
+from pathlib import Path
+from scripts.run_kairo_krisis import OUT, rows
+from kairokrisis.execution import Ledger
+marker=Path('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT'); value=json.loads(marker.read_text())
+if not value.get('phase'):
+    ledger=Ledger(OUT)
+    for row in rows():
+        if ledger.state(row['observation_id']).get('state') == 'QUOTA_DEFERRED':
+            value['phase']=row['phase']; break
+    marker.write_text(json.dumps(value,sort_keys=True)+'\n')
+PY
   gate=$(python - "$quota_status" <<'PY'
 import json
 import sys

@@ -35,9 +35,9 @@ def session_age_seconds() -> int:
     try: return max(0, int((datetime.now(timezone.utc) - datetime.fromisoformat(json.loads(SESSION.read_text())['started_utc'])).total_seconds()))
     except Exception: return 0
 def should_rollover() -> bool: return session_age_seconds() >= ROLLOVER_SECONDS
-def set_quota_wait(next_resume_utc: str | None, provider: str) -> None:
+def set_quota_wait(next_resume_utc: str | None, provider: str, phase: str | None = None) -> None:
     write(QUOTA_WAIT, {'state':'EXTERNAL_QUOTA_WAIT_REQUIRED','provider':provider,'next_resume_utc':next_resume_utc,'updated_utc':now()})
-    state('QUOTA_WAIT', provider=provider, next_resume_utc=next_resume_utc)
+    state('QUOTA_WAIT', provider=provider, phase=phase, next_resume_utc=next_resume_utc)
 def clear_quota_wait() -> None: QUOTA_WAIT.unlink(missing_ok=True)
 def set_rollover(phase: str) -> None:
     write(ROLLOVER, {'state':'CODESPACE_ROLLOVER_REQUIRED','phase':phase,'updated_utc':now()}); state('ROLLOVER', phase=phase)
