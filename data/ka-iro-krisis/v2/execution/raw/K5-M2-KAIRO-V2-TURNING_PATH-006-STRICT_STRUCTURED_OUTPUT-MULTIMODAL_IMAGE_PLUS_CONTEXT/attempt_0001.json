@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"Maintain ego speed and trajectory as no immediate hazardous obstruction or critical conflict exists requiring sudden steering or braking.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tt/2LWBHOO3NuYsPPUylNOJURLHRawN8iaXy9kud4ECWfjZr0Hj3jCfzHrntcVzeHhoJyuDFBOftGy9qvvRLYHXzeT+IA7VmEcOGWVd+U1zfDeb8ZomeMCHw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1493,
+    "candidatesTokenCount": 43,
+    "totalTokenCount": 1536,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "xOW_avrxBKnEg8UPh53EsQk"
+}

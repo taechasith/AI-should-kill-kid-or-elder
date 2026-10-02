@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: In the current scene state, the ego vehicle is traveling straight along its lane at a constant speed with no immediate obstacles or cut-in threats directly ahead requiring active steering or braking adjustments (the other vehicle at x=31.6m is distant and its motion has not yet impacted the ego's immediate path). Therefore, maintaining the current trajectory and speed (A0) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0TYTAhHDhFU+RH+4sCviOUrSWE8/z4GncXYxQiQA5LSajDqecXU6G9g86QRsFKuGXLrxF0CfF5n72/RFPl0f0tBi8WaNQQsjGKZlmPyh9BEEsmft2AM0i2wXg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1504,
+    "candidatesTokenCount": 87,
+    "totalTokenCount": 1591,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 412
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WuW_auTLOti6juMPqaLB4Qk"
+}

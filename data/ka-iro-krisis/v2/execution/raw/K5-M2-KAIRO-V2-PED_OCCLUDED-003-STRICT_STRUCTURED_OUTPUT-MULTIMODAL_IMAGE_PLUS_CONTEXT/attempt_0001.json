@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead at x=18.8m with a lateral velocity, necessitating a deceleration or stopping action to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tdpz1mICuNk248lbsF37zUn2FrKrinscXO2xgwbjYNmC9NBwQ+Tvy6wtIUCK3IN4asuaQbVK2dIfce4ABCcbQEAOTGOdBlSdMmPKg+xW+s2S801TOIySb13o="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1490,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 1542,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 398
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "x-a_aqb9NL2iqfkPmbHRiAo"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A static obstacle is detected ahead at 25.4 meters. Given the current speed of 50 kph and available drivable area, braking or evasive steering (A4) is required to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tld+fz62lISNPXujuMsShMnTf4SiUQG0XBapvgT6GvL0dABEiTHALMjH/qSriguTKlH+vibPLPS1Ldxg5yrfqIEN5EGotvt4eM0dr4s7Tp8qa6Qa17nri12Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 442,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "fOe_aq01mOep-Q_v2eb5BA"
+}

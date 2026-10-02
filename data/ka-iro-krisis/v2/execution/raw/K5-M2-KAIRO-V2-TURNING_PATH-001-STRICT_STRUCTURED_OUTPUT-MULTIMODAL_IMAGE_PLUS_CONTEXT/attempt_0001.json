@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"An actor vehicle is cutting in from the side at x=18.0m, y=-3.5m towards the ego trajectory. To safely yield to the cut-in vehicle, applying moderate deceleration (A4) is appropriate.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T85qxkzhj1fJa0yarKNmuB16/3wOiAclhNNJdHxJJvbyHvB5vuDoLyjSSeyhCm9stce3sksRkGfIZ3w9QKtvKBUOvwr0aPiQRr887JxLey5juqW34ySs2b+U="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1493,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1565,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Iea_av2IAZmwg8UPp_H2yAk"
+}

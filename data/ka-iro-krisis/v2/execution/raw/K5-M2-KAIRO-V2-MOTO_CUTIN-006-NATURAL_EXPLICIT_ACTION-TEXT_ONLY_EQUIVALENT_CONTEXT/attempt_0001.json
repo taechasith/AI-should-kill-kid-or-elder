@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A motorcycle is cutting into the ego vehicle's lane from the right at $y=3.5$ moving toward $y=0.0$, starting at $x=23.0\\text{ m}$ with a velocity of $9.0\\text{ m/s}$. To maintain safe following distance and accommodate the sudden cut-in, the ego vehicle should gently decelerate (A1: decelerate / slow down).",
+            "thoughtSignature": "EmAKXgFpFH0TGw12fhRl/T3Y6D11vbAB3sR1S2rwpLrf3vO+e8I6EramnYxusKvxbC8bcKk5LgstzstjtgaUgyI//w72kGdE1ftNIpFPX+NWJd3BSVsRni0pl7e1YWZLRcQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 392,
+    "candidatesTokenCount": 97,
+    "totalTokenCount": 489,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 392
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Xua_avmKMomog8UP9v_06QQ"
+}

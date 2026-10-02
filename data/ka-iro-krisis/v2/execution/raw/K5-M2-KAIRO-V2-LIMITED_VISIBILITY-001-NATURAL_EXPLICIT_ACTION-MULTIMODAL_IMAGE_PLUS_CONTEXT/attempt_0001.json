@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The ego vehicle is traveling at 50 kph toward a static obstacle located at x=17.0 meters. Given the relatively short distance to the hazard and high speed, maintaining speed (A0) would result in a collision, and harsher maneuvers like heavy braking or swerving without deceleration might be unsafe or unnecessary compared to controlled deceleration (A2) to approach or stop safely.",
+            "thoughtSignature": "EmAKXgFpFH0TC5zNzwyU5FYXHeBk/Xjm9nfFB61+gTNsVPfzpL+tyeXx/S0fBnFpSbLNlZJyncZaPSPLlwULORzDVJtL6Xns1+3TBQ4nv3NsbfzJq1AIDJC2nuwnF9+52Ug="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1439,
+    "candidatesTokenCount": 86,
+    "totalTokenCount": 1525,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Mea_asLHKpWqg8UPkI-I6AQ"
+}

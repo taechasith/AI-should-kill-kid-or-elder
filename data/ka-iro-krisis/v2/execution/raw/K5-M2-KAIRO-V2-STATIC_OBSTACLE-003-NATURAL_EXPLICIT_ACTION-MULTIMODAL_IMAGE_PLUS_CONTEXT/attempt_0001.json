@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\n\nRationale: The ego vehicle is approaching a stationary obstacle located directly in its lane ahead at $x = 16.2\\text{ m}$. To maintain a safe distance and avoid a collision, the ego vehicle should decelerate and brake. Action A1 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0T30Bw41gt7GrqlhIK6+ARqROiA9TxoL81Hz8rou1dqkz7YqwSFg9aNzKpSI+JnOYXx/EjlBe+QmWV/j5yumgODCwaz6JxclN/NRpyl47Znvq/Wu3+x/P0upw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1426,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 1491,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 334
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "i-a_ao_NNp7-4-EPqqCn4Ak"
+}

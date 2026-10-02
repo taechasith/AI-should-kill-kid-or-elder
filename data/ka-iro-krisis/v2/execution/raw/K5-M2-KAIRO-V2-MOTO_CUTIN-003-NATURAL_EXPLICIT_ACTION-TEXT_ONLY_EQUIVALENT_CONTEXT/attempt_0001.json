@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured physical context indicates a motorcycle is performing a cut-in maneuver into the ego vehicle's path from the left ($y=3.5$ moving towards $y=0.0$ at $x=18.8$). To safely yield to the cutting-in motorcycle and avoid a collision, the ego vehicle should apply braking (A3).",
+            "thoughtSignature": "EmAKXgFpFH0Tt0tvje3sYfCTu54Htj4PzqVcJSx5qFY4tS3KtKVrRGY9+KoDEcjj5p6mVqrfVfOUvsONdjwEboLRSOQBhLaT49KfscC825ZMEokhUOLMKjXzIchx/kiUIXo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 390,
+    "candidatesTokenCount": 80,
+    "totalTokenCount": 470,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 390
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0-W_apn1AYfEg8UPtZ6x4Qk"
+}

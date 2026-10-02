@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The cyclist is crossing from the left side ($y = -5.0\\text{ m}$) towards the ego lane, currently positioned ahead at $x = 18.8\\text{ m}$. To ensure safety and avoid a potential collision, the ego vehicle should decelerate (A3).",
+            "thoughtSignature": "EmAKXgFpFH0Ts1xH7RlpSqBsx5GncCw/39CamEyZOZP8WNHoMBQEBeQogGlUMSo6gen53195kdP9Dc823fHi6EsfdMBW7sxvomfdvpCITOQFE2pWbPOXgeX8DyBhu99p/gs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1440,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 1508,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "h-W_ao3gO-O-g8UPlrS4kQ8"
+}

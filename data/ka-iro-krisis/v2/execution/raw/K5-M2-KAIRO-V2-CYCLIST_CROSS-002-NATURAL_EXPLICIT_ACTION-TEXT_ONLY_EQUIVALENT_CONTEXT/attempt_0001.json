@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3 Rationale: The ego vehicle is traveling at 30 kph with a cyclist crossing laterally from left to right at x = 17.4 m, moving at 3.15 m/s. Decelerating moderately (A3) is appropriate to allow the cyclist to clear the path safely without executing an abrupt emergency stop or maintaining speed into a conflict zone.",
+            "thoughtSignature": "EmAKXgFpFH0TqPQgLnIdecod8osY5rPvHhFeqwtfgJBbojShiAMBGObzc64hWnIy38BVjp4IRaAzCwUP5qxjA+Sa7R85IeqHXdZuM1AAEruzdVvI5b0HBIS2spThvzB3B3g="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 357,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 357
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "A-e_arjSNq3Rg8UP4pyikAo"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The vehicle (blue rectangle) is driving straight along its lane, and the scene shows an upcoming cut-in scenario involving another agent (represented by the orange oval ahead at approximately x=19.0m). Maintaining speed or gently adjusting control while monitoring the cut-in trajectory corresponds to standard lane-following / cruise behavior (A2).",
+            "thoughtSignature": "EmAKXgFpFH0TrFg9cxRoWuVmeb67hYPLiEuhHKFyI/vQTD8894ra7YEvhc6L3lH/UG0EnCK21FZJL0kCPVo8qQFn/MjAg2F/35nngkcosogOq4wF9tp5pA2A4redCjeLzUY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 1550,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "T-a_aqPqMZzB4-EPkMbvoAU"
+}

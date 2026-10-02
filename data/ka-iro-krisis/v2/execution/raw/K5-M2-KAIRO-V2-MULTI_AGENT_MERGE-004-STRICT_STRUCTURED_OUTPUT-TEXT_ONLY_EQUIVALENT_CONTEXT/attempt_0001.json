@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting in from the right/left at close proximity, requiring deceleration (braking) to maintain safe separation.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TwQyZW5/ZXSRPG/7/4tKcS9VnVm1+vCgidaklXLXIdFXlgKDb2Wy1OAgukOIHOPYV4udVUJwBLjQLh1UlhTcATQ1kr0gIvd/oA22dZErXbIkTsylnxp+DNVk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 477,
+    "candidatesTokenCount": 39,
+    "totalTokenCount": 516,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 477
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "fOa_apjdMMO0g8UPgdCdkAo"
+}

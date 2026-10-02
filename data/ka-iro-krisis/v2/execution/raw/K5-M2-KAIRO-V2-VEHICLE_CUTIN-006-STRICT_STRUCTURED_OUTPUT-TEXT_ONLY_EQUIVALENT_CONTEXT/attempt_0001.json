@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A vehicle is performing a cut-in maneuver from the right into the ego lane. Decelerating (A1) or applying moderate braking is appropriate to maintain safe longitudinal distance.\"}",
+            "thoughtSignature": "EmAKXgFpFH0THgJZzOtT6LXZFP8ADaPYRikRg3h0aohv0THj7zgzOa60ZPvBafHkqEYJ8SAwv2bGSLHtZpCoksz1R2VslpmdXg0kUaEFH8vaIFm4BWlnm5eridGrdY8oE+U="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 410,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 460,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 410
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-OW_arf8Nea2g8UP55vrsQU"
+}

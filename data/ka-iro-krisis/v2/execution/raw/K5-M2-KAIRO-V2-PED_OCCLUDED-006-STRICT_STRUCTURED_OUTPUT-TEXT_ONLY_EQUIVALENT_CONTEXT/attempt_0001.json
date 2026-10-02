@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A pedestrian is crossing the road ahead at x=23.0m with a lateral motion. Maintaining speed or proceeding requires caution, so a slight deceleration or maintaining controlled speed (A1) is appropriate to ensure safety without harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T/pwOPGG/IIGwYdnsu0vT66PiQfTC47Q3OJlub1QnPYKm4EVzvwBXKKsPm4Y+TJHM1YfxeV7rrzs8mXy9N5Y5oTAK8klN+Ctn2xHT9KxpftpqzyJsMAares4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 406,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 468,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 406
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bea_avCQM-W8mNMPz_-E6A0"
+}

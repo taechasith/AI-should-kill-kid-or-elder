@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"Maintain current speed and path as the lead vehicle is initiating a cut-in maneuver well ahead, allowing ample distance to adjust if required.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TfmFoQ8JjufsiiFIi6WkYHoSsIvWM/8GwbZD3iDcjc1/Ph7/j5JZB1sEWrAi1k3eeoDm5fJGGzOd3kof/jy5bUW5lhffxzl/ktQJTIDbmStNwgiwWcNXRDYk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1493,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "qea_ao-oM8e-g8UPhab10AU"
+}

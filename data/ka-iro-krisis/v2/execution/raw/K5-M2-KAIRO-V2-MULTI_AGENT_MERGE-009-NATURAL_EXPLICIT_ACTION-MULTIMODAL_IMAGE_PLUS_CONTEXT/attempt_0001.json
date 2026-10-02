@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is traveling at 50 kph and approaches a merge vehicle cutting in from the left ($y=3.5$ moving towards $y=0.0$) at $x=27.2\\text{ m}$, as well as a crossing cyclist further ahead at $x=34.2\\text{ m}$. To maintain safe following and interaction distances with both dynamic agents merging and crossing the roadway, applying a moderate deceleration (braking) is necessary.",
+            "thoughtSignature": "EmAKXgFpFH0T4khI3mJVuUER8dBGO28Vras9wq/BSJf93HSndE6/NrhlxbFl2H2zp/o6jgFP+YMHC64Dyvp5FFxYY9dt4kh4KEW3l7vinACctocKQxsuc5wy6aZQ6b6CYEs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1543,
+    "candidatesTokenCount": 107,
+    "totalTokenCount": 1650,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 451
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bOe_aqDMOZWzg8UPltbm0Ak"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is currently traveling straight at 30 kph with no immediate hazards or obstacles in its direct path requiring braking, acceleration, or steering adjustments. Therefore, maintaining the current trajectory and speed is the safest and most appropriate action.",
+            "thoughtSignature": "EmAKXgFpFH0TDKIWuE232nvi9jW7UneT7g65TWts7DzZif2+EhpNwhCsFHHesojdGg6t8twfp8ZJvKYPoFZrUiKKfRxAuiDc10vcUDGbujrsX+9bmtAFgjLzzOWg3Oc1MZ8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1543,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 1598,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 451
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Iee_aqv2O5azg8UPn-K-mQo"
+}

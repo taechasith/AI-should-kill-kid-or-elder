@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: There is a static vehicle obstacle directly ahead in the ego lane at x = 24.2m and y = 0.0m. To safely avoid a collision, the ego vehicle needs to steer around the obstacle (action A4 represents a lane change or steering maneuver to go around the obstacle).",
+            "thoughtSignature": "EmAKXgFpFH0TIZgE17CbKXFJNpHHaYwaTHl4xdnIxaeGsQ3AC8nA0Bc2wY5VYMGdRpYZShtkxzli+kgMw2P76BceJtKx5HqwD21lBzWuT4C6obldH5DDZo+5h7OTkd6SLZw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 369,
+    "candidatesTokenCount": 69,
+    "totalTokenCount": 438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Tue_aq2LOMSbjuMP4dHg0Qk"
+}

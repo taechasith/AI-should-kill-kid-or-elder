@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"There is a stationary obstacle directly ahead in the ego lane at 17.8 meters. The ego vehicle needs to bypass it by steering around it to the left or right, and A3 represents the appropriate evasive steering maneuver.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TOhxGQag3oVXE3FHX/rGszkXkkscG+KSAjP2XVLrS+IeMS71crYFj2rjmRegFTRRXYnz8EYGW8A1r4TMSwM4QPbLvKKkFuWmxsGwBxpWAG30Qh78UbYVvTOk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 421,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "P-e_aoD9O9jVqfkPx8eSgAo"
+}

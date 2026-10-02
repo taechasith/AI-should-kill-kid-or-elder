@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The ego vehicle is traveling at 50 kph (approximately 13.9 m/s) while the lead vehicle is directly ahead at 28 meters with a much slower velocity of 4.6 m/s. This rapidly closing gap requires strong deceleration (braking) to maintain a safe following distance and avoid a rear-end collision. Action A4 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0T3PuPZgm8otgg490Rxn5/m+Vx/4QwKu7hOMolP0jSiRGwT88kxTnoj0XpyCnCM+jChXzBtMKs2yf+EX8tJqawPiIxJLZCwi7VMgNyat2cfyZ0oHh+lNllDs4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 359,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 450,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "eOW_atTPPIrD4-EP6O3PmQU"
+}

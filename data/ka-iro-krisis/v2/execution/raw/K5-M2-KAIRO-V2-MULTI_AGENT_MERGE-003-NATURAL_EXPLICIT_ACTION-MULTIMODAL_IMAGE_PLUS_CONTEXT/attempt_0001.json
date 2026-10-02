@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured context indicates there is a merging vehicle ahead starting to cut in at x=18.8m, while another agent (a crossing cyclist) is located further down the road. To handle the merging vehicle safely and maintain adequate distance, the ego vehicle should decelerate moderately (A3).",
+            "thoughtSignature": "EmAKXgFpFH0T5v7gnDFu2sXWoFHQhr9EM3pQNc543D7xBA1kQigm6mMI+Y5MOLOa+GhWTPp0WKHsosAiWibAbe4+UTIyMx6ZyW//8HTgDRBCIsof11CcGKnPB73CeulxHgo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1543,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 1610,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 451
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "QOa_aoLWMZbRg8UP2fzUiAo"
+}

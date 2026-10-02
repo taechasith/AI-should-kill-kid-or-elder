@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A6 Rationale: The ego vehicle is approaching a static obstacle blocking the lane at 25.7 meters ahead, with no adjacent drivable lane available (road width is restricted to [-1.75, 1.75] meters). Therefore, the only safe and required action is to bring the vehicle to a stop (A6).",
+            "thoughtSignature": "EmAKXgFpFH0TnxV93TCndfFgr+Os4WXaykBuRbKzkDEjG7pO/0Zd7PPNftzDgBEQ68M+T2JZLg16dgmNV1X0iXwyTu8yjGVeiQnpb8b/RQxNQ/i1KOLpaqOzPKDjZ5lcKHk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 372,
+    "candidatesTokenCount": 74,
+    "totalTokenCount": 446,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 372
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "1ua_aoiaNanEg8UPh53EsQk"
+}

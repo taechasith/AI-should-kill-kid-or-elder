@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A pedestrian is crossing the road ahead at x_m = 28.6 with a lateral velocity. Slowing down or applying brake (A1) is necessary to safely yield to the pedestrian.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TMPrsweUOsMzp66Rx2CDy6JZ932OhKeSbG+0kRa6toWQ+AlvH+/gNI6oT173ylOa0S4dPRWoLMuvDM4PuRUvPo0jvM5Hmsjfz5X/Xo1mHraoI8fhciROQQTQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1460,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 1524,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 368
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "5ea_atTnN_Xeg8UP66CxmQU"
+}

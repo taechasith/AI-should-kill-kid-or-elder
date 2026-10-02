@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is traveling at 30 kph towards a static obstacle located ahead at approximately 17.9 meters in a single-lane road (drivable width from -1.75m to 1.75m, escape width 3.5m) with no adjacent drivable lane available to pass around the obstacle. Therefore, the vehicle needs to decelerate and brake to a stop before hitting the obstacle. Looking at standard action space definitions for this simulation environment, A3 corresponds to braking/stopping.",
+            "thoughtSignature": "EmAKXgFpFH0TKYckQQ0l6wt/VAxXCpwfv4FuWVjYddwehJj1WY9orvlPcFdpC7o1x/LZqK6sLpecXGcxvaV1ioD0L3q9dog19IL0vGKodHWE8Mlpf9n1Y1wzUDSuk+0VHb4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1429,
+    "candidatesTokenCount": 117,
+    "totalTokenCount": 1546,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 337
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "aeW_atDGNti6juMPqaLB4Qk"
+}

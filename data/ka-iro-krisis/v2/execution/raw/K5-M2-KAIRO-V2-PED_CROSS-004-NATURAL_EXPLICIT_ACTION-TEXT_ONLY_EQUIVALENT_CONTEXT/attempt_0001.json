@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The pedestrian is currently crossing at a considerable distance ahead ($x=20.2$ m) and moving laterally. Maintaining speed or slight adjustment is appropriate, and slowing or maintaining under safe control (A1) ensures safe yielding while proceeding appropriately since the pedestrian is far enough away not to require an emergency stop.",
+            "thoughtSignature": "EmAKXgFpFH0T+PYjOa1XOkT/ohGg25ri+GsY3EyirZkg0p2hW3LmyOvIySTd/xmn0SWN/F5XzXFS3GBQoss+J0D65FRlsuIDdivuDBtkAWzL3AziomDupnDrCcxCZR+jNI4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 456,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "puW_aqhsjbSDxQ-krIihBA"
+}
