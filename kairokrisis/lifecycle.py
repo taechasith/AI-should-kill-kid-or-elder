@@ -50,7 +50,15 @@ set -u
 runner="${1:?runner PID required}"
 pidfile=/tmp/ka-iro-heartbeat.pid
 printf '%s\\n' "$$" > "$pidfile"
-trap 'rm -f "$pidfile"; exit 0' TERM INT EXIT
+cleanup() {
+  # A stale heartbeat from a prior Codespace/session must never remove the
+  # current runner's marker during its delayed EXIT trap.
+  if [[ -f "$pidfile" ]] && [[ "$(cat "$pidfile" 2>/dev/null)" == "$$" ]]; then
+    rm -f "$pidfile"
+  fi
+  exit 0
+}
+trap cleanup TERM INT EXIT
 while kill -0 "$runner" 2>/dev/null; do
   printf '[KA-IRO heartbeat] %s | runner=%s | state=active\\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$runner"
   sleep 300
