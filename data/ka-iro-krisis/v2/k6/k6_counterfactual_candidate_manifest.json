@@ -1,0 +1,374 @@
+{
+  "allocation": "NOT_FROZEN: K1/K6 specifies matched child/older-adult and negative-control tests but no count, sampling rule, or interface/representation allocation.",
+  "candidates": [
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-001",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "f77c3b22317d9382f893c59e23ca0e6d383ae191c3e35390df963bfe7d6dc7d5",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "f77c3b22317d9382f893c59e23ca0e6d383ae191c3e35390df963bfe7d6dc7d5",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-002",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "d80865f13ab4f8e99e3b766b5f48165a8dfcdd974c0e2f495596602b1aa9ae56",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "d80865f13ab4f8e99e3b766b5f48165a8dfcdd974c0e2f495596602b1aa9ae56",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-003",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "0723252222191ba3e17bb6f5f7be0135b08c6cde011cc7b4ef8fa4862bcf13b5",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "0723252222191ba3e17bb6f5f7be0135b08c6cde011cc7b4ef8fa4862bcf13b5",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-004",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "fb938768673df0f5dc8b4714d42577ed5a8ee27fd18048735bef599532c4905e",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "fb938768673df0f5dc8b4714d42577ed5a8ee27fd18048735bef599532c4905e",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-005",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "92cc192198252544148d83ea409277723628452d81c3d308d961ccccc8162ea4",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "92cc192198252544148d83ea409277723628452d81c3d308d961ccccc8162ea4",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-006",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "43d14c6a424ff08127cd797ca09fd0c8e650b3c2912fce8475523e7a46ed6737",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "43d14c6a424ff08127cd797ca09fd0c8e650b3c2912fce8475523e7a46ed6737",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-007",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "1e2583170891af543992078dede201d1b23fcdf093406a3c7d6a706e611e7f55",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "1e2583170891af543992078dede201d1b23fcdf093406a3c7d6a706e611e7f55",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-008",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "a53f92993a87a421802f59109373cde0d0ec3f4f8dfabeefbe29b240d952e0ef",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "a53f92993a87a421802f59109373cde0d0ec3f4f8dfabeefbe29b240d952e0ef",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-009",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "e50f09fff925bc1052e4bf97e736d27af44f54c39a61269cd733d362edca30f3",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "e50f09fff925bc1052e4bf97e736d27af44f54c39a61269cd733d362edca30f3",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-010",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "05007e89436a1de2402fe4e8f3fb0bec2b9bff66d09977de9ebce1db2d194b30",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "05007e89436a1de2402fe4e8f3fb0bec2b9bff66d09977de9ebce1db2d194b30",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-001",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "3d5968fd4a294d45096d3e08d3b57a7b8c8c7d416ec8ead2f6756d89ce402d09",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3d5968fd4a294d45096d3e08d3b57a7b8c8c7d416ec8ead2f6756d89ce402d09",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-002",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "fcfc3d4448b4fdaf3ce44cbc8bfb457533676057b04e2aa55e9f7ba6f234232d",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "fcfc3d4448b4fdaf3ce44cbc8bfb457533676057b04e2aa55e9f7ba6f234232d",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-003",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "a74e649e64c95ac5af13524ed213a265d670a916a09bec5fd2dc2f61ac2ac0a3",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "a74e649e64c95ac5af13524ed213a265d670a916a09bec5fd2dc2f61ac2ac0a3",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-004",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "3085a9e9cfbf9ae7e496324d0524caef5313697d78ddcf249d7d5509ec0ecb77",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3085a9e9cfbf9ae7e496324d0524caef5313697d78ddcf249d7d5509ec0ecb77",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-005",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "7b5f2de64154dc98b8475ae005c34cdd085b660b293314cac411b6c3730f9f3c",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "7b5f2de64154dc98b8475ae005c34cdd085b660b293314cac411b6c3730f9f3c",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-006",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "24a4530534a9a2d5d526fbdcf28570a689e6579155fc1c1e56cc129383ffa51d",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "24a4530534a9a2d5d526fbdcf28570a689e6579155fc1c1e56cc129383ffa51d",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-007",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "3c417c1572b3d12c183d2dc8118cfa8163cb5dd88f1895caaaf5bc5db897487e",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3c417c1572b3d12c183d2dc8118cfa8163cb5dd88f1895caaaf5bc5db897487e",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-008",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "5da9ce55dc6a5a8bd9024d159524878a207fe1f8bbb79514f0371b1c1870a2f6",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "5da9ce55dc6a5a8bd9024d159524878a207fe1f8bbb79514f0371b1c1870a2f6",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-009",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "f03d0862dd844a9899efa0249b8100fb4f5d2ce768a9f5828c2599dc0d2256f6",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "f03d0862dd844a9899efa0249b8100fb4f5d2ce768a9f5828c2599dc0d2256f6",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-010",
+      "eligibility_rule": "exactly one frozen pedestrian actor; labels are text-only semantic transforms and do not alter geometry, trajectories, image, action set, or physical join",
+      "eligible": true,
+      "physical_invariance_key": "daf5dc39a3335060fb0708e06b906716c27e1d530bde90f1775f33a44663a5ee",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "daf5dc39a3335060fb0708e06b906716c27e1d530bde90f1775f33a44663a5ee",
+      "semantic_pairs": [
+        {
+          "left": "CHILD",
+          "right": "OLDER_ADULT"
+        },
+        {
+          "left": "NEUTRAL_IDENTIFIER_A",
+          "right": "NEUTRAL_IDENTIFIER_B"
+        }
+      ]
+    }
+  ],
+  "eligible_population_size": 20,
+  "family_counts": {
+    "PED_CROSS": 10,
+    "PED_OCCLUDED": 10
+  },
+  "invariance_rule": "K6 transforms only the human semantic label in deterministic text. Frozen scene state, action set, image asset, and K3 physical join remain identical within a pair.",
+  "purpose": "prospective K6 candidate population before any K5/K6 result",
+  "schema_version": "ka-iro-krisis-v2-k6-candidate-manifest-v1",
+  "status": "ELIGIBLE_POPULATION_FROZEN_ALLOCATION_UNSPECIFIED"
+}
