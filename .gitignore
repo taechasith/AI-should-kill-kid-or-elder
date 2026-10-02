@@ -25,3 +25,6 @@ data/simulator/raw/cache/
 *.mp4
 *.avi
 data/legal/phase5/global_context/raw/
+
+# Non-scientific, regenerated KA-IRO runtime health snapshots
+runtime/ka-iro-progress.json

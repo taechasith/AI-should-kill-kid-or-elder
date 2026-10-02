@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """The sole manifest-driven KA-IRO K5/K6 provider runner."""
 from __future__ import annotations
-import argparse, json, os, sys
+import argparse, json, os, sys, subprocess, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]; sys.path.insert(0, str(ROOT))
 from kairokrisis.execution import Ledger, authenticated_headers, dispatch_once, verify
@@ -39,6 +39,17 @@ def execute_one(row, ledger, dispatch=dispatch_once, headers_factory=authenticat
     status,raw,rate_headers,transport=dispatch(current['endpoint'],headers_factory(row['provider']),current['request_body'])
     return ledger.finalize(row,ordinal,status,raw,rate_headers,transport)
 
+def audit_progress():
+    subprocess.run(['bash','scripts/kairo_progress.sh'],cwd=ROOT,check=True,stdout=subprocess.DEVNULL)
+
+def pace(row, last_dispatch):
+    """Conservative per-model pacing, independent of response content."""
+    route=(row['provider'],row['model_id'])
+    minimum=15 if row['provider']=='Google Gemini API' else 45
+    remaining=minimum-(time.monotonic()-last_dispatch.get(route,0.0))
+    if remaining>0: time.sleep(remaining)
+    last_dispatch[route]=time.monotonic()
+
 def summary(all_rows,ledger):
     counts={'K5':{'planned':720,'terminal':0},'K6':{'planned':480,'terminal':0}}; attempts=0; statuses={}
     for row in all_rows:
@@ -62,15 +73,20 @@ def main():
         if not (args.run_one or args.run_until_stop) or os.environ.get('KAIRO_LIVE_EXECUTION_ENABLED')!='1': raise RuntimeError('LIVE_EXECUTION_GATE_CLOSED')
         heartbeat_start(ROOT)
         try:
+            audit_progress(); last_dispatch={}; completed_since_audit=0; last_audit=time.monotonic()
             while True:
                 if should_rollover(): set_rollover('K5_OR_K6'); return 75
                 row=next_safe(all_rows,ledger)
                 if row is None: lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
+                pace(row,last_dispatch)
                 record=execute_one(row,ledger)
+                completed_since_audit+=1
                 lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
                 if record['parsed_terminal_state']=='FREE_QUOTA_EXHAUSTED':
                     set_quota_wait(None,row['provider']); return 75
                 print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
+                if completed_since_audit>=20 or time.monotonic()-last_audit>=600:
+                    audit_progress(); completed_since_audit=0; last_audit=time.monotonic()
                 if args.run_one: return 0
         finally: heartbeat_stop()
     finally: release()

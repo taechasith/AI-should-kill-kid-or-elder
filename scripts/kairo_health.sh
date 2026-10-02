@@ -6,7 +6,6 @@ runner=STOPPED
 if [[ -f /tmp/ka-iro-autonomous.pid ]] && kill -0 "$(< /tmp/ka-iro-autonomous.pid)" 2>/dev/null; then runner=RUNNING; fi
 if [[ -f /tmp/KA_IRO_NEEDS_RESTART ]]; then runner=ROLLOVER; fi
 if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]]; then runner=QUOTA_WAIT; fi
-if [[ -f /tmp/KA_IRO_WINDOWS_BOOTSTRAP_REQUIRED ]]; then runner=PRELIVE; fi
 if [[ -f /tmp/ka-iro-lifecycle.json ]]; then
   local_state=$(python -c 'import json; print(json.load(open("/tmp/ka-iro-lifecycle.json")).get("state","STOPPED"))')
   [[ "$runner" == STOPPED ]] && runner="$local_state"

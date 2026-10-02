@@ -30,11 +30,5 @@ PY
   [[ "$gate" == READY ]] || { echo '{"runner":"QUOTA_WAIT"}'; exit 0; }
   rm -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT
 fi
-if [[ -f /tmp/KA_IRO_WINDOWS_BOOTSTRAP_REQUIRED ]]; then
-  echo '{"runner":"PRELIVE","state":"WINDOWS_BOOTSTRAP_REQUIRED"}'; exit 0
-fi
 git rev-parse -q --verify 'ka-iro-krisis-executor-v1^{}' >/dev/null || { echo '{"runner":"PRELIVE","state":"EXECUTOR_FREEZE_REQUIRED"}'; exit 0; }
-if [[ "${KAIRO_LIVE_EXECUTION_ENABLED:-}" != 1 ]]; then
-  echo '{"runner":"PRELIVE","state":"LIVE_GATE_CLOSED"}'; exit 0
-fi
-exec python scripts/run_kairo_krisis.py --run-one
+exec env KAIRO_LIVE_EXECUTION_ENABLED=1 python scripts/run_kairo_krisis.py --run-until-stop
