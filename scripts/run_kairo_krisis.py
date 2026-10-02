@@ -71,7 +71,8 @@ def reconcile_quota_deferrals(all_rows, ledger):
             ref=records[-1].get('raw_response_reference')
             if ref and Path(ref).is_file():
                 when=quota_next_eligible_utc(Path(ref).read_bytes(), records[-1].get('rate_limit_headers',{}), records[-1].get('response_timestamp_utc'))
-                ledger.mark_state(row['observation_id'],'QUOTA_DEFERRED',attempt_number=state.get('attempt_number'),next_eligible_utc=when,rate_limit_headers=state.get('rate_limit_headers',{}))
+                if when != state.get('next_eligible_utc'):
+                    ledger.mark_state(row['observation_id'],'QUOTA_DEFERRED',attempt_number=state.get('attempt_number'),next_eligible_utc=when,rate_limit_headers=state.get('rate_limit_headers',{}))
         if when:
             try:
                 if datetime.fromisoformat(when.replace('Z','+00:00')) <= now:
