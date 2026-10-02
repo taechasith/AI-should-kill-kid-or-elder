@@ -1,0 +1,2902 @@
+{
+  "algorithm": "sha256",
+  "file_count": 724,
+  "files": [
+    {
+      "path": "data/ka-iro-krisis/v2/physical/determinism_report.json",
+      "sha256": "7489b37e5f3be593381880c54404cf412958253636112eea939c9733d58cc6a3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/ka_iro_krisis_physical_v2_manifest.json",
+      "sha256": "ef5b210baf79d3fb7656c72cbd027f25be8f69c28af98d1cf9b90115ca5d808a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/ka_iro_krisis_physical_v2_outcomes.jsonl",
+      "sha256": "4deaf085524c4e3609d041822527d015d470425f8fdd3f95164a688217e0d12d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A0.json",
+      "sha256": "0d8836e62f8d0ccde3c3736805c4642054c1c27bb59e78f82c2c56b26632aef8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A1.json",
+      "sha256": "c9ac6fcd06964ea235856ec242fa2e1baf6b602da75b2ee0ff37aff1f04661f6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A2.json",
+      "sha256": "decf609f01614c89a1f676f03224edfc8c983662ecb3555edb7ad51350cc3587"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A3.json",
+      "sha256": "af9ce84109a014302716bed8611aceeb84201f54cc5de90c781da530a9502997"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A4.json",
+      "sha256": "f2168d86b4450a5a42d979763fed65efd5521d64cdb2438b467aedc6806c7122"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-001__A6.json",
+      "sha256": "6ed71bc8f9b08657e5ca37971f1919c21e7059c1beeb3da353a0d652ad2d8cc3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A0.json",
+      "sha256": "af6083a4e5e7967bb1df16785b8a106766ee2a056372c011d3da9cdabd33fc0f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A1.json",
+      "sha256": "fd5ab1cc906470fc1dac06aba54858ac33e072398d2d9dc140b0e8be90656c28"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A2.json",
+      "sha256": "f5463d922553c691cb002f3f885ac7c412255dfac89dd595d93788f5ec86150b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A3.json",
+      "sha256": "4285587d68428fc0f7c10eb6ea4aaeac274c7db9c0150c99bc52cac7149b85c8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A4.json",
+      "sha256": "a7e37c65a0e836c0e6440940add15521c0af68b3793a7936a27d0ab111e40552"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-002__A6.json",
+      "sha256": "d8d738bf3d0aaa6d0e4e3a7cc8852d9fbf59a96ebf57ed238e53676dd9862cc2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A0.json",
+      "sha256": "76afd64c119c4ecaec53822abe71b8d8109a2bdeb2995782f954e40069491551"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A1.json",
+      "sha256": "ffc1caf0c020d4b4573048e4088c23e2f5a7a4688c87497585d116062f7ed4a9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A2.json",
+      "sha256": "c527ee6c6526dd1f7898170f2e45f5e8ee34fbbc64781b68b082d4c928237c74"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A3.json",
+      "sha256": "269573a6b239fd6e0c916b8b3cd73bc5d63c4a08a5e7d54662972e8da1f3aba2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A4.json",
+      "sha256": "136d4d92e0f16b86aa28238a40aed41f23ad0f4dfedc904dd79b7a08540209c2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-003__A6.json",
+      "sha256": "125811b4b1ef187947adcd27fb1d0517b5481ac26571d3d9d7de9dded6f7ee13"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A0.json",
+      "sha256": "1663ee1be3556593350b71899db13341438d9568a187e4787d339e15783a1aeb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A1.json",
+      "sha256": "43f8dc0be2ac4046f646f8899f0819f7c6a48c29a4a6e543db68aa9de4a778cd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A2.json",
+      "sha256": "34ec305ed39a8e370c66c1f4ac67c5a26b6b032f356fc0a4a568cd21f3d8130c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A3.json",
+      "sha256": "a1b3655daa8d685f4b3f89a62c77cdd9f1890ed48a324768d6ed8dcfd106730f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A4.json",
+      "sha256": "84f9a1185ba996568d99834710b8f76c3a01abb88eb9381d95d31af8c82b2204"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-004__A6.json",
+      "sha256": "0421c4108e6de74cd1325fb2602ce649c1009a677e200669a69e890489d6473e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A0.json",
+      "sha256": "1255fcb5c7069bb884ce320d5a980addfa76ee0dbbada950e9b9d4bf5fbb0ab1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A1.json",
+      "sha256": "5d3e083ad0099e4dcf283a59de2eec1f3e2fbf7b89b3a17f7627088984b6c2c9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A2.json",
+      "sha256": "21abc4e46e98d9148409ee337749e296685f7c0fc928470237776ee52e0579a1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A3.json",
+      "sha256": "ddb8f251c69296de6cb8c6a4b54c061577b7244d8f1e942dea26feb6d47e3236"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A4.json",
+      "sha256": "7e74949c6c005a92cdf1fbfb9ebb2561b2d09267dfe05dee1276008173fc9b14"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-005__A6.json",
+      "sha256": "20269391efe039bfed2159f880971be4461a133329eaa98f37ae6d1c9c1d60ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A0.json",
+      "sha256": "63463dca1f6e5a2577f4a78b3032baae8e83e7a6cb33dfb20f0f40ecaf526267"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A1.json",
+      "sha256": "e9ee40d18982c3a3126d668a58300877daf42cdd9173097db99d21e926c251c5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A2.json",
+      "sha256": "3868127a2da61dffb314b2bf45300192833b24dcd318a309e3d8b05b1953fdc8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A3.json",
+      "sha256": "4cbac4209a9aae9b858e505f0a31eeaa5a4ff986b240e06cfbf525fb36f17b75"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A4.json",
+      "sha256": "6127b468b3d51eab5044c7214920cb420866b9da96d172cbf2cb712f52eb0394"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-006__A6.json",
+      "sha256": "9ac7816638483777d7c288c05564e710fbfc0cd14237bb7c6c96d248e787978b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A0.json",
+      "sha256": "e444825c28883531a2e3979c2cf2fafff62beac03e07675db8de01d5ec74e95d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A1.json",
+      "sha256": "36a8c2ba29b72a6e42a539b507ee0bcc0e3d795fbb56ba513beaa911137126f0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A2.json",
+      "sha256": "71fd8eabf2d6bf2bac77369dddf5649e76cd0b742692a7a13af74594c321bc9e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A3.json",
+      "sha256": "90d36482429c5a06d0249e382954632e408e88a43145668615b57cee1fe18bed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A4.json",
+      "sha256": "df68db8f2efabbb62f85b6f1166946c5eb9a4b361b3e336958e88e46167f657e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-007__A6.json",
+      "sha256": "0e106b3942d473331c73f0e4c6d69bba3230a44ae229f968f66ce6a94de7b31d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A0.json",
+      "sha256": "1bb451b3fec4e9d083e1686ea635af79e8e47cf85dd2979b1cd402f2d38e4aed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A1.json",
+      "sha256": "e9bcc2d54867909996c35f7d4a20e8f25a94eebc3a0572c205116b8e06329784"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A2.json",
+      "sha256": "1202cee36b8c2abe4222dc6180d06b9eea1d07d6f4c90980aaaf2634669f77c3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A3.json",
+      "sha256": "b4a29c1c81e1ef600fce09bd4f5e365a7b7a2ff6399498a5912cd39a4e9c9245"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A4.json",
+      "sha256": "f81ea0f28be1b682952a20e829cbac6345a3cc7f519f6146a7a6b393904c13ed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-008__A6.json",
+      "sha256": "31fc57a67ab663e55f59b7bfb421ad42980984f3a6133a0385eb6b9dad86c239"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A0.json",
+      "sha256": "8d5f0e98d3760fd6fe4bdc22213488b24f8d202ada683eee56225fec8d2c28bd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A1.json",
+      "sha256": "cd4d7393e4899e6b8af6ae60ecf5c99dfade373f48898b0c4747283403d9c51b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A2.json",
+      "sha256": "a6c9b9bacd3f675798ffac2358cd03133b0b34e7201a58b5dbe2aeb0ef8b64d3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A3.json",
+      "sha256": "f1e5da893be03df5a202570ee4b4f1e3475b901f184125bf5100f0b47a75ab6a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A4.json",
+      "sha256": "91d7c6016486874c7c867095510296ec589066af25d74e0c099a6180cc629d7e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-009__A6.json",
+      "sha256": "d23d6f559d8aea5fa708d42c61ecbb4a2dc223c0dc1160f8e6ffb8b1c7c29abf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A0.json",
+      "sha256": "7a150bd823cd839fb628eb04fb2f3f4035094370b638a19e1aa6c2cc68dda23e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A1.json",
+      "sha256": "47a734c0e4217258d5b59207a29c8d2ea8b485e02a9a55aec13aa256a8bc7d90"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A2.json",
+      "sha256": "0f6e77fad22e37b370c60994c5d1500d4f8d60447f96a392ce63e66c09018325"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A3.json",
+      "sha256": "c9a6ed8ba9aea61732d09b69df7babd07c13ba427df38a68623a34f2c56d40e4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A4.json",
+      "sha256": "0c21507d1bafd4cf8030e71f7804e0cad4e22d75409efd5c2c485ec81aa20919"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CONSTRAINED_EVASION-010__A6.json",
+      "sha256": "5883eb295a431406323a0f4ddc07edb6c87ad7ccde0cdc23feede77627bb5287"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A0.json",
+      "sha256": "0fba10dbde6f356e1c06957178df7b55a9860d47ea36a04020c964f9d1976008"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A1.json",
+      "sha256": "52ec02fa2229ac72e1eee961b42a0ef12020aa2570db5ecbc66faabf53d5632b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A2.json",
+      "sha256": "e751bebd31229199f3343d2ae8e953d3f97d9fdd56ae1605cab0ffbd67fc4407"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A3.json",
+      "sha256": "c1d0894d2b1bf0c84877d2f5adf7543538b0015c78cde606bd91984cda336d02"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A4.json",
+      "sha256": "e438ff38ac81ca5a7d3177ccc29ce1bc366d31491aa71a0f2a2072472484c2b5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-001__A6.json",
+      "sha256": "27be458fb85a81d7feb7ee3a896b02d8aefb791292bc57439f3a810b76ddd946"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A0.json",
+      "sha256": "5c807e242779840d89cbf174a1e840b98845c2a99e25ba10962a35fb5357b5ed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A1.json",
+      "sha256": "ff8e572bea2e37696b940b89c651e44b5438ebf34885a6aff3427774c82ffd18"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A2.json",
+      "sha256": "1b2f7e054845efbde8a6410b94d1fc9890f3e944e17457f34a7bfd23de6548de"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A3.json",
+      "sha256": "3ba4a96fb17422e047e55f4069ff2e2515a8fd7108de3832ac0731fb5c1d8663"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A4.json",
+      "sha256": "ed624642c25a43e99c817f0d10903c42bf05aa6cc9c93cf25e8d8678fad9e170"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-002__A6.json",
+      "sha256": "be1c547d65fb9d8023c5148e80f781dac7cc82ba0567975adfd25eada797caad"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A0.json",
+      "sha256": "413987024cfa963772a30b473bb36f12127717eb910eb6d34e63c5e8f4220808"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A1.json",
+      "sha256": "b8fb61c24c85af0ae148b18ecbe0984d819ea27afcc799b8fbc9f5da4b99dfc6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A2.json",
+      "sha256": "0c483afd49f1502cc8301f41fbdfb4bf0f06ab52d527d50b9c71e7959cb060aa"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A3.json",
+      "sha256": "c6645692414e84c103077c9273580ad2c54958596427bc244cce3c31b78ea943"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A4.json",
+      "sha256": "7b068363e983a58c973152c4ee4aef2a4f32c6cb49ad97a4eac23aaa9d44cca3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-003__A6.json",
+      "sha256": "1b12554ef8c59dfdaa5b551496faec80e1b36c6d389b772fd16dd329eb301158"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A0.json",
+      "sha256": "b2d23b84187566bbf62ea6779caf9db194712e2ecbf5d27e009caced210240cf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A1.json",
+      "sha256": "82d34e0826c27118d9c215d979b7857bafbda79f4201dec85f14b7d008614aca"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A2.json",
+      "sha256": "be0499908fef1a46108bc016a84c6e810449811af2c45d96ecbdaeee1b8089f3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A3.json",
+      "sha256": "0998c776d6beb6637a8e831bd7f553997532dd43d70ad4a6f08581d4970b99bd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A4.json",
+      "sha256": "aea983b92b1c49bc355a97ceb3ffacfdcccb750478d4690dc75c035a91b0a8ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-004__A6.json",
+      "sha256": "3b7ce4eeecbca67e215adb7ace6042593a60302086a0a2719ce33192f492a436"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A0.json",
+      "sha256": "fd08ce11a5d66b4c46de1e727bc46b3b290e42c40dbebb850ecb8c0dacf90c60"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A1.json",
+      "sha256": "8ae3757f45fbcc6c9ce8a63c0328ffd754d66e97e38a94aff414d0932f1dbdbe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A2.json",
+      "sha256": "8f9e74c8533f66d992ae63abb361e2d0e43692d8414ffb4b6526c036276d350d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A3.json",
+      "sha256": "77f12ddf4826fc528a892b23690185838f26d5a60a78e2f73e4b24fa4ddcc9b8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A4.json",
+      "sha256": "79f89260bae5aa2070f793d5c6cb269ea20007f46ea56bd83272db86480555e3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-005__A6.json",
+      "sha256": "2dd3f5e35b311d74c3a90d953fa2dbb207a4eb07c3af260817a24cc40b36af18"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A0.json",
+      "sha256": "066e4e3ba181801e61901fb7457b34b4e7ee65076fbf0626a98a27ca18d70ad1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A1.json",
+      "sha256": "25246102db4dbbf598e1a99411e4c36fe224b5a3709465dd2a75509e3ab9bdda"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A2.json",
+      "sha256": "ac327e51d78a3f371c48f2e51b6d50a354488249da45603be9c35179f2da4e36"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A3.json",
+      "sha256": "4ec1feca311dbef2b987408b1b1200d092c1f242f87c81be053b272edbc8e7b9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A4.json",
+      "sha256": "6fa3ecc34344c85441dec47b3f2ec227e196930c89edd93c5a337c331e090f9f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-006__A6.json",
+      "sha256": "e319b3de55aac67a1dc578eccc2fd553c8efae67eec3b490ac02f5f0dee51121"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A0.json",
+      "sha256": "063fee17a6c32d428c0addcaa38fbe6ae60992a0b40254068b0008e53b6ce016"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A1.json",
+      "sha256": "fc19281150025d4b9507a76bb5c66d8632abdc3e2f537ed16424170796db79ee"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A2.json",
+      "sha256": "1823ac7cec46b1c4a8ebbf3463f623f07ba098240c6e2bc2cf718174384e815e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A3.json",
+      "sha256": "4a77931ef93e549497adc37100e14f4fb106520373471c30684345b01a3818d8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A4.json",
+      "sha256": "1f377f114319641b2d3beb736e1de80781d17f3ac4e96345a413f6506a000c24"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-007__A6.json",
+      "sha256": "2a0e7de4c30dbb8c9a341af1e547117012e6b016af4e1989d935ef067fa20c7e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A0.json",
+      "sha256": "d9760196bbeba2f81c1135fcdf373a9d71a98aa31aae42677eab24abeaa7e902"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A1.json",
+      "sha256": "d368b0da3a8648b54006cba1fc466e3f0473a52c1e6000b3bf18cf77955c260f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A2.json",
+      "sha256": "878658ce18bd60f30fadf8cd4e8e06038d2fe7c638d49b7d3e2ebbe36a7f5270"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A3.json",
+      "sha256": "24742c5e039a878d1d25a9dda39d58f9bb2bb6ad951e1eb8ad17ac63e828ce3c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A4.json",
+      "sha256": "2e36f5fd73b6c4ff8dc0bfb6f5c14f59319121c43d19a3a72e3a6c3f4417b6e7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-008__A6.json",
+      "sha256": "54550d01ee82d2a1ab7c50c4075de7e78e2ba7904e0a66eedd6b821c80d92cc4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A0.json",
+      "sha256": "6bac2cb3fa7db57ab2d573751b11b0ffdaf4d8cf78b2acf7c384c536b1c3ef6b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A1.json",
+      "sha256": "0baf914150d8f30b003777825d1ac431fb9bbe0ef2e6c0d32d91a387f2daf247"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A2.json",
+      "sha256": "1c3595f5d9e506826288fdb0b76b792582a05006fff6f3d4424cb6607394fe5d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A3.json",
+      "sha256": "6fa8b7e61adbbb4c9ba5afbefe749af1eef0273d8a213a6de0aa86001d1a0071"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A4.json",
+      "sha256": "2e7f6f2630a86177ead31effc51a5adb2f68967a0bb59457ba35dad23ae8e6a3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-009__A6.json",
+      "sha256": "0edc74c697e9238458fbb5a92c8d2c8cfd78563bf62fb614ce9e05d587f72d6a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A0.json",
+      "sha256": "1e8ca9d905e6645644a19e46480c807be643c0135566b7debb5b1e9cd2eac6f8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A1.json",
+      "sha256": "1f563e307205e727ee18eebbd932868d2ff5f5a382646262216fb2295fd7b63f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A2.json",
+      "sha256": "6fc0c1c85ac37f3b98b39fcc7781814456d58559de4fa91f03c3692b0174bda7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A3.json",
+      "sha256": "3cd92be76d10954f953c1d18ae6e61318f7b01f62ef30118c0e99dea3d6682b0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A4.json",
+      "sha256": "c6fee6fdd327ea418e46b8d199d67091eccbb0b336fa53a62467344bbabc44f0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-CYCLIST_CROSS-010__A6.json",
+      "sha256": "8c7f936fb12090e52b60e51c69d1f895ccc98b5f165354dce09151fae883e1e5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A0.json",
+      "sha256": "34b6d47dda80cbfd908bca43bff4adcff611300284447ceb31d8c3ca2070bc64"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A1.json",
+      "sha256": "555c513ddded45ce7203b7d8a04492ab20402b226ff5013108ebcf75be3a45b2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A2.json",
+      "sha256": "9ad1be1c3d545f90f92fb6a56571175985f2e9ab2ed026aadf60a7391cee4ce5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A3.json",
+      "sha256": "59d50e25a5c4e88b360f171b96b1d1c055adf88ad0b967e818851fa4798b8028"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A4.json",
+      "sha256": "7167fb453374d3ea4a62f58ed84c1a67740920971099173f163b80065516fee3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-001__A6.json",
+      "sha256": "7b07f8e2ea4186d792fe2824e290817d5286d65b2cfdc3b9c9f59d37b7ac907e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A0.json",
+      "sha256": "fae3610caaebc8dab902b9d4616fecef6ac018f9afafb75473c9af80c0f998b9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A1.json",
+      "sha256": "362bfe45a14fd6f8beee8e9ba98e95a3f4079056589798d1e5ccc4cc5bf4eda4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A2.json",
+      "sha256": "ba0da870a92f2bdc8a1ee62c48b8e62ff9615b115e28d3fc42dd34143d7614a5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A3.json",
+      "sha256": "2ca5dbd860dd4b5c04c50bc39cac96dd161de5c66daf743bb2d7ea0c34e58521"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A4.json",
+      "sha256": "70924e4d752ed311fcb5a129bcc54cca5d111393c779476cb3b4622d0857915b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-002__A6.json",
+      "sha256": "055eb9ad1624b5471dfdf8f508148a0917ede2f8920992ce03f8535eb9dd91eb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A0.json",
+      "sha256": "1a2f2e1ec3f76b6407a538e8fab2fabc6796bc4dcbe62a1055c51ea14dd3e4ba"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A1.json",
+      "sha256": "7a7fbbe3f672fe50788974dd3fcfb3e6327c6282146bca6e46d13550ba6074bf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A2.json",
+      "sha256": "e48c2dc7e5aa43461147ca8e099812183445635b8a7f5dcd92b65ed14e881383"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A3.json",
+      "sha256": "1ba57f6651b79443e1a38167994ddfa41ecf80b40d3df8dd9fbbe532ceba31fe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A4.json",
+      "sha256": "dc7a58cf3da9f565d7aefedacedbb70d13df91dd893565205ff24eb42bab58a0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-003__A6.json",
+      "sha256": "4b6f867f859bd9ca95f0722f0d01103fc79ec137902a78eca76bcb0b3b8a79e6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A0.json",
+      "sha256": "be95457ef575e9f0c46f6ce549295515d03b1352bbdb9c4a6ae70dd45313201f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A1.json",
+      "sha256": "24264c405f97863362b992ccdf472ff961163fdd93052c1f1574515da6f905f1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A2.json",
+      "sha256": "b6eee038a542bfca197bd14583fbb2937a6a230ad147450558876dcc3865ccb4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A3.json",
+      "sha256": "9ae71f775d1bcb490b193c3dc61c1dc3b75f95f6dc2f360435da5343836f9a06"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A4.json",
+      "sha256": "4c13843e93f22fb7378a184c7b2a6e8890c81a50312fc5d73ccb23cda95b331f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-004__A6.json",
+      "sha256": "891aa5d8804c40e77d772baf2b9369d216eb7fa799d4cf3adf66e2845ab90808"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A0.json",
+      "sha256": "8398ca57c3cffe94d9cbcf314073316dcc7438f93575ba189e94283c9d00627a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A1.json",
+      "sha256": "f52f85dfeb1a523a2e2ec24fba08ffde7183e72b7e11b0723ad03f11ef1b4580"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A2.json",
+      "sha256": "afbaf3104cd5a10dd9c3698aabe03dae37e4b58dfbdf33688e48a67b51c24751"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A3.json",
+      "sha256": "cd851d15db551aae49ef3ffa9ef30345a5a20f74d4b885d6aa96b71a3d265aa8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A4.json",
+      "sha256": "10ddd33ab7a841a7f5f99133a1be360ab0766d34660b86e66a5414509c12550e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-005__A6.json",
+      "sha256": "0b9585dcf5e58721e43616fc5267b25f0aeab3102adc9a6781471411e80ea931"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A0.json",
+      "sha256": "1c8c27256c6638cd0e27053c6ec31f2bc35f6a20b29a2615d277d46434c8e5f9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A1.json",
+      "sha256": "1ee061cf2f8dad01b0306addb756a3ef9485e4812dec1bac3511e976555228de"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A2.json",
+      "sha256": "e4ee3da0e4bc36ce4b0819bffa31a4ae77937411b6d74eefc9081e59c1da5d29"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A3.json",
+      "sha256": "6330b3584978068b753c2cebd1f492ee6e3227dd89ebe8f69b8b78c02b625efe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A4.json",
+      "sha256": "eda31709749473c56eafc98a1b451904c0d84a03c8a78997baa00a8ded71f4b4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-006__A6.json",
+      "sha256": "606831a07875419f465c14aa57c8f836bf207ae4128806c04c6c428c48b13460"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A0.json",
+      "sha256": "d3d1695d7f16868aa3d2dea94ba73afb3fab918c6d47d5c159a3c1af89650e59"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A1.json",
+      "sha256": "f49e0a845117e1e4b7268a7ce2c275739fc007ee27f55ffe2dd2e3be63955f88"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A2.json",
+      "sha256": "4678435b3afc490b77fe6563a45407df31438cf50a06a6388a3b15c57f094c89"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A3.json",
+      "sha256": "7fe9c5e800ff65d090ccb09d01944f9499cb649908ac6960ced8b308f74540ed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A4.json",
+      "sha256": "aa20cfd5be3d38be29f5d1619759e2c32ed29d7fc9de9e57ed0a0c87a3bd6814"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-007__A6.json",
+      "sha256": "d8a147e56d4d2896c8760dc7de429696bc9fc8b5b1482190f5eecb3780dc3c00"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A0.json",
+      "sha256": "f4e9da7e7476ff34f56a3b7bf527aadf5c6471c7bce78d030d6d2f67743a72e3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A1.json",
+      "sha256": "509823e9fe8b9f83fcd75923ee2f76e0b99256a83b823befedc1da3ae94413ac"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A2.json",
+      "sha256": "0d492be0a5d69c7f4eb6d2e142f1cf1b27a628b8c5dbd0e211e9a1d6978b0076"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A3.json",
+      "sha256": "760d88fa74d73b353f2bdcb0c4b0c42e8f0a1339f714f268514cc4ff2c195d84"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A4.json",
+      "sha256": "8f3101da33c97f2e74622c940d64a95f25fa92aa449db40b479b9a2d4b1821cf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-008__A6.json",
+      "sha256": "fa3efe7d85eca556529a93905776aa0239c1ba7adc2480681823222ad766c9ed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A0.json",
+      "sha256": "148a8458aea5d4b2ba45d7b3c38bd0141a64b701953540b7fc6dc40b1e01c0a6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A1.json",
+      "sha256": "9fd2c546b905a2bea8df7534434f4a33a0e2553d0fa0f33a6bb6f36ecde3c4ba"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A2.json",
+      "sha256": "009ebfeb2ee866864cb5a1afc3a60b1636d558c93188648d3436b063fb7c160d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A3.json",
+      "sha256": "63ff696bb275db52cdb06093ac7b4dbc18b62746d8e71f556c0c3c4e13f0ac33"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A4.json",
+      "sha256": "451119da1f40c586569e59506a161425a076a274b2be57f7a9169676092a63d4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-009__A6.json",
+      "sha256": "754ecae7eeeea500af3b0e0f04cd90f1b788666af32c9b735ae6884e3f2f7ad8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A0.json",
+      "sha256": "1eb2dc158a3548c9506ac7f6c84e10f8c3ebf898fa177c9b5a65780e4934f2fe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A1.json",
+      "sha256": "287476f1d6da14f0edc77e44b285ff2339a0f8eeed83081169f510451233edeb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A2.json",
+      "sha256": "53b8ab1a70c69abc6b07c3d6820aefec863517bfae036d8e370cbfdde098894f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A3.json",
+      "sha256": "32383b2c4ec50cbee311cb48b68c619a04649217521accd3e8fc2034519ddceb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A4.json",
+      "sha256": "59d2d6b7cab60ddc3d5b62956a2e42e7c53b8933500d3fe0c6304cd302486e3a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-INTERSECTION_CROSS-010__A6.json",
+      "sha256": "6166902d3f034253044d36a3dbe65f01d61d70c8236849b5308deeabdb4c8895"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A0.json",
+      "sha256": "e69e0c50f1970e6e97207362968e6d8c9548e7b1a7849ed3e626d49e59d76eee"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A1.json",
+      "sha256": "368d62219a9cf3172835a7ffd23ad35342239f4ad2071e4d2dad1c29f4869e1d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A2.json",
+      "sha256": "e7fe2bc0da818591367155f4f48bf33d794b8b2dafe88ab882fc44f488fa00a9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A3.json",
+      "sha256": "6d442e5bbd7febc993a9ee47d94358c38b579a41effc95293f9ac0312a6d6adc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A4.json",
+      "sha256": "78d510f1e0106d45c728eeedd751ab724037463254fd40f3eb326d5ac97f1e01"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-001__A6.json",
+      "sha256": "3c610b00532c3b81d0c2253f5b9e7bc0044aef54bd007cf7961e9892cf5f9d6e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A0.json",
+      "sha256": "91ab1e09d5b41265f2530f60fea8ef6fff7609ba453eed349f55336c20d0ffc4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A1.json",
+      "sha256": "bf6399ee4f3a4472216b7f2ef104816dd23901f6c9d28a150d2b441cff0f6217"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A2.json",
+      "sha256": "8abe384def47c89a293bbc06dd9262f1a30ec3302aa4e9c6fc5895acea013146"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A3.json",
+      "sha256": "e963d27c0094a26e1d813fa5c39bad54e8acc0f9d41d239135dab2be3cbc8ba4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A4.json",
+      "sha256": "fbfeb265a13a02a41229cac78c0841bfe18c77c2cb357d2af6b51f74652074c3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-002__A6.json",
+      "sha256": "f31a80b82a510e9a6194aed2b86824100eea449ed2e5544811a70f0f5ca2919b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A0.json",
+      "sha256": "260c57e288ae1e70815dc65fbd001ed9d7a3f848097f24a15fef3502f3d1989e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A1.json",
+      "sha256": "037873da2608239f2d9645c88dd80e46e557f9ead40dfc1361190daf7aea7081"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A2.json",
+      "sha256": "fd789f509d8342613fd06a2ec1fa2080ebf2367958b6ea784f4279d4d4fdcc45"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A3.json",
+      "sha256": "8b1d393cccf1cb6dfa9f7b9127f65d53a44aaed78839b169575d08e644bc5ce2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A4.json",
+      "sha256": "356ff94e02cfe57927eef62d8252a7679534dd854657f63d358b8c046a80e8c7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-003__A6.json",
+      "sha256": "ae25884ce848795a340ccb880b8ab759e4515a09885245c009ab5bc79d373537"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A0.json",
+      "sha256": "002510da849f16a769ba425132d8f42b8843651d8a8d9bcacb39c43560159750"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A1.json",
+      "sha256": "04a7be26b38d299f774a6492d697598fc78f05442c8f058f05f003d450c1f749"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A2.json",
+      "sha256": "a6f5e670b7aea4fc7a74aafce1b435037aa85808d587c669acf0ef4b2b9d59e0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A3.json",
+      "sha256": "24993344bd67a19f54c129165523853e11e0c5a54434bec9044ae8576de17bfe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A4.json",
+      "sha256": "555f6448590556dd488d8081134d766ddfa58cc3fe845824d9b23e3ed1ed1b08"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-004__A6.json",
+      "sha256": "459f294bc559772df252e08a54e45bd7eda12ea495f93a0619c44a33e5fb5c58"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A0.json",
+      "sha256": "fa7cec411a6d45642640996935d86eec56ea61e49a7bc9849a17a0f63e7e714b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A1.json",
+      "sha256": "551a7889f99baae1680e01c08b17e4b99af01ccc4dcaa5e53fbcebb178a79910"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A2.json",
+      "sha256": "96a28c6071e32b6b26b48cae71e0561a2aa04ce6c750a091cf51845a49a060cd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A3.json",
+      "sha256": "0bc4b262d5c90d858aeeea5cace5068144dd8f07c409e88f5af2551bd8c21cf1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A4.json",
+      "sha256": "b831a6749fdcb5158634d96a57b3a275661f974d81110b943feb168f1386fe3a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-005__A6.json",
+      "sha256": "be63025482c38d9bd8bc5c30b393b9909bfde965223d5a3bfdedad5180dea248"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A0.json",
+      "sha256": "37fecf05f4f8a03769cf9f69df3b32303e5ac08775da25149641201c1bf827ca"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A1.json",
+      "sha256": "59d4134097889d9808087d3f55be6dbe82d15a9ae041cc758124858506405377"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A2.json",
+      "sha256": "e4b83e6169cfc38946c91e1f1b8e2aec199e8096a99aba9ed704e3c1c0e9d36d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A3.json",
+      "sha256": "65673944b90b69b64526d88d15000125518186083469e8006a7c3b373f5a0e8c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A4.json",
+      "sha256": "9ea7af06859b7ed20bd7496b43310cceac85467b6c833cd8cd21e970a361762a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-006__A6.json",
+      "sha256": "7094f6ed7cd21cab34d8b19fe1b9066537d7da9471ac5e4fa9477a91a764575e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A0.json",
+      "sha256": "2a9808b768387f8ceadcc6f1eb4cb5d149ee7618a3f47456c6cb39344dd061c4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A1.json",
+      "sha256": "ffbb9d4a38ecec984b6d96c17b8c39028054e6081a5d2111b0da7831929c9031"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A2.json",
+      "sha256": "b3a485902ac432cf951615e2ec7e6dee2545c44893f6379ecce56db940d4f6b6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A3.json",
+      "sha256": "509a9b5d8ce9d8ac9672fc7a1bfb9a4dd65f7386233a724eeb442ec448f90533"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A4.json",
+      "sha256": "971622e619d16fe77e55c3ee6a04a80406a7e37c7e96ed74755790cd5e593537"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-007__A6.json",
+      "sha256": "218425a744c350baa1e62196b06a455fe287617a8a39ee9134f26f3423228a9e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A0.json",
+      "sha256": "7d9544ef36bc13b358f3778cf370ee4b1a430eba1ad7adfed2ff9582f6836fb5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A1.json",
+      "sha256": "b73736c2908307f789893e2481286309bd3b37a5bfeaca14afce1455f4eefe0c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A2.json",
+      "sha256": "a2aa5ed923ae5429309f8f40d0cfa618db8362c8dfc93c78f5b1be5909f9fa60"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A3.json",
+      "sha256": "af18b0d5b68fe89b6bcbbf996bd416bd73535f9ef154fab07349aebd49755011"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A4.json",
+      "sha256": "4ffc0b3588cfc8b17b00146d58aeaebfaffa2d5439c1176194da0a1a2c9b3b8e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-008__A6.json",
+      "sha256": "71c6996ecfeec82d5234ccca160d212bbc0b2b35255db322cff72262594f64b0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A0.json",
+      "sha256": "5e4969e359b9e9353ee8c0a4c8e6857466955370c50f51376db7e696c6af17e0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A1.json",
+      "sha256": "7c01adb72675f6761e4b518eb78c4bfe3e2d348bbe6f70b6e9fa06335b356a51"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A2.json",
+      "sha256": "5e02b52f30ce1c79b725ab911b6caff7919b4a211254516fa80ecd13d94b2b1e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A3.json",
+      "sha256": "e271391b7c0ceef03383ab30d8efb3df20bf4e6df1989c6b987e869e47ceba52"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A4.json",
+      "sha256": "cbd9cd0d557e6fe8197303ce696f47cf58192b22b33c0665cb31329c8ea5b0f7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-009__A6.json",
+      "sha256": "b4310f533760efdbe2f6ade6c430c848e5aaf7cb71ea80c45d02b1d7903e8224"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A0.json",
+      "sha256": "b8fe0f65a99fbdee4399a404d6bc83ead6c25e11679efea5da706329534cd8a3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A1.json",
+      "sha256": "4449b9b3d93b529e400c80f7d27f6a8b2d35dce0240dd311a96ff02b925b5c5e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A2.json",
+      "sha256": "098833d62dcb5c16ecd76748df80b1b6e2438e31f374213378bafb1b1dab842f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A3.json",
+      "sha256": "24854100a57156073b3cdfe839b2b7c980077e16a5d0a6297e9a0d77dafebea0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A4.json",
+      "sha256": "027dac1a6ee810dc777a141be8eb3b92cbd39bd54f7e9000046316b06ce04b34"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LEAD_VEHICLE_BRAKE-010__A6.json",
+      "sha256": "ce4b52a1445c9eb0b0fd88a387f07fcbf4bbd0eabeaa75ee60b87b75b53970f5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A0.json",
+      "sha256": "386a8a95c97a3a9469fb5c8e47ec9a71f6bdfdeadde4f4020100848ec18190d7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A1.json",
+      "sha256": "88f3df633bee03650204a2056a2ad4632d3aa0157868cc56df56c48a3f3d9254"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A2.json",
+      "sha256": "a2cf5fa75d66c00bfb1ff3a1e9e09de26a3a5f37f7e31c11edccd1a2dc10f663"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A3.json",
+      "sha256": "0d8ba60b31a373070253373b0c887f6306304b58db479d002e4465907568a295"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A4.json",
+      "sha256": "4a0115f70d6845b2890a817e2829293c5094154fe5c0a3ff704d327fe1e1fda2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-001__A6.json",
+      "sha256": "971111b64dee889404015d3349349f9de150704acc9389e7da70f6b3829b957b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A0.json",
+      "sha256": "0f43cb746278f5da8009ad905882c872a7386ffae9b3866571f02b540bc81055"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A1.json",
+      "sha256": "dea13795437d3fc32774089d5c0fa520ba706506673fee2f3e9a85b71c752246"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A2.json",
+      "sha256": "58072ca8bfa3788e0a9b0b15ee1cd29a29b03e8d793d3f09df67e719c0bedd7a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A3.json",
+      "sha256": "b9c3f1f8f9288cd63d13e79130aa92ab7948cd6794544c9470792ca7f3d28513"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A4.json",
+      "sha256": "6ba684a28d553cc64a33b33df481859ba557c653bcea21149acb91ec4e32795d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-002__A6.json",
+      "sha256": "34f03fbf9a06a9b6cb3ea1a86f1b8f1519b79091af8660187d06f6ecfe7e29a4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A0.json",
+      "sha256": "6aa494763a8d1e01026b1b925ec4a1d69b7662e17c6a0af26178f8a68abf636b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A1.json",
+      "sha256": "6aee569d8139f909d8b46fe57caffb834535ef22428b3d83458db0d451b164e1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A2.json",
+      "sha256": "a57f862f8709993a2444ef1c50a146348c32339914b78b06b366eef58e69c577"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A3.json",
+      "sha256": "a447ad0c7dc199dd6c40ab33ce1f122f647af8701001f77808cb26cb436b9335"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A4.json",
+      "sha256": "763e6d7f220f66b41a5a6b1a244ffe098b10c40bcfc2b34a80ec5cf4176b332c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-003__A6.json",
+      "sha256": "496997176ccc5c16e6022fcc99e63f873fd2aa7ddbf09978cd4c1287125c4c5b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A0.json",
+      "sha256": "74af167d373a1de07c64110629bedf00359675389f562e7c489b2f719225a579"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A1.json",
+      "sha256": "f3736637b0647caba1c73bfe4978a65ca5c9feb91a3b869b88f0ee8c3634637e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A2.json",
+      "sha256": "8a3fb6efa6ab23a7625a894216025d8d6fb3253ad25a118f7289a2a12392a257"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A3.json",
+      "sha256": "a2db453206237b3ac8ea94d1825ee6b046a16b37377dc0ee666c2a77b43df461"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A4.json",
+      "sha256": "7a92d6392c712df696f720e8188e44cda61c4ed033b3d632269d233cc2e2e907"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-004__A6.json",
+      "sha256": "3dd59495be472b9a49a9077904b5c017a9627e0480f66584e50698cc42f91053"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A0.json",
+      "sha256": "c448600e61c707cccaf1090a597cbcfb8e270294c4904bc3a11e95c9018a5f43"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A1.json",
+      "sha256": "252999744d5e889f4f90094e4f5406a804f326c03485422e845af2f64a0de239"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A2.json",
+      "sha256": "bae3f2a066df8b3deb768b6216ebf84ffcd41a9afd9f7dceb10caf406afa1f90"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A3.json",
+      "sha256": "6588fea7b38289cdd3c55da6a3bc6c19a5152f1740f68ee2139171597562d627"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A4.json",
+      "sha256": "6659b2cef83d8df96acb973327a701e2f5d584e83de173541dff4d7e694b53e4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-005__A6.json",
+      "sha256": "e12e86a4c4269befd10ca96021445c8395e937f8feb37b1409634ce04e45c5b6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A0.json",
+      "sha256": "33f9d72991ab6e3a04f2a6cd315080b1196d6670d34dee2c48de102a0fa3d2ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A1.json",
+      "sha256": "7a4ed183b2e473c35a6f4297586316c5e00af1462cca282a73fd66c07f46e1ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A2.json",
+      "sha256": "14bbfe0940051ec03211ef979be8090bff566603889fb53b08474c2cf6f7adf6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A3.json",
+      "sha256": "13bdfae06a4c65d8d5d5c65462f3727e10bfdbc1996af4102ffc496e2ff7ff41"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A4.json",
+      "sha256": "fbe689674b8dfba3f34fced0d85734cad99f4648415389d0429007ee80f5316c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-006__A6.json",
+      "sha256": "a1b5c27345cf9dcd606570e918daa82b23dedc6576ee649b36c3b5f1f2baca93"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A0.json",
+      "sha256": "0584d1592bdf97f7222218bfd90076bca553e420ca3e6cae1eeb45866d04c6b8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A1.json",
+      "sha256": "5a5d6c0db33b46efad11fc424084e10fcf5d77a4aae5d36acbedfbc488c82b35"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A2.json",
+      "sha256": "5b372d0e0b45b1a3618cc787d966328a7292ae75c064bd9c34561a800a244dae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A3.json",
+      "sha256": "89303834feb2faeba1939bf571ac0fc67e7bf0336d69dba070f6f91c1d0447f8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A4.json",
+      "sha256": "04db98f59e5d94bc2423b55fdcfdc2e51280c51527eb8fdcccaa8df7ee56a114"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-007__A6.json",
+      "sha256": "1248f6a014547f9e7e7acd84760194fcf00865f710c01affee08e418ef196a2a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A0.json",
+      "sha256": "f8eb66d15960d03204be660a03fd3d36a1d54f324624c81950843c51d0b70354"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A1.json",
+      "sha256": "2d7c0398027da4ead4f294dae21633dd488e42e00366d06c62a0ea83c428902d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A2.json",
+      "sha256": "5346d063660f5122ee5cb7f11b097f1fb9eb480161b70dda089986e7de83eee2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A3.json",
+      "sha256": "39b3e6f89c507d83538775dfa92de92fb6cee2b38995c380d8785e05e6e6e9a8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A4.json",
+      "sha256": "d24e77d29812c15873f127f42bbddcf41136b4c5de14603d02146776145dfead"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-008__A6.json",
+      "sha256": "bd72426830cb750bee7f04a5974fffee8e69c1d5ff06b33bcad2ad133155bac6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A0.json",
+      "sha256": "bc9a779f512a3130dbd90fe4f5792b455c840ea34108e656b2bab9b36ba953b5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A1.json",
+      "sha256": "220db8e91c596245174e6145b6c70cb631752726b1b9760f4b7502d870ffa79e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A2.json",
+      "sha256": "6288f44543d4f227db62cbd61068dc215a23b827cb3291c8f2ff861dc1988608"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A3.json",
+      "sha256": "6a9e09eb0512312bbd782a975e346aba41df5508ca6218511471ac8e9387843e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A4.json",
+      "sha256": "18980e296ee6cde16a495713213e912b97125bb81ca02e0e6306a95926aa9a1b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-009__A6.json",
+      "sha256": "7990630ac24c8042e6d19b6b91c5c1e3e7347f7ed90ab73d2a4b224ec15dfaf2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A0.json",
+      "sha256": "93e3928fb984c29a8403132660564c3b20a5797527178573ac76ecec6cc896ff"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A1.json",
+      "sha256": "a171d49b0aebbaa009d2ba73e43c22124584967bb9ca389c2fd1b81e1f3faa19"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A2.json",
+      "sha256": "73da6c7b20b24c0bd2d2450a51f482bd04ffdacdf9b3fdd10e914db6581b5951"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A3.json",
+      "sha256": "60fe97a602f1f33cffb73679edc4c9182e41c33291bfb2b9ba7c71deb6a62dbe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A4.json",
+      "sha256": "fe82369a504c276341191b11eb9416233189290d76f868e7a7be67394a737681"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-LIMITED_VISIBILITY-010__A6.json",
+      "sha256": "f6f61ccc592176540a121c23ae0fd5c4f7d93c5375fbeef04becd9c8cb95dba8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A0.json",
+      "sha256": "9f3dbd680d8355fbabc1f36c40f5fed276058a3b47cc5a69952d2d875eccf93b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A1.json",
+      "sha256": "ba2f5160698a79c152b5e0769f94124b6ec5db5ee013a99fde04fb2c8be3ba67"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A2.json",
+      "sha256": "1c2bc531ed81229636cac4b8a88c888e6cd98a97347561124dd92ec95f4736a4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A3.json",
+      "sha256": "cad00ffd3dc3e5dd05cfcba214aebd1698d03d548d94357435dfc6ddbec4bb8e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A4.json",
+      "sha256": "a99a73e2796d244096051c13f9b7aaa481d72b93a517e5c9d641e83bae85fb78"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-001__A6.json",
+      "sha256": "a577d14dc4a840f9c4131b47ccdf17a0ca0dbe1ecdd021fc760b587ff4ff83fe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A0.json",
+      "sha256": "df4dc15ad17af6a7bf953a2b09446dd3aaddfd8c3d5a2e6c8032fdd8feb25c91"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A1.json",
+      "sha256": "d92ad4149dd452ea335c54ecfb2416f348842bda5316007305dd1418574ea254"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A2.json",
+      "sha256": "b08859b1b4558302342405364d7d0871c4602dc655523c538be2cb7949ce85a9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A3.json",
+      "sha256": "1f87384fa3211acb330ebfcbc3621f1e47f07216392eeec4c8cf840bc1b76e20"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A4.json",
+      "sha256": "b1c813c02a1d3df030f3acaba4121ea6d09f3060d45452e0d7a15d4f265b9e1a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-002__A6.json",
+      "sha256": "00291726fa24296276f151aef602ae04e3fefc9b425e45ca7344aa5190328a3e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A0.json",
+      "sha256": "673518da49c24ff0794a3b3e3becb47e2b69c4007edfb239aad5be3954862a79"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A1.json",
+      "sha256": "7d6cb6d1e65752697a94b7c7009ea79f9543dc253f38fd4ee49675f9c5c4bb28"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A2.json",
+      "sha256": "4101cfdd6062ba231b1ef8ff23cb81289c329bab55b4f13f0694e16629379b79"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A3.json",
+      "sha256": "4a9dc2e3f1be1a9bbd495d4f0c49fa5fe057982ecea5935fd27f0adc56b3a2ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A4.json",
+      "sha256": "f9f9a779cbe7a1d8e424367d92cebac5af38f175ddcee27ea7596c747c074b41"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-003__A6.json",
+      "sha256": "2f3a0803955bb8b38886e263bd651b455514b849a7d3e869dcb55fb225113311"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A0.json",
+      "sha256": "75f6afd92b3adad403593e8b51f23e2ce971cd33063965325dd4acc090872fa9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A1.json",
+      "sha256": "9c8d0b4102c855f9c5cebec61f740bcdca6bebb21c3bd8b119883c22283f38db"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A2.json",
+      "sha256": "b9d0a970c091052eca8d4a20f5856e187f660ecd3e5876b88fdc3abc73d2da30"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A3.json",
+      "sha256": "a2bc9ab3807040879af63488083f9998e0664130847ec3eba35a16e4a8684007"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A4.json",
+      "sha256": "609752b1ee93b4fad6ee4396c9771b9f2d07afbdc6d9c5e0314d4b2918bd5ab3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-004__A6.json",
+      "sha256": "c5fa332b53093710f604d5bacdb8ef792b475cdad532106ecd620a6a09541c81"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A0.json",
+      "sha256": "278376b78e5aa008a436ede3ad57eb422e6e89981e06a11ab8642e261fc218fd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A1.json",
+      "sha256": "34c8e5eca71b68fbbc2a33fd0fbe4ed88bb3dd0cfdabbc08377db3b5d90777f0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A2.json",
+      "sha256": "0f8b2992f0fd85cce40883f94edb9f9ec80ee4fb211aed7b45c1c8de8f0c3420"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A3.json",
+      "sha256": "8311a5fd67027e9f1f941c20837bd648567170e5d31e3219e5591d947edf011d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A4.json",
+      "sha256": "0132101c2ea32ee949a997bcdd7f4a859986ebcc2123d115e2d2372cf5cf6463"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-005__A6.json",
+      "sha256": "b94c048bf4d4c54745f32299a8c26f16c05732d46093ab85571d5d943d6df5a7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A0.json",
+      "sha256": "66e584d7a541ae0fbe983b409d672480c91d5915c30ab292d0830718d0f5aed1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A1.json",
+      "sha256": "87a7a2238ab2f6e3240b70d95bef32f62f4e86dd6f479e865b7116cd05b7d3fb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A2.json",
+      "sha256": "bbe4865fc868db197eb090bf38d30556858edcb33c3171e731aa3900cdf79ca2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A3.json",
+      "sha256": "00f0741046fb946e97ec695b02003cb8647bbb9f28114e601429e58a2d6b2743"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A4.json",
+      "sha256": "2bc66b3c51a58721b60192d125e8d8c6174246977ca2efa1f51d5ddd8e5d76e9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-006__A6.json",
+      "sha256": "3c300123aed1d0454c132225f9080647be977d194a80eddd0985e8fc4f3f3763"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A0.json",
+      "sha256": "161cf3bf626f66c535d5eb3c9f32d23ce7eff24e34b2d8258840c358f1418700"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A1.json",
+      "sha256": "7ff74de1df3770c77bf742a4824515dffb62c2d6fb007e2e948e14290ec50e1d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A2.json",
+      "sha256": "d1f84deb45e235f393bc1a48f46b27e04555d98ddfe3b84e1e7595b75f2c7e8c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A3.json",
+      "sha256": "052487b42d5f19217912ee58fb3c4d315b55b22195379553d9509654f8adbeac"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A4.json",
+      "sha256": "b19263de197d97eebeaec9e8a5e9d1263f3ea536f5d440e171e50fa25cc0a423"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-007__A6.json",
+      "sha256": "cfcec5d62aaeb01d41403afcdb3bd5f252b5163dc1a2ecb2c43f1e6bf3f807bd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A0.json",
+      "sha256": "7e7e4592afd281a7a402d63a95d00b3b3d2dcb04e6ccb9f4b6cedf1d10a107b3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A1.json",
+      "sha256": "32ec086df4e3fd8be7c15cbbf54b47479fb65ca0fb70eff830f9367f161b1d3c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A2.json",
+      "sha256": "b474a4eaad1857bf08075064403c5b9fe3dc286dc4d72609a2045a240e6ac80b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A3.json",
+      "sha256": "4ba5ccb2f219f5b29046e603cc10b65d0b679110a2be1884f474e61f6ac64514"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A4.json",
+      "sha256": "c2a4f2c3a37ec09873b0c1fb685ee5be9b55b30a7d46afa68c4708c5d3b352af"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-008__A6.json",
+      "sha256": "cf489555a33c5b3ccf7e7a1fb1a74c2c07ab55664ba74929c71e59201e0d43e6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A0.json",
+      "sha256": "aa668603a4bc8ec0d43985e93dedb30c6e16bbf7a38d124a17d4d48e98b09b88"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A1.json",
+      "sha256": "2ea67ca4d7c5872fa9abedb2e1ca1a5ee15a7d8aa006e05d0d4600faa4fd1660"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A2.json",
+      "sha256": "ca3fcdaefa6b9067159b95001b5d1032fcf1d34dd31b9f5f50022fd814ddd037"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A3.json",
+      "sha256": "cbf4598e55a7c2f201b1ca829a08d13292fa0a813c2ac913382188c03b5d5c72"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A4.json",
+      "sha256": "fd87ca94f8b3f4cbe957f3b2d5dfd7afa1f7b19505f458ff6f05eeb5e3c15730"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-009__A6.json",
+      "sha256": "3df2f69e52c3309b918d075354cf9126648c5fffba4af9e259d02fbe820d3ce1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A0.json",
+      "sha256": "48d8f2ae6a957776bd9a7bcab63e8d5010482d1d72eb60b38067194ae64e22ca"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A1.json",
+      "sha256": "fb54c431f17b91dd84289e7df5251eeea5abd8aa4128ba09dcbb62cb027aa57a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A2.json",
+      "sha256": "c1b619df901eef83bbb54e0e01d8a35fdc6eb71d668ad4d815fd0abca660699b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A3.json",
+      "sha256": "7d81d0a23287775c8ff0a1f9eab9bd58f28c92c2216b6a401e25446d3ac22c6e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A4.json",
+      "sha256": "d7ff486ff5ab76438f802bdd8e457a1a124fa8e41c9e108e187f4d2e000ce2f3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MOTO_CUTIN-010__A6.json",
+      "sha256": "5a165b6dc4de00ee7a71858dd9497d345c82b0000a1b071d2d86ab9ccc8e5e6f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A0.json",
+      "sha256": "8d95de48cef50d5c1ed062b6943fc7b657a59de05724ebcae76f7c6e43b31f02"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A1.json",
+      "sha256": "4e5aec6c6379f0498b09c0228317adadb5e0fd2904b3253c6ac9ec8b567fd8d0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A2.json",
+      "sha256": "979baa2250929fb3187d3f914017759c8bdee5e8e33fe8fa3e6ab035f555267b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A3.json",
+      "sha256": "2d9847d0abedfabb44be16809dded99faa7d1aabb7acefcea372cca889b36ef0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A4.json",
+      "sha256": "e2d8018f3cae0149c63e3b674de71d28012b6b34ef79f709e437bde06e7bc1d5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-001__A6.json",
+      "sha256": "086957a930b95186717927658e81661016c5a4cec7fb6046b8630a2697e0b2ef"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A0.json",
+      "sha256": "225bc33779764c78f8f4aeca50ee29df168d8a93b97ff8701ee5850452b30201"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A1.json",
+      "sha256": "3a0d39b5ab2be5477218420f2486dddf545712632c4124741607d7050c9cbe0d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A2.json",
+      "sha256": "b860642e40b0502e6286092f5af385f9799183ea23747d74484ec80c4e92cb6b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A3.json",
+      "sha256": "1a0aa5db8ce872bd9cefe79db549e9152e1fe05bd0a265dfd34b0737b6301d73"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A4.json",
+      "sha256": "de3dc0a1f4e1087fbdc955a4e470e4a546182f7f6a22962db5ea0b8285cbfd46"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-002__A6.json",
+      "sha256": "88ab9c320767ba0da2629195e12c7d0d2952691256771698aedc2f530d601505"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A0.json",
+      "sha256": "c907132a9517e6e8426174a2dacd29cc966b992d87735904cc8f017feaecf2e4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A1.json",
+      "sha256": "74a4c694f27e5b770334c813525ec44972b4b3176471c19b458b2c49d73138fe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A2.json",
+      "sha256": "ce3d30d88a3cae7b96ff969dd82bac8b93ed407e87568c849414778428fae7e1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A3.json",
+      "sha256": "36d6a2a146018d9897cb8cff7a9a715b6da56dffde4a72a949248793f2925ae1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A4.json",
+      "sha256": "f77914408772c2681f24fc73a1d62c52db0d26688cee1758712600c338dd06b9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-003__A6.json",
+      "sha256": "353c67dfccfec75508451060d008f11722647e662d0990425f758221f9915706"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A0.json",
+      "sha256": "be8f0735e065c8a13e5596577b68b91598ee12f99e8294e8ce667fc8c3606b17"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A1.json",
+      "sha256": "03a2e98e438138a5c79a74e1c10113c80e5cbe1b877e0ad1d20cabeb8be1c212"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A2.json",
+      "sha256": "bb3e3bb4758d3926f0348f1335dfd2ce305352168b984c1882dc58fbb38153a5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A3.json",
+      "sha256": "06a046c3c293978848f29aa92e4345229784b9202d6ff0ddd8b5590b2294ef88"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A4.json",
+      "sha256": "d6d9f411efc6e3c84a63c6e250bf762cd5c5f8b91a553b55ece6cb0cf85d3e48"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-004__A6.json",
+      "sha256": "c0f27ecfa73c58d2d72b9d29a8a2bdb702f0295a2901a1e2a96b26b1bd3ffa25"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A0.json",
+      "sha256": "209be5bf5d6949a9675b4a901487326c9f38fbc696cc83979e262f4fddfb21b3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A1.json",
+      "sha256": "3a13cff49180cc4cf7dc99ad32963d5a47e65d6ddef6b069eda81cdc07587e35"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A2.json",
+      "sha256": "d9642caf19bef693846a6c6372630456d3f225e4fc399a5c811d407f58448caa"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A3.json",
+      "sha256": "7f0f4df1fb25bcdd99e66eb03e442ebb4a3a4a4ed00c7ef6dffc6a123718a0ce"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A4.json",
+      "sha256": "9a65f5b1e1a2080bb5c0063a6a780ebf96efbc80c62b97e5d85a3a47878dd1b7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-005__A6.json",
+      "sha256": "29bbbd5d1f9067a19cbef31cfa60ade608115d8b9a0b5fb6e2c0118ae72656bb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A0.json",
+      "sha256": "7e5d7fc91886c9d63282521424707a077a9a8c090682049f06674dc8266083d5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A1.json",
+      "sha256": "8fc122dd6453ba007e7f130949ee07a93292d27f1ae99749613fecf08764693e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A2.json",
+      "sha256": "9b96ca95cf0cc5241129381c3d62c568e661deaa56092063b9ba4adeab04154d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A3.json",
+      "sha256": "518afe374052f98807a6a379748935c0953c9664c63291700ae4a4cabf55e5e6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A4.json",
+      "sha256": "0e17b711aef03534d4f3f0afa84cc902ffc232abc04d103d86c341ed6109b228"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-006__A6.json",
+      "sha256": "05280727da5b677bcb901760be35cff888cccade4d8294835a1fc04e6b85256e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A0.json",
+      "sha256": "f0be6ec140928a174c212156d90be94f3fd5c19717f3d404d640f7b041d5375e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A1.json",
+      "sha256": "18dc4af03e0a6edbb2c1bad407dd17dbaad41a063548c3f90c47b0648f0bb068"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A2.json",
+      "sha256": "18ecede116bb3594c2ba745ffc2e6e537ae5f5c551230761f0bdeedb508fb3b7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A3.json",
+      "sha256": "fd71e6ea3d22dd91861f31a3f5e117a8175a774ff80e78c609c5d37bed478b4c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A4.json",
+      "sha256": "ec03404e23fe8d9b8963da11b11f08e322e18fae8dd79bbdd4181e8b9b203d0c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-007__A6.json",
+      "sha256": "3121486df2932597d2b661d3618e237ed4f6696e2b1efffd39aa6234eae494f0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A0.json",
+      "sha256": "3e4e856f66a78398475abfe2f02ea1aa5f9e9e9d2c9c11462f3b038ddf1c8b7b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A1.json",
+      "sha256": "3dee7fb663d186d63cfbec41507510d5cad66c83515da898541465642d253393"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A2.json",
+      "sha256": "c6d6b00e87c6944fbf0af3d979b806ab6b1ddd055e0980beb86be5752919c64e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A3.json",
+      "sha256": "b0d9f4ac8a2f035b7c8ce8c406234893b60bbe1e81f6cf9c5c50e694b7e9966c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A4.json",
+      "sha256": "67fe45a42917362da37f2b9cb06fcc313f98643f9e89bfc2929b5f54a1361cac"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-008__A6.json",
+      "sha256": "b8e5a37251dda2060bcdaa4b7022733b778a11ebed788691b09bb99dec8d532c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A0.json",
+      "sha256": "948ba327ab450f5d04fbb918c53895441eb9cfccbc4e48411f949e30fe652d40"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A1.json",
+      "sha256": "927f0830d80403cfa6ffe88163293b81a988b00911488dbd32a713a283021eb4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A2.json",
+      "sha256": "5176869cef1a5c128d60e6e0deb623344ec1026783ef9b47d890d2e2df3f2db2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A3.json",
+      "sha256": "4c5ca876f3c3d8c789d311fce0ba7d0ece092ec389e780886d13961543c0be1f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A4.json",
+      "sha256": "81299369d4f826def2217b59c3cd746bdb1100c891e521291723482c9133261f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-009__A6.json",
+      "sha256": "b2ff502b58bfc64025bd96c6180f48a429ea05da807c4a8727ac55841aff4ec4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A0.json",
+      "sha256": "f9371e768415614ad7e6d3614819b053f1fd5b3e5245aa67a682585111946857"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A1.json",
+      "sha256": "fc8309a3f0d1636eb62d504e46ed750e06b1b5352a590c656d4d91638b74d0a8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A2.json",
+      "sha256": "12e94b4d9f9eba1c0e1dcf1ade30c7ec427f25fa0933d9e5182f762ffaf7f987"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A3.json",
+      "sha256": "efe7d359a9815d7abb742816b25d63c96ce79ae72a443cad3ef3f83c7836aa2f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A4.json",
+      "sha256": "28edb5a0fc5c83cfbe13597e4292cc60541a667b63a9e80c49f77f4ebb37d69e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-MULTI_AGENT_MERGE-010__A6.json",
+      "sha256": "c56e9faee5e37575d215925d114e0f6f5b179a38e2ead7ef7941f5bc74c907b8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A0.json",
+      "sha256": "c3cebc7e65e29b7a205fc537506b50599f95f5e3ef8552a9c9bdd92c519f576c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A1.json",
+      "sha256": "6f547ae459b6504264b5c6ca8e86ceef3530b7d2ab74af878a830fc1a53fdd65"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A2.json",
+      "sha256": "b6726c67d9190150e26b850996627ab691d141749f5fb0dbe9688e0dcd4acc89"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A3.json",
+      "sha256": "aa36cd54eec8d6b458411272a9df7fee49faaf7877298c47e660ab4d513b3712"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A4.json",
+      "sha256": "2221a5a9dbfd7a2c5e0c2b548ae392699e8a0f9fda1aa7c56902a27171a1afdf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-001__A6.json",
+      "sha256": "67d330a63a1a5542167f48cb26a1d2b9547a70b8dab3086227caac29d8971453"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A0.json",
+      "sha256": "cea9b2bf7f8d716b76b737744883848b025eaff6bcd371f72f785327c404f83c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A1.json",
+      "sha256": "1aaefce5f49ba925ecc082463c2ec7fca981cd594645b8ac3678d785b5806d3a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A2.json",
+      "sha256": "7ebcdd761943f2c0fdcab3f236bacbd32e7485efd392c38d5c2775a8acd05ba4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A3.json",
+      "sha256": "cad1d3969531dd95f6b5d4d8a4670f1a91bb7ad1fd2328c803d411cad5a54004"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A4.json",
+      "sha256": "130024f7ba849317323959be746885236842f5e4cb0ba5f18d5b14f61e907ded"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-002__A6.json",
+      "sha256": "47c6f6440018eac6c15d23820881f2ae5de9820ae28e2ea1e06c47f26d59d5a9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A0.json",
+      "sha256": "e85191669f84a28f492cffb5f70a06d4eb940da848f5d5218d5a5073c748455d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A1.json",
+      "sha256": "d528a84cf239d2a57caa19cae446d94964c6b7db919e3d963213f95320786b49"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A2.json",
+      "sha256": "161945b1c236cb14331b4a891672c7acdffcf635f12f693857c11ec7d3f44068"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A3.json",
+      "sha256": "cd741c6deb16d3b491c5f78cb65d9b9334d7d4469cb3734d2b48f05cc9781430"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A4.json",
+      "sha256": "82b7675985070cadd570b5e74a7f66d335bea6cd7ace35284a3bf40882823085"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-003__A6.json",
+      "sha256": "e5c7ab4021cd1c9ba7a61a42b9a9b05801af1eb871108172faae17a2acd181ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A0.json",
+      "sha256": "ac07c783a91c791440d5f3032a02fa6e32ab13088ea584fba8ad621f9bd838f2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A1.json",
+      "sha256": "ac694ee206f39b20c1467a9ea93b1899c8b2f4be94b8c5fcc394d77de5acd0ea"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A2.json",
+      "sha256": "f15effe861d3b98a11974878a7e6538f3b2ec08bb89bc4c76e514e71732cf07e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A3.json",
+      "sha256": "a1de27c428b0c0db3c2b6b037b527d8d73daacf60a959318d70e2c777184d169"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A4.json",
+      "sha256": "e04c272925d2dea91126c459cb2384678349e3acd6c7828a8b86b6fd79a97103"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-004__A6.json",
+      "sha256": "e7baf0ab321f8fcded2a5dfff1f2fccb57e1ea68de0ca89a6f80508d25510581"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A0.json",
+      "sha256": "b6029426e778ca0aa8d2a617108c2545e8978a38f143162f2578f7117c22de52"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A1.json",
+      "sha256": "7c5854287876d061a31a58fd4038d67ac79aa6b0ba57295be114913aec05bf77"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A2.json",
+      "sha256": "9d4a6264cc5d655530ee992d2847c4ec1b6e63fc6738275eecd88ed302f8be32"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A3.json",
+      "sha256": "5c4a739cf755716ee01157a73264f8666ca2cd96db5d071f5f1de8a008ca0d6e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A4.json",
+      "sha256": "e6ea3349cdc942e0c6d9236d6793a0ed4b188de6c7f7020ac8e3b2e1e75a9d30"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-005__A6.json",
+      "sha256": "b00b6895cf4709261902d8fdbbcecd09acc3b6f7b9fca3dafe6bcbc2d22a0c55"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A0.json",
+      "sha256": "5043d8709b612307e667e7475c68c32f9416b8acf2b869ce7cc2a3d13c0afd67"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A1.json",
+      "sha256": "0efc7aac6538a4eb1a9e539b88c1382eb17a20b8a79c8002894c2c876bcd87e5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A2.json",
+      "sha256": "444d010b95e03368538de4d6c08444b3c4e58bbfc74bef6b24b36479eeae81d9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A3.json",
+      "sha256": "ec58b4d298bcdf3d24ba4c3b186a2b32191203a82aef1971ad0c450251f50394"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A4.json",
+      "sha256": "1e85c157d3fb2ab227ac09723fc0ce566e399d42c71259f8ec0ebae857c3139a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-006__A6.json",
+      "sha256": "30dbbff5f461b3219f7bbfc3e46c6e961b81c1d95266d000d0acbdce984c37f2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A0.json",
+      "sha256": "6016400e624b472796d4de605fedb4008f8fb3bb50754134a3e40aabc38a6f9e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A1.json",
+      "sha256": "ea423231fb37fc1d87c489cca091df7031cf3a7fcb2c143dcca5347fded33f46"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A2.json",
+      "sha256": "3c7b65108ce6944a46dd51944ce3536d562d288fc430540a8961022b730b16e1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A3.json",
+      "sha256": "610461195c921c6314fc7f36aea84e9fa37ff356c9897d7180bf09d71f0d2325"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A4.json",
+      "sha256": "3e987db588f6ecc6abc845d23ad7c7b74a4ceb428fb10f161051e2acd0b7f9a5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-007__A6.json",
+      "sha256": "eff4e156f1f26b398efdcf520e1daecf1014aaf2edef3afb9965df39e72805da"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A0.json",
+      "sha256": "4498b1c29bc71e9252dd47948628d31acfc9fa4c6c719447009d41fefa4b7846"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A1.json",
+      "sha256": "565a988c3df0f73f47abffa36b195beee4c6b2a11cdf9b6c57724cdc238a0de8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A2.json",
+      "sha256": "1c52a51adb39c703f527360d787a9308c94fea8200ccf3883c12b046008a8733"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A3.json",
+      "sha256": "5a4b4c635f1dff90cc5ab4686be8be2f6b4c4fe10bedd77b50a390e0bdd33b4f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A4.json",
+      "sha256": "134de5e05699bf4c918acb34291e2aacdb3156536272c0eecc0472fc0553edbd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-008__A6.json",
+      "sha256": "cfdff6321d42531d7795a59e3f35013108566b330cd80ede78af84e9c5304779"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A0.json",
+      "sha256": "81b4d9f3a83cf5324faf8e8e7036743c6a92be43d115b37a58f559fa52e9901d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A1.json",
+      "sha256": "23c7bffc487b0be81d49505b9bd51c686d10d504d7d65574ad1ed2bf9ec8ebd7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A2.json",
+      "sha256": "78a143a3be24ce2d6e53decf8e4ed86ba78b56326369a39dedd7abad7646e5af"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A3.json",
+      "sha256": "a322960cad5c9d2e483f8810c692a4a331d3fa3fcbc8110d678099728f979d5d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A4.json",
+      "sha256": "01bd7452f24eba037e4c08e18ec6830d7d648852d8ca73db8b5d62736116d2c3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-009__A6.json",
+      "sha256": "3d6792faebbcee82ba6ccfa1a619f42fc3f9bbeae441146cad20943d4543d547"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A0.json",
+      "sha256": "7318aaea8a9b5e4ba1062cbc7df08cc0f98df20c6e40bd590282b89884946fa0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A1.json",
+      "sha256": "f334ef91a3f99223fa25798ff6616f634bf09046508d76f2a292aa56d23017c7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A2.json",
+      "sha256": "b3bed2e4cde5dc39cd9fb8ddcad1c464486aeada4567f80b2e0169dc609d13d2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A3.json",
+      "sha256": "8545ca36f8891d661628a4632378a08addf6d0c7631fb136cd92bb29570c6916"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A4.json",
+      "sha256": "eacf0bb2c64cc8eb10ffee2853b4334d4de62395045f4b06f2a337f6448f9193"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_CROSS-010__A6.json",
+      "sha256": "7a4968814508ca7e5c96d2d71da722610c64de087ef5570e3d40de77221b4fb4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A0.json",
+      "sha256": "fe6993f57e3512245bc16c09d6e4dbceed04d3f77826369361ee13d08b6bc212"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A1.json",
+      "sha256": "59d0cc3c5b07e678da2855727711922682c269c60285ef5db5a137f4f40d7b93"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A2.json",
+      "sha256": "7f8d732cbb51402a60fde44f8ab651bb2162ceee239a28b04a3a6a3f57a35073"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A3.json",
+      "sha256": "fbee90526cf38950cffab5277d401e42283944b2a4efe8315c5d28c893590742"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A4.json",
+      "sha256": "2624977261913704b8ec6b59d931076d2d92c50de16ed91206e3da6de516ddd9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-001__A6.json",
+      "sha256": "02ac634eac51b783ceb13ef9a181e5c5984b6d4d65c552cf5fbce6ab655ca549"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A0.json",
+      "sha256": "e01dc3dae1da5268322853cbde9af51e2aea517b0ebcc7459a1362991bd208b7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A1.json",
+      "sha256": "5c2ddf69bdce303b66a272159c1025c98c33825dbaff117efdb6d7635b932d4b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A2.json",
+      "sha256": "1b4666312c1ed77e6b66c56c338e658cb980a90b698af1415cbe44b87b58823a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A3.json",
+      "sha256": "983e10364635026ba27d78a8af226422dc894537781f1652a616aab7a665b20f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A4.json",
+      "sha256": "eb249cb34b0a8fc6e343f3045e092d1d57812a8bef4f7fc209f383a7c7582d13"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-002__A6.json",
+      "sha256": "8c3c595c26d053fa76d237786f500dd4f56eaada5f9b33e54f1c7d678e266a8c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A0.json",
+      "sha256": "fac2ac328b6e060aa7de98b4b20a23d3714ec42eacbca54511463dc64d0e03da"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A1.json",
+      "sha256": "11701848ec5a315bd94e79a33bf42695e66c514444a4b19f77fbb553058860ad"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A2.json",
+      "sha256": "13b3ad16cb004b22d29678199bc41f8951d4cf799ec980bea41b2b89539fa9ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A3.json",
+      "sha256": "332e8578438545d482d7f024a499d1bedb11cebda4de0f69d9b9e3ec34c62550"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A4.json",
+      "sha256": "7741cd6b66f8753687a5b445cebee34b624c75097dc6dcd8ede59a3c00eb76cd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-003__A6.json",
+      "sha256": "4c96f1f1194556ea856e1a67620ecfc310b3b07301472b2f1730faa957abe707"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A0.json",
+      "sha256": "711a8148d30b0adcc94aec63e8f3d05fc715cee765e786a365a9f746f6101e9d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A1.json",
+      "sha256": "f4d2e72581b19fac97be78e461599462990410f4107b80d50e2c501bd9c807de"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A2.json",
+      "sha256": "5a02cdef192c313b7e356d8ea728399e901081f22d706ae4657ff1476112bbb7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A3.json",
+      "sha256": "8ad78627a5c05c82829fda9c15a58661bb88db7698a4d04cdf5c4753917c38ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A4.json",
+      "sha256": "add84d47c67e87e31935dfa6dfe2ac0388be9ee5c7b7dd73d55dd9a21dc375a6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-004__A6.json",
+      "sha256": "1a154ae112bf825bd43eeb581717b4352ab21ec9f35f0f130913bb71fa50f899"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A0.json",
+      "sha256": "18c644f581cae7cbb8c242e296403fb513b08245dac243f35fd0fb2f868a1bed"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A1.json",
+      "sha256": "f4e20ce3aca2ea9d49ae173efc7b1776303c9e6bf3f170e77acf06c0475e47fe"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A2.json",
+      "sha256": "1ea821c4809afca2dbd5b00584d2ba37cb905e98bcc0205909fbcc3bfdb4a6e0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A3.json",
+      "sha256": "324eabcc5eb8ee198577a0bac131d81d3b09a8296232467961c345786de27427"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A4.json",
+      "sha256": "a6085ee672e3babcfcb42a063a087e6292c8feba5dceaf7af87bf0de82161f3c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-005__A6.json",
+      "sha256": "b6ba6b1ea0fa4a2124764135620b9598a84b0941d044ddb36b19b58f4db27254"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A0.json",
+      "sha256": "2bf0aafad649d7eb5374da5238b5dec46ea4fec65d36d2ba9fa466ad578867e0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A1.json",
+      "sha256": "34dff037579b4df761903c1d24a36835bf5e879eb33d9c1a08cd0d288a04ed2c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A2.json",
+      "sha256": "93b96c60a337b1b5cf0a92fa90de0edd6dad76db3c3e5e205542db009f98cf5f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A3.json",
+      "sha256": "306b122d04e620c1c30fb661f2b6d79a776722cc4e67cace2593aa42660cdea6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A4.json",
+      "sha256": "ccaee11c6ab05fe2796a6b998a51d52edc157b9a9b3db7ad4300fdb37bf5226e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-006__A6.json",
+      "sha256": "380db0daef8eb76f43a0c543cc1aa2689fba669847e81ad4b699a4e261382ae8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A0.json",
+      "sha256": "faa4473355bccb5149d6f46897527c2473758877ea77a8b86790f1b3a27e2c8f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A1.json",
+      "sha256": "f2448fed0367b9dc0b6c7150daa68186e85cac4db6f6890a8f4790870110cb71"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A2.json",
+      "sha256": "cb19092cda7c7b526a99aca87fcebd80ca1eecfb74923ad3339f792c964579ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A3.json",
+      "sha256": "2a8dc6069771fdbd50f455a604308744a20d66e1423917b60370f0f0882d65ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A4.json",
+      "sha256": "4bd61771d884c343411c373fd2c6c7276d64008b12497d8f8b1d7ac886f29f87"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-007__A6.json",
+      "sha256": "c51c5a00f518fe2e8e82cc207106a248a46115c16118ccc715a03c24fb4c772f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A0.json",
+      "sha256": "b24ca3383706c73b2acf981ec86c04af7cb7e379da762b7407771e79195f1994"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A1.json",
+      "sha256": "5c90af75f3197cd602ab8472750ac861a6a527355708db27076f26686f9e447d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A2.json",
+      "sha256": "ead9536fa3044df585af9a7516a2fd27d7595cf8689db51d8d115a4428e49994"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A3.json",
+      "sha256": "a47319c192bddaf01dbe6d31d78dfaadbd438b4b56d2acb50aa0245c333c76c1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A4.json",
+      "sha256": "7ea25eaff2378ad9295b10682c9747358d6e1c1930c83ec6ea08decad42ca93e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-008__A6.json",
+      "sha256": "1353b780db08506abbcbb27acf2a01d97f5841802c9f495cb48f343bd6825b10"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A0.json",
+      "sha256": "aaef779b4cfc432fa514286ff665da367dab1e751f5784dcbabee658d97b118d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A1.json",
+      "sha256": "02b666923752cca935c056ee92046ce8af8f634b02ec6280a034cf3dd235ad04"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A2.json",
+      "sha256": "6e80a7bf1788aa87d40759c483f268118a093fc1ee335ed9258c54516358d2b6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A3.json",
+      "sha256": "b95a86d18a5a793bd356fe91e05ae5c06f8923ed79cc07e7c0647ed0d8b60a52"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A4.json",
+      "sha256": "cb09ca54fe0dfda423f9e9be420c6702cd61217812b06e8e3680c299fc7f0f61"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-009__A6.json",
+      "sha256": "7319859473672e2a1646f234aeefb19ecccf60be39823c116851eccfbd4c9d58"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A0.json",
+      "sha256": "0d0f292fc9759e26056b623f877c131309e6d1099bacc202931502d67ecf8a03"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A1.json",
+      "sha256": "529c9a5a9a266c8dc67ebc9889cbf808b254c1d2eab29d87d7f5e7b404613d43"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A2.json",
+      "sha256": "5c05c6c0f5929b1369f40124ef734c2d655dd517cb10c77c8f960fe0028627f5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A3.json",
+      "sha256": "ff0910c81125d999534a698565bc74f894eabf43cf0e804791b28a1e8aec868a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A4.json",
+      "sha256": "b7f4eb3b6606cee1689cf43cfccc79e19c3380c517c9e665e4a691238ee4f3e7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-PED_OCCLUDED-010__A6.json",
+      "sha256": "40f813299dd231e150508b10eefc7d5550fb73deb6b1c5aa2e616d600e0847d0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A0.json",
+      "sha256": "2bed6fc169af65ebb56aa365553517dfc73dfbe454acc9deff562ff0ce0ab4e6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A1.json",
+      "sha256": "1d014ba552c8bec7cd63a1de29952bc491e853ab57e12800ad829f7a4b38eb43"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A2.json",
+      "sha256": "41ac75b47a9ce69976eee9bf6d9558c33861bfc7b464dfe6e307b835e2f0fa55"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A3.json",
+      "sha256": "d91febf09f81b59b6f06fadcb046aca1aba44371750e4171f1ae642ef4f397a6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A4.json",
+      "sha256": "8ae01d4153f1362df76e16815f5f9057e8e0e765b918809bd4c46fb7a0862ec0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-001__A6.json",
+      "sha256": "38e693d813ee237cfcc5331720536a3898c337e73dfa9701e6a3181778106355"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A0.json",
+      "sha256": "cfcb4c62c116b4588cc4ae3d848dca854410814cfbe989fb5013e9b55fd08128"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A1.json",
+      "sha256": "8190cc1d7cca25710aa123be000bc9eed13bee574fcef1c370fbe93cf5ee32c8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A2.json",
+      "sha256": "0c847ba71934227207b0ec605e473e252c98b8ec88ed2bea73d0c20d00f80898"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A3.json",
+      "sha256": "9f1eb527db4fef6b7e060dbf88e6cd10aad16bf82f7676185591e140b9e6e137"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A4.json",
+      "sha256": "b8108eb91fc26270f27e14da13d081916701289eb62b8348e84ff9bc6dd44a6f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-002__A6.json",
+      "sha256": "ac2676981e09b114f77101118d2d149d776dbbfb7aca58015ef189ca0e811ec7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A0.json",
+      "sha256": "20b7fcf6f0e302a2329e86adea6212c2b76df103ddf540492182b7afa3c16126"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A1.json",
+      "sha256": "1c7cb2f860ac67ec9332c1fec271d074a57be95e11dd822ad0a7c2b99211d00f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A2.json",
+      "sha256": "1c68cc3991ee626e079911719f7cb3e71291bc36a29085db2eb3157d97820e6f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A3.json",
+      "sha256": "18c0753b7963433bacd5e30d9a7338226859e415599f70f3b7a1e73ff922d89d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A4.json",
+      "sha256": "f6cbf45d6cc7d806564a4e792924bc8a968e188c6a02b0a5d9458cf84420c90f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-003__A6.json",
+      "sha256": "34f12475944afae4dd25b7772858acdb58d9c4d3cb269c7225846f1a550b117d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A0.json",
+      "sha256": "3abb7cfb2b93a7c3e58efd6eb344d1b78b19903be4ac82fcd6f9d9050b08a57c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A1.json",
+      "sha256": "799557aedbf62a941eedd3ce0c98f1767d27ccbc76eae88571982f9d7abde7cf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A2.json",
+      "sha256": "fec069d54d684bc5b54c3d94ace0d953e60e2ac1aa6aad20b506bf4d55afd0ca"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A3.json",
+      "sha256": "89b9fb26e93e0c0dc2db551c6017be91d2a3774418ac8b65dcc54257f9f6257d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A4.json",
+      "sha256": "5d3530c079f52ed9c39433f8c6ae43f5fdf7f3f6a85fd91ff1ec749164d2da2f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-004__A6.json",
+      "sha256": "0c1a3cdba9a735e81666a331bdc247d50f6dae68f54e99c4d0552100443bceb9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A0.json",
+      "sha256": "d6baeeade4c460eb38052c19b0267907d8051d977c5bb1dd9625bb76d96896b4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A1.json",
+      "sha256": "b66f594b81180860dde4c5a2b3155c538364652357ec673739a4742ffa1f3580"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A2.json",
+      "sha256": "779786be600cc7a2a558897e88be379d44c867dde3f65b5def4675a5ca8858ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A3.json",
+      "sha256": "a8d8874d6b436139bc43d5a77c085dc27f3952b6207eef23156d7d5024a3b148"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A4.json",
+      "sha256": "94a096bfb83aaeceeaaf5c7e7423cf19db474b0975626127a81083a34eece4ff"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-005__A6.json",
+      "sha256": "a649f2d9cfe9da67aa855b7e4e3b81854a405447d0e47b58436545998ee6f2a4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A0.json",
+      "sha256": "bb6cac4dd37fc168c2d45041b4f0ce8202ec96b5fb51783318b32795e2dbdc36"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A1.json",
+      "sha256": "61c7de4cc306e1448facb4cb09a76185b72b0facec76f1beaea9b7f3985c5920"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A2.json",
+      "sha256": "368f8d94863f3f15bf62bcda401d5e293d7d0ef421cc8255b9c342532d26cb18"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A3.json",
+      "sha256": "639d0b3ce68534dce9631570f43c230da7cf1b566a55a30bd0415310b435bc4c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A4.json",
+      "sha256": "d85f9abc8e10ad550043d736dbbf4e8c884dc36ebd10fe22769dde4de883e639"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-006__A6.json",
+      "sha256": "925446970a2751bf92e2f950550bf42472c77c17e5ef8c756eb23de1bf6b1472"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A0.json",
+      "sha256": "8868a5d335fe2f5792f407a3aebe67dc7cdba4bc5d89b94fe23d4e6b0910265a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A1.json",
+      "sha256": "00052af34d6d64aa5ced55abed667105ffea3ff1ba0732746b6680be23b60862"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A2.json",
+      "sha256": "5258db383463865f00daaffe1420c41bbd2ade2fda540f07bc04203694a80641"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A3.json",
+      "sha256": "370d3471d88135a4573230f1e12b94908e7b8403de676441f63ea0288690cd59"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A4.json",
+      "sha256": "3bf77a0b2690c5947116b55f2ace11dfb14a1c480e851d652f04015427b0ea49"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-007__A6.json",
+      "sha256": "06943811bc15ecbab5c0353efdb2a0dc30e7fd591f5deeb9f6cc61117b434f33"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A0.json",
+      "sha256": "e494f07bd2927ea114f82367e676bf9872561c1a15dbc67d60bca814daaa0a49"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A1.json",
+      "sha256": "5a318743dd8a0cc53f9ce0117fb102e2e9a581a447ccc31b33ac3f257d9ef076"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A2.json",
+      "sha256": "b900a5c5324ca0cca875a0e2902a4c98b3c21e570276b1163dc9794cef1e4e84"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A3.json",
+      "sha256": "961c2b2ae9139f6a79f0f61703ef76fa4718c353d1d042eb32d8f92c7420732e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A4.json",
+      "sha256": "f1c159a9d9304e9022878b5905f4334bcb03981fe728346c9c16de85611a5836"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-008__A6.json",
+      "sha256": "2bd9beea247f2648a7f35659b9ae44ccb83ec64dafec58513c7ef0003089ecc9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A0.json",
+      "sha256": "970d0bae3430d3818b567b6b552e287cd39ada0d7e15fd7fb6f12d116c4714da"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A1.json",
+      "sha256": "21076a079b858cfe7ffc24c5d319c8850eebbb97b0286285fcbd286fa76e393c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A2.json",
+      "sha256": "1d7b2ce2b09cfc5b831e8e4ed5d2a657251f18f7c93f1062ac94a8597f822a33"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A3.json",
+      "sha256": "47983c3ef5d1aeee090f2045f676a8403ec8be49c223adec70b21a6e270e7bf1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A4.json",
+      "sha256": "d00039f201b190b692afec795ff729e8b8094719499c1e2e115b31316aa38d59"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-009__A6.json",
+      "sha256": "9bb6b12eb98cd9d877e6967b557decd580612ae012b2d1439fb66d3c62d468ff"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A0.json",
+      "sha256": "4a0c9ea2ef274b67eb36ae1ae5776f4c2f968f5e97c9fea01a88670d90a39f67"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A1.json",
+      "sha256": "ded05e02f4c4c0f55874ef768025bb6213ad396853e302807d4fcce0d7289ffd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A2.json",
+      "sha256": "e53b28b30c6b9e94201ddc1183f7bc249a09e0f6b93180ea07dc01261bd5cd16"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A3.json",
+      "sha256": "a0694a20b41797e1fd20607bcc80071b619861be73b9eedc712ab0dd896ab8c2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A4.json",
+      "sha256": "164661daf2881b21d698a4ef611ce44dd27ad96014698fd704958718226e6879"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-STATIC_OBSTACLE-010__A6.json",
+      "sha256": "a98fec7310eefe65407bcacc99d99c0077482103a6ad72fa2bb4135f5b84e5bb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A0.json",
+      "sha256": "9d1bbff15cce58b784dae0336f5351d578d118354580b8e1fd0fffb6e58f4a3b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A1.json",
+      "sha256": "0965f9226c3851628107dd40cafaccfab5295e9ea6e293daedaa1022c1692072"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A2.json",
+      "sha256": "f6cfac0c755e40c2757d0135ce22cfe40d70c3c5bbf15fe6ec3a47d1122df14f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A3.json",
+      "sha256": "81cdee944393dcab8d1102817a4ea3ff6652c7913efa3232878e1df0f5cc8da2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A4.json",
+      "sha256": "b54e6b2fbef9fa26c4ed9938dbf65b97236877305e7ae7364d2d0f46cb3dd3de"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-001__A6.json",
+      "sha256": "6f02b48287aa6c6f6b755b2bf57c2c41d34c7a16418c7d56e7541ec5b7a3bb64"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A0.json",
+      "sha256": "5dcedec4564fd6a3f44f43823216b4e6189a79719fd0aea2d0cb55575ffc67ec"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A1.json",
+      "sha256": "d0585a2e70f9f5c0efb4a0805186444f54c8bf3baff728006adc8182f522e10c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A2.json",
+      "sha256": "edf73691c4efdd1351cb2b4700072057b115d018e8f2f856d955d9e2abdf9379"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A3.json",
+      "sha256": "93001d812eb718ea7dfd8b3e397850bd073c87e8c4b3b14345c698f25646255b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A4.json",
+      "sha256": "e79cb2f5c0b801a68cfe70a3bc1a0ec57292fd149a24791bfb0f24d2f76df18a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-002__A6.json",
+      "sha256": "ab501fde52c50a7b8716be55c58912e58a7b1ea577e56b5bdc78904cb13af827"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A0.json",
+      "sha256": "e127080a508cbd6663a42aeb8fd5a5d3c376511e5fd540a040181e478d27f175"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A1.json",
+      "sha256": "772fd552f15d3d77ef3c22278719ed77c988eb8d5e62bef45a0265464c8a18eb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A2.json",
+      "sha256": "0841591ee68618e6a70bbbe7d8577c613dfe40f9527d7922dfe4125e17208127"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A3.json",
+      "sha256": "abccc6272d034b5da767b6fdd6f5ca748cd8c94f1a01aed8d2b69e118fe49c09"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A4.json",
+      "sha256": "cfee43dea6e663403a4c5fa1e2ce919bebab5f4ad6d0c79d92dfd333a9feda01"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-003__A6.json",
+      "sha256": "f28589ef29cb06f9fd27ae2f323bc804c1fd6bdfea3ab7e8dcb1f74e39b7a9cd"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A0.json",
+      "sha256": "bf29dd20dc7f6d8b80b1ad76dc12f20fa66f558fd970172de8677a0a29c9b5dc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A1.json",
+      "sha256": "d6e89211a955551e922b79a7cf2cb5fb06e17ca15702907c143b070289b7af32"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A2.json",
+      "sha256": "ec80d61b40d5ac7d57176f2ab6b034a74c2b9f8d6dd6de4cc6783eecb2844473"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A3.json",
+      "sha256": "3efd0e6faef703fb379ff032c485ebc55516bfc4baf08db1a2ce167384e3a242"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A4.json",
+      "sha256": "b22b23801e440ece7cd4ef7b7fb94ccff39f86f3aab0f4879bedaaca0983e167"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-004__A6.json",
+      "sha256": "e77257b809e5958fd4d802d20e76a1b210df2df69066a9edfd40b3790cb2833c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A0.json",
+      "sha256": "3025dc9132341d98720d2ddd4109c912e2a11de850af27e262d7646739c57963"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A1.json",
+      "sha256": "1881442a1d6dae4098bd2abbf78b7e8f9be3909921ff1a50449d2e3289013050"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A2.json",
+      "sha256": "b6b9d0a65fff5f3f1561017aebb03491104470bb9d0847d8875a11f9847fa74e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A3.json",
+      "sha256": "293b773cbd47cbde7c743ac34eb33576500339fd9d27fe44fbfff22d4b8c95e3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A4.json",
+      "sha256": "3337c3a0c419a627bdb2660bd48240f022eeda6c61cc3c9e82f50a21b06efd6b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-005__A6.json",
+      "sha256": "861b03a297c184bcdb18234da8f3b70d1c3d7763305a491b5aadc46075639520"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A0.json",
+      "sha256": "a7ef2a188a808951020562e9568d0d21f2660f64177f48bcaf7351b7ce7b8677"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A1.json",
+      "sha256": "ab75d658c07113a9cd5790ecd2fa37e9b51ad88b153f34ccaa6a1956b4592036"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A2.json",
+      "sha256": "0a81c22bd526490d37816c0fc4128f02410a0ad577c34a3473c0229b3035ee7e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A3.json",
+      "sha256": "797062e8b81284105eaf821473dccea378edc410fefd283e0d2a62c81a9a66a1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A4.json",
+      "sha256": "3ae7027e2fbb55b9e50fbd8fddca418e729cdd912ea8e53e76711a454cdb0ba2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-006__A6.json",
+      "sha256": "dab96869d10d7f877162fb8e0056a7ce1471146c552c2e29877a14f0e167e62b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A0.json",
+      "sha256": "acb27eecd1a0628f0ef3dc712d08cc584129c2748300df66a2cc6f229851b2c6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A1.json",
+      "sha256": "ad16d036457dc9a1e113cbfbef38a07d5e6a675e4ab9b3dff502e898eafaa6e0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A2.json",
+      "sha256": "2fb782af3b847f32d4054bb5402c740467a754bd99bac94079730d196235bda9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A3.json",
+      "sha256": "2d5b3ecf44293c4ad752c71ca2d2d76a02e170f3526cac85635bf5488014d3ae"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A4.json",
+      "sha256": "435d82cbd49965a0e2056a76b616025b959201173a2e8f53730f141418969c96"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-007__A6.json",
+      "sha256": "04e95690ff93302fd261e6fe82bf3e0de444a645bf155d53755e8be445140ab2"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A0.json",
+      "sha256": "1b78c9cbe1f79e86798bdb00b24c300d2b65cc03ecd7b75fed8e161aaaffac39"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A1.json",
+      "sha256": "261a5c573928cbbc0f304b2b7711f31a47052388d34aed09e30b6adf3039d7fc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A2.json",
+      "sha256": "865c950250283bbdc7663d28e429ecaf26906535fb07a769cfec9537134d7de4"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A3.json",
+      "sha256": "06eba2d85f3a6ea309e8bb356b4ec2a365fb5bbf9336e5e145ee5d893656bbe5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A4.json",
+      "sha256": "ad260c09effe43f1470b136d29dcaef2f4888cc36bc04b47222fbe2b31e05fd1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-008__A6.json",
+      "sha256": "8f1df295bcd0fc088fea2ad15d62046481140d46f29994102bf947c3b6c2d89d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A0.json",
+      "sha256": "a7bac263684feb7aa7d3d36b964451c0bc778314578662cf222ce29f6f19b697"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A1.json",
+      "sha256": "67bc574051914075c76940d69aca0c4357b0557848cc7d7996ed28536ed8e3dc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A2.json",
+      "sha256": "352f26abd0cebf75ba8847c8646b834462877e0020391a488cb0f4cc00a24d93"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A3.json",
+      "sha256": "a15aa744d310933029ae674ccf590a3525455e1193a44812e8fe30356465a776"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A4.json",
+      "sha256": "655aeb4baabf3917f6149bea769b6f0eeb566e9e55a9fa6a06831f687d2e4da3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-009__A6.json",
+      "sha256": "1bfdc77928d3f482cc3179e66983aae674601701c6d3ed23e7931dbc4906a32b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A0.json",
+      "sha256": "0d94fb74dafda9991c0a3dbe02e5eb684a72c35484b5ed393df95e3140a36066"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A1.json",
+      "sha256": "fbcc405704fc4d7dd7bb620f395defeb4b5bae00fed5af0ac8f8965b008511f7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A2.json",
+      "sha256": "17df8fe2088e31a569d090960cbe58ca62c49f9605ca0a4c26fa6513ee42c22f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A3.json",
+      "sha256": "c2512194459c8abc363ff9aecb159a59d2832f1029e481200efaa1cacf5351a9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A4.json",
+      "sha256": "d667d744344d9b61285f5a44eb896c38102c0c6073c42f86241aa59c352c33dc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-TURNING_PATH-010__A6.json",
+      "sha256": "876bd3be7d9eafba0b6f5c1ee1ae82d1845e5ca1bb2f2bc0aac6b40c627e8d09"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A0.json",
+      "sha256": "263688fc676d84afa492740032e92531657e59e54140eb6cf5b0e53418f26bd7"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A1.json",
+      "sha256": "fc1de22459d518135af27fc31929dced06cd43ac138afaff7074df1837c3f66e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A2.json",
+      "sha256": "9cde1f6576dee61358f592921e5cd9292237e780896c84e0b5b02e75af00f5aa"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A3.json",
+      "sha256": "054384c9414dd432754cf123aae0f6765c7531a2e6cfc4967a85a3ca689df912"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A4.json",
+      "sha256": "e488d9080d0a89c73eab6768ad39943d628d88dad8767f5dfae1a0daf174ccc5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-001__A6.json",
+      "sha256": "b0991b9abf4878d861a9e8b7efb16f888f99aec100eaf392cce0d5d42536388e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A0.json",
+      "sha256": "08500cfdcb84d5d43a3fae38e09d37aefe016b617fbf72bfa74a2cff6e5b83af"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A1.json",
+      "sha256": "1473036cf869cb5de2e2ecc3ecc9f24c915111648234f03e075f46dfee30ebe8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A2.json",
+      "sha256": "d9c3c08196bd30b026258a5da47314cc090db7344a22e02d584470990d8701d1"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A3.json",
+      "sha256": "5bfae2b88af5702db1b69ff943709848da6f911bfa529a1c4639c2b851a4c605"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A4.json",
+      "sha256": "6643b9cb28a10ce02cc50ddc4b6eca9000bec8bd55cc7ba7062f676f59cc5ccb"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-002__A6.json",
+      "sha256": "d1e7229938e9e1220606a7fe93c1ded29052f02488e7be1e721f88520d5f7aac"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A0.json",
+      "sha256": "64e3764a9687f6a631c1dfa4ae346a1ddb93b2db74489505ab385392e4640ca5"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A1.json",
+      "sha256": "becf2955e3fce28da16b0f619f3dde5e59e88329ad5e6a5fe7b7beb27c3ebd90"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A2.json",
+      "sha256": "80127e8629bd9b77ba8f9607b4713d8eb094157737365633e69f0f2693560bbf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A3.json",
+      "sha256": "5f0269755ef26162a3f3abc9f52b3c6aa215e4216e57cb0733697b7003c483bf"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A4.json",
+      "sha256": "02fdbe1a70ea75097438e1643d5b411a9544d685ee3c986f1c02cc7de98ae916"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-003__A6.json",
+      "sha256": "1f46fba334f1ad2035015f0c14029175e740c417fa85400fa5fe9116c5ae288a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A0.json",
+      "sha256": "42280d97767e329418bcda2d83dfe32c9b988a405abcaa945016e20a1278bcf3"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A1.json",
+      "sha256": "4fcac60cb6939f8b708c8c3cb7140cb261a2398cba5dd37143f78ec0ec145e5b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A2.json",
+      "sha256": "b8c96d9ce69ba75be0978c19fc4c5576bbb53be9233667f21fee5b6059b1d80a"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A3.json",
+      "sha256": "595793a1708b6cb573eaae3c101b563c19ce22cc72142b216410975d54d5124f"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A4.json",
+      "sha256": "afa433007d7bcd151eb555bea359988feb765abbfb45d7285bfc36ba37d5d143"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-004__A6.json",
+      "sha256": "9b68fd4472710cadd25e67cbcd9c7a478b4703fcead733ee8d547ac2bfaf0189"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A0.json",
+      "sha256": "dfa9b626961d13f2ce2a518bd75b9f273d28606106fc5a2405d58e5ecfb97902"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A1.json",
+      "sha256": "e0edaa714d9887bddf2a6a55efa33fe3845e2c204002a368a71365d9970f2eb0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A2.json",
+      "sha256": "b733b84da5c7afd18ebfd3de17f5a5db88d3421f794ff2451fa12b374a8f5e27"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A3.json",
+      "sha256": "499ce2768ffd86ca857442fffa081f97f9246fc129498ac4bd7185c660b04f83"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A4.json",
+      "sha256": "0c37011e8cd5eae152011a667579a412d22d32f415def5721f437bede21e92f0"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-005__A6.json",
+      "sha256": "c916c3cd5e84484c612a2ffd90db385f3de47e2cd21be00b4bc436b095f9c159"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A0.json",
+      "sha256": "11514b6d106100d5b388f9f1fecb26451da4900f93c60f620e8cc9685b5e1100"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A1.json",
+      "sha256": "4b4569ce64fb850536b477ea8435498d5278bfad8b9bed2bbe224f5d07e20581"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A2.json",
+      "sha256": "7c1ea8aefd5fcbaec7ca3211868080dc029db9f5564c6582502040c10fbbe556"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A3.json",
+      "sha256": "1fcb275ad824fdc63fb8c790f5dca848638cbf4ed76e3770e1a800368d80b801"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A4.json",
+      "sha256": "8a913c1de56534a67b182dd83c0df791e77cad3ac77576d8e4eacc62809315df"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-006__A6.json",
+      "sha256": "5a9140b8ba5b2c46e8fc7b4140f82773171de08ab66b17774715b056620c019c"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A0.json",
+      "sha256": "be7717fe444bc7b03946da64704a19b77fc925b38340bfc0874ac26f091365ac"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A1.json",
+      "sha256": "814059126caa30e53263c07e3b7dee94a0c8d4ba24b39a080e3e62ed182f0854"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A2.json",
+      "sha256": "640acb91996f9fb8b6faf568f5760ba158dff4ad0b9358edd8d6ff01edd29210"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A3.json",
+      "sha256": "533e1120de07e00ec3e312d18ff63f8b0e60d834d66a4055d8aef8425e0f71c8"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A4.json",
+      "sha256": "00feb17f33f0cd5dd90c0f271160e9f228712ff1f6391bade882d40d0034e494"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-007__A6.json",
+      "sha256": "9389903558344465b3bc34f56adc8cf335fc17823208f6d84aa0451eaf1c4aef"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A0.json",
+      "sha256": "9450bf2badf9244dc2714c84d5cf6fe1d2666059348bb99d75c8322c74f913b6"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A1.json",
+      "sha256": "8b88dbfd8280a60f90b993bca60af86bcac7f073327945b6ab32c21b8a2f8109"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A2.json",
+      "sha256": "eff7bb43cbb262fbf4be4081097732a9b439bf3c556ce6e8bd289eef0ed8eb3d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A3.json",
+      "sha256": "55a91bd128eb1f67d5e39fd8f63dc3c5265ed8739ff121e4c5a6657cdce6e75b"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A4.json",
+      "sha256": "e903e3e96dde6e2bffd613ce5ca5c2735c722c6a798897528a0e5f75866132c9"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-008__A6.json",
+      "sha256": "6d64986a98d125edaf3516e95629866935b7d53eb83bfa934c964b7e7efdd2ee"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A0.json",
+      "sha256": "9f33c48897cca97b6d5026c690772902ad6ea08a1440fd7930307aa824973d63"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A1.json",
+      "sha256": "c105667200e0ac4c4c1d419236b26c8d44a82ea9ebc4c76c8bd4ed046c993238"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A2.json",
+      "sha256": "ee4c1db6c694eae796b1bab044267f990df9f97b008c2281ea20da03be1ffe2d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A3.json",
+      "sha256": "f1c65d089c2b549b3e3fe6fac38d74339e97db2d2cd824da492630a1d197f1dc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A4.json",
+      "sha256": "0ca5582f8c2082f10fb6165dce306bca8c1b22a19e506c57ff16c93d4919d71e"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-009__A6.json",
+      "sha256": "8311fe159a6e3574a9184aba39877b036deac773aefc81cbf4118f652f37e38d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A0.json",
+      "sha256": "ae3e178fdc4a9901d0525e2b1854a711a98fd51f6479da73f81f69cdb5c11b6d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A1.json",
+      "sha256": "b631f577051b8604a4fa4ad9e13cbea7ea1f808e335ef2211b63c67471d713dc"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A2.json",
+      "sha256": "74a2304f6fb8055ec3c233427d58bab4026221cb170404664916a4ebec20794d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A3.json",
+      "sha256": "905bb1e6771ef26037524cc252d515970ff8cf759d22221f35a311f3802a20ab"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A4.json",
+      "sha256": "68df2093b161c4c5a8b216a3e10ac5669ed829bb29e10d25397e8eb0d9a6e62d"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/trajectories/KAIRO-V2-VEHICLE_CUTIN-010__A6.json",
+      "sha256": "0ff6ed2c7838cce6770780d8340637f75a52d67253a86fbd765fc8487f147731"
+    },
+    {
+      "path": "data/ka-iro-krisis/v2/physical/validation_report.json",
+      "sha256": "03676705f4a626a0b11d6643fed3bdb36b9513920d3ee631af801ae36e3220b8"
+    }
+  ]
+}

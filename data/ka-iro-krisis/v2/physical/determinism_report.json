@@ -1,0 +1,69 @@
+{
+  "subset_size": 7,
+  "checks": [
+    {
+      "outcome_id": "KAIRO-V2-CONSTRAINED_EVASION-001__A0",
+      "replay_hashes": [
+        "9ea4f31c0c58cd73e81d105752711495517baf8f6228b7535a63f0dc97768305",
+        "9ea4f31c0c58cd73e81d105752711495517baf8f6228b7535a63f0dc97768305",
+        "9ea4f31c0c58cd73e81d105752711495517baf8f6228b7535a63f0dc97768305"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-CYCLIST_CROSS-010__A6",
+      "replay_hashes": [
+        "255b95a50c7179d79348328a7af81c41df3b991ac85ec0406d62e89772cd1e9f",
+        "255b95a50c7179d79348328a7af81c41df3b991ac85ec0406d62e89772cd1e9f",
+        "255b95a50c7179d79348328a7af81c41df3b991ac85ec0406d62e89772cd1e9f"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-LIMITED_VISIBILITY-001__A0",
+      "replay_hashes": [
+        "130389c297521d1be70d58487419155ae95413d2cb6fa970b6dc2d7d7e8c03df",
+        "130389c297521d1be70d58487419155ae95413d2cb6fa970b6dc2d7d7e8c03df",
+        "130389c297521d1be70d58487419155ae95413d2cb6fa970b6dc2d7d7e8c03df"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-MOTO_CUTIN-010__A6",
+      "replay_hashes": [
+        "26c5a69bb5abbe7c8c6eb04be458b47e9813265531222a7295c1ccd38f18f2af",
+        "26c5a69bb5abbe7c8c6eb04be458b47e9813265531222a7295c1ccd38f18f2af",
+        "26c5a69bb5abbe7c8c6eb04be458b47e9813265531222a7295c1ccd38f18f2af"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-PED_OCCLUDED-001__A0",
+      "replay_hashes": [
+        "54b0b18202e59d689ecc063547f725cd3b70b4e829a21663da7f97fdf898a8f4",
+        "54b0b18202e59d689ecc063547f725cd3b70b4e829a21663da7f97fdf898a8f4",
+        "54b0b18202e59d689ecc063547f725cd3b70b4e829a21663da7f97fdf898a8f4"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-STATIC_OBSTACLE-010__A6",
+      "replay_hashes": [
+        "5f393de380db36f9ffb175d98a5e7f4104c6755714b7f9c2743771febc785968",
+        "5f393de380db36f9ffb175d98a5e7f4104c6755714b7f9c2743771febc785968",
+        "5f393de380db36f9ffb175d98a5e7f4104c6755714b7f9c2743771febc785968"
+      ],
+      "passed": true
+    },
+    {
+      "outcome_id": "KAIRO-V2-VEHICLE_CUTIN-010__A6",
+      "replay_hashes": [
+        "d99f9f36ef6054298d09abbe1f1ccb264a0600756573b13cc96bc041cf52bdd2",
+        "d99f9f36ef6054298d09abbe1f1ccb264a0600756573b13cc96bc041cf52bdd2",
+        "d99f9f36ef6054298d09abbe1f1ccb264a0600756573b13cc96bc041cf52bdd2"
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}
