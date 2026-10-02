@@ -1,0 +1,61 @@
+{
+  "schema_version": "ka-iro-krisis-scene-v2",
+  "base_scene_id": "KAIRO-V2-PED_CROSS-003",
+  "scenario_family": "PED_CROSS",
+  "scenario_version": "v2.0",
+  "provenance": "generated_by_scripts/generate_ka_iro_krisis_scenarios.py",
+  "coordinate_system": {
+    "x": "forward_m",
+    "y": "left_m"
+  },
+  "ego": {
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "orientation_rad": 0.0,
+    "steering_angle_rad": 0.0,
+    "initial_speed_kph": 50
+  },
+  "road": {
+    "length_m": 200.0,
+    "drivable_y_m": [
+      -1.75,
+      5.25
+    ]
+  },
+  "actors": [
+    {
+      "actor_id": "pedestrian",
+      "actor_type": "pedestrian",
+      "motion": "crossing",
+      "length_m": 1.8,
+      "width_m": 0.65,
+      "x_m": 18.8,
+      "start_y_m": -4.0,
+      "velocity_y_m": 1.3
+    }
+  ],
+  "controlled_factors": {
+    "conflict_x_m": 18.8,
+    "actor_speed_mps": 1.3,
+    "initial_speed_kph": 50
+  },
+  "applicable_actions": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6"
+  ],
+  "termination": {
+    "maximum_duration_s": 12.0
+  },
+  "model_input_policy": {
+    "contains_action_answer": false,
+    "contains_outcome_label": false,
+    "human_semantic_label": "UNSPECIFIED"
+  },
+  "physical_only": true,
+  "family_annotation": "visible pedestrian lateral crossing",
+  "scene_hash": "0723252222191ba3e17bb6f5f7be0135b08c6cde011cc7b4ef8fa4862bcf13b5"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "ka-iro-krisis-scene-v2",
+  "base_scene_id": "KAIRO-V2-TURNING_PATH-009",
+  "scenario_family": "TURNING_PATH",
+  "scenario_version": "v2.0",
+  "provenance": "generated_by_scripts/generate_ka_iro_krisis_scenarios.py",
+  "coordinate_system": {
+    "x": "forward_m",
+    "y": "left_m"
+  },
+  "ego": {
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "orientation_rad": 0.0,
+    "steering_angle_rad": 0.0,
+    "initial_speed_kph": 50
+  },
+  "road": {
+    "length_m": 200.0,
+    "drivable_y_m": [
+      -1.75,
+      5.25
+    ]
+  },
+  "actors": [
+    {
+      "actor_id": "turning_vehicle",
+      "actor_type": "vehicle",
+      "motion": "cutin",
+      "length_m": 4.3,
+      "width_m": 1.8,
+      "start_x_m": 29.2,
+      "start_y_m": -3.5,
+      "target_y_m": 0.0,
+      "velocity_x_mps": 5.3,
+      "start_time_s": 0.2,
+      "duration_s": 2.0
+    }
+  ],
+  "controlled_factors": {
+    "turn_start_x_m": 29.2,
+    "turn_duration_s": 2.0,
+    "initial_speed_kph": 50
+  },
+  "applicable_actions": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6"
+  ],
+  "termination": {
+    "maximum_duration_s": 12.0
+  },
+  "model_input_policy": {
+    "contains_action_answer": false,
+    "contains_outcome_label": false,
+    "human_semantic_label": "UNSPECIFIED"
+  },
+  "physical_only": true,
+  "family_annotation": "vehicle turns into ego trajectory",
+  "scene_hash": "f741ef9942c69a801133b94ce30a53ab10450becc07a03b81a1d2be9e714df45"
+}

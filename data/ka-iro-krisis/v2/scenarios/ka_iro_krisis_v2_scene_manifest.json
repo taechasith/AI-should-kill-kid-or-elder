@@ -1,0 +1,624 @@
+{
+  "project_id": "ka-iro-krisis-v2",
+  "artifact": "K2 scenario grammar",
+  "scene_count": 120,
+  "family_count": 12,
+  "families": [
+    "CONSTRAINED_EVASION",
+    "CYCLIST_CROSS",
+    "INTERSECTION_CROSS",
+    "LEAD_VEHICLE_BRAKE",
+    "LIMITED_VISIBILITY",
+    "MOTO_CUTIN",
+    "MULTI_AGENT_MERGE",
+    "PED_CROSS",
+    "PED_OCCLUDED",
+    "STATIC_OBSTACLE",
+    "TURNING_PATH",
+    "VEHICLE_CUTIN"
+  ],
+  "generator": "scripts/generate_ka_iro_krisis_scenarios.py",
+  "scenes": [
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-001",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "ba235d488bbae44a4dcf71a62582201d44c4094439535a17d58ab0d4db7a12a4"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-002",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "74ac8cc1a8dce1a04420e5d2c6b588feec3a07484683cc3264383732cbadae68"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-003",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "00888b7c1122e45da640a63c33bfdc55ea111d100fb6390c5d14ba3324050c28"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-004",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "c64e6b02617725b9590aabd5600e2303952c599334e33c81f6046b284924375d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-005",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "7d15fff9fb51f2b872a5dea753413c31d62dc6133349cd31801703ebccc7d7ff"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-006",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "e8e4a742e80a6cfd6ba2a551f553bfb01c8796f20888ecbd4a62b38cf7b0b9b3"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-007",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "31098088631f81a19aa5bab13a0976659909387c2e01542834b79cd8027273be"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-008",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "ec509f1e1768cd3174c84e2064d591cff7d3421e21cae2dde03162b4bf3a45cc"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-009",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "cf77bc8a2d39f5b47c0efab14f1b7a1b5c076b53fd55e53b1c88447a2d96031d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CONSTRAINED_EVASION-010",
+      "scenario_family": "CONSTRAINED_EVASION",
+      "scene_hash": "8dd10d55d1fa0e045d2b44ba628ad2d4bab4e04829b1474781e069410842f8af"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-001",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "37b98e3b7d2fbee4544861160ce30fc69460625ba594cad0d511641ca3926c51"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-002",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "e1ce5e989a9439e13d4e7d4396446444c8827141fdf7c2ee9c2ec75f2560294d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-003",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "7e48f01b12667cfe630a154bbe501b1458956a041bf474d0f2d62bed4601bdfd"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-004",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "8c018292bc236c5fb6a0e054127c30318b2f225905e86f9e3597ac9e36ba986f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-005",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "ee6176ea7839e87ccf9835bee4349d428e4089d78ce99f00063d76e12d8ce77b"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-006",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "85d73f093e5f40930255d7ccf4f26cab4d24273c07e102faa885e31b1f094f2a"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-007",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "d69aaf3e8d785af79c3153cede49960edac4ae0fcdec0dbdce9272bcd9c8701e"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-008",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "8c9ee2cbd952efa10fc973c68916d4761c309377ab26f0e47cf8dcf65f380b75"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-009",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "2e6c3ce76027b359d0c5d6a66c470bfac346eb3b0feff89ebad8009ff825f656"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-CYCLIST_CROSS-010",
+      "scenario_family": "CYCLIST_CROSS",
+      "scene_hash": "6b4fcb58b05a57602095d6fa9879eb048a1fc97e6fe14fabca6f5ab65aae13b7"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-001",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "f43f502d8c0b862020a01cfe2249fca6c7a1cf861a8c2d74c0afa52fff5854d7"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-002",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "a84dc1153dae698f3e6073813a1bdce4d28e609712a4ad3ba1f209b916179691"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-003",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "f8c19059c8f16a8c43fa517518de36097ad9bb48f14b0d60b127f779ccfe2a18"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-004",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "ae5f34489f452ee7ec70812b6c9f814a41079aa1ca8260650bf6dcc64d922e74"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-005",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "befb0c442da0065edf743876d6263dbee279227dbda1ffa645cda183b8174501"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-006",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "a7d13cb72e06f00da5199fe68777f5ba8d5ce89d87f79a84807f1318ce968390"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-007",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "2359d5acde277a6ba116972bdde5200f342176cf3fcfd84f2e3079b99ba6b981"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-008",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "a6051a9ba0535a3214c742c16db930c93e969104a69409caa20b8ab7b99b4ac7"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-009",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "1fdf60dbf945cadb8004c61ee3d6e464d1f0b8338774bd98ff1ca4c3d021f5e8"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-INTERSECTION_CROSS-010",
+      "scenario_family": "INTERSECTION_CROSS",
+      "scene_hash": "61d76551fca05bb81365238e6dacf7e99e1961d8bf930fdf4a42fe099daf2095"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-001",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "d8c616baea44f79703c30540fd2c69d15cd01c6b8f18e40edfd82151d502a136"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-002",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "d3591fbd36ef33b9a82fad915f4b16729a267329d39f3949ebca41bbbfebb1f2"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-003",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "3bc2372c8bd1ec70f7715224fa137d524562eb20278996fd99d44b681ee01411"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-004",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "db1098218ba20f24bffa47d1829955981e8b0aab66a590a9cfcf37484870d6fd"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-005",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "b838b3606378a97c7e78384c37d923e4b3adbc42facce387fc85043307a37d08"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-006",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "fff7e13955c1e1740ff3b560c71573e378baebd907a22fca8ba831df9131d168"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-007",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "f0ccd7a60e2930cf73a4e82cbefb60ae6affd6051a3ad8fd5845c5a0400ceff8"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-008",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "5d2b827830e9ae6b6f54b17954bbfb85e83018127c8b9f9e364ca2b982b2fc2c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-009",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "f4a0a53742f2860f93981eb7a63593b9b4c653c0ac53e88f68045e1a727b49d2"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LEAD_VEHICLE_BRAKE-010",
+      "scenario_family": "LEAD_VEHICLE_BRAKE",
+      "scene_hash": "c53e8d28630ce4cf3314e739bf1d77585b25b6f3284fa0da74672eafa58d966c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-001",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "089809db093b9348590144b231bfbb978631542d2dbc36ed433de0af5f12f69e"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-002",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "d7c001f65f750d6a2be80614708bd658b1eac287f665f76b1449886134738d3f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-003",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "cc73eb29d219a13d2e301f52eaed09e67d55a547018f287ff786db47a89949b7"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-004",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "d8c1b8cf0ebe8c9999df9eb01c5d9089cd8d4c78231c72a8cbfc66eeb31574cd"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-005",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "90cbc4887ba729b62c1fd0efba12ee7320712763456395549eddb5b4acd2af7c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-006",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "c02522a61261eaf9f8c1630c1095efafcdf5eb523a6416d9a0d7fab2a25c4e85"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-007",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "2906694834aeb7eee8369be9493e9ba3c049b4bae2e1909df5f33b01c7e7a2dc"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-008",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "8943da87e3b1799e8765d7746bc63a30029d79d747430050476c576cd5ad001d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-009",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "c68ac32261a7bf5c10811f60d146481d7d9737a7f2c37e88fb76165f2ccfc890"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-LIMITED_VISIBILITY-010",
+      "scenario_family": "LIMITED_VISIBILITY",
+      "scene_hash": "5ca815cda85f35a4d7dca28515a34faed974901e7ce6ab840ab247aa2b5e83f5"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-001",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "a24b6c57956e8b9dca2809d3ea6b4e90717921c403eb0981aa2296d39851d5ba"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-002",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "b465e5240969715ab3bb8734dd7ebb30cfd9c30da2c08aadb51c46f6887474ea"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-003",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "f9b6bd70cd2b8cc5d51f05e50898f06bfe0c65a993fb8c6bb42d4c3703074aef"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-004",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "726824e75f3af7fa42da676ede2f7dc8209112888dcfe24a6ca2441ff6ed999f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-005",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "37d95962fb2ce5009a41063b87e8d0ddcd08fbc1209694f33d754ddd00cd5b6a"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-006",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "c29515c6db01eb1d59f4f04ff16ba933c0b9f8f7736c76d80f46e82ed1fff165"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-007",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "19ede8de13f3958cdeb6b40fe45bcdbad0f369fce49c81ae41a0426fea459a90"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-008",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "178af3edb9879b7e4837b34602be72c91893e98c3f509ce735e080c8b38740d8"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-009",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "7e84c8ff9230e1f01965265d1e1cd99065ebf35d59c8017e3fe1bbc1f43472ee"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MOTO_CUTIN-010",
+      "scenario_family": "MOTO_CUTIN",
+      "scene_hash": "05ab0b9073e82ed8797670cd4a60841f0efa7764137f6024c0bb423e67cbdac1"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-001",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "620abe223b2e07651e0c4147f54953fd4bb0eac6008f45af1c5a72b4f08a810b"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-002",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "e5e33db3e629a266f7aca020834d1a1b19f8236a00bc2f2ce0ac2bd7316638af"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-003",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "eb4c10a230beccd390aca662d82d3cc8c70b1c75b1f640b39fc90e53e6c1cc09"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-004",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "41b1fe79971304ae66b5bfc2453f49a888e1c58ca2559148c1df97741992dfa2"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-005",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "8367a91c2710ecd3aee5ef8f684afcecdfa5d7997cb8787468f2c4dccc50a254"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-006",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "c45b209d58187c19698fe6fb64eabc3207d2e2aeff2ffaa72657a06e18842d18"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-007",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "8a2740fe6e01475984a569e1dc9cbfd16d7866b4a1c1beee258cac90dc49639f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-008",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "bfe587ab56464731cb26af66eed0a40117461bf90758644b9b34384900e735e2"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-009",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "d14f7d5128bbab38dd076c934b5e44ba3ccf30b73cecc18fae592dd89d93ff74"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-MULTI_AGENT_MERGE-010",
+      "scenario_family": "MULTI_AGENT_MERGE",
+      "scene_hash": "41fddb5eb183761dd4f50397c1f9c0836a89604a2ff488f1e6cf35a6f52dbf30"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-001",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "f77c3b22317d9382f893c59e23ca0e6d383ae191c3e35390df963bfe7d6dc7d5"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-002",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "d80865f13ab4f8e99e3b766b5f48165a8dfcdd974c0e2f495596602b1aa9ae56"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-003",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "0723252222191ba3e17bb6f5f7be0135b08c6cde011cc7b4ef8fa4862bcf13b5"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-004",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "fb938768673df0f5dc8b4714d42577ed5a8ee27fd18048735bef599532c4905e"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-005",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "92cc192198252544148d83ea409277723628452d81c3d308d961ccccc8162ea4"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-006",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "43d14c6a424ff08127cd797ca09fd0c8e650b3c2912fce8475523e7a46ed6737"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-007",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "1e2583170891af543992078dede201d1b23fcdf093406a3c7d6a706e611e7f55"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-008",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "a53f92993a87a421802f59109373cde0d0ec3f4f8dfabeefbe29b240d952e0ef"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-009",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "e50f09fff925bc1052e4bf97e736d27af44f54c39a61269cd733d362edca30f3"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_CROSS-010",
+      "scenario_family": "PED_CROSS",
+      "scene_hash": "05007e89436a1de2402fe4e8f3fb0bec2b9bff66d09977de9ebce1db2d194b30"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-001",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3d5968fd4a294d45096d3e08d3b57a7b8c8c7d416ec8ead2f6756d89ce402d09"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-002",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "fcfc3d4448b4fdaf3ce44cbc8bfb457533676057b04e2aa55e9f7ba6f234232d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-003",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "a74e649e64c95ac5af13524ed213a265d670a916a09bec5fd2dc2f61ac2ac0a3"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-004",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3085a9e9cfbf9ae7e496324d0524caef5313697d78ddcf249d7d5509ec0ecb77"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-005",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "7b5f2de64154dc98b8475ae005c34cdd085b660b293314cac411b6c3730f9f3c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-006",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "24a4530534a9a2d5d526fbdcf28570a689e6579155fc1c1e56cc129383ffa51d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-007",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "3c417c1572b3d12c183d2dc8118cfa8163cb5dd88f1895caaaf5bc5db897487e"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-008",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "5da9ce55dc6a5a8bd9024d159524878a207fe1f8bbb79514f0371b1c1870a2f6"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-009",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "f03d0862dd844a9899efa0249b8100fb4f5d2ce768a9f5828c2599dc0d2256f6"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-PED_OCCLUDED-010",
+      "scenario_family": "PED_OCCLUDED",
+      "scene_hash": "daf5dc39a3335060fb0708e06b906716c27e1d530bde90f1775f33a44663a5ee"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-001",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "cd7c4fb1d85e17f298f07b390d4b1e2f34c6f6b79f08b6e2551f45b497ab71ba"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-002",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "188675a0c28a22436a8d65b3a31f2efadba270d6fc6a6b18284cedd3a8b3812c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-003",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "c255b915996837d1b1a547ebf0f5eb9a151eb76aa65572cec80bbeef917978d3"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-004",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "452a25c6edca13d527145f8d736583407fb1dc7dd0fd511aeff934ba6f77765c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-005",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "1fc6e76c65b47782a6ff4d855b3095ef597e314019655911d8a7cdeece2f4e9f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-006",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "67226707f932fb1c17a7bf2497eb48885a22e78036e42ce6878fb89a327ed6cf"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-007",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "0c43475f66534524a465eaefa7a7b1349d32b8cb116bf75d43adb560c543d37b"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-008",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "4a86dbdc08df0ba8dd8415226979cbe2ec7da3e5b2aec338817253c0a2533f66"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-009",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "8d22b1a6a73d09b4f9dc37335cf4545dbc1375b2f9fd8f752af15902f8c9829c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-010",
+      "scenario_family": "STATIC_OBSTACLE",
+      "scene_hash": "9d7589eed9ecd16f30cafd723183b21ae9279f7276266d70a4dcb0368b142d6d"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-001",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "6c78091671bec15036c466f99b358c0c3afbaf80df5647d0506a1eac3b9242be"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-002",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "487dd25bf2a432f104a17b0abf6c6803076e99ddfd9936a0e3e451a3259951b8"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-003",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "211878444a40cf5c23d080e50850f2f25e5193780755a8fee1a9bdca68309e21"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-004",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "fe287420f441f9eacf0b77a2ca5e7a1a9a2d343fd6107979f73d3fcea61d1d3c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-005",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "3b5a3958a3b767480e33bd53ef0093d194ffb97ca719d821d17ce5254fef8b8e"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-006",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "f50ce702ab17296c858198d2f8d8da5dd6ccee520958d9d98c855ad2c26383ca"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-007",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "09b8f8b65be5c667aa3cf2adb6a1bedd58f555606b104bd440749c8aad6b35e4"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-008",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "daf103dac322b5a565e06996841ff3427c8b170f92ad9cfba26603a1c95c41ed"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-009",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "f741ef9942c69a801133b94ce30a53ab10450becc07a03b81a1d2be9e714df45"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-TURNING_PATH-010",
+      "scenario_family": "TURNING_PATH",
+      "scene_hash": "e936c6ff7731a39db2329648413a25cb67d526263e4017f6270c196c6e1e2d83"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-001",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "59a418371694e29e318230813c3fd1049af352a5d31e374b313316c4d39a8f1c"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-002",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "b3dfdf7dde84acc0dcb25fcb625026ea632afbaf959a8cda5d44b62d71fab768"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-003",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "660ec8d091c6a7ea342a9c61a885d7440d7d2feb1cde121afbd3881f545d7b0a"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-004",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "7e9982167d7f71bc367ac5e18114d85e7a5048a1a0f5d2f437f826bbdb5d71b9"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-005",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "1a6ad727f42adb52718bf71416de40ae15e8e066bef0f23401bb4c1bca256168"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-006",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "c3f6b21831988cce82c76b270f8d657507083c4c045f12821d1fcf8125307730"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-007",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "663c95b88be82d971e99e227490b60e1485a1dd8f898d7d7402cdc7053233fae"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-008",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "bd13ecf3da9143f89d961c3caee45d27c8afcf81a4c8b0f30d5bf6851d709ec5"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-009",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "bfb96323e710ffcde40984dd37264433d7f2bef49c6b3eeac3cdf50ad9a9915f"
+    },
+    {
+      "base_scene_id": "KAIRO-V2-VEHICLE_CUTIN-010",
+      "scenario_family": "VEHICLE_CUTIN",
+      "scene_hash": "90db8b22f739ae7565dbf0f7ac0081dad43ea70481700ce2ce859997107b83af"
+    }
+  ],
+  "manifest_sha256": "b933d00d3b2bac221e024231658fb6c2655760140631d6350d76a8301e83ad4b"
+}

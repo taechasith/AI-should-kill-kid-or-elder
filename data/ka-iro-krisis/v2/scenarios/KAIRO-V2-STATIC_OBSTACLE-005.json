@@ -1,0 +1,60 @@
+{
+  "schema_version": "ka-iro-krisis-scene-v2",
+  "base_scene_id": "KAIRO-V2-STATIC_OBSTACLE-005",
+  "scenario_family": "STATIC_OBSTACLE",
+  "scenario_version": "v2.0",
+  "provenance": "generated_by_scripts/generate_ka_iro_krisis_scenarios.py",
+  "coordinate_system": {
+    "x": "forward_m",
+    "y": "left_m"
+  },
+  "ego": {
+    "x_m": 0.0,
+    "y_m": 0.0,
+    "orientation_rad": 0.0,
+    "steering_angle_rad": 0.0,
+    "initial_speed_kph": 50
+  },
+  "road": {
+    "length_m": 200.0,
+    "drivable_y_m": [
+      -1.75,
+      5.25
+    ]
+  },
+  "actors": [
+    {
+      "actor_id": "obstacle",
+      "actor_type": "vehicle",
+      "motion": "static",
+      "length_m": 4.3,
+      "width_m": 1.8,
+      "x_m": 19.4,
+      "y_m": 0.0
+    }
+  ],
+  "controlled_factors": {
+    "obstacle_x_m": 19.4,
+    "lateral_offset_m": 0.0,
+    "initial_speed_kph": 50
+  },
+  "applicable_actions": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6"
+  ],
+  "termination": {
+    "maximum_duration_s": 12.0
+  },
+  "model_input_policy": {
+    "contains_action_answer": false,
+    "contains_outcome_label": false,
+    "human_semantic_label": "UNSPECIFIED"
+  },
+  "physical_only": true,
+  "family_annotation": "stationary obstacle in ego lane",
+  "scene_hash": "1fc6e76c65b47782a6ff4d855b3095ef597e314019655911d8a7cdeece2f4e9f"
+}
