@@ -1,0 +1,114 @@
+{
+  "account_plan_evidence": {
+    "limitation": "provider metadata cannot independently certify account tier or a per-request monetary charge",
+    "path": "data/validation/phase6_literature_v2_account_attestation.json",
+    "scope": "exact panel; Free Tier/Free Plan; billing disabled; quota available",
+    "sha256": "2c14cdfdd6611b325a1524915dc41590b21ecd919ca83fc3ba666023f44298ad",
+    "status": "ACCOUNT_OWNER_ATTESTATION"
+  },
+  "frozen_at_utc": "2026-10-02T09:17:07.529327+00:00",
+  "gate": "K4",
+  "generation_parameters": {
+    "grounding_search_retrieval": "DISABLED",
+    "max_output_tokens": 256,
+    "temperature": 0,
+    "tools": "DISABLED"
+  },
+  "historical_missing_credential_record": "data/ka-iro-krisis/v2/model/k4_metadata_preflight.json",
+  "interfaces": {
+    "NATURAL_EXPLICIT_ACTION": "one exact allowlisted action plus brief rationale in plain text",
+    "STRICT_STRUCTURED_OUTPUT": "one JSON object with exactly selected_action_id and rationale fields; JSON validity and action validity are assessed separately"
+  },
+  "metadata_preflight": {
+    "authenticated_exact_models_visible": true,
+    "metadata_generation_requests": 0,
+    "path": "data/ka-iro-krisis/v2/model/k4_metadata_preflights/20261002T091520191584Z/k4_metadata_preflight.json",
+    "sha256": "486723dc413d384fa37b8c2e8ffc4873444e7549368536b98a2d08f15f3f3714"
+  },
+  "monetary_policy": {
+    "budget_thb": "0.00",
+    "budget_usd": "0.00",
+    "free_only": true,
+    "on_payment_required": "record PAID_ACCESS_REQUIRED and stop that route",
+    "on_quota_exhausted": "record FREE_QUOTA_EXHAUSTED and stop or wait for the free reset",
+    "paid_fallback": "PROHIBITED",
+    "purchase_credits": "PROHIBITED",
+    "tier_upgrade": "PROHIBITED"
+  },
+  "next_gate": "K5 requires a prospective execution manifest, frozen rendered/image and text-equivalent inputs, and a probability-sampling plan if the 1,440-call target is infeasible under the free quotas.",
+  "panel": [
+    {
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
+      "modality": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "model_family": "Gemini 3.5 Flash",
+      "model_id": "gemini-3.5-flash",
+      "provider": "Google Gemini API",
+      "provider_key": "gemini",
+      "slot": "M1",
+      "strict_output_method": "responseMimeType=application/json; schema-free exact JSON contract"
+    },
+    {
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent",
+      "modality": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "model_family": "Gemini 3.5 Flash Lite",
+      "model_id": "gemini-3.5-flash-lite",
+      "provider": "Google Gemini API",
+      "provider_key": "gemini",
+      "slot": "M2",
+      "strict_output_method": "responseMimeType=application/json; schema-free exact JSON contract"
+    },
+    {
+      "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+      "modality": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "model_family": "Qwen 3.8 27B",
+      "model_id": "qwen/qwen3.8-27b",
+      "provider": "Groq",
+      "provider_key": "groq",
+      "slot": "M3",
+      "strict_output_method": "response_format.type=json_object"
+    }
+  ],
+  "project_id": "ka-iro-krisis-v2",
+  "replacement_rule": "No replacement after this freeze. Record endpoint unavailability and stop the affected stratum.",
+  "representations": [
+    "MULTIMODAL_IMAGE_PLUS_CONTEXT",
+    "TEXT_ONLY_EQUIVALENT_CONTEXT"
+  ],
+  "retry_policy": {
+    "automatic_transport_retries": 0,
+    "maximum_explicit_attempts_per_run_id": 2,
+    "retryable_states": [
+      "HTTP_FAILURE",
+      "TIMEOUT",
+      "PROVIDER_REJECTION",
+      "FREE_QUOTA_EXHAUSTED"
+    ],
+    "rule": "Every HTTP request is a separate immutable attempt. Never retry based on content or regenerate a terminal HTTP-200 result."
+  },
+  "schema_version": "ka-iro-krisis-v2-k4-model-interface-manifest-v1",
+  "status": "FROZEN_BEFORE_K5_GENERATION"
+}

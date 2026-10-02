@@ -1,0 +1,58 @@
+{
+  "account_plan_and_billing": "NOT_INFERRED_BY_METADATA_PROBE",
+  "all_target_models_listed": true,
+  "gate": "K4",
+  "metadata_http_requests_made": 2,
+  "model_generation_requests_made": 0,
+  "next_required_evidence": "Record current non-secret account-plan and billing-disabled attestation before freezing K4 or sending a generation request.",
+  "project_id": "ka-iro-krisis-v2",
+  "providers": [
+    {
+      "credential_environment": "GEMINI_API_KEY",
+      "credential_present": true,
+      "endpoint_purpose": "model-list metadata only",
+      "http_status": 200,
+      "metadata_http_requests_made": 1,
+      "model_generation_requests_made": 0,
+      "probe_status": "MODEL_LIST_VISIBLE",
+      "provider": "Google Gemini API",
+      "raw_response_reference": "data/ka-iro-krisis/v2/model/k4_metadata_preflights/20261002T091520191584Z/gemini_model_list_raw.json",
+      "raw_response_sha256": "add7e228ebaac2430f1d53c206623bd8b341e21b8b721b32eccf427ee4a8d9b5",
+      "sanitized_rate_limit_headers": {},
+      "target_models": [
+        {
+          "listed": true,
+          "model_id": "gemini-3.5-flash"
+        },
+        {
+          "listed": true,
+          "model_id": "gemini-3.5-flash-lite"
+        }
+      ]
+    },
+    {
+      "credential_environment": "GROQ_API_KEY",
+      "credential_present": true,
+      "endpoint_purpose": "model-list metadata only",
+      "http_status": 200,
+      "metadata_http_requests_made": 1,
+      "model_generation_requests_made": 0,
+      "probe_status": "MODEL_LIST_VISIBLE",
+      "provider": "Groq",
+      "raw_response_reference": "data/ka-iro-krisis/v2/model/k4_metadata_preflights/20261002T091520191584Z/groq_model_list_raw.json",
+      "raw_response_sha256": "53275f68bc967ec93b509b5c0e525e1e37bee95a3f1fd143f1bb9e0b91e144aa",
+      "sanitized_rate_limit_headers": {},
+      "target_models": [
+        {
+          "listed": true,
+          "model_id": "qwen/qwen3.8-27b"
+        }
+      ]
+    }
+  ],
+  "purpose": "authenticated metadata-only exact-model availability probe; no inference request",
+  "runtime_commit": "778a8b4eabe69e7715c8f885fd1bbf85150b748e",
+  "schema_version": "ka-iro-krisis-v2-k4-metadata-preflight-v1",
+  "script_sha256": "abbd603c7bcd731372573ae04a39926bfb61f107cc0a2834b856f45b6f099b9b",
+  "verification_timestamp_utc": "2026-10-02T09:15:20.191584+00:00"
+}
