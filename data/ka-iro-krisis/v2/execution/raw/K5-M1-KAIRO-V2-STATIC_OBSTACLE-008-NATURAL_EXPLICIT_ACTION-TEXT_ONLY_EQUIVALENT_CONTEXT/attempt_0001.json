@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\n\nRationale: The ego vehicle is",
+            "thoughtSignature": "EqsFCqgFAWkUfRMKtLwx3ET9ZT5Od5q5bTcMEjpvA94oKKQ0l36U/onNBslli36aj4Wqw0o/zd9vFwov7PYaXJ4LcetujHHY9077lgWJnMMpF50sNSyHBko+d3j6NXtLSe6EX1zkg0FI7h9cnBWsRLpiVURHGTfGK9aDnIJTPqnBS6lCFc9ZcDu9o8u7+BJZruHUdpmKWbmc5++LOUf9S6TZQF3xBJ4uS91c5tMUOOBdXL7SA7tiElJE8BE/FMCtnN/+zVWqKqujNTAW+po/uDxHyiN9H94RWmi5u9UwXJJVW/7+qU5vsrrz/2ZbT2CV5SJt8jhgnROA6OeKEgQggX/8cJw1MlVC7HjA5vemauWElmQgTcaQcOhV3CttDl6/gm50m8aJOVm8tmQV2C5+wklB6Cw4Lhr+GxnbZVS6djWBKf//zJlcIc1ReZglQk3ZjTUFXKGYgq9Rb4brIff9RwoTpLwzTWhfYBE9kWx0UodD/R0xT8B/QN/C5hwmOXulkIRr/YaThB3ZyLFcKLqA7aXd2wSsQ93si1XBMEIEpJ5HY4UG4QOALe00lEj02u7tMLRxaV7p679MEOTXbumukh69N49AOhj3V3l+K6aJbP5M7WLhtL2lKOFD4RfpzIBukpjH+o7edEx2XKPdkPNO0LxltbbAjNVDW11VYJcEI+U8MHRedrGvRnuRHA14TQy4Vl4yOhVnRTAHSAeAwifyvn0GNd75fjWWfpQaq/WfbuOSe7ZfapgUkxPZiOL6UWRofpJ4tJGnPvb1QRGUgTf9HQJS8pxrSN/q8BW+yOEs5k5mB6NpiIpnhYAjXVwZn8ZMg4wOaQ3LZQcys7TDbrfLRb17XHVy1ERSlpfjBePaMieFYLvqK3vV/50oGVkyv2qYaOK00oQDeSHmA0bSV9E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 369,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 621,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "tOK_aszoPIKPjuMPjsjAoQo"
+}

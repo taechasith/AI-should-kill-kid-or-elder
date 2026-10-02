@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A pedestrian is crossing the road ahead (at x=20.2m), requiring deceleration or stopping to yield.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TZZXx8pLNWfCy5ugfg1y7DVQRvbB0Wfp1UpmpK3WJra/kgbX+uUPqZaZ33KzmjgcNzWXcPqLXPJ3SiJie4JTO37Mp2/LF/un6Amlq36FJ/hUxq4Xhl5fB9QE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1490,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 1538,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 398
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "heK_ap2JG_e4g8UPg_-CiQo"
+}

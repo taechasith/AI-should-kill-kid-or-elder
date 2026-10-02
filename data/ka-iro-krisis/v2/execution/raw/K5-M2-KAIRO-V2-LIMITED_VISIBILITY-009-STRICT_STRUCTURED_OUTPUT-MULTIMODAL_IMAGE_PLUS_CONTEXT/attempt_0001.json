@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle on the road at a speed of 50 kph. Given the visibility limitation and proximity of the hazard, applying brakes (deceleration) is necessary to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Td9f+G0vjw4phw5eGvWhXt4fbbo0a8ntR58UpOhdx3GTjVQNS/mwB3nqR6tqlTh31BjYhR9B7vNrz+d8gEZDrUg43M2r+5OlzJyPHEps7vvVP3Zww8Nc+rsA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1458,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 1526,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 366
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "suK_ar-KHpDm4-EPooyF-AQ"
+}
