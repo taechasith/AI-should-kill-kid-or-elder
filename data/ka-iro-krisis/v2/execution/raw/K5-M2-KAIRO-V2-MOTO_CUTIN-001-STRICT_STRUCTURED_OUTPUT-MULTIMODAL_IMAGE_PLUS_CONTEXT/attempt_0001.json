@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A motorcycle is cutting into the ego vehicle's path ahead at x=16.0m and y=3.5m moving towards y=0.0m. To safely avoid a collision or yield to the merging motorcycle, applying a moderate deceleration (A2) is appropriate.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TCXyUTNoysHTvbWCnvC1ux2fQBY846QOmDl6ZWoXGUz9YDFvzGJeJJqFG8Z9GYvsK58ARPQpdbry5OFhxzZ3jCriRa/yYjFLPXlmt/V+L54/tzvvdAWtCqQA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1494,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 1576,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 402
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Tu6_aoChG8O0g8UPgdCdkAo"
+}

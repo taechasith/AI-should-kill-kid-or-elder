@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A motorcycle is cutting in front of the ego vehicle from the right side, so the ego vehicle should decelerate to maintain safety distance and avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TaxopaPv4RJaBBGrdy4gNDQNr2lg3T7/vaX2GoD5GYgHct/7GrtqZD3AWF6N6S0io37P8befvnF9uRpZdqGQnmzJ0f5TfO8qt6YhX7RFOPipD28mENdx6Pmo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 411,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 465,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 411
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WfC_ap_3CcHbg8UPpvqm6Ak"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"The ego vehicle is proceeding forward at a moderate speed (30 kph) with a cyclist crossing far ahead at x=25.8m. Maintaining the current course and speed (A0) is safe and appropriate given the distance to the crossing cyclist.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TgsqQHODBlQE/L4/iX6Efi7iEwtNO9K/K/m7Tk1Ui5/zbu/vp7NFcO6z8104VBJY9Ze+DIlqoBY/JlNWtP3Qe+IVPxapHdTqxMzIgIDijd8ci0rEk0MbQjlI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1489,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 1565,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 397
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "O_G_at3ADpWzg8UPltbm0Ak"
+}

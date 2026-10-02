@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRATIONALE=The ego vehicle is traveling at 50 kph (approx. 13.9 m/s) while approaching a lead vehicle moving much slower at 4.2 m/s located 25 meters ahead in the same lane. To avoid a rear-end collision, the appropriate action is heavy braking (A4).",
+            "thoughtSignature": "EmAKXgFpFH0TTCaY3esx00C0aSCBhpEAIvKmjAgyfx3SDznBWrDID4bFFmYwCiX/L0IurUbDZk6dlKIEY4ZtRUDriNicW7MoMrSyO/swHss+rZAEnASNpxJ+m5oieYh4Je0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 77,
+    "totalTokenCount": 1521,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Xe6_aqf1GpjnqfkP79nm-QQ"
+}

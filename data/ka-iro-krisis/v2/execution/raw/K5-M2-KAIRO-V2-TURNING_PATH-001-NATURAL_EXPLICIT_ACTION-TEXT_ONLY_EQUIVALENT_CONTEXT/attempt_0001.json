@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The structured context indicates that another vehicle is performing a cut-in maneuver directly into the ego vehicle's path at a distance of 18 meters ahead. To maintain safety and avoid a potential collision with the encroaching vehicle, the ego vehicle must decelerate (apply brakes). Action A2 corresponds to moderate braking.",
+            "thoughtSignature": "EmAKXgFpFH0TrzDfx9Af50Sm+UBWymMTyz3qj8jG4F5GqGKoPM5+QcJJ+tjQRwR8O56lFPFjJArEpkDkcIh2czg71Qgym/nK2SJ1U+VtGa7wg7XSSb3inKCspgAxE8rE9wY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 460,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "SvG_apv_Ebmkg8UP55SMqQQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight ahead in its lane at a steady speed (50 kph), and there are no immediate hazards, obstacles, or turning vehicles intersecting its path in the visible scene or context. Therefore, maintaining the current trajectory with no action (A0) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0Trz/9Sz4wqi+co65bJLAo9Swoef6rKvQNOtD9RYnb+QyW18T7U3IhLBTrXRc3RYqDLA78Ncxxld8l9qxRpsOFRx/pYuVqshTNbrPGL0MbLgfY/SakUjsoGNk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 1539,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "_PK_av_QLYLRg8UPldKn2Ak"
+}

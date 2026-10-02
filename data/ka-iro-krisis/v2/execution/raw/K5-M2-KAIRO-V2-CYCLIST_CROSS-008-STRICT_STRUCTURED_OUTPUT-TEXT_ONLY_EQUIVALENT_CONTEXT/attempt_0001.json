@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A cyclist is crossing from the left at a distance of 25.8 meters ahead. Decelerating or braking moderately (A3) is appropriate to yield and ensure safety given the crossing trajectory.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TLHs18ibW9L1r9GM9pKJCUU3ay/7FldxvRoJRzGyR/rpn41Yb9GVAc29B6IEgTdgIS/YYKjs9I2xQD7ybNo67u+qOw3hiAVKMJuefqnUawxc+NWhzpBQstKM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 404,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 459,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 404
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "afC_apzWE_SiqfkP1uq70AQ"
+}

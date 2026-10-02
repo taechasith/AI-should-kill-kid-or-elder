@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting in from the right into the ego lane and a cyclist is crossing ahead; slowing down and preparing to yield is the safest response.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TDkhRaqY6DwMXcGeXtY3gcQkgeg/T7iJYzLQVXIQJUqbnwtaaq12rFECz3Gjq3dwFKZlAYJpEMqrS5wh3Oc3aoxPJsc+I7gPlLwzl3O7NNrMFqLCH7kI/Ep8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 477,
+    "candidatesTokenCount": 44,
+    "totalTokenCount": 521,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 477
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "p--_asWQDeW8mNMPz_-E6A0"
+}

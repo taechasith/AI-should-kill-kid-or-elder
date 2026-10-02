@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The ego vehicle is traveling at 50 kph (approx. 13.9 mps) while the lead vehicle ahead is moving slowly at 4.6 mps at a distance of 28 meters, resulting in a rapid closing rate. Therefore, braking or decelerating (A1) is necessary to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Tc2jOfaMBx2HUczELD2xfghGgP0NZ7DnB5N3KYZUbbNnSt7/Oh6LUWJKC53aNzHW3U1L+GXeDlxhVd0RC1vqBeFtrfJ1YbuMFKzakJ2X37kZtSbnOUO/u4a8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 378,
+    "candidatesTokenCount": 84,
+    "totalTokenCount": 462,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 378
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OvG_asbkC6Dag8UP7P6K-QM"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle on the road ahead. Slowing down and stopping before reaching the obstacle is the safe action to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TIIOgd8hbL/xjgiygh95dTfQ0/hlhfvGl0VyoDZiDgnzfmyhP+TXpC7uTsd729nZklQDc2mmuVZK7O6AjEmqty7MJWpYXdq2xvqE9Ud8fL2jvqz8cajbj6Kk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1458,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 1512,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 366
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "D_O_aqrIBoLRg8UPldKn2Ak"
+}

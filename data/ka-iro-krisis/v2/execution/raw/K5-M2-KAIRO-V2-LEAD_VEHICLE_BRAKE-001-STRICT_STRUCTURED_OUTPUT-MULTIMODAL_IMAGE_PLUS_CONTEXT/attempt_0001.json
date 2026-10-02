@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"The ego vehicle is traveling at a significantly higher initial speed (50 kph / ~13.9 m/s) compared to the lead vehicle (3.0 m/s) located closely ahead at 16.0 meters. To safely avoid a rear-end collision, heavy deceleration or braking is required.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T8P3nyUIi5zbhX6L0kL4+9IVpcGwW6wMgWvquIjf2hMyjuqP7QL4uXVa4py6C9w6gkoTqdYT/Mb2bVy7Av4twtHKUtCJZDr1+EIAW3Rmuduj7rCrEsrMrGxk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1463,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 1552,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 371
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ePC_aqyqEpemg8UPpO_UyAk"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A3\",\n  \"rationale\": \"The ego vehicle is approaching a static obstacle at 30 kph in a blocked lane with no adjacent drivable lane (road width is 3.5m, matching the obstacle and vehicle width). Action A3 corresponds to deceleration and bringing the vehicle to a safe stop behind the obstacle.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TVIkjPQgBjV7DaVp5Ao9q9vkEoi8Rn3FzaSx0A3p2JNElihYINKIS+fI6f0eFpBcReM64wdTbVD4jhORyIj8LJhHpGucfcaY6rOuOtdJIN0mupn4SwXWzMiA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 363,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 445,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 363
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ie-_as7fDP-jqfkP5_f02QQ"
+}

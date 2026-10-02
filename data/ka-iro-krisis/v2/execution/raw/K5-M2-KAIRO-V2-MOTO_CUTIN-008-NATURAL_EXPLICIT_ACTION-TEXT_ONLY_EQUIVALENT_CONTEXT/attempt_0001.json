@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The motorcycle is performing a cut-in maneuver from the left (y=3.5m) into the ego's path (target y=0.0m) ahead at x=25.8m, while traveling at a velocity of 9.4 m/s. To maintain safety and avoid a potential collision with the merging motorcycle, the appropriate response for the ego vehicle is to decelerate (A1).",
+            "thoughtSignature": "EmAKXgFpFH0TJe38DfVsaRgIfjSm0FSUFFrqBNKGITgryI2cSvdi3zxZ5lpslNDPjJ+pACi6F4GLdndqjXF7e5Y6DI25M3VMfDoj3r5twdYbOk2pqW+jMPKlrakCkUMMMCg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 420,
+    "candidatesTokenCount": 94,
+    "totalTokenCount": 514,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 420
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "vPO_atmLGc3a4-EPsu3VqQo"
+}

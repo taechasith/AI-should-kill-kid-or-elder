@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The ego vehicle is approaching a pedestrian crossing from the left side ahead ($x \\approx 27.2\\text{ m}$). Applying a moderate deceleration (A1) will allow the ego vehicle to yield safely to the pedestrian without abrupt hard braking.",
+            "thoughtSignature": "EmAKXgFpFH0TzvubLLmS7O7SZuzpL4Ql0IrdIy+3C0zofFQXzd0uwfM3OfmRdi4G/+SQr3o26X3BbaICO8pSEyBetnC/e5jA7nIDfrcGf369LPUuHM98T/gEH5fy4/GCZ/4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1471,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 1529,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "HvO_ap6aCNmsg8UPuMa-yAk"
+}

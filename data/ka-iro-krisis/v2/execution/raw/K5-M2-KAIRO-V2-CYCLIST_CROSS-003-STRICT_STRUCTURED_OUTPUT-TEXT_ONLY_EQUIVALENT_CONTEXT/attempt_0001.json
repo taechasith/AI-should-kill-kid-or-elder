@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A cyclist is crossing from the left at x=18.8m with a lateral velocity. Decelerating or braking (A3) is necessary to safely yield to the crossing cyclist.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TLjJFpfcIBHjK43LI224Tb0CG0ALPlbtELUFNYRGAWsBr+p1GDYn08e9niM7FrvAiVOI1PVZmHwItuq87LlbAgCYo72JeVsC03JgYu4SffqZeFhfxS0dRaqg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 374,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 427,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 374
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WvO_aryxDJq2g8UPqcK0yQk"
+}

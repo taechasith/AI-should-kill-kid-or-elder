@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting into the ego's lane ahead. Applying moderate deceleration (A3) is necessary to maintain a safe following distance and accommodate the merging vehicle.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TiYe3A+aLzYs0VrZgV2j5fwFdcsBq1cLrfoQzhj8jW+YeSuO2fbkI8XT5VyiboeVTYebcSB7jVkZkVlqcHbJYFMqZeWCWke1u3UCvnvdwOQE1hOj8V9h8Xc4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 408,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 455,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 408
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WvC_arn3FeijqfkPioqc0Qk"
+}

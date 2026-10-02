@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"Maintain a steady speed or minor adjustment as there is no immediate obstacle or conflicting actor directly in the ego vehicle's path.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TRiUIgbGBX4jDowtQ9XgnG99rLMbtC3sbAdmfHH7DaT6/1OIFzSG3nRX0XnwnFtSX0TtNIpqgCQkQznKSd/QGqFfx4mj9Ugx/Kvv8rtjwUBO1ZugO4L8Aog4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1464,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 1512,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 372
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Pu-_at_sBo20g8UP7aX5qAo"
+}

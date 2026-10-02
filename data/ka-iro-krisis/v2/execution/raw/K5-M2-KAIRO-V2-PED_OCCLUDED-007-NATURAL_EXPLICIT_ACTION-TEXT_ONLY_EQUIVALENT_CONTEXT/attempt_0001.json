@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The pedestrian is crossing from the left at $x = 24.4\\text{ m}$ with a velocity toward the path of the ego vehicle. Given the initial speed of $50\\text{ kph}$ and potential conflict ahead, applying deceleration (A3: Brake/Decelerate) is necessary to ensure safety and yield to the crossing pedestrian.",
+            "thoughtSignature": "EmAKXgFpFH0TVuHX51tNCeEKD0+clGuNhAHVD7mLjgXDlYKU4UgldjDare0+LLEeD/bx4hekmqSUrp+AzEe5z/f9VgKF3UCiper6iisTDAsj2qSIsqfCKWeqvftiDVde39o="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 469,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 387
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "LfO_avrQBo_eg8UPjenyqAQ"
+}

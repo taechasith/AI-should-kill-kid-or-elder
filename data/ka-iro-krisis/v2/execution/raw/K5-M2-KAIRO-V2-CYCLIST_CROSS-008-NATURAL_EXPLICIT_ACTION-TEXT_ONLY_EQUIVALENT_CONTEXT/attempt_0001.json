@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: A cyclist is crossing the road laterally from the left ($y = -5.0$ moving towards the ego path at $y = 0$). Maintaining speed or accelerating could lead to a collision, so applying moderate deceleration (A2) allows the ego vehicle to yield safely to the crossing cyclist.",
+            "thoughtSignature": "EmAKXgFpFH0TXL380g3O1+TSRdEtFBwSOeFi3Y7asWOI7JW5S0QvMKryz49GsbpwfQNxcVDXwzDE/UuPMJs6/w5xelAOfZ8TZAwLt0aERx58iR8YV5olOLhtFNhA6e2woqg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 452,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 385
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Te-_aoGiDb2kjuMPlbGE0Ak"
+}

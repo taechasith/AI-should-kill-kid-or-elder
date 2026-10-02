@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\n\nRationale: In this traffic scenario, there is a crossing conflict ahead where another vehicle is approaching from the cross street. Since the ego vehicle is currently traveling at 30 kph and needs to manage the interaction safely, slowing down (A2) is appropriate to yield or yield right-of-way as necessary to prevent a collision.",
+            "thoughtSignature": "EmAKXgFpFH0TXvIB8/7juWv3BlxvnTd/+9uRcajOWdnpAUNkCG2tasW6wp/JNB1BwQUbWfWq4hivND9tYTOodMw5B3sKj9ln2ZQ2k1s56T8qear0icgRnqu7AMx2LQO78qQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 1518,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "IO-_atKTBaTCg8UP2fanmAo"
+}

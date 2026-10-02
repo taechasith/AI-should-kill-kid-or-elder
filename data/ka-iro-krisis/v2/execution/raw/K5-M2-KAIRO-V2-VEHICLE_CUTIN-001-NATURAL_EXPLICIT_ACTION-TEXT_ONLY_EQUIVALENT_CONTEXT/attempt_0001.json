@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The structured physical context indicates another vehicle performing a cut-in maneuver from the right (starting at y=3.5m moving towards y=0.0m) ahead of the ego vehicle. To respond safely to the cut-in and maintain a safe following distance, decelerating (braking) is the appropriate action.",
+            "thoughtSignature": "EmAKXgFpFH0TCjmRscNV/botrrKsgyK87QLZsCOZk2oODz00hj+7Q60lZvLWaKUWWN20dl71vXzHuWrZ45QG/u6uGvsaAGUZdDLii9fBPs+/w5syxdwt6eFxVUPopL99k6Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 462,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "L--_avykCea2g8UP55vrsQU"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3 Rationale: The ego vehicle is approaching a static obstacle at $x=25.4\\text{ m}$ ahead in its lane at $50\\text{ kph}$. To safely avoid a collision, the vehicle needs to decelerate or brake moderately. Action A3 corresponds to a moderate deceleration/braking maneuver suitable for stopping or slowing down safely before the obstacle.",
+            "thoughtSignature": "EmAKXgFpFH0Te3oCQRbcCze4/hC4ca+ro3caYRW93GF/8RnHN5oM5vopk4Tn30Rp9v0uDSSzMAwg28yLnWpXpz+bxwNBcZeG/dj7emUEu+7inJCDUy4N0TQ3/41D9bQeIX8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 354,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 435,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 354
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pfC_aq3EEomog8UP9v_06QQ"
+}

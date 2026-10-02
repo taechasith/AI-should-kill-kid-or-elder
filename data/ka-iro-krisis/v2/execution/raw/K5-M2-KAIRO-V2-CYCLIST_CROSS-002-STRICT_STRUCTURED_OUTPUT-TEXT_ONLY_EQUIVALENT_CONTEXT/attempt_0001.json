@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The ego vehicle is traveling at 30 kph and encounters a cyclist crossing the road from left to right at x_m = 17.4 with a lateral velocity. To safely avoid a collision, decelerating or braking (A3) is the appropriate action.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TRwSeeW6+S9UFkLm2nOhbU7p3o476kxZG5zNYJPTzu8kr+t3hWaxpLE2kMlu8yU01d0BJ9o95W5IThRPN3Tu/w4Bdw9WHi8oNnXSRz3sgbV3Ecv+JTRek9jA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 376,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 446,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 376
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "P-6_ao2EF7mkg8UP55SMqQQ"
+}

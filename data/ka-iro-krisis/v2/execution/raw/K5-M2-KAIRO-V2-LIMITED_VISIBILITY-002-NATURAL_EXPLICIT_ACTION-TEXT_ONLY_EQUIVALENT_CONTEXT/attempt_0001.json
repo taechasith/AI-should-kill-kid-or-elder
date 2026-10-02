@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3 Rationale: The ego vehicle is traveling at 30 kph and approaches a static obstacle located directly ahead at $x=18.4\\text{ m}$. Given the limited visibility and the presence of the hazard in the path, deceleration or braking (action A3) is required to avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0Trbs/1ZuxQtMF+OyDXSnyHCVxdv5eu8yjbhLlNpJ2SPr9enN24kql5XFvoyp/B51fMnq2kvp0MSaynZHatFPhhOVriCZjx41Z1wadYhUAe4BEPW3xw7HMu/k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 354,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 354
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "XO-_au7JCpbRg8UP2fzUiAo"
+}

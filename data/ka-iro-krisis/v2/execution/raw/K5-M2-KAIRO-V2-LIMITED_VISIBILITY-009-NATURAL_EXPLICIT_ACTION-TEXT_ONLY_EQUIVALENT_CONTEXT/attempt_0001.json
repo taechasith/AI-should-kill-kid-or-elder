@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1 Rationale: The ego vehicle is approaching a static obstacle located directly ahead at $x=28.2\\text{ m}$ in the lane. With an initial speed of 50 kph and good control options, slowing down or braking (A1) is necessary to avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0TarsHw1MhU51lfBJHal5G3PTRcvArhFbrXGZfihJI8PacVZHFabjhkLu+Qwo00/0Q431LrzpIJBKRUgyNet4YVZx6ALTjlFXe29egIYqBd3SvhHGIlgtEyA0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 354,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 419,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 354
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Ee-_as2hB6Xcg8UP9OCo0Qk"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight along its lane at a steady speed (30 kph) with no immediate obstacles or hazards ahead in its immediate path, and no urgent maneuvers are required at this stage.",
+            "thoughtSignature": "EmAKXgFpFH0TTNbGQUfCIH51QEqvga4+twv77qQBswGJS+CZb2HWa14xwebm4Xtdb0Kx64cQMLEpE3ADorEctwftEt1UHWhSB7uUVYsSToFZTSvW6LN8AfGavKdTC0RGZtM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1476,
+    "candidatesTokenCount": 49,
+    "totalTokenCount": 1525,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 384
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "S_O_auD2CJWqg8UPkI-I6AQ"
+}

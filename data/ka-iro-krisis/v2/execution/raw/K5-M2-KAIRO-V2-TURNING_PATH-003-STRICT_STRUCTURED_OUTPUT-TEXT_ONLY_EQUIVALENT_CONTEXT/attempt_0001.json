@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting into the ego's lane ahead at a close distance, requiring deceleration (braking) to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TUbdkIqHqfr7XiXULnGlLCcUTIcxDnzUIEuR/C83cHz3nqiw2onW+mEPNMsOCUu4cirIJ0vQlW46pG5yzQeU1lHAR8eA99O85q8i4Jj1C4iHfn8jjxy2PwUo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 408,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 449,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 408
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dfK_arDvIZDm4-EPooyF-AQ"
+}

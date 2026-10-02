@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The pedestrian is actively crossing the road ahead (at x=23.0m, y=-4.0m moving left with a velocity of 1.6 m/s). Since the ego vehicle is traveling at 30 kph, a slight deceleration or maintaining caution (A1: maintain speed/light deceleration or moderate control) is appropriate to ensure safe clearance without an emergency stop, as the pedestrian is still distant and moving across.",
+            "thoughtSignature": "EmAKXgFpFH0TjP9o1GSWQ1VMugy6VhehFcljrP1uL8vBz8qm01dyRL+I3omf1IT7+T8QdNKP3YgzzNUOWGnvo+i0v1F0EXIPKtKNKMJthz4L6usXZVwQTgV/M6ktIcMHUQ4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 356,
+    "candidatesTokenCount": 98,
+    "totalTokenCount": 454,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 356
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "PPO_ap67C6urg8UPxJ_wsAo"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is approaching a pedestrian crossing from the left side ahead at x = 28.6m. Maintaining speed (A0) allows safe progression while monitoring the pedestrian's crossing motion.",
+            "thoughtSignature": "EmAKXgFpFH0T9ch/z0Mve2mSU4UgzuKGEXLif2JVaF9xPLMXcsd2Jkjy3m7M3WHfBgx8zYzORVVCL6bgskIMoh2mR264YkjeyqiVqsJIVAcoREyEPJI2AOsGqgcyFhVTRb0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1441,
+    "candidatesTokenCount": 49,
+    "totalTokenCount": 1490,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Au-_apCLCaDag8UP7P6K-QM"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured context indicates a static obstacle (hidden_obstacle) located directly ahead at $x=17.0$ m, $y=0.0$ m, while the ego vehicle is traveling at an initial speed of 50 kph. Given the close proximity of the hazard, significant deceleration is required to avoid a collision. Action A3 corresponds to heavy braking/stopping.",
+            "thoughtSignature": "EmAKXgFpFH0T7ZgBSs6ehniY+GJQNsXJV6Ve5tZMpOZbBr6ulC3ePUQXUCMIDD8TPqE4s4sPa42zv/Gm3hXjTIHLibSmp8hTCD6qNYDSSq6iCiKWdpnFHyBHtOh5PxTWyZE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 354,
+    "candidatesTokenCount": 86,
+    "totalTokenCount": 440,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 354
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Ae-_apymAq_fg8UP7YXJkAg"
+}

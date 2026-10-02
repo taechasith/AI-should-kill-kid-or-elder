@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A pedestrian is crossing the road ahead at a distance of 20.2 meters; maintaining speed or preparing to decelerate is necessary to ensure safety.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T5VSLoWZcJN0Hup421CZZ4Uul1oiWikCl3UxYvWytQblDNHLmLRqpudTgTcOWEWHk0Ihcqci4uz0Kq5opo5D+YgdkxNKG7JRiyViuzbMhqDqX4B2ihCFsK3s="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 405,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 450,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 405
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "h_C_auSXF__Fg8UP1e-duAo"
+}

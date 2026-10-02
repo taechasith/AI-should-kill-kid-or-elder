@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4 Rationale: The ego vehicle is approaching a stationary obstacle directly ahead in its lane at $x = 16.2$ m. To avoid a collision, the vehicle needs to brake and stop safely. Action A4 corresponds to braking/stopping.",
+            "thoughtSignature": "EmAKXgFpFH0T3VutLCzyqaaVWFr1Ax6wKfLn01T2LvaMuXRAMjMHcrdh+7XQmRaS7lhon+rI56RlL+PHT/hcwOb66X7W1tDtWUkvi2Isdqn6e2cLu3sfj/WTdIwePvQ7xR4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 396,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bO6_arGlG-ijqfkPioqc0Qk"
+}

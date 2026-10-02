@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"The ego vehicle is proceeding straight at a moderate speed of 30 kph with no immediate obstruction or conflicting actor within close proximity ahead, allowing safe continued travel.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T0tw9gCypSpCzcuQ9RdKcDeCa6awDOoJToprGmQuDJ63TMBmu0KLxqcXh4+UWg99sbpuN8BOtNDPOLf/O2vLkyzR0yzL/QpWiL3CkScSKTm/C+FFUck6UTmQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1492,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 1548,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 400
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "7vG_ap_3Go20g8UP7aX5qAo"
+}

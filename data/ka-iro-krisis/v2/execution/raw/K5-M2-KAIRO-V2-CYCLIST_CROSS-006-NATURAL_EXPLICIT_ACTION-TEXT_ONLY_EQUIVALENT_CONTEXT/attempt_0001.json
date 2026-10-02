@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The cyclist is crossing from the left at $x = 23.0\\text{ m}$ with a lateral velocity. Maintaining speed or braking moderately (A2) allows the ego vehicle to yield or adjust safely to the crossing path without harsh deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0TdDAeBFIkv7/igSNG54LOF+Nosggb0zcefISIerDs1xT+E6eOJ6P6pHWqHP4rFY8MLjW1E+4ghb+5VCyam/eg15+R3AK/oqfHWLFmdEF6gImqP+6Uk6vVMdM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 357,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 416,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 357
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "mO-_av66EJfQg8UPotuiuQk"
+}

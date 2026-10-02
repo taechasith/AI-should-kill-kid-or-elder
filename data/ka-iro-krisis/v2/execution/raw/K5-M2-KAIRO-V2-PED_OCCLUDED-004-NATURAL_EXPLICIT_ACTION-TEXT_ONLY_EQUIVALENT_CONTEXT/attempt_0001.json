@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3 Rationale: The pedestrian is crossing from the left at $x = 20.2$ m with a lateral velocity, creating a potential conflict ahead. Given the ego speed of 30 kph, decelerating moderately (A3) is appropriate to yield and ensure safe passage.",
+            "thoughtSignature": "EmAKXgFpFH0TgFd77t1E+xQ6Wm+AkVDiEtSJqR7d/Vk4SyJJF58JIKcFp/5VEakjQvv4PG0pZyzvlbxh1/TpZL/CfmLCt0mPKalEKDwRJ68ueV0XCqLknat1hLw00L/6nv4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 449,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lvC_aqf1FMe-g8UPhab10AU"
+}

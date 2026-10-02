@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The cyclist is located at x = 24.4 m, crossing from y = -5.0 m with a positive lateral velocity of 3.9 m/s. The ego vehicle is traveling at 50 kph and is currently far away from the conflict point, meaning safe passage is established without requiring braking or steering adjustments.",
+            "thoughtSignature": "EmAKXgFpFH0TDdjykhxI7LBbdWr+yHK8UNvGg+65vxGItxjXulmewBOHiQxNauLrjHnNg3X/yfx37igd67ntluhyJRExYX6NNv2bFUyMoE5rAMeanSHYw+xyBAyzaQn17VM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1440,
+    "candidatesTokenCount": 77,
+    "totalTokenCount": 1517,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "APO_avegCfvHg8UP4-XIsQQ"
+}

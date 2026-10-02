@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The cyclist is crossing the road ahead at x = 24.4 m with a lateral velocity. To safely yield and maintain adequate separation, decelerating (A1) is the appropriate action.",
+            "thoughtSignature": "EmAKXgFpFH0TVAbO7/EnH9EX+Zd3aod2ojgPzGeQtyUuLLWEJucbKdfeLy2EUd9Q6mbO6PwykZxIP0Kg1Wb/j4LBiEb+6FD/T5SF5VxG9MahXTNWlHrN/Yq8hlD8PpRo/yw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 355,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 402,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 355
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WfG_apTCEo_eg8UPvOPcyAk"
+}
