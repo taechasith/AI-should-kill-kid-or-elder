@@ -1,0 +1,19 @@
+{
+  "project_id": "ka-iro-krisis-v2",
+  "gate": "K4",
+  "execution_date": "2026-10-02",
+  "provider_generation_calls": 0,
+  "cost_status": "ZERO_COST_ELIGIBILITY_NOT_VERIFIED",
+  "credential_presence": {
+    "GEMINI_API_KEY": "MISSING",
+    "GROQ_API_KEY": "MISSING"
+  },
+  "planned_routes": [
+    {"provider": "Google Gemini API", "model_id": "gemini-3.5-flash", "status": "CREDENTIAL_MISSING"},
+    {"provider": "Google Gemini API", "model_id": "gemini-3.5-flash-lite", "status": "CREDENTIAL_MISSING"},
+    {"provider": "Groq", "model_id": "qwen/qwen3.8-27b", "status": "CREDENTIAL_MISSING"}
+  ],
+  "gate_result": "STOPPED_BEFORE_PROVIDER_METADATA_OR_GENERATION",
+  "reason": "The authorized zero-cost credentials were unavailable in the authoritative execution environment. No endpoint availability claim, free-tier claim, or model request is made.",
+  "next_permitted_action": "Restore credentials in the authorized Codespace, then run a metadata-only preflight before any generation request."
+}
