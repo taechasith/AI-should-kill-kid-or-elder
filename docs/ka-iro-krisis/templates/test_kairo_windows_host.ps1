@@ -14,6 +14,15 @@ if($LASTEXITCODE -ne 0){throw 'installer failed'}
 if(-not(Get-ScheduledTask -TaskName 'KA-IRO-KRISIS-CodespaceSupervisor' -ErrorAction SilentlyContinue)){throw 'scheduled task missing'}
 Get-ScheduledTaskInfo -TaskName 'KA-IRO-KRISIS-CodespaceSupervisor'|Out-Null
 $installed=Join-Path $env:LOCALAPPDATA 'KAIROKRISIS\kairo_codespace_supervisor.ps1'
+$registered=Get-ScheduledTask -TaskName 'KA-IRO-KRISIS-CodespaceSupervisor'
+$action=@($registered.Actions)[0]
+$expectedExe=Join-Path $env:SystemRoot 'System32\WindowsPowerShell\v1.0\powershell.exe'
+if($action.Execute -ne $expectedExe){throw 'task action executable mismatch'}
+if($action.Arguments -notlike "*`"$installed`"*"){throw 'task action path is truncated or unquoted'}
+# Regression fixture: ScheduledTasks must retain an ordinary profile path containing spaces.
+$synthetic='C:\Users\HP OMEN\AppData\Local\KAIROKRISIS\kairo_codespace_supervisor.ps1'
+$syntheticAction=New-ScheduledTaskAction -Execute $expectedExe -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$synthetic`""
+if($syntheticAction.Arguments -notlike "*`"$synthetic`"*"){throw 'space-containing path regression'}
 & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $installed
 if($LASTEXITCODE -ne 0){throw 'manual supervisor run failed'}
 $health=gh codespace ssh -c $CodespaceName -- "cd $RemoteWorktree && bash scripts/kairo_health.sh"

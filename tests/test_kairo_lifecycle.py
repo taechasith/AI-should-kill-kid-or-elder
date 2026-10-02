@@ -43,12 +43,17 @@ class LifecycleTests(unittest.TestCase):
   repo=Path(__file__).resolve().parents[1]; text=(repo/'docs/ka-iro-krisis/templates/bootstrap_kairo_supervisor.ps1').read_text()
   self.assertIn('$LASTEXITCODE -ne 0',text); self.assertIn('[scriptblock]::Create',text); self.assertIn('download failed',text)
   self.assertIn('invalid PowerShell download',text); self.assertLess(text.index('Get-ValidatedScript'),text.index("& (Join-Path $dir 'test_kairo_windows_host.ps1')"))
- def test_supervisor_daily_recurrence_and_safe_rehydration(self):
+ def test_supervisor_construction_time_recurrence_and_safe_rehydration(self):
   repo=Path(__file__).resolve().parents[1]
   installer=(repo/'docs/ka-iro-krisis/templates/install_kairo_supervisor.ps1').read_text(); supervisor=(repo/'docs/ka-iro-krisis/templates/kairo_codespace_supervisor.ps1').read_text()
-  self.assertIn('schtasks.exe /Create',installer); self.assertIn('/SC MINUTE /MO 5',installer); self.assertIn('StartWhenAvailable',installer)
-  self.assertNotIn('RepetitionInterval',installer); self.assertNotIn('$rehydrate=',supervisor)
+  self.assertIn('New-ScheduledTaskAction',installer); self.assertIn('New-ScheduledTaskTrigger -Once',installer); self.assertIn('-RepetitionInterval (New-TimeSpan -Minutes 5)',installer); self.assertIn('-RepetitionDuration (New-TimeSpan -Days 3650)',installer); self.assertIn('StartWhenAvailable',installer)
+  self.assertNotIn('schtasks.exe',installer); self.assertNotIn('$rehydrate=',supervisor)
   self.assertIn('worktree add --detach',supervisor); self.assertIn('fetch origin',supervisor); self.assertIn('rev-parse HEAD',supervisor); self.assertIn('rev-parse origin/',supervisor)
+ def test_windows_path_with_spaces_remains_quoted(self):
+  repo=Path(__file__).resolve().parents[1]
+  installer=(repo/'docs/ka-iro-krisis/templates/install_kairo_supervisor.ps1').read_text(); host=(repo/'docs/ka-iro-krisis/templates/test_kairo_windows_host.ps1').read_text(); bootstrap=(repo/'docs/ka-iro-krisis/templates/bootstrap_kairo_supervisor.ps1').read_text()
+  self.assertIn('`"$ScriptPath`"',installer); self.assertIn('C:\\Users\\HP OMEN\\AppData\\Local\\KAIROKRISIS\\kairo_codespace_supervisor.ps1',host)
+  self.assertIn("Join-Path $env:LOCALAPPDATA 'KAIROKRISIS\\bootstrap'",bootstrap); self.assertIn('[System.IO.File]::Copy',bootstrap)
  def test_real_host_acceptance_script_is_fail_closed(self):
   repo=Path(__file__).resolve().parents[1]; text=(repo/'docs/ka-iro-krisis/templates/test_kairo_windows_host.ps1').read_text()
   for expected in ('[scriptblock]::Create','gh auth status','Get-ScheduledTask','Get-ScheduledTaskInfo','manual supervisor run failed','remote health check failed'):
