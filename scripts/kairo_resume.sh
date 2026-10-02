@@ -18,10 +18,24 @@ for key in GEMINI_API_KEY GROQ_API_KEY; do
   [[ -n "${!key:-}" ]] || { echo "{\"runner\":\"PRELIVE\",\"credential\":\"$key\",\"presence\":\"MISSING\"}"; exit 3; }
 done
 if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]]; then
-  gate=$(python - <<'PY'
+  quota_status=$(python scripts/run_kairo_krisis.py --quota-status)
+  # Preserve derived provider reset metadata for health/audit without storing
+  # credentials or response content.
+  python - "$quota_status" <<'PY'
 import json
+from pathlib import Path
+path=Path('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT')
+current=json.loads(path.read_text())
+candidate=json.loads(__import__('sys').argv[1]).get('next_resume_utc')
+if candidate:
+    current['next_resume_utc']=candidate
+    path.write_text(json.dumps(current,sort_keys=True)+'\n')
+PY
+  gate=$(python - "$quota_status" <<'PY'
+import json
+import sys
 from datetime import datetime, timezone
-v=json.load(open('/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT')); when=v.get('next_resume_utc')
+v=json.loads(sys.argv[1]); when=v.get('next_resume_utc')
 if not when: print('WAIT')
 else:
     try: print('READY' if datetime.fromisoformat(when.replace('Z','+00:00')) <= datetime.now(timezone.utc) else 'WAIT')

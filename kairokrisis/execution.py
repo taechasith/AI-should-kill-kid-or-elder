@@ -9,8 +9,9 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import tempfile
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -54,6 +55,44 @@ def load(path: Path) -> dict[str, Any]:
 
 def safe_headers(headers: Any) -> dict[str, str]:
     return {str(k).lower(): str(v) for k, v in headers.items() if str(k).lower() in RATE_HEADERS}
+
+
+def quota_next_eligible_utc(raw: bytes, headers: dict[str, str] | None = None, observed_at_utc: str | None = None) -> str | None:
+    """Return a provider-supplied, non-secret quota reset time when available.
+
+    This is scheduling metadata only.  It never changes membership or the
+    frozen request.  Gemini commonly reports a protobuf-style ``retryDelay``
+    in its structured error body; standard ``Retry-After`` remains supported
+    for providers that expose it instead.
+    """
+    delay: float | None = None
+    if headers and headers.get("retry-after"):
+        try:
+            delay = float(headers["retry-after"])
+        except ValueError:
+            pass
+    if delay is None:
+        try:
+            document = json.loads(raw)
+            error = document.get("error", {}) if isinstance(document, dict) else {}
+            details = error.get("details", []) if isinstance(error, dict) else []
+            candidates = [document.get("retryDelay") if isinstance(document, dict) else None,
+                          error.get("retryDelay") if isinstance(error, dict) else None]
+            candidates.extend(item.get("retryDelay") for item in details if isinstance(item, dict))
+            for value in candidates:
+                match = re.fullmatch(r"(\d+(?:\.\d+)?)s", str(value or ""))
+                if match:
+                    delay = float(match.group(1)); break
+        except (TypeError, json.JSONDecodeError):
+            pass
+    if delay is None or delay < 0:
+        return None
+    try:
+        observed = datetime.fromisoformat((observed_at_utc or "").replace("Z", "+00:00"))
+        if observed.tzinfo is None: observed = observed.replace(tzinfo=timezone.utc)
+    except ValueError:
+        observed = datetime.now(timezone.utc)
+    return (observed + timedelta(seconds=delay)).isoformat().replace("+00:00", "Z")
 
 
 def _response_text(raw: bytes) -> str | None:
@@ -177,7 +216,9 @@ class Ledger:
         retry_permitted = not terminal and classification != "FREE_QUOTA_EXHAUSTED" and ordinal < self.max_transient_attempts
         if not terminal and classification != "FREE_QUOTA_EXHAUSTED" and not retry_permitted:
             classification, terminal = "RETRY_EXHAUSTED", True
-        record = {"schema_version": "ka-iro-krisis-attempt-v1", "observation_id": oid, "attempt_number": ordinal, "phase": row["phase"], "provider": row["provider"], "model_id": row["model_id"], "request_timestamp_utc": start_state.get("updated_at_utc"), "response_timestamp_utc": utcnow(), "http_status": status, "raw_response_reference": str(raw_path) if raw_path else None, "raw_response_sha256": sha(raw) if raw else None, "rate_limit_headers": safe_headers(headers), "transport_result": transport, "parsed_terminal_state": classification, "terminal": terminal, "retry_permitted": retry_permitted, "planning_object_sha256": row.get("planning_object_sha256", row.get("final_request_payload_sha256")), "request_body_sha256": row.get("request_body_sha256"), "prompt_hash": row.get("prompt_sha256"), "input_hash": row.get("input_sha256")}
+        response_timestamp_utc = utcnow()
+        next_eligible_utc = quota_next_eligible_utc(raw, safe_headers(headers), response_timestamp_utc) if classification == "FREE_QUOTA_EXHAUSTED" else None
+        record = {"schema_version": "ka-iro-krisis-attempt-v1", "observation_id": oid, "attempt_number": ordinal, "phase": row["phase"], "provider": row["provider"], "model_id": row["model_id"], "request_timestamp_utc": start_state.get("updated_at_utc"), "response_timestamp_utc": response_timestamp_utc, "http_status": status, "raw_response_reference": str(raw_path) if raw_path else None, "raw_response_sha256": sha(raw) if raw else None, "rate_limit_headers": safe_headers(headers), "transport_result": transport, "parsed_terminal_state": classification, "terminal": terminal, "retry_permitted": retry_permitted, "next_eligible_utc": next_eligible_utc, "planning_object_sha256": row.get("planning_object_sha256", row.get("final_request_payload_sha256")), "request_body_sha256": row.get("request_body_sha256"), "prompt_hash": row.get("prompt_sha256"), "input_hash": row.get("input_sha256")}
         atomic(self.root / "attempts" / oid / f"attempt_{ordinal:04}.json", canon(record), replace=False)
         self.mark_state(oid, "ATTEMPT_FINALIZED", attempt_number=ordinal)
         if crash_at == "after_finalized": raise RuntimeError("SIMULATED_CRASH_AFTER_ATTEMPT_FINALIZED")
@@ -187,7 +228,7 @@ class Ledger:
             if crash_at == "after_parsed": raise RuntimeError("SIMULATED_CRASH_AFTER_PARSED")
             self.mark_state(oid, "TERMINAL", attempt_number=ordinal, terminal_state=classification)
         elif classification == "FREE_QUOTA_EXHAUSTED":
-            self.mark_state(oid, "QUOTA_DEFERRED", attempt_number=ordinal, next_eligible_utc=None, rate_limit_headers=safe_headers(headers))
+            self.mark_state(oid, "QUOTA_DEFERRED", attempt_number=ordinal, next_eligible_utc=next_eligible_utc, rate_limit_headers=safe_headers(headers))
         else:
             self.mark_state(oid, "RETRY_DEFERRED", attempt_number=ordinal)
         return record

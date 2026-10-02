@@ -3,7 +3,7 @@ from __future__ import annotations
 import importlib.util, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
-from kairokrisis.execution import Ledger, classify, dispatch_once, sha, verify
+from kairokrisis.execution import Ledger, classify, dispatch_once, quota_next_eligible_utc, sha, verify
 
 VALID=b'{"choices":[{"message":{"content":"{\\"selected_action_id\\":\\"A0\\"}"}}]}'
 MALFORMED=b'{"choices":[{"message":{"content":"not json"}}]}'
@@ -42,6 +42,14 @@ class ExecutionMatrix(unittest.TestCase):
    # Scheduler, not sampling, may later mark the same row eligible.
    ledger.mark_state('O1','RETRY_DEFERRED'); ledger.finalize(row,ledger.start(row),200,VALID,{})
    self.assertTrue(ledger.terminal('O1')); self.assertEqual(len(ledger.attempts('O1')),2)
+ def test_quota_retry_delay_is_durable_and_nonsecret(self):
+  raw=b'{"error":{"message":"quota_exceeded","details":[{"retryDelay":"90s"}]}}'
+  self.assertEqual(quota_next_eligible_utc(raw,{},'2026-01-01T00:00:00Z'),'2026-01-01T00:01:30Z')
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t); row=self.row(root); ledger=Ledger(root)
+   record=ledger.finalize(row,ledger.start(row),429,raw,{})
+   self.assertIsNotNone(record['next_eligible_utc'])
+   self.assertEqual(ledger.state('O1')['next_eligible_utc'],record['next_eligible_utc'])
  def test_crash_after_started_is_ambiguous_not_replayed(self):
   with tempfile.TemporaryDirectory() as t:
    root=Path(t); row=self.row(root); ledger=Ledger(root); ledger.start(row); ledger.recover()

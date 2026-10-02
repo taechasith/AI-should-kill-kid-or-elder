@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse, json, os, sys, subprocess, time
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]; sys.path.insert(0, str(ROOT))
-from kairokrisis.execution import Ledger, authenticated_headers, dispatch_once, verify
+from kairokrisis.execution import Ledger, authenticated_headers, dispatch_once, verify, quota_next_eligible_utc
 from kairokrisis.lifecycle import acquire, release, state as lifecycle_state, should_rollover, set_rollover, set_quota_wait, heartbeat_start, heartbeat_stop
 from kairokrisis.serialization import serialized
 K5 = ROOT / 'data/ka-iro-krisis/v2/request_serialization_v1/k5_execution_manifest.json'
@@ -40,11 +40,46 @@ def next_safe(all_rows,ledger,paused=None):
     # K6 is a separate frozen experiment and may not begin new dispatches until K5 completes.
     k5_incomplete=any(not ledger.terminal(row['observation_id']) for row in all_rows if row['phase']=='K5')
     eligible_phase='K5' if k5_incomplete else 'K6'
+    # A deferred attempt has precedence over a fresh row: a quota/retry pause
+    # resumes the exact frozen observation instead of silently moving on.
+    eligible=[]
     for row in all_rows:
         if row['phase'] != eligible_phase: continue
         if paused and (row['provider'],row['model_id']) in paused: continue
-        if ledger.state(row['observation_id'])['state'] in {'PLANNED','RETRY_DEFERRED'}: return row
+        state=ledger.state(row['observation_id'])['state']
+        if state in {'PLANNED','RETRY_DEFERRED'}: eligible.append((state,row))
+    for state,row in eligible:
+        if state == 'RETRY_DEFERRED': return row
+    for state,row in eligible:
+        if state == 'PLANNED': return row
     return None
+
+def reconcile_quota_deferrals(all_rows, ledger):
+    """Derive missing legacy reset metadata and reactivate only elapsed rows."""
+    from datetime import datetime, timezone
+    now=datetime.now(timezone.utc)
+    due=[]
+    for row in all_rows:
+        state=ledger.state(row['observation_id'])
+        if state.get('state') != 'QUOTA_DEFERRED': continue
+        when=state.get('next_eligible_utc')
+        records=ledger.records(row['observation_id'])
+        # Older records predate durable reset timestamps; their derived state
+        # may contain a later reconciliation estimate.  Recompute from the
+        # immutable raw response and original response timestamp instead.
+        if records and not records[-1].get('next_eligible_utc'):
+            ref=records[-1].get('raw_response_reference')
+            if ref and Path(ref).is_file():
+                when=quota_next_eligible_utc(Path(ref).read_bytes(), records[-1].get('rate_limit_headers',{}), records[-1].get('response_timestamp_utc'))
+                ledger.mark_state(row['observation_id'],'QUOTA_DEFERRED',attempt_number=state.get('attempt_number'),next_eligible_utc=when,rate_limit_headers=state.get('rate_limit_headers',{}))
+        if when:
+            try:
+                if datetime.fromisoformat(when.replace('Z','+00:00')) <= now:
+                    ledger.mark_state(row['observation_id'],'RETRY_DEFERRED',attempt_number=state.get('attempt_number'),quota_resume=True)
+                    due.append(row['observation_id'])
+            except ValueError:
+                pass
+    return due
 
 def execute_one(row, ledger, dispatch=dispatch_once, headers_factory=authenticated_headers):
     """Production attempt path; tests inject only the single-dispatch boundary."""
@@ -74,12 +109,17 @@ def summary(all_rows,ledger):
     return {'k5':counts['K5'],'k6':counts['K6'],'total_planned':1200,'total_terminal':counts['K5']['terminal']+counts['K6']['terminal'],'total_attempts':attempts,'http_statuses':statuses,'live_generation_calls':attempts}
 
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--status',action='store_true'); parser.add_argument('--run-one',action='store_true'); parser.add_argument('--run-until-stop',action='store_true'); args=parser.parse_args()
+    parser=argparse.ArgumentParser(); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--status',action='store_true'); parser.add_argument('--quota-status',action='store_true'); parser.add_argument('--run-one',action='store_true'); parser.add_argument('--run-until-stop',action='store_true'); args=parser.parse_args()
     all_rows=rows(); ledger=Ledger(OUT)
     if args.status: print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
+    if args.quota_status:
+        reconcile_quota_deferrals(all_rows,ledger)
+        waits=[ledger.state(row['observation_id']).get('next_eligible_utc') for row in all_rows if ledger.state(row['observation_id']).get('state') == 'QUOTA_DEFERRED']
+        waits=[value for value in waits if value]
+        print(json.dumps({'next_resume_utc':min(waits) if waits else None},sort_keys=True)); return 0
     if not acquire(): print(json.dumps({'runner':'ALREADY_RUNNING'})); return 0
     try:
-        ledger.recover()
+        ledger.recover(); reconcile_quota_deferrals(all_rows,ledger)
         if args.dry_run:
             for row in all_rows: verified(row)
             lifecycle_state('PRELIVE',verified_rows=len(all_rows)); print(json.dumps({'dry_run':True,'verified_rows':len(all_rows),'provider_requests':0})); return 0
@@ -100,7 +140,7 @@ def main():
                 completed_since_audit+=1
                 lifecycle_state('RUNNING',phase=row['phase'],observation_id=row['observation_id'])
                 if record['parsed_terminal_state']=='FREE_QUOTA_EXHAUSTED':
-                    set_quota_wait(None,row['provider']); return 75
+                    set_quota_wait(record.get('next_eligible_utc'),row['provider']); return 75
                 print(json.dumps({'observation_id':row['observation_id'],'attempt':record['attempt_number'],'terminal_state':record['parsed_terminal_state']}))
                 if completed_since_audit>=20 or time.monotonic()-last_audit>=600:
                     audit_progress(); completed_since_audit=0; last_audit=time.monotonic()
