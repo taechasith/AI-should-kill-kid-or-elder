@@ -10,6 +10,8 @@ $dst="$env:TEMP\bootstrap_kairo_supervisor.ps1"; gh api -H "Accept: application/
 
 Expected Scheduled Task: `KA-IRO-KRISIS-CodespaceSupervisor`.
 
+The completed executor/lifecycle checkpoint is `ka-iro-krisis-executor-lifecycle-v2` (the earlier `ka-iro-krisis-executor-v1` tag remains preserved as its historical checkpoint).
+
 Successful bootstrap prints `KA-IRO bootstrap succeeded.` To verify later, run:
 
 ```powershell

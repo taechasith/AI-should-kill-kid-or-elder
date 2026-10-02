@@ -1,6 +1,6 @@
 """Mock-only recovery matrix for the production KA-IRO execution core."""
 from __future__ import annotations
-import importlib.util, json, tempfile, unittest
+import importlib.util, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
 from kairokrisis.execution import Ledger, classify, dispatch_once, sha, verify
@@ -88,5 +88,14 @@ class ExecutionMatrix(unittest.TestCase):
    with self.subTest(status=status), tempfile.TemporaryDirectory() as t:
     root=Path(t); row=self.row(root); ledger=Ledger(root); ledger.finalize(row,ledger.start(row),status,b'{}',{},transport)
     self.assertTrue(ledger.terminal('O1')); self.assertIsNone(ledger.start(row))
+ def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
+  repo=Path(__file__).resolve().parents[1]
+  with tempfile.TemporaryDirectory() as t:
+   root=Path(t); asset=root/'asset'; asset.write_bytes(b'x')
+   row={'observation_id':'SUB','phase':'K5','provider':'Groq','model_id':'qwen/qwen3.8-27b'}
+   program="from pathlib import Path; from kairokrisis.execution import Ledger; import json; r=json.loads(%r); Ledger(Path(%r)).start(r)" % (json.dumps(row),str(root/'ledger'))
+   subprocess.run([sys.executable,'-c',program],cwd=repo,check=True)
+   ledger=Ledger(root/'ledger'); self.assertEqual(ledger.recover(),['SUB'])
+   self.assertTrue(ledger.terminal('SUB')); self.assertIsNone(ledger.start(row))
 
 if __name__=='__main__': unittest.main()
