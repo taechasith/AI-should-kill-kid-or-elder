@@ -124,6 +124,11 @@ class ExecutionMatrix(unittest.TestCase):
   paused=module.paused_routes(rows,Fake())
   self.assertEqual(paused[('Google Gemini API','gemini-3.5-flash')],'QUOTA_DEFERRED')
   self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'lite')
+ def test_tuple_keyed_route_status_is_json_safe(self):
+  repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner_route_status',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+  routes=module.route_status({('Google Gemini API','gemini-3.5-flash'):'QUOTA_DEFERRED'})
+  self.assertEqual(routes,{'Google Gemini API::gemini-3.5-flash':'QUOTA_DEFERRED'})
+  json.dumps(routes)
  def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
   repo=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as t:

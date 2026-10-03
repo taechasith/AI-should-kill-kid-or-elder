@@ -36,6 +36,7 @@ class LifecycleTests(unittest.TestCase):
   repo=Path(__file__).resolve().parents[1]
   resume=(repo/'scripts/kairo_resume.sh').read_text(); health=(repo/'scripts/kairo_health.sh').read_text()
   self.assertIn('ka-iro-krisis-executor-v1',resume); self.assertIn('KAIRO_LIVE_EXECUTION_ENABLED',resume)
+  self.assertIn('The durable ledger, rather than an ephemeral /tmp marker',resume)
   self.assertIn('"runner"',health); self.assertIn('next_resume_utc',health); self.assertIn('ka-iro-runner.lock',health)
   self.assertIn("QUOTA_DEFERRED",health); self.assertIn("append-only execution ledger",health)
  def test_shell_scripts_are_safe_syntax(self):

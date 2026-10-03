@@ -38,6 +38,10 @@ def paused_routes(all_rows,ledger):
             paused[(row['provider'],row['model_id'])]='QUOTA_DEFERRED'
     return paused
 
+def route_status(paused):
+    """Make tuple-keyed route state safe for the durable JSON lifecycle log."""
+    return {f'{provider}::{model}': reason for (provider,model),reason in sorted(paused.items())}
+
 def next_safe(all_rows,ledger,paused=None):
     # K6 is a separate frozen experiment and may not begin new dispatches until K5 completes.
     k5_incomplete=any(not ledger.terminal(row['observation_id']) for row in all_rows if row['phase']=='K5')
@@ -136,7 +140,11 @@ def main():
                 paused=paused_routes(all_rows,ledger); row=next_safe(all_rows,ledger,paused)
                 if row is None:
                     remaining=any(not ledger.terminal(item['observation_id']) for item in all_rows)
-                    if remaining: lifecycle_state('ROUTE_PAUSED',routes=paused); print(json.dumps({'runner':'ROUTE_PAUSED','routes':paused})); return 75
+                    if remaining:
+                        safe_routes=route_status(paused)
+                        lifecycle_state('ROUTE_PAUSED',routes=safe_routes)
+                        print(json.dumps({'runner':'ROUTE_PAUSED','routes':safe_routes},sort_keys=True))
+                        return 75
                     lifecycle_state('DONE'); print(json.dumps(summary(all_rows,ledger),sort_keys=True)); return 0
                 pace(row,last_dispatch)
                 record=execute_one(row,ledger)

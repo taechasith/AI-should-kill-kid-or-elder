@@ -17,8 +17,32 @@ python scripts/run_kairo_krisis.py --dry-run >/dev/null
 for key in GEMINI_API_KEY GROQ_API_KEY; do
   [[ -n "${!key:-}" ]] || { echo "{\"runner\":\"PRELIVE\",\"credential\":\"$key\",\"presence\":\"MISSING\"}"; exit 3; }
 done
+quota_status=$(python scripts/run_kairo_krisis.py --quota-status)
+# The durable ledger, rather than an ephemeral /tmp marker, controls the
+# resume gate.  Never dispatch an observation before its recorded eligibility.
+quota_gate=$(python - "$quota_status" <<'PY'
+import json,sys
+from datetime import datetime, timezone
+when=json.loads(sys.argv[1]).get('next_resume_utc')
+if not when:
+    print('READY')
+else:
+    try:
+        ready=datetime.fromisoformat(when.replace('Z','+00:00')) <= datetime.now(timezone.utc)
+    except ValueError:
+        ready=False
+    print('READY' if ready else 'WAIT')
+PY
+)
+if [[ "$quota_gate" != READY ]]; then
+  printf '{"runner":"QUOTA_WAIT","next_resume_utc":%s}\n' "$(python - "$quota_status" <<'PY'
+import json,sys
+print(json.dumps(json.loads(sys.argv[1]).get('next_resume_utc')))
+PY
+)"
+  exit 75
+fi
 if [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]]; then
-  quota_status=$(python scripts/run_kairo_krisis.py --quota-status)
   # Preserve derived provider reset metadata for health/audit without storing
   # credentials or response content.
   python - "$quota_status" <<'PY'
