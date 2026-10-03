@@ -34,6 +34,26 @@ fi
 heartbeat_age=null
 if [[ -f /tmp/ka-iro-heartbeat.pid ]] && kill -0 "$(< /tmp/ka-iro-heartbeat.pid)" 2>/dev/null; then heartbeat_age=0; fi
 next=null; [[ -f /tmp/KA_IRO_EXTERNAL_QUOTA_WAIT ]] && next=$(python -c 'import json; print(json.dumps(json.load(open("/tmp/KA_IRO_EXTERNAL_QUOTA_WAIT")).get("next_resume_utc")))')
+# /tmp lifecycle markers are deliberately ephemeral and can disappear during a
+# Codespace restart. The append-only execution ledger is the durable source
+# of truth: surface an outstanding quota deferral even after that ephemeral
+# marker has vanished. This only reports state; it never reactivates a row.
+durable_quota=$(python - <<'PY'
+import json
+from scripts.run_kairo_krisis import OUT, rows
+from kairokrisis.execution import Ledger
+ledger=Ledger(OUT)
+waits=[]
+for row in rows():
+    state=ledger.state(row['observation_id'])
+    if state.get('state') == 'QUOTA_DEFERRED':
+        waits.append(state.get('next_eligible_utc'))
+waits=[value for value in waits if value]
+print(json.dumps(min(waits) if waits else None))
+PY
+)
+if [[ ( "$runner" == STOPPED || "$runner" == PRELIVE ) && "$durable_quota" != null ]]; then runner=QUOTA_WAIT; fi
+if [[ "$next" == null && "$durable_quota" != null ]]; then next="$durable_quota"; fi
 phase=$(python - <<'PY'
 from scripts.run_kairo_krisis import OUT, rows
 from kairokrisis.execution import Ledger
