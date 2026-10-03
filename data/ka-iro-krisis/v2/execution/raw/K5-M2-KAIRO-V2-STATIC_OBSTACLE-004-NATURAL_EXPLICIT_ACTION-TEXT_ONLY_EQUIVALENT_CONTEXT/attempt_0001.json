@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRATIONALE=There is a stationary vehicle (obstacle) directly ahead in the ego lane at x = 17.8 m, y = 0.0 m. The ego vehicle is currently moving at 30 kph and needs to brake to avoid a collision. Action A4 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0Tno2+m40JuaOtf4+alFPoTbkvJ9Zz1H1TZwExX7Kyjcy5VBTYg1cZnIvWtyIcxHrZu3dx0M134ti7atBwN5Ld1XIR+yZO+mVJemcQ1fiLQhx/O8Rxba13+lo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 414,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "65bAavGYKo20g8UP7aX5qAo"
+}

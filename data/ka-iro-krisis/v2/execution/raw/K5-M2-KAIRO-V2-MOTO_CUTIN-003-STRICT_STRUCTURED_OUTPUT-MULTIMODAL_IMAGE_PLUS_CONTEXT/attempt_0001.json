@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A motorcycle is cutting into ego's path ahead at y=3.5m moving towards y=0.0m. Moderate braking (A2) is appropriate to safely manage the impending cut-in and maintain a safe following distance.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TwRo/E9UooUm5zqO8yscO+1bA5do5T2lxWTsSYjvcd3iC3NTPyDONNcyWwBT/v4A3nnZxnOwIUVRAnZ5ujrSTv5JEgE6pOLz9kE7zdc4MERfk8w9pdpJrzaQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1494,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1566,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 402
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "AB_Aav__K_e4g8UPg_-CiQo"
+}

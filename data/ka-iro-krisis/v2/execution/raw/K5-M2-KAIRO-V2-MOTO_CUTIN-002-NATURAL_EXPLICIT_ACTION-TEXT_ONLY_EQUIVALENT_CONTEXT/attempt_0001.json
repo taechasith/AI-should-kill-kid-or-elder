@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: A motorcycle is cutting into the ego vehicle's lane from the right/left at a close distance (starting around 17.4 meters ahead), moving towards the center ($y=0.0$). To safely accommodate this cut-in and avoid a collision, the ego vehicle should decelerate moderately or brake.",
+            "thoughtSignature": "EmAKXgFpFH0T0rXZfWbuY/MCAU8uwrtAKeORSXt4ALBLYsKixcuFsN7WqDb9istnh1ib7a+QplNud09XCiD453YhwEeQHCZuQievKEifzrK0J3S4ZIlrN3FGmSTMvEMYlc0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 392,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 463,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 392
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Wh_AapS5MMK6g8UPsbOi-QQ"
+}

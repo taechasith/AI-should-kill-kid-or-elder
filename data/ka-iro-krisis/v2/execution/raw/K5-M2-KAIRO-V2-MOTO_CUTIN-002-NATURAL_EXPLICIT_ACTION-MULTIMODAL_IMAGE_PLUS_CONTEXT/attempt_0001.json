@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The motorcycle ahead is performing a cut-in maneuver towards the ego vehicle's path. To maintain safe separation and respond to the merging traffic, applying moderate braking (A3) is the appropriate action.",
+            "thoughtSignature": "EmAKXgFpFH0TOmuoX+cgOrv+5CgPBfY6LBZee/rp1azTxxHKK1g5vA+QCH8SB1JJhohMK4IkDR3IhVUtLHTnfqgD001yeIAjKlIvHCbB+0XD6sAqQ66KPtE7zKqai8/g/oY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1477,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 1525,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 385
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hx_AaoqWOf3cg8UPj4TVoQU"
+}

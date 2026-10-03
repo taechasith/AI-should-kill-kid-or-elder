@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The pedestrian is crossing the road ahead at $x=28.6$ m with a lateral motion. Maintaining speed or proceeding without caution could risk a conflict as the ego vehicle approaches. Slowing down moderately (A1) ensures safety and gives the pedestrian adequate time to clear the path.",
+            "thoughtSignature": "EmAKXgFpFH0Ti/TETHqqeO+zMRGNgpP2rnp8dJpKmu9XXaCbN73cGqs/hatYKgpv0uEs7+85iCWMZ5q2x9lwaSgsH4JQDh00v7/PFKvBTwynCaXP4/Vd3XcKOvR1QfL/Pac="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 356,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 422,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 356
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8B_AatSVO5W-g8UP_rmq0QQ"
+}

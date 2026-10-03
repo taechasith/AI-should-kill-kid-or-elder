@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The structured context and image show an ego vehicle traveling at 50 kph toward an intersection at $x = 25.6\\text{ m}$, with a cross-traffic vehicle crossing at $x = 25.6\\text{ m}$ and $y = -7.0\\text{ m}$ moving upwards with a velocity of $5.8\\text{ m/s}$. To safely yield to the cross-traffic vehicle, deceleration (braking) is required.",
+            "thoughtSignature": "EmAKXgFpFH0TwHRvXpNndF2sMrrOwQV6oeG1maIsi4+22uksgZjx3I2ildr07p0WKwPRfHQtzS8C6MJxLco6g+vsITPlqs9XBshkLjML21YytqkTtYgBx+EvJeFX7fSFI0E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 109,
+    "totalTokenCount": 1554,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "j5nAapENjbSDxQ-krIihBA"
+}

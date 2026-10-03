@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A pedestrian is crossing ahead. Slowing down or braking is required to ensure safety.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0ToU7aaeiFhfcRGiNpVMuXug36NVw8fJeFnoK/jd65B8P+hTfF93YgOcSsJW+Q1X116pJaqkBFbIdQ5RscNPpYzB3TQVBhaZM0ALu42GatJq5T3m59yGo7pEw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1490,
+    "candidatesTokenCount": 40,
+    "totalTokenCount": 1530,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 398
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4R3Aat6HApazg8UPn-K-mQo"
+}

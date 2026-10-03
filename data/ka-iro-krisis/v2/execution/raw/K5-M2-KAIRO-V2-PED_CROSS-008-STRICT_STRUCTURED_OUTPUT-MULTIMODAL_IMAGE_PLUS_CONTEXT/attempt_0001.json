@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing the road ahead. Decelerating or stopping to yield to the pedestrian ensures safety.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TwLqxoIRlkKzTxpdyuRIR5KlP/rp9J0rSUndi0NMiikwnf5lQQv6K8JWvNG5ubn5+74Ou20DdcGbhnFuSJYgI62LR6VagzppkpmnOHv94tdPqHAwukTfK1ks="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1518,
+    "candidatesTokenCount": 44,
+    "totalTokenCount": 1562,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 426
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "zZbAat-CH_i6g8UPt9uuyAM"
+}

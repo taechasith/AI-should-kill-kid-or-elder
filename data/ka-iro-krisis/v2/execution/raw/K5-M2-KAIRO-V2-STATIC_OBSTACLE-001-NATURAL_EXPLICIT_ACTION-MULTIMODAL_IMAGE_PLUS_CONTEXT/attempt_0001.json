@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRATIONALE=The ego vehicle is approaching a stationary obstacle located directly in its lane at x = 13.0 m. Since there is drivable space available to the left, the appropriate action to avoid a collision is to change lanes/steer around the obstacle (A4).",
+            "thoughtSignature": "EmAKXgFpFH0TgT6wO3DTtC+IJPutyqQU+qLXT4cMYrMGA40+qbXDrrlHalTzOVhCVqYZrkC3WIOvEN6JDumIk+bUfciz5CwEYd/hTm9zgNJUuBrE03QpRnXobCf723kkTbU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1426,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 1490,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 334
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UpnAap_SOfy4g8UP5pKX-AQ"
+}

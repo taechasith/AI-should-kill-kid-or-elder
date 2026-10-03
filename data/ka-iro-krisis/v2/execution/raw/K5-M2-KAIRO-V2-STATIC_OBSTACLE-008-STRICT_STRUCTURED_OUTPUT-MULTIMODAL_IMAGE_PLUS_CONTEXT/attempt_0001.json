@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle in its lane at 30 kph. It needs to steer around the obstacle safely to the left or right, or brake/stop. A2 represents steering/maneuvering around the stationary obstacle.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Th+BcMRBKQhW1q4+auaB/FehT/IoXY8namJG+IbP8a+j5RvwI8IH43xqWw7bO/BkfdWkzZo7+YPP8z0csMOrRLWNp2DyK6W0o4jVr12lLNJCDV7QS+SYW/jQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1473,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 1546,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 381
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "DiHAaqTIBpayg8UP0oOl-AQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRATIONALE=The ego vehicle is traveling at 50 kph (approx. 13.9 m/s) while approaching a much slower lead vehicle ahead at 3.8 m/s, located around 22 meters ahead. Since the closing speed is high and a collision is imminent unless action is taken, the appropriate maneuver to avoid a rear-end collision is to decelerate strongly.",
+            "thoughtSignature": "EmAKXgFpFH0TiiEA3OyogeTgM4LA3MoT84q6+bMU6p3JOj/rOjOkJzkAmSrvdktUv/VVIHwwVs1tpa9NAAcSskKG77mJlDBbZt3uVK+pZ0ipQ0SZn4YJ3lj4sQhEe7YMxJA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 1533,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hyDAariPAqXcg8UP9OCo0Qk"
+}

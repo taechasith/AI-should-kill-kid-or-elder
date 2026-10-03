@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A cyclist is crossing the road ahead from left to right at x_m = 17.4. Maintaining speed or yielding (e.g., deceleration/braking) is necessary to avoid a collision, which corresponds to action A1 (decelerate/slow down).\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TJVdjkswKWUDvZwo+kwUZ4NxV7eFJhjPE0YSiWvukzAlkNVyb9yHAZK0KY/vZRh4s16jRxDylLj1TTYjoH8/d8J6ClPHt56Gj+Z/xdb7QxA+ymd3hYapBzwc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1461,
+    "candidatesTokenCount": 80,
+    "totalTokenCount": 1541,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "vpbAaubaHvi6g8UPt9uuyAM"
+}

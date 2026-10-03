@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A vehicle is cutting into the ego's trajectory from the right with a velocity of 4.8 m/s, requiring deceleration to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T/3nWzaJCm9TFuVPvKDWiTh5Rwj9+xYE56mAAvV2v7NYMRp6mbMirn/amJkrrA9NI1dj5TKv3RaPAtb6ZvfQN8PC+cXAUcX4ntVLz7iqZEOWwGHuuEGbGXf0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 408,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 463,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 408
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "_iHAatGlE5mwg8UPp_H2yAk"
+}

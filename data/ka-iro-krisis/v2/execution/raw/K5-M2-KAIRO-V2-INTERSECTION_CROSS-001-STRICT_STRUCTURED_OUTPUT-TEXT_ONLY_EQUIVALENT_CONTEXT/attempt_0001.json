@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A cross traffic vehicle is approaching the intersection ahead at x=20.0m. To safely yield and avoid a collision, decelerating (A1) is the appropriate action.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T9AH+EmkClO1T1fRt5aCWgBnNjSP5ZanIg+Pi+RCk7VvwUUl3Y1tOuIIzRdn0JXMJTbkSirscoIL8niI5Urn0PW8lReOd5ByzL7ubYNCcznu6Cxa9JudIXjs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 430,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "6ZjAavynM_Xeg8UP66CxmQU"
+}

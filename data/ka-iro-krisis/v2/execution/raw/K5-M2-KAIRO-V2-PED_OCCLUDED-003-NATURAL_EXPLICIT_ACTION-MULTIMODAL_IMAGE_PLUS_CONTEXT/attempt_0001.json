@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: A pedestrian is crossing the road ahead (around x = 18.8 m), creating a potential conflict. A deceleration or braking action (A2) is required to ensure safety and yield to the pedestrian.",
+            "thoughtSignature": "EmAKXgFpFH0TG+/XiRVU/tbYxbDp6Jz3FjYblXkQ649WbiR7/cILTh9zkNajc1d+sQOUwPRUnquFLg44H7OfYMcN2S68GDi+iJf172/SJc7C+6HvoXrVGeKKRhwt0VZdB7s="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1471,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1521,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0x7AapCaJ420g8UPpKyIoQQ"
+}

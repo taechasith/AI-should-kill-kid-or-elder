@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight along its lane at a steady speed of 30 kph, while the cyclist is crossing far ahead in the left lateral direction (at $x \\approx 25.8$ m, $y \\approx -5$ m moving towards positive $y$). Since the cyclist is well ahead and not currently obstructing the ego's immediate path, maintaining the current trajectory and speed (A0) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0TZXnAEey/n468G1TrqkwDNS5P1TsqKcCEakS94ClLnwjWhyRnqXqcpOq5Y4DATTBgKxuGqJrMkzvE4W+SUuCsMpOEVAp0MhwmYOLfPzziJDOwh2oRv/OFRfI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1470,
+    "candidatesTokenCount": 97,
+    "totalTokenCount": 1567,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 378
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Y5fAau3FJ5q2g8UPqcK0yQk"
+}

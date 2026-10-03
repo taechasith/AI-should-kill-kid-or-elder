@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A static obstacle is present ahead at 28.2m with limited visibility and an initial speed of 50 kph, requiring deceleration to maintain safety.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TglRVCa/Ru79qenAk48mXhQSi3Np30d9YIfNIWBGzFYwhCW7KXaYOwkMR3h9ktAAPxSkrsr5qkZL443qKX9iDRscCfJMyEzobzcq1Mj8xgcBd2mtscuhdLc0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 47,
+    "totalTokenCount": 420,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "siLAavTsF6urg8UPxJ_wsAo"
+}

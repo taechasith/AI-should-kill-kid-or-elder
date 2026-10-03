@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The cyclist is crossing the road from left to right ahead at x=23.0m, moving laterally. Maintaining speed or mild deceleration (A1) ensures safe yielding without abrupt braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TkjrbwRCBBxBFo6nLyZtkaQJlWZnoD3lWTuaInM/3a5syFsJVw7rluqT+vsQvpMu16UKmDwK3d6xoQbv8bX1qVn6wwG/r2LrByAY5wHFXv0Fc7JG31MKZ+U8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 376,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 429,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 376
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-ZfAarSYMPvHg8UP4-XIsQQ"
+}

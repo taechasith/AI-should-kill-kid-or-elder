@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The motorcycle is cutting into ego's lane ahead. To maintain a safe following distance and avoid a collision, the ego vehicle should decelerate (brake).",
+            "thoughtSignature": "EmAKXgFpFH0TnZW2lEOJJMYaQcr/LCIrBzMM/ZLBl636L4r6Os6p9vmIxss3lqhKEllyau2JyRe4ju7gv1G+feBBcdaWY3Q2LPH80H3j/twYCNmJ54bvmV5oK3pVb91FnUc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1477,
+    "candidatesTokenCount": 38,
+    "totalTokenCount": 1515,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 385
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WiDAaoSmAdWymNMP3eGlqQQ"
+}

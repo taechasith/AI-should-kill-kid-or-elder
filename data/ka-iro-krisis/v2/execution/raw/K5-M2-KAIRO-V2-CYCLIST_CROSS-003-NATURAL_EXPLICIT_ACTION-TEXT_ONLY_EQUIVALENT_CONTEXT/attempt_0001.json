@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: A cyclist is crossing the path ahead from left to right at $x = 18.8\\text{ m}$ with a lateral velocity. To maintain safety and prevent a collision, a moderate deceleration (A2) is appropriate to allow the cyclist to clear the conflict zone safely.",
+            "thoughtSignature": "EmAKXgFpFH0TLQeA1sNfxInlfapnMQ2iHWAXjmqm8yVY2spSruNNF4dlPHDRJeCmgLLW4Ns3b6mvMIF23SnT+UQGpEMnu43HLOXRmUoBXMQOMskGWtGSBIlI8vsC5d1NZbE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 355,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 420,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 355
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ZiPAaqClII_eg8UPvOPcyAk"
+}

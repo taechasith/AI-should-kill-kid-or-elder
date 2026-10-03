@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A stationary vehicle obstacle is detected ahead in the ego lane at 24.2 meters. Deceleration or stopping is required to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TdzhzPDrxyWrJTNqePofAq6chg7ylz4L8CW3O+pIoodY/eSTTTboPgLaOX9Bb46DeHXG8pJxX/nXuSJ0rcLD15EA/xglbXKV0dG2E09riUDWb/TMNMJejRo8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 44,
+    "totalTokenCount": 432,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WCLAar3dFJKzg8UP6sGw6AQ"
+}

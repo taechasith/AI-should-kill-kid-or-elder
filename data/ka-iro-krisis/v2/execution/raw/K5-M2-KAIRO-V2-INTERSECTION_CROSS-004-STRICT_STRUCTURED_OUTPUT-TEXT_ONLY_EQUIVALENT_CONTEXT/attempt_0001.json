@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"Maintain steady progress as the cross traffic is far ahead and poses no immediate collision threat.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TESAgcvs1wO9fM0spqj/e01EljixKiIOTjP1aeMHin6G41P8vyxhtEAploPWUePAEGlEUi6I9HQTSHuq+BpKvWtVJIynuwM6FSH5fF9llOy2h4rFDcc9CRcg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 40,
+    "totalTokenCount": 419,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "liDAau_FAqO1g8UPk4bkuQo"
+}

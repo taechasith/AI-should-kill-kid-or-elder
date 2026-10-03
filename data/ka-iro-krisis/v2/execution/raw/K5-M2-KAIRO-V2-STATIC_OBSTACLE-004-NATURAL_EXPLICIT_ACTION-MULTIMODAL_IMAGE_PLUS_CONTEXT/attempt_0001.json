@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A6\nRationale: The ego vehicle is currently traveling straight in its lane at 30 kph towards a static obstacle (vehicle at x=17.8m). To avoid a rear-end collision with the stationary obstacle ahead, the vehicle needs to perform an evasive maneuver or stop; looking at the available action set (A0 through A6), A6 typically corresponds to an emergency stop or full braking action.",
+            "thoughtSignature": "EmAKXgFpFH0TwWK4l8ryXo0jTY8U9TyL41s3e/y6xo/f0GF9JyDM5csT6/GuKBy8ZYcuMvxPZ+Iszn4xh1YHSMBtzbxiLOzPXcTR6APrL2sqkvuCecYF9ga8IDfoKVy2YVs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1426,
+    "candidatesTokenCount": 89,
+    "totalTokenCount": 1515,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 334
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8CDAavSRB5Wqg8UPkI-I6AQ"
+}

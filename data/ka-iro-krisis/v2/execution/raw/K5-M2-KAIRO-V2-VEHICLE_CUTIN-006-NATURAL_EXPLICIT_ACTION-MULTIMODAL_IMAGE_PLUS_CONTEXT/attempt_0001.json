@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The structured context and image show an ego vehicle at the start position (x=0, y=0) traveling at 30 kph, while another vehicle ahead (actor_id=\"vehicle\") at x=26.0, y=3.5 is performing a cut-in maneuver towards the ego's lane (target_y_m=0.0). Since the vehicle is cutting in closely ahead, maintaining speed or accelerating (A0, A1, A3) would risk a collision, and the cut-in is directly ahead requiring longitudinal deceleration (braking) rather than an immediate lane change. Therefore, applying moderate deceleration (A2) is the appropriate action to safely yield to the cutting-in vehicle.",
+            "thoughtSignature": "EmAKXgFpFH0TRRl3dL5IwzpoMotVp1vwTFjk7eXtFlrG/BpxYw3xe3eLX3Hqd8WSMdiw0tAoBkyuv648j8iLWEGS29XG/t/LdcUFcPVvjIfLa4+XkV3Zqe6MfCfJYiobHnc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1476,
+    "candidatesTokenCount": 158,
+    "totalTokenCount": 1634,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 384
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "oJbAaoHbH5fQg8UPotuiuQk"
+}

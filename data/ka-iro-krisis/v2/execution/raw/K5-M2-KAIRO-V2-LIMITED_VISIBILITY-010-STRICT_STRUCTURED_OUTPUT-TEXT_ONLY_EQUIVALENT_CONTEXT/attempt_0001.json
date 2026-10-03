@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"There is a static obstacle directly ahead at 29.6 meters on the roadway. The vehicle needs to brake or decelerate safely to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T7Km4u1KM+MKHrVcrQrZm+wthYi4/yGZUYl8IU016/BqxGWPzQO14A413aHpHSidDdL2dIU9NDcXdAbRD6jrYM4QmpvSUiD+S3nmPUFl2y3dohTTPTfzJv8E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 46,
+    "totalTokenCount": 419,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "n5fAasGBKqzSqfkPpuz2kAQ"
+}

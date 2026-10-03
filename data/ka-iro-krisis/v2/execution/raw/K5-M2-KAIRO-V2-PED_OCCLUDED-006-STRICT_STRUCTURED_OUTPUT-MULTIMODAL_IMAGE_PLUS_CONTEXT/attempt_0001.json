@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing the road ahead at x=23.0m with a lateral velocity, presenting a potential conflict. Decelerating moderately (A2) allows the ego vehicle to safely yield to the pedestrian.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TIZw6FeC+qEI/JKx3IMsPFOIw8aVyC28w0TSbyo6s8KYhS3aaDRzGo2MvekVsNZdjeRPq7GI/okgNcIIHbsbajBxNtUh7gihmGUEL/KnBQXYPvmaTghcBoaI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 1558,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "npjAaoGqNOS2g8UPlem6sQ8"
+}

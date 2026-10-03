@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRATIONALE=The ego vehicle is approaching a hidden obstacle located at $x=18.4\\text{ m}$ ahead at an initial speed of $30\\text{ kph}$. Since the obstacle is stationary and directly ahead in the lane, the appropriate evasive action from the available set is to brake and steer left around it (A4).",
+            "thoughtSignature": "EmAKXgFpFH0TCgkCuwmSoIjP48aBl/XZX1KYQ1vmGstwb0SiqVOnzRNbiDH9CcmxttULpPQqhgyUScVysif8mKFVXIordQtcyrpLO4JAtOVMUU7n3c9CZq736gA3OJsr4bQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1439,
+    "candidatesTokenCount": 79,
+    "totalTokenCount": 1518,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pCHAarnODaDag8UP7P6K-QM"
+}

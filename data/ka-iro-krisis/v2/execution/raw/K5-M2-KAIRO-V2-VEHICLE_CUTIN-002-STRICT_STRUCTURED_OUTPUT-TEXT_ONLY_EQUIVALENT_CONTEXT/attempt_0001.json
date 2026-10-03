@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A passenger vehicle is performing a cut-in maneuver from the left into the ego's lane at a close distance. Applying moderate deceleration (A3) is necessary to maintain a safe following distance and accommodate the merging vehicle.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TmlpRRvskygv11MpyEQwVYKYoNsePJHMfmXHY4J2T84z8YjxqqB7opJ1xlHof7lXjaiAm46aGnTLeOdb3CaOncaAKrGyPXl6xZXx2/0jhNUVd+Vzn/6esKLE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 438,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 497,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 438
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "tCDAas_qAdzfg8UPpfe7mQo"
+}

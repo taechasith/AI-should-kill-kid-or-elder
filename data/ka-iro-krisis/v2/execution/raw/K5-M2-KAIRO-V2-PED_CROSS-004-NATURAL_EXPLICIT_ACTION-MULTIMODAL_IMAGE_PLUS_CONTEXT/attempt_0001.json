@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A pedestrian is crossing the road ahead (located around x=20.2m, y=-4.0m moving towards the road). Slowing down or braking (A1) allows the ego vehicle to yield to the pedestrian safely.",
+            "thoughtSignature": "EmAKXgFpFH0THQhbimnTrzVYecPpUD9KQk660s79H8GCaANMZiBkXPLW2gL04Opd/vhvkGwPn2Fi4sfzBoZz1pD+I02kBGxWIj7kM56K4bQROUPKWPFiEJa0na7/sa2PZqg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1471,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 1527,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "tR7AarrNLMeCg8UP-ruR6Qc"
+}

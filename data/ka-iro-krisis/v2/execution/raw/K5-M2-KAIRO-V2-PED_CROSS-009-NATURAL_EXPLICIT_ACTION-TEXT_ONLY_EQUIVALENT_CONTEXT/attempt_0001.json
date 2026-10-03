@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The pedestrian is crossing at x = 27.2 m, and the ego vehicle is traveling at 50 kph (approx. 13.9 m/s). Maintaining the current speed (A0) allows the ego vehicle to pass the pedestrian's crossing path safely well before the pedestrian reaches the lane, or the distance and timing ensure no immediate conflict requires braking or evasive steering.",
+            "thoughtSignature": "EmAKXgFpFH0Tuy0krTBsPQCxHvEWKkFuDieNgos24n4lw2kPGtvF1AvWgFNSo9T4QUx//fjxzzCxG8wrAOAScwiHabZkjxC+zmrx3XUFoIWGIn+yHmv2y1cYn4YDNFTwA0w="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 90,
+    "totalTokenCount": 476,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OiLAaoLMF4mkqfkP_eSo6AQ"
+}

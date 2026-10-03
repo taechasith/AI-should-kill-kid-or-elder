@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The structured context indicates a merge vehicle cutting in from the right ($y=3.5$ to $y=0.0$) at $x=18.8\\text{ m}$ with forward velocity, and a crossing cyclist ahead at $x=25.8\\text{ m}$. To maintain safety and handle the merging vehicle and upcoming cyclist interaction, decelerating (A2) is the prudent action.",
+            "thoughtSignature": "EmAKXgFpFH0TkFptic9IE51w265sPHZHvt0oCwkgtdYLf46nDFnv01YZfsVWweTGd/A1uYEsee80LUoyiI5y/hl8IvZwdncQxH8IvnynSV8hqApckd0A7Gb3ci+SQCTBx8M="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 458,
+    "candidatesTokenCount": 93,
+    "totalTokenCount": 551,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 458
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0CLAar3RGPy4g8UP5pKX-AQ"
+}

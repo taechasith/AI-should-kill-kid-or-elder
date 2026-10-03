@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The structured context indicates an orthogonal crossing vehicle (`cross_traffic`) located at $x=20.0$ m moving across the ego's path with a velocity of $5.0$ m/s. Given that the ego is approaching the intersection at 50 kph, slowing down or braking (action A4) is necessary to yield and avoid a collision with the crossing traffic.",
+            "thoughtSignature": "EmAKXgFpFH0TC3gZ8X6JQiKArgz5ik92ftx6UiW2FRwVcdOh3oqVbTnbTy7go7L1V4Sl7qf/TgwVPeNfoton52szfi5OfutriACeA/LV2mTRL8uujwy2k8AhH+6Hoig+e7k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 88,
+    "totalTokenCount": 448,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8R7AapuFMJzB4-EPkMbvoAU"
+}

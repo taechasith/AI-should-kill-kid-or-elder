@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"There is a cross traffic vehicle at x=25.6m crossing the intersection with a velocity of 5.8 m/s. The ego vehicle is approaching the intersection at 50 kph and needs to decelerate or brake to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TWlcf5C9cbTcSLydZqA8+wNGCO6scqSvkD5plrkgmvsoyxadUiSCBrgzkEkOvH0c8YnM84SbOJc+Q0trqs3v7UBnjhyvwfgPgvOy+/GbV1n0UxjYIghZNdYI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 447,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hCPAaqTSINijqfkP6N_DwAk"
+}

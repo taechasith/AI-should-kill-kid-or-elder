@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"There is a stationary obstacle ahead in the ego lane at x_m=13.0, while the adjacent space to the left is clear (drivable area goes up to y_m=5.25). Steering/evading to the left (A4) safely avoids the collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tg1c6/U2MA+7Fndjw75X0zR374WAHwj+yNbV0hOwaksCcjeVovzTpxvJ1Cm1GXjpIsrxTWeHkeydM56wH6RyKd+bH1U9mHDawB1Gs/FNO+DyCLzBDMRU6WKU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 1530,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "7yHAatKMFq_fg8UP7YXJkAg"
+}

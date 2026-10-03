@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The ego vehicle is travelling at 30 kph and approaches a pedestrian crossing the road ahead (around x = 25.8 m). Slowing down (decelerating) is necessary to ensure safety and yield to the crossing pedestrian.",
+            "thoughtSignature": "EmAKXgFpFH0TlJpikyC873pj9WFKyOIMWpfFXVpbHA5QEMl4XXUOdP0jr5JBvYilpvyba+7c/mXTpLzMWMgS+IISeGqUl3WTPHTLZaYrkjG2FsvqFzthUD5/WXb5Zib/x2g="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1499,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 1556,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 407
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "DSLAaqeyEbmkg8UP5PX80Ak"
+}

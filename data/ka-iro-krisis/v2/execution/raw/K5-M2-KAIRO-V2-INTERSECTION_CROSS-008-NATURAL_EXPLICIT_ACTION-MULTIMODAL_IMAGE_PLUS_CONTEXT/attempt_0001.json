@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale=The ego vehicle is traveling straight along the road at a constant speed of 30 kph, and there are no immediate obstacles or conflicting vehicles requiring acceleration, braking, or lane changes (action A0 corresponds to maintaining the current speed and heading).",
+            "thoughtSignature": "EmAKXgFpFH0Tl16CqPhs4TZ5wFG2ndMBUndTOntPyHuxiCj54qy4tPGxyWjalnaGK2e85Iz+FfGKRWcE9OnyrYpHfcRlWIQD3pSRRw6VYcDGgbmkgRQLEITQIpR3XMLhkGE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1473,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 1531,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 381
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "wx_AauuHM_e4g8UPg_-CiQo"
+}

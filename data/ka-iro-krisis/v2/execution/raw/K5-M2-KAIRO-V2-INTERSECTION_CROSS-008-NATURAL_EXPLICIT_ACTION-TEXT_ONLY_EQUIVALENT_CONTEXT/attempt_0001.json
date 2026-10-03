@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The structured context indicates an orthogonal crossing conflict with a vehicle crossing from the left at $y = -7.0\\text{ m}$ moving toward the ego path at $6.4\\text{ m/s}$. To safely yield to the crossing traffic and avoid a collision, decelerating (A1) is the appropriate action.",
+            "thoughtSignature": "EmAKXgFpFH0Tncf82Opd1HPFBa6jrdvCjN++UUwgh8CKb59rcX0pYWl7pv90jsHSF5fBF/7ruHUsre9MuhQQqL0ZO93l8XIEKSXaRncccufWFYBDbSLy/JYbyiRa1+Wrv1k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 75,
+    "totalTokenCount": 463,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "DCPAatOfHvvHg8UP3bi8iQo"
+}

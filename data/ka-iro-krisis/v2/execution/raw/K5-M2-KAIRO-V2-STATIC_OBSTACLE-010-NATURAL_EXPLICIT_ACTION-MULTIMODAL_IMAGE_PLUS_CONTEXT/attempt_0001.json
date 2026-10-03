@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The ego vehicle is approaching a stationary obstacle located directly in its lane at x = 27.4 m. To avoid a collision, the ego vehicle needs to maneuver around the obstacle by steering to the left or right (or initiating a lane change). Among the available actions, steering/changing lanes to bypass the obstacle safely is required.",
+            "thoughtSignature": "EmAKXgFpFH0Tc6QBokP9s240oauLmEvDuw7LWtsJm8VwPZCWsAeIJ0fy9n3QzpMrE+BfN0y6/5VVDGkT0hBFE4cIZrcWJMWAgX7ffo6AmcXS4bPX7dLuSFg48thRLiQQM8w="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1426,
+    "candidatesTokenCount": 75,
+    "totalTokenCount": 1501,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 334
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "syHAap-qDeDdg8UPjvnGqQo"
+}

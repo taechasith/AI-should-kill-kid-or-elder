@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2 Rationale: The ego vehicle is traveling straight at 30 kph while a target passenger vehicle at x=31.6m is performing a cut-in maneuver from y=3.5m towards y=0.0m. To safely respond to the encroaching vehicle, a moderate deceleration (A2) is appropriate to maintain a safe following distance and avoid collision.",
+            "thoughtSignature": "EmAKXgFpFH0TcIC5XjeZA5GkZgFCk+FPyNkxnwTAi8HXmJ6IFgpMfYdTfjfy27s9SQ9ERWmBUhs0eSPZLwUGVA5BUvYqJ2VDqJ+rbQqj6keLDAkG5ECphfWCXbg/eokfAfs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 419,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 501,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 419
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "oyLAaqTHHKurg8UPxJ_wsAo"
+}

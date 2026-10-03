@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a static hazard located further ahead on the road. The most appropriate action to maintain safety and avoid collision is to decelerate or brake.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Thej90+JPbKwJPd0n8A8oGgvojtDxVWh0+VqxJPR1OIID7Jeqzt7bFCTWOvXQC62Yi51A+OT5viqm4s/mbs89Gj2dco+BszXIgFC0aQgaBqnlBPHIf/QlM84="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1458,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 1513,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 366
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "LCDAar2yPNjVqfkPx8eSgAo"
+}

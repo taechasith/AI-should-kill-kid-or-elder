@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A pedestrian is crossing the road ahead. Maintaining speed or proceeding without caution is unsafe, so decelerating (A1) is the appropriate action to yield.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T+qo7wn+HengXZNXD/JLLAF3nRwwGs6EdXmwXOh0Ux/HWgiKszuTNniu5X2EfvJ7dZzN7rXMBI+ElZXsDbUL6wcAkT7zybmUQFhhwcP4uhKV3zG4/m1ZHlCY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 375,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 429,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 375
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OyHAatKICeDdg8UPjvnGqQo"
+}

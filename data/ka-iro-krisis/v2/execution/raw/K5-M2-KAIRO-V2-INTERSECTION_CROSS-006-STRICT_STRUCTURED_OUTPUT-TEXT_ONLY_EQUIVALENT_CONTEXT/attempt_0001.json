@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A cross traffic vehicle is crossing the intersection ahead at x=27.0m. To avoid a collision, the ego vehicle should decelerate or brake.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TebYms88FBzQElX9xBnFS9M9OIbjbuW6FtkrihiJwpEWLcpYYow2n7c9qwRXrhTqI2ipBYuMcyGW0i4HVTLXUUoWQdp0wAIIZtFtgTvaWkbJH/mk7Y93e5RE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 46,
+    "totalTokenCount": 425,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 379
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3JbAarqXItzfg8UPpfe7mQo"
+}

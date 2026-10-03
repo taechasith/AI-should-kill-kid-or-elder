@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1 Rationale: The turning vehicle is performing a cut-in maneuver into the ego's lane ahead at $x=25.0\\text{ m}$. Applying a moderate deceleration (A1) allows the ego vehicle to safely adjust speed and maintain a safe following distance as the other vehicle merges into the trajectory.",
+            "thoughtSignature": "EmAKXgFpFH0Ts6EZZ5s8oZKPq6hsC6E3JFr/p9M4qZWQAy2htOOfboGaZHRUuVZ+Jl7pWtpkL7iKRwEUIofHEnP8yJWjtnEjl0l1pxGQ6qxds8M4wzKgdgpoXZHT7PTfSB8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 457,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KyLAao-MFdjVqfkPx8eSgAo"
+}

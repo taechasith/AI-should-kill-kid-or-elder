@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight at a moderate speed (30 kph) with no immediate obstacles or merging vehicles close ahead in its current lane. Maintaining the current trajectory and speed (A0) is safe and appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0T07afyZfabq+OFVKJl75VmYAq3VbZ/MaQ+7kCYviKCGWb0gip31yYmh0yZWnQOwvjLWkjubsU+485D93tMXPxiw0wfNs9ZP15rubhWUwzYSzCLCWNmRSo/5A="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 1527,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dyHAaoyNELjnqfkPlpmvqQc"
+}

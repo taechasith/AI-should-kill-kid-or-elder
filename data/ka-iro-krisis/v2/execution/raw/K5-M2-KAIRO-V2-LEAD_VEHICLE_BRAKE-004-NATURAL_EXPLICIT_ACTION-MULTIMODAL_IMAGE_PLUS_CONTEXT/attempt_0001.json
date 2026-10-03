@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The ego vehicle is traveling at 30 kph (8.3 m/s) and approaching a slower lead vehicle moving at 3.6 m/s ahead in the same lane ($x = 20.5$ m). Since the ego is closing in on the lead vehicle at a significant speed differential, a deceleration action (such as braking, A2) is required to maintain a safe following distance.",
+            "thoughtSignature": "EmAKXgFpFH0TA+G3lDkSxJ22uLpRtWLfJE5CLnFPsSfI9orgvdB3Noj8gi/6gLAjeH8nFdrrKrNuxJwNAPaD3BRCA+DVr2p8PvXklP4GXzobvdAp93t2twG1K77vZ2qtPzo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 93,
+    "totalTokenCount": 1537,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "whzAar6lH5fQg8UPotuiuQk"
+}

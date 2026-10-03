@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4 Rationale: The ego vehicle is approaching a stationary obstacle ahead in its lane at 30 kph, with no adjacent drivable lane available for bypassing. Therefore, the appropriate action is to brake and bring the vehicle to a stop.",
+            "thoughtSignature": "EmAKXgFpFH0TxTvRrcxfsq35bBhIpuuOg71LzVws3pdkMSxOwI3YuqPS5bGVlfvomHvThlgF3bMjGIT/Jo9MUiyfjFjKNyO9Swm3G3tlFwy+XOpd5eDsvtJZMIHMb8PqTtg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1429,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 1481,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 337
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "HSDAat2SO_i6g8UPt9uuyAM"
+}

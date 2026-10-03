@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0 Rationale: The ego vehicle is traveling straight along its lane at a constant speed of 30 kph with no immediate obstacles or hazards requiring steering or braking adjustments at this moment.",
+            "thoughtSignature": "EmAKXgFpFH0Tqq/9rX/9+Jln5m1JWJonIUBCBCG0KS7pZFhOuzv97cPJ39lT69rXA1scaTWj7aubVmzWa7ZSxsWTM7VHD3q6jZbnhO+8En4MkThHn7YMaLPHwQEn5LRkYOg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1504,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 1545,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 412
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "B5nAauj_OZemg8UPpO_UyAk"
+}

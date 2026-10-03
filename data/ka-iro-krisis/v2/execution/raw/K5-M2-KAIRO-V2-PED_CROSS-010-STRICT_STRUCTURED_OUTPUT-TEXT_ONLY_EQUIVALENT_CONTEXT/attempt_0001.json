@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing the road far ahead at x=28.6m, moving laterally. Maintaining speed or slight deceleration (A1) is appropriate as the ego vehicle has sufficient distance to pass safely without stopping abruptly.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T3bLX3nTfyMb9CplnnwPUYd+v6FzTZUtmhn/J4E8nwYQRR6QU6q1R8jyEU3s3GOt2zLZ4kqPciBCqs6MsTt2ieFtIM56Y9bfgXeFlmtBvirEXy08dUU7NbTw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 375,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 434,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 375
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "YpjAarGVL_-jqfkP5_f02QQ"
+}

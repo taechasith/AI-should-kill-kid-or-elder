@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is traveling significantly faster (50 kph / ~13.9 m/s) than the lead vehicle (3.0 m/s) ahead at 16.0 meters. To avoid a rear-end collision, a strong deceleration (braking) action is required.",
+            "thoughtSignature": "EmAKXgFpFH0TQYuq1KnMr1wJ5fCIFRcinUS578MzXRgCE5+U6XM4CRQ6q0fQjhUdGoQhR58Pjk475dW1SSOdGlqK4TXGRZSxxIXe9g2kDd1u1Apub8tynlGHU2r9tnQmpNE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 359,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 429,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "WSHAaqaSCZWzg8UPltbm0Ak"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3 Rationale: A turning vehicle is cutting into ego's lane ahead (motion: cut-in at x=20.8m, y=-3.5m to 0.0m). To avoid a collision, decelerating or braking (A3) is the appropriate safety maneuver.",
+            "thoughtSignature": "EmAKXgFpFH0TygJqBH1xpkNLozDSrcBz/urx8KhlaA6ewFEjqbgE92qoLhtoGyRi4M9EYRjGAs8CPQptbwBneM9X700LAcZvPU+GXIlMdXYzlmGxH9KZy/0MwAxEmxqvM8A="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 454,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "SiHAar6BDpbRg8UP2fzUiAo"
+}

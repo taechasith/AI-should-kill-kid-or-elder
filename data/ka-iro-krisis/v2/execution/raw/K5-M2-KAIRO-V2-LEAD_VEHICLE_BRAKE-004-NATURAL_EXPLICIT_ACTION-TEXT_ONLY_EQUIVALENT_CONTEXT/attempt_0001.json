@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The lead vehicle is directly ahead at 20.5 meters and traveling significantly slower (3.6 m/s, or ~13 kph) than the ego vehicle's initial speed of 30 kph. To avoid a rear-end collision, the ego vehicle needs to decelerate (brake). Action A3 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0TdbYyepDr0TPcFuzWIPvMFFBMLnJTdK2lMs0OU5FTZ04x6UhlIGjKR6cIIJu38TJhjQ/Q5zazvDX5Ysn/4yXbwlMHFt0Z0RHajWh9tuUskXAqBTCcU7iAguc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 359,
+    "candidatesTokenCount": 83,
+    "totalTokenCount": 442,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "PB_AaqOhMJWqg8UPkI-I6AQ"
+}

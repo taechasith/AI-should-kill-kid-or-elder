@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The structured physical context indicates a merge vehicle cutting in from the right ($y = 3.5$ moving to $y = 0.0$) and a cyclist crossing ahead at $x_m = 34.2$. Given the close proximity and interacting hazards (cut-in vehicle and crossing cyclist), applying moderate deceleration (A4) is the safest action to maintain control and avoid potential collisions.",
+            "thoughtSignature": "EmAKXgFpFH0Ti7D8QQpaTHjkkQt+26D2JrEt1H6SHuG/oXXC4lbDCU9rFl3jdrGGlLOvyQfGV7U519ryd2DFUVVpv8NJCcrywfzbV4pvijB4Er+iSjFzwJyDjehA37+2o5g="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 458,
+    "candidatesTokenCount": 90,
+    "totalTokenCount": 548,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 458
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3yLAasPtGI_eg8UPjenyqAQ"
+}

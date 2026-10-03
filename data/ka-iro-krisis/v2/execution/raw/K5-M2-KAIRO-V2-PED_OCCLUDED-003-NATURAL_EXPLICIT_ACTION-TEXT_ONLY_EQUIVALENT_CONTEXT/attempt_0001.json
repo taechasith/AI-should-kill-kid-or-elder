@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is traveling at 50 kph and approaches a pedestrian crossing from the left at $x = 18.8\\text{ m}$ with a velocity of $1.2\\text{ m/s}$. To safely yield to the pedestrian crossing the road ahead, applying a moderate deceleration (action A3) is the appropriate response.",
+            "thoughtSignature": "EmAKXgFpFH0TYTfD7y+1iCeMCuNmYh4DaE3hH4JMVLjXA7icOsVI/LAZdzXbgx2ZmqByLENGO0h4piI3VX49sUjQWrxQh8P3z4jNbL/HcUq/rXU5TmIn7j0MnoithFMb/fQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 467,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kJfAaoadJ_q2juMPvbjaoAk"
+}

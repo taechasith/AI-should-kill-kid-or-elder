@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured context and the image indicate a motorcycle (orange marker ahead on the road) entering the ego vehicle's path with a cut-in motion. To respond to this cut-in safely and avoid a collision, the ego vehicle should brake/decelerate (A3).",
+            "thoughtSignature": "EmAKXgFpFH0TpqTyF6zvppe0tzX+WI1Js9czu8H/hqpCtDZaT/mv3P6VzFDViGk2jU2xC7mtpnr/fAcjufz13ekLOF8xX+OanHOE2NDO1hrZhNiLN7tV1a38fVEhFLLMx9I="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1475,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 1539,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pSDAarrvB_vHg8UP4-XIsQQ"
+}

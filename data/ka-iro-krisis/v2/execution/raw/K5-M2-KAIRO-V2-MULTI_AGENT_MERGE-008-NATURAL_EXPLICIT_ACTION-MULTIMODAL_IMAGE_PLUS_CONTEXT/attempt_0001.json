@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The structured physical context and image show a merging vehicle ahead in the ego lane and a crossing cyclist approaching from the right side. Decelerating slightly (A1) allows the ego vehicle to maintain safety and prepare for the complex traffic interaction with both dynamic agents.",
+            "thoughtSignature": "EmAKXgFpFH0TZk1q2bMEvWp5KdRPIcUcfm7p9blX/5qeWrqC2NATqxqNSx1RV+faw2V+1UzTDfxzlMJEjnwEiaiTs4DSTyvCKUQjA2aGfDsZzcilPjMCZrfWzJIzWe+cNy0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1571,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 1630,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 479
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "SyDAaqCdAve4g8UPhP-CiQo"
+}

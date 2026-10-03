@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured physical context indicates a vehicle cutting in from the right/left with a lateral motion towards $y=0.0$, alongside a crossing cyclist at $x=27.2$ m. To safely manage potential conflicts with the merging vehicle while maintaining headway, a moderate deceleration (A3) is the most prudent action.",
+            "thoughtSignature": "EmAKXgFpFH0TdZoyeqxELFv+v7CSZdHV8ozqh9rqIvVKZvWitZtw/uhFleVsZ2DniA7LJAQLWSHRaN++1N/VXMTzhyaqIC81zd/DfhFf4oCuS0SDEjjy7ZI7WZs0CwkfBBA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 458,
+    "candidatesTokenCount": 74,
+    "totalTokenCount": 532,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 458
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "7iLAauHVG8O0g8UPgdCdkAo"
+}

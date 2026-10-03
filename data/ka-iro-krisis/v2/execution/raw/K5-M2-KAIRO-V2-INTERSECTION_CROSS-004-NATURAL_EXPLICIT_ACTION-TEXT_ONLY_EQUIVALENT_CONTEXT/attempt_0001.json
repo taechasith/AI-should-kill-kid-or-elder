@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A cross traffic vehicle is approaching from the right/left at an intersection ahead ($x = 24.2$ m). Since the ego vehicle is currently traveling at $30$ kph, reducing speed (A1) is necessary to yield right-of-way and avoid a collision with the crossing vehicle.",
+            "thoughtSignature": "EmAKXgFpFH0TX6IGCvD1QwvgCFlpLsCrCoxnMsPo6HnKOP5/IebvnGtLATdcw9weYtJF/Se1kVHo2tepoxdm9sHjXAXg/ydh3YZwD1l3Dbr3B8Z+wCMCyL2fltaGokNlE00="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 432,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-pbAatuxI_3dqfkP282l4QQ"
+}

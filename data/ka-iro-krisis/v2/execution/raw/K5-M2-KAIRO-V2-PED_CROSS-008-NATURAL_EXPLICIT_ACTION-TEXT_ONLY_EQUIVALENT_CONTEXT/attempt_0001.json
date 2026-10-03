@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0 Rationale: The pedestrian is crossing far ahead at x=25.8m and moving laterally, and maintaining speed/continuing forward (A0) is safe as there is no immediate conflict or collision risk at the current ego speed and distance.",
+            "thoughtSignature": "EmAKXgFpFH0Tt3duxAUAbUhifC2kK/svzaZlyBpnGuBc+k1287Fy19GuJXVSxXs401PpS6velwZjb09wNje0V9bRSyJx/tGsFjowPqtp2XesYkdGS/S80iPLwEeqAgdi27g="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 414,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 469,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 414
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ZyLAav6_FPXeg8UP66CxmQU"
+}

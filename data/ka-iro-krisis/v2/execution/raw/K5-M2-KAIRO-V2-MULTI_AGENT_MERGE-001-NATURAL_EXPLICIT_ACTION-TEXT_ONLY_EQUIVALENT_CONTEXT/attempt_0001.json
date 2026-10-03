@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The structured context indicates a merge vehicle cutting in from the right ($y=3.5$ to $y=0.0$) at $x=16.0$ m ahead of ego, and a cyclist crossing ahead at $x=23.0$ m. Given ego's initial speed of 50 kph and the close proximity of the merging vehicle cutting into the ego lane, applying a moderate deceleration (A4) is necessary to maintain a safe following distance and handle the potential conflict safely.",
+            "thoughtSignature": "EmAKXgFpFH0T3tifgUxpdSyAYRKoVB3gHQfYvP9qGOejc+OTYvJo7+GpMiKxF1v9FK/7kYXBmuiFSoJ82ZwDWhNqfR7MHM33FAwrqjxq2fVJb6Ls2tRhB8kpPxyGXBNGbVk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 458,
+    "candidatesTokenCount": 113,
+    "totalTokenCount": 571,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 458
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "iB7Aao7aKZW-g8UP_rmq0QQ"
+}

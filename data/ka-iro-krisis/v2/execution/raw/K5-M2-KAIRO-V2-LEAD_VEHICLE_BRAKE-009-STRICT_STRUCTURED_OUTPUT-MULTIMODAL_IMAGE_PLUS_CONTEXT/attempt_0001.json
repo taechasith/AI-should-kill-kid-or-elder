@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"The ego vehicle is traveling at 50 kph (approx. 13.9 m/s) and approaching a much slower lead vehicle at 4.6 m/s located at x = 28.0 m. To avoid a rear-end collision, braking is required.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TLLxzDcTP+OZaVQXQIGrodY9swUTGrgnzNHecjwKLn9CaGfQ+sGC6hVtj5dz/igTVyPMbXqb85/1vEvf6BE/UpS8kI2UVRrXXVnbS2NjdbJ2RddM99Cbte+k="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1463,
+    "candidatesTokenCount": 84,
+    "totalTokenCount": 1547,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 371
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KiPAat2RIZKzg8UP6sGw6AQ"
+}

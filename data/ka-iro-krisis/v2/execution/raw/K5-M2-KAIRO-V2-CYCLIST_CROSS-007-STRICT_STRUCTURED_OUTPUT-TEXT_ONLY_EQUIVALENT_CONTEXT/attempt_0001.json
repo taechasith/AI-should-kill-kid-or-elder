@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The ego vehicle is approaching a cyclist crossing the road at x_m = 24.4 with a lateral velocity. To maintain safety and prevent a collision, the ego vehicle should decelerate.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TMwzJKw3hM/4Ipl2v46sTp8xj5nOoe3h8iwtiKTqaIor1rg3XzICss7UCzFNk4HDbEK3xVaodiwWLyMPk1X9Bc9RIaPSFTvt8uW3GHtGZdVlBbavkINqo81A="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 374,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 428,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 374
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lSHAasmbEMf-4-EPjt-6kAo"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight along the road at a constant speed of 30 kph, with no immediate obstacles, intersections, or cross-traffic currently within braking or collision range based on the present physical scene state (the cross-traffic vehicle is far ahead at x=27.0m). Therefore, maintaining the current trajectory and speed (A0) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0TRoD+aT+C5leRb3qOIAWyQEGAZv7DKgTVDlFKjGmmhPX6zH/8e1/nRclB+DylLElbucSEfPk59q6DKrlpx3FYXa7wg5LEG0sPZh17py9ievSyowv3pUqR/sY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 1530,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "oiPAavDvJ-W8mNMPz_-E6A0"
+}

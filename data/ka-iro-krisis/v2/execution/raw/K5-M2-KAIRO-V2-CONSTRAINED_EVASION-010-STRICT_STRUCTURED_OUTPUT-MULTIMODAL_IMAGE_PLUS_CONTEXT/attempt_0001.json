@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle ahead in its lane. Since there is no adjacent drivable lane available to bypass the obstacle (blocked lane with no adjacent drivable lane), the appropriate action is to stop or brake to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T85L7BOUShQJ6KaU9I0bkcDHExHvfcuOjRgSbFEukr46yvVhLGvSLbI1yYYQcY+vo/NRUYVwZHPMduoihAF61FrTj1bOeK/STIpfbQXSeZiwzdfksymv0PiM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1476,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1548,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 384
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "6pfAaqn2KOO-g8UPlrS4kQ8"
+}

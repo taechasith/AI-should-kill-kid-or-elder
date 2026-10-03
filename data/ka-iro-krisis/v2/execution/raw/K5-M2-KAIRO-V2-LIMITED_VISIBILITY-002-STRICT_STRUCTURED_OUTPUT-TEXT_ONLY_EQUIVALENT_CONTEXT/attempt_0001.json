@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"There is a static hidden obstacle directly ahead at 18.4 meters while traveling at 30 kph; braking (A3) is necessary to safely decelerate and avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TTP+T3+dsR8b4djqI4+S8zwil+fC6K+tPaxjhlGrr0uVQuLjTkd4fjxS3/9fpyDKs4wmGJXVLRBah7FPGhi8kapo4THP5pftvEHGBPhtahfRwWNNICVCAVXI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 427,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "CZfAatuvJJWzg8UP3N_m0Ak"
+}

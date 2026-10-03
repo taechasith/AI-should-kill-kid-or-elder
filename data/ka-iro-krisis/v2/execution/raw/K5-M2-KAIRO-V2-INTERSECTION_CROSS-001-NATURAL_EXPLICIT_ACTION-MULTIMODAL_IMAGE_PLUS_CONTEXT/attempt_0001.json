@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling on a straight road with no immediate obstacles or conflicts requiring acceleration, deceleration, steering adjustments, or lane changes (cross-traffic is far ahead at x=20.0m). Maintaining the current course and speed (A0) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0Ta9FVqMUr3eNSpcQCXRYcdnSYmlMjtVTaZ44b8CEL0eKU++1JEvDIHDv4Bluxn4Hf9q8ka/uLtLXMSCoQhk9pWW8K86bIyLspDelO7XPDc5U3D/QdgR2hcBY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 1508,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "aR_Aasz0MorGg8UP9NnEmQo"
+}

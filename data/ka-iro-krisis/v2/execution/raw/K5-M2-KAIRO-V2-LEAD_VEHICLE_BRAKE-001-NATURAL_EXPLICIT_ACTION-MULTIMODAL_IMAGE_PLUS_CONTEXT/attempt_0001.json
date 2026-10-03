@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The ego vehicle is traveling at 50 kph ($13.89\\text{ m/s}$) while approaching a slower lead vehicle at $x = 16.0\\text{ m}$ moving at only $3.0\\text{ m/s}$. The distance between the ego vehicle and the lead vehicle is rapidly decreasing, requiring significant deceleration (braking) to avoid a rear-end collision. Action A4 corresponds to hard deceleration/braking.",
+            "thoughtSignature": "EmAKXgFpFH0TG6l9E/kq3tqd4N8SyK2Qq2aCXzlR2iRPsN+8eLjiRoNj09X19cSzFpd8sbgVGzL6A0eF8bJm7/yaiOvKnvMbXRiSvB8pF5rfDjuaMDL+GOaFkGmoZg8OjP8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 105,
+    "totalTokenCount": 1549,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ph7AaubVKJW-g8UP_rmq0QQ"
+}

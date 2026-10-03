@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The ego vehicle is traveling at 30 kph and approaches a static obstacle blocking the road at 25.7 meters ahead, with no adjacent drivable lane available to bypass it. Therefore, braking to a stop is the safest and necessary maneuver.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Tfiz+DHlD4+YLFPhdo80mzRvdSak5TzXVxdcwxSNt7XLunyWAqOf9mabd+KQI4q5tgfaL6sWpgWdP1UMPplw+b/uH//YA1pwsep/I+FTkp/xmX9WBNNeCH0s="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 391,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 457,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 391
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "vJjAaoOGNfi6g8UPt9uuyAM"
+}

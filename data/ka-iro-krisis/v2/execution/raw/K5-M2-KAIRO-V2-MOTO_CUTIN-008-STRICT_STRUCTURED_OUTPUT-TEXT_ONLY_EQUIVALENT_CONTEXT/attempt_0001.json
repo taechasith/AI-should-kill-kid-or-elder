@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A motorcycle is performing a cut-in maneuver into the ego vehicle's path from the left. Slowing down or braking (A3) is necessary to maintain a safe following distance and avoid a potential collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Tt5NUJSDDVnDtq0Kf33wsXIqHIzVs6o4QzFpvvMYUVbLyBsqD0wo/58UH/oiuH+4JI4rk7xG+wFwwjkFpclDPK5rOzNl4Usle20nZI54KzYU/o1U1z9MP2Gk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 439,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 496,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 439
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "GJfAaoSEI83fg8UP0-e38QQ"
+}

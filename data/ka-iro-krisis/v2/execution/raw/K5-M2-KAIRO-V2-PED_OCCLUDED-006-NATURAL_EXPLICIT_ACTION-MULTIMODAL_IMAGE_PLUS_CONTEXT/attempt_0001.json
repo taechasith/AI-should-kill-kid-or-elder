@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The pedestrian is detected crossing ahead (at x=23.0m) and the ego vehicle needs to safely yield or slow down to avoid a potential conflict, so applying a moderate braking or decelerating action (A3) is appropriate for the given physical state and initial speed of 30 kph.",
+            "thoughtSignature": "EmAKXgFpFH0T6IKxenCfhYgNeAttoG/aVGIwF29O+Nb+mHtszGPC4GViiJCs6A7B+3roauFRzxTSmWhj2hCxt0yfVMAo1VkGtmIwmW3nNwfGnvlug/GrpIzeHbKuo5h/iFM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1472,
+    "candidatesTokenCount": 70,
+    "totalTokenCount": 1542,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 380
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "wyDAapS3B5Kzg8UP6sGw6AQ"
+}

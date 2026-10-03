@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A vehicle is performing a cut-in maneuver from the right into the ego lane. Decelerating (A1) allows safe spacing and accounts for the encroaching vehicle's lateral motion.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TWE5sej2VIy89UmGnEnAoN+HEyYXQm66ntApy3j3XpYhKCW27N/BeUhg127kP2vtI6q9kV/9vaHmHqZ2FrWV94N9Lgb7SaJfdlvaxLETS3suDdtwd5CgzDJY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 410,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 463,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 410
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "CJjAase-Lpemg8UPpO_UyAk"
+}

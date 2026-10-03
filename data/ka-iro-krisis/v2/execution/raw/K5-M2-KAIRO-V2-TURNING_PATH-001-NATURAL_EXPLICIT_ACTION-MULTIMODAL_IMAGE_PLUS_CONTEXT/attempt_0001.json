@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The structured physical context indicates an upcoming cut-in by another vehicle at $x = 18.0\\text{ m}$. However, the current physical state shows the ego vehicle at $x = 0\\text{ m}$ with no immediate hazard or obstruction present in the immediate vicinity. Continuing with nominal speed and steering (maintaining lane) via A0 is appropriate until the interaction begins.",
+            "thoughtSignature": "EmAKXgFpFH0T03DGDF4U5VUQuPWkx8wOAJp5s/GXkotry7qWUyexXS1SdL2qn4+a0VkjY+7k8tgw0aI/JMAxmGn/xN/h+QuAvkbtdwAFUMMzuXM7qov24BU7cj7xaX+7h5E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 88,
+    "totalTokenCount": 1562,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gZfAapGLK-a2g8UP55vrsQU"
+}

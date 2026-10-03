@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1 Rationale: The ego vehicle is approaching a stationary obstacle in its lane at 30 kph. Since there is ample drivable area to the left (y from -1.75 to 5.25), the appropriate action is to change lanes or steer around the obstacle to the left.",
+            "thoughtSignature": "EmAKXgFpFH0TRHeOMs0vm2KshrofLg78X5G4IAT23SarQuZQXDtWciscgv1vukyXczMOBxNaXIiN/sBXi2cOGL34Z2BTvOBCqpC5mqgjL7ezmzL+nFnbx0xH7uBK8EIQvFU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1454,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 1520,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 362
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4SDAaqrmA-a2g8UP55vrsQU"
+}

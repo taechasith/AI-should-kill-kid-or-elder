@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting in from the left at a close distance (starting at x=19.0m, y=3.5m) into the ego lane, requiring a deceleration or braking action (A3) to maintain safe separation.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TkzL72Ed3KCBORUHwITZAo07KEdMCgIt3T11tqR0Q88VOTIsGE2gEPtx0SyD8I1TfJ2f7PoyMvnRNspP2qv9QRocCVcGDoUWn/t+/a6QM82ynCENu8N6ggXA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 408,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 472,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 408
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Kh3Aat2tC5azg8UPn-K-mQo"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"There is a static vehicle obstacle ahead at x=17.0 meters and the ego vehicle is traveling at 50 kph. Action A3 corresponds to a deceleration/braking maneuver to avoid collision with the obstacle.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TlPhrvbRBUnDgUAYXyK+WexfYkz1UCior20NdYU8pnQM00EnhTnSt7ijpQVA7G7g0D0wrUOTI3v8Pmse4E6chERITOQ45dqWheQLhXBk3CBDyzEMvmSrQntg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 433,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OR3AavqXD5D1g8UP0s2b6QQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The pedestrian is crossing the road ahead (at x = 24.4m, y = -4.0m) and moving leftwards towards the ego vehicle's path. Since the ego vehicle is traveling at 50 kph and approaching the conflict point, applying a moderate deceleration (A1) is necessary to safely yield to the pedestrian.",
+            "thoughtSignature": "EmAKXgFpFH0TrlUOT7RAPF2t2TEz3zrLwyMXqCsV/E46UyWrj2uxEIaMnkjmLYXH+1EV8moKaKa4vdL0aQ7Tn/ESUEfY/9x2+g7NyxQu4e0E6lKgVBw6qAbU7kF1iX4SA2c="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1472,
+    "candidatesTokenCount": 80,
+    "totalTokenCount": 1552,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 380
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "vZfAapCzKKzSqfkP3LXDgAo"
+}

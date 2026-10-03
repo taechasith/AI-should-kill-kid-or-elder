@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A motorcycle is executing a cut-in maneuver into the ego vehicle's lane from the right at 18.8 meters ahead. Applying brakes (A3) is necessary to maintain a safe following distance and avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TazyjyRayod3DHxLvZ7Heb5EHhykRTBuUULnHXe65QtqLSlE1/UP9FyfxbneGQB3uFUABHpUlBP0hVBOSoGYpj+NLTTlN/XYlwLOne1sEXB1dLBi03Fx6J0E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 409,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 470,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 409
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hx7Aapb9H5-6g8UPoOLC2QQ"
+}

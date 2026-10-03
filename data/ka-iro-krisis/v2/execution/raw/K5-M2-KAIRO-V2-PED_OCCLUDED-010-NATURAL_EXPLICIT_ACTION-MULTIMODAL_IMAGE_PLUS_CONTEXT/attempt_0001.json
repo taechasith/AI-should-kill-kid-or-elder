@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A pedestrian is crossing the road ahead (at x = 28.6m) and will conflict with the ego vehicle's path. Since the ego is currently traveling at 30 kph, applying braking (A1) is necessary to reduce speed and avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0TKiTUUIC0SpDpyrHkoF1SfXdY3QGCkScf6jZLG9glCE5cj3BHtE2KOjCqF0YJ9qTeQ4n9Fw8QCjj4gxszSTkCIZ3vYRilzWV77CidJVHTQYsBUBd4bMeZMfE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1472,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 1537,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 380
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "j5jAaqubMomog8UP9v_06QQ"
+}

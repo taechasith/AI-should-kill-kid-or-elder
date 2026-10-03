@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a merge vehicle cutting in from the right lane and a crossing cyclist ahead. A moderate deceleration or braking maneuver (A2) is appropriate to safely manage the potential conflict zones and maintain adequate headway.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tg5zbv0S0pNtKmC9uItjBhHJEiwgEwEFXGUMMUqCIllDGqMgpOuIs22Ev7z3XDPQ/Q8v+SdU4S+8gzmZIsWwdISWYPU+GWgh8+GfF/qoZMBjH4oiLh6fkQE4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1562,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 1629,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 470
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Dx_Aar-jK9zfg8UPpfe7mQo"
+}

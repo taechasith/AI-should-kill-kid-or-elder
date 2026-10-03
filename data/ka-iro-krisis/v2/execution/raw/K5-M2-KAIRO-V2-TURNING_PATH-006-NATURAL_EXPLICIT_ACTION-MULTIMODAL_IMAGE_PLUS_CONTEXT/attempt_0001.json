@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The ego vehicle is traveling straight along its lane at a constant speed with no immediate obstacles or hazards directly in its path. Although another vehicle is expected to cut in further down the road ($x = 25.0\\text{ m}$), at the current moment the ego vehicle should maintain its current speed and trajectory.",
+            "thoughtSignature": "EmAKXgFpFH0Twbp8lQ5Tm3DpeWl7rFnJmzfC1q5hSGg0WSiIhPiyCbVAeJkmRJT4xxMyUu769DwzyrA5voTMZjJtIXk04HT8OqgIhqbnr84992wCHpRyKGxGiYzLbqeHiYw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 1547,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pR_AavnqMZzB4-EPkMbvoAU"
+}

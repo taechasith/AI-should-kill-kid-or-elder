@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A vehicle is cutting into the ego vehicle's path at a close distance. Applying moderate deceleration (A3) is necessary to maintain a safe following distance and avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TxOT4mK4cofsfBa4oANtmDI3PSeaGixgEoqDS9MSeR0CykGDxNg3zALmGXmk2LwTVv+dh56gnSaOyJCFrOXTR/ygdOlDJnjRh2iHNFWCVdC5lM27rELMXIjY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 408,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 458,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 408
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "sSPAar3FKZWzg8UP3N_m0Ak"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A vehicle is performing a cut-in maneuver into the ego vehicle's lane from the right/turning path ahead. To maintain safety and prevent a collision, the ego vehicle should decelerate or apply the brake (A1).",
+            "thoughtSignature": "EmAKXgFpFH0TGzuYJDxe5dqFlbKLOFvM8U1+yi2DVCSf2dRZgXbkSyiY3TVsm8irvbj9JD614oF5MSpY/Zm/59mCO+7mRO3WqUnAKE3tipt1G+nJLTvlpC2SmRmZ8n63ft0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 442,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "SCPAar-nIrqfjuMP-J_k6Ak"
+}

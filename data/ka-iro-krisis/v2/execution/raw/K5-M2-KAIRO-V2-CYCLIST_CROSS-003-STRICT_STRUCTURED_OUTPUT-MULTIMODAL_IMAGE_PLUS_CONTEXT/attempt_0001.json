@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A cyclist is crossing from the left at x=18.8m, moving towards the path of the ego vehicle. Slowing down (A1) or lightly braking is appropriate to maintain safety and allow the cyclist to clear the road.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TAcw1buVDCpuyLwgf8nDxFjYXlAf5PPUUIdtglmiAJ55tfhZ7V5k1BBKB8zPFz/MOIFG1eFWg7Dbtzz2prdMCq3LvrZESfJqfXKkP1V75fIPBAZ8THjQx+B0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1459,
+    "candidatesTokenCount": 72,
+    "totalTokenCount": 1531,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 367
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dSPAap-qI9msg8UPuMa-yAk"
+}

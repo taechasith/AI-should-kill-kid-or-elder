@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is traveling at 50 kph and approaches a merging vehicle ahead at x=16m as well as a crossing cyclist further down the road at x=23m. Applying moderate deceleration (A2) ensures safe control and maintains appropriate distance from the interacting agents.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TWmXFKrf2A32uxHDwnKeOU4fV9nS7QReQS8fLXj0G+PJIHZuVIQLER5TmgvIYJdPhACQnTADcF3JyhyzIiPhHK/W4EdzpyjAogmcKr0f0rWT+j9DtgLpKjuA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1562,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 1644,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 470
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cpfAaoPkJ-O-g8UPlrS4kQ8"
+}

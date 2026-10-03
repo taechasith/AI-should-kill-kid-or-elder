@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4 Rationale: There is a stationary vehicle obstacle directly in the ego lane at x=27.4m, y=0.0m. To avoid a collision while maintaining progress, the ego vehicle needs to execute a lane change maneuver around the obstacle (action A4 corresponds to lane change to the left).",
+            "thoughtSignature": "EmAKXgFpFH0Td6Qg2UXJSApe3Oa8eVR3D2lRYGx7sV9zWLuFXGWno7mPe1jr3FT/Vg8zMXytOaLgH1uIVmCMgRzhyrTlFKFSGBgaMnf8jtLjV0M1MrluB/fv/eub/XOA4Gg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 408,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "r5bAaoDuHcSbjuMP4dHg0Qk"
+}

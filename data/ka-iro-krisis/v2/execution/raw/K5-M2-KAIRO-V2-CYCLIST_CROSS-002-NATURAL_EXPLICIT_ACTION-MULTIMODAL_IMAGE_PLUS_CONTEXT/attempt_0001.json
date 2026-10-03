@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRationale: The structured physical context and image show a cyclist crossing the road ahead (at $x=17.4$ m, moving laterally from $y=-5.0$ m at $3.15$ m/s). To safely yield and prevent a collision with the crossing cyclist, the ego vehicle should decelerate significantly or stop. Action A4 corresponds to deceleration/braking.",
+            "thoughtSignature": "EmAKXgFpFH0TD54KsU28pnwlh4WAoxCJLRsQhgQtzRZ+VhgNMKdVR8Kr4rtDYc9EISyACsCJXwZKXM73j5YglAzjJ1CiVviiIrsU9+nqbkbRqFDGxh/Rga9QYMOAmvcyIR4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1442,
+    "candidatesTokenCount": 86,
+    "totalTokenCount": 1528,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 350
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "HCLAarv7E_y4g8UP5pKX-AQ"
+}

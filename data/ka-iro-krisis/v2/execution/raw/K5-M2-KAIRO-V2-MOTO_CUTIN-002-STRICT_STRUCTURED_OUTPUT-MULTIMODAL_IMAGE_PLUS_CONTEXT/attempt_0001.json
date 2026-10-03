@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A motorcycle is cutting in ahead of ego at a distance, so a moderate deceleration (braking) is required to maintain safety and allow the motorcycle to merge.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TbGeTbv+1OxHKnbsbVKcNuMP/yqE1EdStt4wW229skFqWwN0h4dOWtZB0dHXC0UyXlv6qJZNftlpWEqCAukAhqFMGPULWoankS6BCnAzYGP3z1UEoGauVWZs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1496,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 1551,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 404
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "HSHAavXGCY_eg8UPvOPcyAk"
+}

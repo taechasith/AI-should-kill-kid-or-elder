@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing laterally ahead at a distance of 25.8 meters. Maintaining or slightly decelerating/yielding (A1) is appropriate to ensure safety without harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TJc4tldTePC7Fq4Z0rqx0pHzgSBONYe37/n1y+kXT9snatUrPl13ngVZABFsxUiNC0QFNVeWP3MNlPf2ZRcmoQt7sTG10vaN5GCrZSNDmOmdVZVXwBNSWYhM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 433,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 484,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 433
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RJjAauPGNMeCg8UP-ruR6Qc"
+}

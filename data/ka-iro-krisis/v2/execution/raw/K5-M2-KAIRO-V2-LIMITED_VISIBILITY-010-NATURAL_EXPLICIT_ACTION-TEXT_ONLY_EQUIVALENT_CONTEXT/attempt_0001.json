@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The ego vehicle is traveling at 30 kph with a static obstacle (hazard) located directly ahead at x = 29.6 m in the same lane (y = 0.0 m). To maintain a safe distance and avoid a collision, the vehicle needs to decelerate (brake). Among the available choices, A1 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0TA8sHi3pa1arn9crGD+Awbx7RlgwuEfLuAE/539hWtghgp2IfaUM/uyEmo+1x9B0CnHGUToEgXFnB56cNsdIAQgNa1VaTAw81kFEidiRB+MimMjNh0Vv0ELc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 354,
+    "candidatesTokenCount": 84,
+    "totalTokenCount": 438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 354
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0SHAaumUEY_eg8UPjenyqAQ"
+}

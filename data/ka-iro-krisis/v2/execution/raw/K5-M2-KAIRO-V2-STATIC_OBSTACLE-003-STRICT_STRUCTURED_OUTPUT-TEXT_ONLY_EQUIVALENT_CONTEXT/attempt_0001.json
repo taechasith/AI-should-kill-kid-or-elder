@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A4\",\"rationale\":\"A stationary obstacle is directly in the ego lane ahead at 16.2 meters. The ego vehicle must maneuver around the obstacle by steering left into the adjacent drivable lane (y \u003e 0) to avoid a collision.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TRUDQDTzD+lgRHYMRXcq0OfnW5FNxY7s/UZHgxogIFpcFxIjVJ5YVUlyLHuVVhMnD7Z/OyIYFxZytJVg15pxxv7WIL23FlKPxG3JJboP03Cqve5OFG3aZCWo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 420,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-JjAarb-OJ7-4-EPqqCn4Ak"
+}

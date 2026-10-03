@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A pedestrian is crossing ahead at x=24.4m, requiring deceleration or braking (A1) to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TlY2dqk/sDf6PdG28q/yjKWphw/W5ccoB6Xzg0EB1zqh8cmN35M+Wqyduz1pXoiDjGmg96IqUW1ZfEpptyCyRy2DM1HGqz+Br95SgkdbWYhtn2ftplb8gNwU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1541,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8B3Aaq-CBeXEg8UPw__h4Ak"
+}

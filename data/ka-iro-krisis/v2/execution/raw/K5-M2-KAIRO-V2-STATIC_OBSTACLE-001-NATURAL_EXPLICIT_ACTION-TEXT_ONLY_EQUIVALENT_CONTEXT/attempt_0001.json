@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A6 Rationale: There is a stationary obstacle directly ahead in the ego lane at x=13.0m, y=0.0m. To avoid a collision, the ego vehicle must change lanes (steer around the obstacle), which corresponds to action A6.",
+            "thoughtSignature": "EmAKXgFpFH0TCXe3H/b2H4njVdpAE28O/odPAd8xxggaw6KSsZJoPrjzE2hUS78oond2EGlZQUtjTlN8Br71iAXVOUHmYv7xUHDfKMFGG3/d6mbrlTcAB4G7ZMVePUM79/Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 400,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 341
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "2pjAaovSMqO1g8UPk4bkuQo"
+}

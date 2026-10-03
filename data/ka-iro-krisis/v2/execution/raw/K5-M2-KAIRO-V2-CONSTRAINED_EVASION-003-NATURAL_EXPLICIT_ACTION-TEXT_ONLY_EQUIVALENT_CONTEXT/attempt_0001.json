@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\n\nRationale: The ego vehicle is traveling at 50 kph toward a static obstacle located directly ahead at x = 16.6 m in the same lane. The drivable area is confined between y = -1.75 m and y = 1.75 m, and there is no adjacent drivable lane to bypass the obstacle. Therefore, the ego vehicle must decelerate to avoid a collision. Action A1 corresponds to braking/deceleration.",
+            "thoughtSignature": "EmAKXgFpFH0TxSojmACXd2/CryAIMjSypMIFeQHocZ+P8A/gJvlDOyG9v3JpOfZejvzrJC3MINDICF+KoaRp1qbDBeP/xYi3FELrUYw/2raaiHDYooSUhvTnHC9xYe6ERLk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 101,
+    "totalTokenCount": 445,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hSLAarncG8K6g8UPsbOi-QQ"
+}

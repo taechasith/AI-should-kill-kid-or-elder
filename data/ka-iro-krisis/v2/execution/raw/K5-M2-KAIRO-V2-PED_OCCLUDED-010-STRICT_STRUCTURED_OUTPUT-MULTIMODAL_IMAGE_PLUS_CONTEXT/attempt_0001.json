@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing from the left at x=28.6m, triggering a safety reaction. The ego vehicle must decelerate or brake to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Td8Es3e115QpKD0bO8erx4lxlA1BcFc5YTBoFpb6ca0QmtJvek3CP3IReX2SMUe5fxi1Iuo/MtxO6yYSRrGPmPrGwXGfQsr0IFbC467ut5kKMsX6P1tC05hc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 1548,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0iDAasL1BuXEg8UPw__h4Ak"
+}

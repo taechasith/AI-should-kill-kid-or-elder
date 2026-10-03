@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2 Rationale: The leading/adjacent vehicle is performing a lane cut-in towards the ego lane, requiring the ego vehicle to apply moderate braking to maintain a safe following distance and accommodate the merging vehicle safely.",
+            "thoughtSignature": "EmAKXgFpFH0T8AhyB9MLKlMBcVGOCBfKyzpnsjgQeMDqEU/NZek5nLF03TXXVBZccK4l3uUcpCvqQZbFXaaSP6XefJHSQTZr+5Jqs5TMLpgGJt5KzxBG46uRplLNsdkmUao="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 391,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 436,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 391
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OyDAapW1OOveg8UPic_5iAU"
+}

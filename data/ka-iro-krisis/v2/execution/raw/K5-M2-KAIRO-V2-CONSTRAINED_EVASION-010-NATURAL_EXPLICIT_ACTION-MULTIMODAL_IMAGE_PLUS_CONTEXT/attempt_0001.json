@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4\nRATIONALE=The ego vehicle is approaching a static obstacle blocking the lane (x=25.7 m) with no adjacent drivable lane available for bypassing, requiring deceleration to safely stop behind the obstacle.",
+            "thoughtSignature": "EmAKXgFpFH0TGr7LqRulC2gskhNB3j5zIxpHf6AkqZYXKILt71KFd9kmNt5bfPOIiVgvDQ38r69/v+u7fGRaE7mcGroViyloUU70BKRnXQeptc+a2ka91lpCauu4hM2xG9Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1457,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 1505,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 365
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "aCHAavOdD6zSqfkP3LXDgAo"
+}

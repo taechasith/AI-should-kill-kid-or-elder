@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4, Rationale: The ego vehicle is approaching a crossing cyclist ahead at x=23.0m moving laterally from y=-5.0m at 3.75 m/s. Given the speed and potential conflict, slowing down (A4) is the safest and most appropriate driving maneuver to yield to the crossing road user.",
+            "thoughtSignature": "EmAKXgFpFH0T+5ozRe4DMC/iaOaXGkfwJaptscm2qsBIC050zNy/M6Kax01S3808PspvL+dELI1ygDmFAYgwwN2kCjQ5IaPBFxCj+QlE6O/LJ2epL6VNiuM6Rx74VK8ugVs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1442,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 1515,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 350
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kyPAaubxI__Fg8UP1e-duAo"
+}

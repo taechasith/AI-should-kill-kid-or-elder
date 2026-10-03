@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A3\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle in its lane at 50 kph. Action A3 represents braking to avoid a collision with the obstacle ahead.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TKjmoWbsWzd6K5qcIu/tOfc91SESKtWwfa3C20yTAj6wy4SAHS1nU+lueMyfNA3q2nsiV6G0iTSq/S4BOgIvtTa227lCyLMSC+xUU1uNTDB0uTUjF8bHh6dw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1445,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 1500,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 353
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "OSPAasOaIsSbjuMP4dHg0Qk"
+}

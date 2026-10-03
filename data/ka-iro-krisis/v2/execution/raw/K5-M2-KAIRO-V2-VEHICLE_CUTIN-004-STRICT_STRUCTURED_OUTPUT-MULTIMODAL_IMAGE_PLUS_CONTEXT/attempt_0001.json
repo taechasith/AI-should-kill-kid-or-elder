@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is traveling straight at 30 kph while another vehicle ahead is performing a cut-in maneuver from the left (y=3.5m moving towards y=0.0m). Braking or moderating speed (A1) is the safe and appropriate action to maintain a safe distance and handle the merging vehicle.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TJ7qhaAmDVLiekFpouYKYGx0geY41Ji2RbMsyQnYotwp+sF3w3mnzZ9IZDv/C4lJl5jqJJBvGUjeIk8kxBG8VWQm2ttVO3vDYu3ADNZp5fNOZZTAP/vX9Jbw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1495,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 1587,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 403
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "npnAau3wAZW_g8UPt8im0AQ"
+}

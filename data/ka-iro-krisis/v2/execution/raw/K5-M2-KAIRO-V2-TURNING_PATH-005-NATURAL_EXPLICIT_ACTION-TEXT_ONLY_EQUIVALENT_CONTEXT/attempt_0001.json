@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The turning vehicle is cutting in ahead of the ego vehicle's path at a close distance, requiring deceleration (braking) to avoid a collision.",
+            "thoughtSignature": "EmAKXgFpFH0ToFlmxwtBJnrm3NbIvr5nP3opBh9STsHuoilKkPakZEzRj1zK36AD30/F0PU3/I8szf8fLbC3SEaAS11o6KVS2qBmzUv6EFT2J79Mp+7WiFPlqVZ9tnQsBIc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 37,
+    "totalTokenCount": 426,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "SSLAaoLoFpmwg8UPp_H2yAk"
+}

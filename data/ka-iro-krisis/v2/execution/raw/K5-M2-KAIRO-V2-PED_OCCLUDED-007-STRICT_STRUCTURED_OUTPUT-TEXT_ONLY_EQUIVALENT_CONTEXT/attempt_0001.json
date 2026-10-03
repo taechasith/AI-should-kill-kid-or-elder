@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"A pedestrian is crossing the road ahead at a distance of 24.4m and moving leftwards; deceleration (A1) is necessary to ensure safe yielding and collision avoidance.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Ti1Ri1jymSZpQFitQkseKIff0zF+Vbu3rTfVDfpZI/WaMa+WovEru3ue+kz+datEVgbLsR5DtR7zr4j6/gk1MNCIOtWYroqB4NH3SfozulweJYSV14L7H20Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 406,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 457,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 406
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "rZjAaoHpNPq2juMPvbjaoAk"
+}

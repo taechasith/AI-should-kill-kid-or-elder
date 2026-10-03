@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is approaching a stationary obstacle directly in its lane at 50 kph, and there are no adjacent drivable lanes to steer around it. Decelerating safely (braking) is the only appropriate response to avoid a collision.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TfQgODSKffVKTzkVQxWVW4oC6v7MGkGzirvTculfZ2KTBPVVwOKMoS5xwg4B1b8oLquoJrq5eomkm/AOOWR3E/5ixV/kTsE+iGXJDgi00bXN9b4faRjcmkDo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1448,
+    "candidatesTokenCount": 73,
+    "totalTokenCount": 1521,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 356
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "25fAapWFL9jVqfkPx8eSgAo"
+}

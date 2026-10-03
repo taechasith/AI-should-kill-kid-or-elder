@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"Maintain current speed and trajectory as there is no immediate collision risk with the distant cross traffic vehicle located further ahead.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TSt+72yFL1Hj6asWIPA5HrIsfhRuIheas/JB1NfPAL4phoRD8hJ62Ew0eFaYIol2Tv1ynw6Z9pmvboJ0Wi4gMiUFmCvhuxub+Gveypd2shd2OqVLuSuhnPZI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1464,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 1509,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 372
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "_SLAas73HLqfjuMP-J_k6Ak"
+}

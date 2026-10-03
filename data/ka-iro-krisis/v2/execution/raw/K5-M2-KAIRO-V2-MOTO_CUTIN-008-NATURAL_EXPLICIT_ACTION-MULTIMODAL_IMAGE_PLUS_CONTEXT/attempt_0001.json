@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The motorcycle is performing a cut-in maneuver ahead of the ego vehicle from the left/center. Applying moderate deceleration (A1) allows the ego vehicle to maintain a safe following distance and safely accommodate the merging motorcycle.",
+            "thoughtSignature": "EmAKXgFpFH0TtBsd+7GYW2cc6TCRfqkzRij7gz7uGpH/P9Kw86HqUQVNMlUJrEno3cjMjOoXhuNPpUyCHdpx6UfGpFpKvJcy1wmO7WLEhUY2Gh7uIWtx2LpKQDcfyEDnotc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1505,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 1556,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 413
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NJnAau6jO6Dag8UP7P6K-QM"
+}

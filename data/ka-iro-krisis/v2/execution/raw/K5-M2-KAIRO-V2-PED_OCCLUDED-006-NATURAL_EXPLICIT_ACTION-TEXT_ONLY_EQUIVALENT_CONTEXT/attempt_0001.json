@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The pedestrian is crossing at $x=23.0$ meters ahead with a lateral velocity of $1.5\\text{ m/s}$. Given the ego vehicle's initial speed of $30\\text{ kph}$, decelerating moderately (A2) allows the vehicle to safely yield to the pedestrian without harsh braking or maintaining an unsafe speed.",
+            "thoughtSignature": "EmAKXgFpFH0T+y8v4w1NHnwK84WSO2fcJPq0zdJA89XNq0e0SWXloJXiFhefM9mduExFYnMJbv1PekaC1PN9DZXJ7eTLKO3Ln+NcJnmGkg38gbwiqNm4avaXAv8FVXzg7jA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 81,
+    "totalTokenCount": 468,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 387
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hiHAaurCDJmwg8UPp_H2yAk"
+}

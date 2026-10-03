@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A motorcycle is ahead and slightly to the left, beginning to cut in towards ego's path. Applying moderate deceleration (A4) is appropriate to maintain safe distance and handle the merging vehicle.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TZn/PNVaUXTJAuSuhePybgzmOa5LJK5MxQ9tfDARbgeuqnIr4YvESyqDGrCm2jK0X96HYhFsVDmi9HB3PTPPIC96nSGfXBaAyqgE+E2cwz+Wn9y0maW3H3Ng="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1496,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 1558,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 404
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "aSDAauIE9KKp-Q_W6rvQBA"
+}

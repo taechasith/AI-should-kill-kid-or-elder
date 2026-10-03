@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"The ego vehicle is approaching a static obstacle (hidden_obstacle at x=25.4m) on the road ahead. To safely avoid the hazard, the ego vehicle should steer around it or slow down, with braking/evasive maneuvers categorized under A4.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TUNmLroC58cXRZ0mwcjdaZkZk+0edfzhPRVMBGXkKe6ad5y/s6JNZycf8EJQ+NQVD6FEkXm9a1PT9Qo4FaDCX/sVyE1Z0w473Uj6JQbtspf68pTdlwsvlLfg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1458,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 1536,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 366
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RJnAav9liKOp-Q-ki5_pBA"
+}

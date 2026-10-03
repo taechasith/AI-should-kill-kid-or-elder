@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A6\",\"rationale\":\"There is a static obstacle directly ahead blocking the lane with no adjacent drivable lane available. The ego vehicle must bring the vehicle to a safe stop.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TilhPzZnv6DfrMUw7mU8Ad8NucyVinRjIRT2rQmF96RFIsqNQwymP58h8HsM5jihjLvwCMskQirdjN9LDt0121QPehZza9+U/nzD0mwFhG1T480Ve8qqROXw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 363,
+    "candidatesTokenCount": 44,
+    "totalTokenCount": 407,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 363
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "JZnAau_wOcO0g8UPgdCdkAo"
+}

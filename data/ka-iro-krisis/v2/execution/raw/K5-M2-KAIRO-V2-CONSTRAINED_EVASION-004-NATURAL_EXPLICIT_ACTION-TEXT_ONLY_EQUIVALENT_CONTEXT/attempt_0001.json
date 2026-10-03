@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0 Rationale: The ego vehicle is approaching a static obstacle blocking the lane at 17.9 meters ahead, and there is no adjacent drivable lane to bypass it. Therefore, the appropriate action is to decelerate or stop (A0).",
+            "thoughtSignature": "EmAKXgFpFH0TtJMr2CQRJa35AllQPstEohXCAnmBXep0QrLHh9ZU32kKTuziGPQiRgiDwYBVgQGPhdVYW7sAzLasz9CChImORQcq/ZkFUDCm9+zmwdltxgr1mIHlOUBYoBA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 398,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NZjAavjXLtCxg8UPzfGimQo"
+}

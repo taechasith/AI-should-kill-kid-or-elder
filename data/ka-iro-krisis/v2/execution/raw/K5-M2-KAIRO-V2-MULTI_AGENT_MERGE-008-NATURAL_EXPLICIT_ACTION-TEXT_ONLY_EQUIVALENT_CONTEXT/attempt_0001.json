@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: The structured physical context indicates a vehicle cutting in from the right (`merge_vehicle`) and a cyclist crossing ahead. Slowing down or applying a mild deceleration/brake (A1) allows the ego vehicle to maintain safe separation from both interacting agents.",
+            "thoughtSignature": "EmAKXgFpFH0TytjOp4Nk8R7/2vziaetPvejOBYFPaSoAiqofA7wN1fC9HpKwW/9rq5C5l2a7fuRb/ho4X7oJYJV+7NWHolHO4wIpQeJnCl48+cQJUbQQOVyekbZwXum1rtc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 486,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 486
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "VyPAarGRI_i6g8UPt9uuyAM"
+}

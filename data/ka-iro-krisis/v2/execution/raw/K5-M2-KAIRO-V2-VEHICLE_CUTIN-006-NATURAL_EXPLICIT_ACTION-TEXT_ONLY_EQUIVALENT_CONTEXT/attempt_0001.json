@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The structured context indicates that another vehicle is performing a lane cut-in maneuver from the right/left into the ego vehicle's path. Decelerating (A3) is the safest and most prudent defensive driving action to accommodate the merging vehicle and maintain a safe following distance.",
+            "thoughtSignature": "EmAKXgFpFH0TG/255qOXqrLQtkwdER+3MoJ6TLrH+CYq9Nf/rJ6gzSYYB1n+pKLXiDrnaNzRtBdjnabbPniXDWL4qoryrUJzCEM2Fgt98gYUXo9U3A+GZkQ1NOKW4IurPwo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 391,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 454,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 391
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gJjAarPyL9ijqfkP6N_DwAk"
+}

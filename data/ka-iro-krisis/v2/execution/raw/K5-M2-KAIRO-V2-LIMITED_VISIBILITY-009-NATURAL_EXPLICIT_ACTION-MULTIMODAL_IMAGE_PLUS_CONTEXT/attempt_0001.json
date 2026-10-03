@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is approaching a stationary obstacle (hazard at x=28.2m) on the road at a speed of 50 kph. Given the proximity and current lane position, the appropriate evasive action to avoid a collision is to change lanes (steer left/right around the obstacle). A3 corresponds to a lane change action.",
+            "thoughtSignature": "EmAKXgFpFH0TxjCTgZc73v9rQ2BqWaNe/KzJNFSTcAI8VeTb9IUBCIyV1xnTNSkHZKjRRW9Gpt7A774KDJn8i4jjTA4KrsJETGPgmdVF6HihOcv9GhpwUHD4/pU35ArGi5w="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1439,
+    "candidatesTokenCount": 79,
+    "totalTokenCount": 1518,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 347
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "3x3AarWnMLjnqfkPlpmvqQc"
+}

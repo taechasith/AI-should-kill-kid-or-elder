@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle maintains lane position while travelling forward at 50 kph, with no immediate obstacles directly in the current lane path.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TgXmeBok0Qq3w8O1jQQTWffID73XiK5S0rRY/otZCLujJlHLuNCt1YrskhpMu7RwJs+Aejw2wB4rKrQHzMiOWAYOTIST0LWicnXipFw2PdDavg7j0Sm3ihyI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1493,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1543,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 401
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cJnAauLsOpr-4-EPq5yruQ8"
+}

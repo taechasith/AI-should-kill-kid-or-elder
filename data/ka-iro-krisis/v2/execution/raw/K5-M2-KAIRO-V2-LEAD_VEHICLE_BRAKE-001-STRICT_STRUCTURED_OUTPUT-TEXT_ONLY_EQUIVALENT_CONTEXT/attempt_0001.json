@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The ego vehicle is traveling at a significantly higher speed (50 kph / ~13.9 m/s) than the lead vehicle (3.0 m/s) at a distance of 16.0 meters, creating a high risk of rear-end collision. Action A3 corresponds to heavy braking or deceleration to maintain a safe following distance and avoid a crash.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TGmPSaRu6YTpqJXg5hnrw8GG1NAofVaLZASPxFkU+xxXYJSMzR2/IcuRrJL6RH5MldQKqYVlIWHlInUB/ROHurdZCW9hCfmPJjkJgK1Gh4sd9uoQy8A5lIpI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 378,
+    "candidatesTokenCount": 92,
+    "totalTokenCount": 470,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 378
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "DiDAaoDTOomog8UP9v_06QQ"
+}

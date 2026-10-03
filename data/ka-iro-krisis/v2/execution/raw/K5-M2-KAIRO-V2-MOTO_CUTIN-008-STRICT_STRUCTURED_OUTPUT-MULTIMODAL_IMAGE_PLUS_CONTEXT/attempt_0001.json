@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A motorcycle is cutting in ahead of the ego vehicle at 25.8 meters forward, requiring deceleration to maintain safety.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TNtNqVl/RKRYQv+IBJ8aglWonCEQluM55E9KWY1qnbsZQ/E2rW6trLeYRadP/OuqQdDo1C3bjZt4gwkb59HkWrWxBWraWzXa4CRp/KAo1uzIGXNEfgsm8q0I="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1524,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 1572,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 432
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "J5fAaqz4I8eCg8UP-ruR6Qc"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A0\nRationale: The structured physical context indicates a static vehicle blocking the ego vehicle's lane ahead at $x=23.1$ m, with no adjacent drivable lane available (the road width is bounded by $y=[-1.75, 1.75]$ while the obstacle is at $y=0.0$). Therefore, the ego vehicle must decelerate and come to a stop behind the obstacle.",
+            "thoughtSignature": "EmAKXgFpFH0TmBIBEENy/1DrNeIVfKjdPF8FP6IIql1F6On+glXmR1XslML3o4N3ysEfdjtPabq61cfrAGsjCrUdO2+2UR2kzxzB5Mbn41C/MyXCj2c7xtQDoeWWTYRrNg4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 435,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 344
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "cZjAaqSlMv_Fg8UPz--duAo"
+}

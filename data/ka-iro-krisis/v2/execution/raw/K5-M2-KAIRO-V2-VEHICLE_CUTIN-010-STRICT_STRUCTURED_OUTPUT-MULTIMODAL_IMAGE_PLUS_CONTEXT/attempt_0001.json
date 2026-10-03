@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is traveling straight at 30 kph, and there are no immediate conflicting dynamic actors in the adjacent lane that require abrupt lane changes or emergency braking, so maintaining speed and lane position is appropriate.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T1yaYqL81LWTiM7xj1vqHGiZOqO3a29hfJiUFdTCEePHMLePiMvc2t06xDMyQO49BcuL5v7obFH0XxhvbNeAb/yrw5fGRAk6Gjbd2piseZbOVujzM5ZEZfrE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1523,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 1589,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 431
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "xB7Aap_5K-Ddg8UPj_nGqQo"
+}

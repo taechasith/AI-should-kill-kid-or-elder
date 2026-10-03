@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The ego vehicle is traveling at 50 kph (approx. 13.9 m/s) while approaching a slower lead vehicle at a distance of 28 meters traveling at only 4.6 m/s. Given the closing speed, braking (deceleration) is required to avoid a rear-end collision. Action A3 corresponds to a moderate deceleration level appropriate for this scenario.",
+            "thoughtSignature": "EmAKXgFpFH0TQW08cqPHuhaBI8lQDo/leeuzFP28qWXo1DtAtXdEQVeIiwA3BD5ZNzqv9AgiYHzw2Aba/uSL7DOuDa5ntPaDunskoelSff/WF2BIiABv0XPEX1WEMwd729Q="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 91,
+    "totalTokenCount": 1535,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4R_Aar_QOIuyg8UPvYvhqQg"
+}

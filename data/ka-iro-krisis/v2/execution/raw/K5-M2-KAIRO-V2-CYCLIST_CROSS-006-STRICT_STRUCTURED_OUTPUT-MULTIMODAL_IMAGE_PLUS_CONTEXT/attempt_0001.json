@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A3\",\n  \"rationale\": \"A cyclist is crossing from the left (y=-5.0m) towards the ego lane, creating a potential conflict ahead at x=23.0m. Slowing down or braking (A3) is necessary to safely yield to the crossing cyclist.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TWShcSdY/1PLOuhQmvNEOdHvpcedisdkM60JTzrdxEK9WbszsB9Y7qOpkFNHC2PVM7S31PDKrra2729iwY+noUjY2mM+QstuBABi+I/o3ECjsLPCid2en3nU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1461,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 1537,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4h7AaoGrOKXcg8UP9OCo0Qk"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\nRationale: The ego vehicle is travelling at a moderate speed (30 kph) with a pedestrian crossing the road ahead at approximately x = 23.0 meters. Given the pedestrian's position and trajectory, decelerating moderately (A2) ensures safety while approaching the potential conflict point.",
+            "thoughtSignature": "EmAKXgFpFH0TU0uoZ6SsKj4OvmHrZa4+ud9LqCRbxsn1yhf1OrkvHvGm8/ktAw610xMzEkVTS5Tpn9J1bICKZWB2RuuE80VO2aJw7iIRVepyEnBycYozfRY7aJW9MbCpdMU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1441,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 1506,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 349
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NpfAaoTBJIHUqfkPk5aN2QQ"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A4 Rationale: The ego vehicle is traveling straight at 50 kph while another vehicle ahead and to the right (`turning_vehicle`) performs a cut-in maneuver toward the ego's lane ($y = 0.0$). Given the proximity and motion of the cutting-in vehicle, a moderate deceleration (braking) is necessary to maintain a safe following distance and avoid collision. Thus, action A4 (braking/decelerating) is appropriate.",
+            "thoughtSignature": "EmAKXgFpFH0TwlXNn5H0Zd9ea7zX8yyoM1eCqwzv14Pus/L6aF5aZxZmUfiWX04NHN0+7PhAKgxZiSaHG+0gcuOG8jJAxLRysJJuANczjqFHLgxXVqa0szkdfUiaQu/lXzw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 99,
+    "totalTokenCount": 1573,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Hh_AaoXxL-uvg8UPwNvtmQo"
+}
