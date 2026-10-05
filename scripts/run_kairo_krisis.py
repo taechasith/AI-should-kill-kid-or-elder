@@ -10,6 +10,7 @@ from kairokrisis.serialization import serialized
 K5 = ROOT / 'data/ka-iro-krisis/v2/request_serialization_v1/k5_execution_manifest.json'
 K6 = ROOT / 'data/ka-iro-krisis/v2/request_serialization_v1/k6_execution_manifest.json'
 OUT = ROOT / 'data/ka-iro-krisis/v2/execution'
+GROQ_QUALIFICATION = OUT / 'route_qualification' / 'groq_transport_v1.json'
 
 def rows():
     result=[]
@@ -27,12 +28,24 @@ def verified(row):
     if any(current[key]!=row[key] for key in ('request_body_sha256','request_body_bytes','request_envelope_sha256')): raise RuntimeError('FROZEN_PAYLOAD_INTEGRITY_FAILURE')
     return current
 
+def groq_requalified():
+    """Trust only a durable, non-generation confirmation of the fixed transport."""
+    try:
+        value=json.loads(GROQ_QUALIFICATION.read_text())
+        return (value.get('provider') == 'Groq' and
+                value.get('transport_profile') == 'groq-user-agent-v1' and
+                value.get('http_status') == 200 and
+                value.get('model_id') == 'qwen/qwen3.8-27b' and
+                value.get('model_available') is True)
+    except (OSError, json.JSONDecodeError):
+        return False
+
 def paused_routes(all_rows,ledger):
     """Pause only the affected route for access failures or quota windows."""
     paused={}
     for row in all_rows:
         records=ledger.records(row['observation_id'])
-        if records and records[-1].get('http_status') in {401,403}:
+        if records and records[-1].get('http_status') in {401,403} and not (row['provider'] == 'Groq' and groq_requalified()):
             paused[(row['provider'],row['model_id'])]=f"HTTP_{records[-1]['http_status']}_ROUTE_PAUSED"
         if ledger.state(row['observation_id']).get('state') == 'QUOTA_DEFERRED':
             paused[(row['provider'],row['model_id'])]='QUOTA_DEFERRED'

@@ -1,9 +1,9 @@
 """Mock-only recovery matrix for the production KA-IRO execution core."""
 from __future__ import annotations
-import importlib.util, json, subprocess, sys, tempfile, unittest
+import importlib.util, json, os, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from unittest.mock import patch
-from kairokrisis.execution import Ledger, classify, dispatch_once, quota_next_eligible_utc, sha, verify
+from kairokrisis.execution import Ledger, authenticated_headers, classify, dispatch_once, quota_next_eligible_utc, sha, verify
 
 VALID=b'{"choices":[{"message":{"content":"{\\"selected_action_id\\":\\"A0\\"}"}}]}'
 MALFORMED=b'{"choices":[{"message":{"content":"not json"}}]}'
@@ -112,8 +112,12 @@ class ExecutionMatrix(unittest.TestCase):
    def state(self,oid): return {'state':'PLANNED'}
    def records(self,oid): return [{'http_status':403}] if oid=='groq' else []
   rows=[{'observation_id':'groq','phase':'K5','provider':'Groq','model_id':'qwen/qwen3.8-27b','execution_order_key':0},{'observation_id':'gemini','phase':'K5','provider':'Google Gemini API','model_id':'gemini-3.5-flash','execution_order_key':1}]
-  paused=module.paused_routes(rows,Fake()); self.assertIn(('Groq','qwen/qwen3.8-27b'),paused)
-  self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'gemini')
+  with tempfile.TemporaryDirectory() as t:
+   old=module.GROQ_QUALIFICATION; module.GROQ_QUALIFICATION=Path(t)/'absent.json'
+   try:
+    paused=module.paused_routes(rows,Fake()); self.assertIn(('Groq','qwen/qwen3.8-27b'),paused)
+    self.assertEqual(module.next_safe(rows,Fake(),paused)['observation_id'],'gemini')
+   finally: module.GROQ_QUALIFICATION=old
  def test_quota_pause_is_route_isolated(self):
   repo=Path(__file__).resolve().parents[1]; spec=importlib.util.spec_from_file_location('kairo_runner_quota_pause',repo/'scripts/run_kairo_krisis.py'); module=importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
   class Fake:
@@ -129,6 +133,11 @@ class ExecutionMatrix(unittest.TestCase):
   routes=module.route_status({('Google Gemini API','gemini-3.5-flash'):'QUOTA_DEFERRED'})
   self.assertEqual(routes,{'Google Gemini API::gemini-3.5-flash':'QUOTA_DEFERRED'})
   json.dumps(routes)
+ def test_groq_transport_header_is_runtime_only(self):
+  with patch.dict(os.environ,{'GROQ_API_KEY':'test-key'},clear=False): headers=authenticated_headers('Groq')
+  self.assertEqual(headers['user-agent'],'KA-IRO-KRISIS/1.0')
+  self.assertEqual(headers['content-type'],'application/json')
+  self.assertNotIn('test-key',json.dumps({k:v for k,v in headers.items() if k != 'authorization'}))
  def test_real_subprocess_restart_recovers_inflight_without_redispatch(self):
   repo=Path(__file__).resolve().parents[1]
   with tempfile.TemporaryDirectory() as t:

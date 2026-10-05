@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Time to intersection for ego (T_",
+            "thoughtSignature": "EpEGCo4GAWkUfRNlPclHpyj1yR/TeJv2OznQHtzez2ja62uFmyrIuNuobCsls668hxQMzaqI/XbgUkWSv/ooyd85nllDA7pg7uWtlDunqZREr7Y60/K9+/AcJrYCj5kfCyDw0Js8ZTsHEVIOOQZrjHCuPaxXQds8FvEbEQH00KXabTfLfeHQeTBdbBEOti6AhXtx3G/X1uGAa/6dWGon/i8h5QJ+v6RCytH4DE/dnu4kZzrw3yMWBqEBC2dXdI8YcmGnFGp4R3TP9Bvx5UmXXjfqr8E1jykVw9qE3Ngmw6/ZbNopXVavYncsFlpyPt+zYofFXKQUY4llcTrnn8dtcPMTzZdQF1Fsfo5DPoIC0jsg7fEh1eXcTiTLEuaXp+jG3E5rDuEQxvSOD4pzH8vgPTkxewx3sYwJqdY/WKLmdpbUuiJNhfydnxL2newBfTcic4gxtV0vpBugi3fFTVNN+2uGrAM23vphtU2HNpoQUWAKaJaL7FwaMQGPAmC/d8Q7ZZoUVFEAmjrvCIOcpbmsP5MTffrCCCCRQFBbElK0Z5PXpc/WEu5qbQEFpfyr7sSdaA57u/r4FI+3cwmXkhsvKGfHKzxNbhSFmmVzuVjHHep3nWYIMXM3Fy0D2q11UemABwQrTKHlMAMtCDnuPMYp6VJIyrsdMgaXG8ZnPGpqpMgpYifmUi2VoHMbhIJtyqeDAc+G279LgfkxP3/QBQuRVXR8I44TcOroaupdAgcklM9K2J2jbtF1kjxKwKonzne9vragdIOFfwhsbbqkHQtmvGQs2PCsZW+8O4hDr6eoayz5btTejVeyocR8NE1d70Wo4yZFONcj+XFthWFgUDYZpAoJuWYTUD35ViQjgO85gWjYVch3vgv8VeKKZIUan4oR063Sqs9EpHf/DGpoXneGzHJBra68+MireIV3ej/NaxD7xiDx614mjcFTKS+vxvWIfeXmcTIA+cuengKJGAPpiDlkXTN1MFVXotA4XF8+Yd8e5ROPSfncCiFUUJc0GhwabRa3hcEcDp17tmY8/6eK0xNZkmE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 360,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 612,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ],
+    "thoughtsTokenCount": 244,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "TsTBapKTLKzSqfkPpuz2kAQ"
+}

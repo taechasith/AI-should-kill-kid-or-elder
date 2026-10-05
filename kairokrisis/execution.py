@@ -22,6 +22,10 @@ RETRYABLE_HTTP = {429, 500, 502, 503, 504}
 TERMINAL_STATES = {"VALID_ACTION", "VALID_RESPONSE_NO_ALLOWLISTED_ACTION", "INVALID_STRUCTURED_OUTPUT", "REFUSAL", "CONTENT_BLOCKED", "NON_RETRYABLE_PROVIDER_ERROR", "RETRY_EXHAUSTED", "AMBIGUOUS_TRANSPORT_OUTCOME"}
 VALID_ACTIONS = {"A0", "A1", "A2", "A3", "A4", "A6"}
 MAX_TRANSIENT_ATTEMPTS = 3
+# Transport-only, intentionally outside frozen request envelopes. Cloudflare
+# rejects urllib's default signature before the Groq API can authenticate it.
+# This cannot affect a frozen scientific body, prompt, or output mode.
+GROQ_TRANSPORT_USER_AGENT = "KA-IRO-KRISIS/1.0"
 
 
 def utcnow() -> str:
@@ -262,4 +266,5 @@ def authenticated_headers(provider: str) -> dict[str, str]:
         return {"content-type": "application/json", "x-goog-api-key": key}
     key = os.environ.get("GROQ_API_KEY")
     if not key: raise RuntimeError("MISSING_GROQ_API_KEY")
-    return {"content-type": "application/json", "authorization": "Bearer " + key}
+    return {"content-type": "application/json", "authorization": "Bearer " + key,
+            "user-agent": GROQ_TRANSPORT_USER_AGENT}

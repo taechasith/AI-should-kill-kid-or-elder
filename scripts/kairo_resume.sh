@@ -34,7 +34,14 @@ else:
     print('READY' if ready else 'WAIT')
 PY
 )
-if [[ "$quota_gate" != READY ]]; then
+other_route=$(python - <<'PY'
+from scripts.run_kairo_krisis import OUT, next_safe, paused_routes, rows
+from kairokrisis.execution import Ledger
+ledger=Ledger(OUT)
+print('OTHER_ROUTE_AVAILABLE' if next_safe(rows(),ledger,paused_routes(rows(),ledger)) else 'NO_ROUTE_AVAILABLE')
+PY
+)
+if [[ "$quota_gate" != READY && "$other_route" != OTHER_ROUTE_AVAILABLE ]]; then
   printf '{"runner":"QUOTA_WAIT","next_resume_utc":%s}\n' "$(python - "$quota_status" <<'PY'
 import json,sys
 print(json.dumps(json.loads(sys.argv[1]).get('next_resume_utc')))
