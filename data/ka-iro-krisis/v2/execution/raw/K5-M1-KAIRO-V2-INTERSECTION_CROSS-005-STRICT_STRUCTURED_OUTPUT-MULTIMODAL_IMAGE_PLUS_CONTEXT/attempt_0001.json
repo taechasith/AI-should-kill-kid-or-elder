@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"rationale\":\"The cross-traffic vehicle is approaching",
+            "thoughtSignature": "EtcFCtQFAWkUfRPXP5dbq380i+mR8YRzoJNxukk0NCifBI1Ztk5OsVYZ5y+LJfC9wJFJqlbX8gWw8leo21UNP9RDR2xuS2npAlemcYYPaCTnuGsCVBB1hcnbCew6m7fayLjhqBKEUkr73oACaeCP/p4Ehu7b2v28RpcOQIIgru0VKfJKYATtzWhiMVS4YXcUcaYh/lzHqFOsP4zaolBH9mK20WRNvGKSrkkMu2uSE4JI9UZ4Cfj3HS010fE+WkHXYX5N5cR+9LdemXHWErZz9Hgk7cEFHQIEaTLYLcSZsOZriqqZcfBaRUbM/nx9HFRNYsZ36N5sNHyfJfIsGFqMAJuUQDRn1n/jFUG87Evk85oQvKZbSomIe/U9Vco3HR3ZEG6m7QIc+TyT9IvKGZfTStnx/DzU5CDgzEKMLHrDfggg9tRNjO40UCCAPNa5N/AlgNnFiLoNV5PqD/zsSAh0yPYO1WqrjyK2icYlj17FUQ4JkwB3dQK99rscur0Q52HnrICZTKDVdu9i0Tx8ecAjjchs8R+AHGM8fGGdkZ/0WqjatdZfix6aWt7AMiZ0z5lpiGmrAFZ7IpIONlcgQZzBI+8ghPSfOmeDsDQK60YfotqIvlOipGtqc0eRFc3MrQTXf+iqm8SPmru5gtxd2Z9373y1u+yf5syIqNEApRLYI40ZNDnBJi99m3XkXkcXwqLnnGfQw0q4xlkPdehDV/MeJZh8FUcpl8/br4DL5IJ7bSy4Z1D4U55V6BjuLsjRok7d0V8SdPwtuysNucnFbcnoyMceTLphYFbkG7f4fgy++sdHemQ+0uk7x1jeOrMD0PPxBJ9MTIdfIAOOMK9Nqhpp6hz3kfwjF/lm0uCDeFENWzYbOGbGqos4Rto2eG444TW+J5dpD/5ALcn1y1teISbPY+y+uF5QRgubykh5iK05KlqbftRNER39EgTe9aiKYzzYSqsTdee6i+DLSw=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1464,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 1716,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 372
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "ROnqasLyOPC7g8UPhPOI4AY"
+}

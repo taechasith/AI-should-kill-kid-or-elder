@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "s.\nSo the pedestrian will",
+            "thoughtSignature": "ErMFCrAFAWkUfRPcARG7tLslUV7oTgWrlM3y3wR30yFxLnSomFlBN5Yn9g/xziq0aj/UM6Ny71s8Dir8kBZtXJi5fXPqNv6dnVxBKgHNpRdDm8e+K56spsPM84cft0Hye2iyYIoUORa8ovB3Kx8hCpxs5I0kVrNKi3zRBVNUTJKk9tCZJY5RueqziMNRMuIfjLsMEdMecnHhSl+IGez6rg6BS8FI4gG5XUkFU2n8l4DHlQZXsTi4AHqJL+tv1jVZ87BBkQBt3XnRb4CU2CAq6/pNnO/VPZ1tUpPh9s+2BGhOaP9eJDpa45GFuIjM9vfKW2JZMqpj0FbCtQNz9OO/6sMpPIQf7KIasQnYrdyi5HXZEN6Fy166W00ysgmQpYpIO0SvI5mArvdNZ2sUbvJj4rhhbY57AaB0GD0WGObAATF5BTvzoDb+2Ny0+o9S2pirrmbb8WuFKvAluhjuW/rBuhr/yyuI5ya/zEEo/80PBUOxX0Ijdcxcy5+W7YWdFV4KQQgY2iVvMVbuLUVtZBrCBzcRjqX13m/qvdyI1ATkQyQcJpCuXQ19RFXsI2yKUCcpb0jd72OaR6kI+MELcoQtid8Gb9/kg0ZTE0vm6jPrDSj596yaVXiiuFDMV0NTNpjDomrTW3WlQ89esfthZj+VBN5XsDF+BpXuyry4h1c8et3rKMeKXDh4KoXAf9gQW8bMDtSINaTeoMuu8/c3yfGENql3+YmJAPYtXOUyBGLrq+53kAHMD2wLYV3/8qu41C2xKxoSLty+Fi1jIO7veoyy7/+yG6VDIcyhIZAdMXDnJi1/ii070LckB1YaEKfK1CPI0LzlIzKT9rDwpIDkbvYI4OcRx0IBszalTKSpQTigyLPbzjen45dcqsGi1lKPjwx2041nBj+k2mofW/7ETkk5UUt2O4A85Q=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 405,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 657,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 405
+      }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "FHjPav30GqDQg8UP2OXV4AY"
+}

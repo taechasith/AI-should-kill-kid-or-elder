@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A2\n\n**Rationale:** The motorcycle ahead",
+            "thoughtSignature": "EusFCugFAWkUfROxZjzxqyKQXxH/AsSz/ySEQk8dc0b6vjLjbj7s1Cy6H+NTE5xcMQasM2TKxBfXuMRgyZGTLwUt9oUBJbAQIEkxeIJDaSRk3DPXXw6Poke0Jyb742jR+fp9VMP9tjNn8p8cObDyVPdfo5nZJ8bABYgC0xECwKu8oNbOPVbNORJYWA7JOfr4q0AUUEQWmrKGcLJgGwgEOwD/4pnHXwrKbAjgMnN5kxBMaP6qB4dO0LaC72WdUbfoosLTR2pUz/TpawTtfm42yVFKs2SbrIpKKdI6TsrkAeyndNLRIrwkCE4EOqPFExj2XZNRXwr2p1tj2LqCjZPtSVb0iOy7KhGYUV+EuLfVPXKKrsdTszAVil2gb/MsBgr7Asntc9kF9ytoHS82Omrx515eK/0AHMAERg1jFTAr2AsgN+LUF6qBRZBsGOb72pbV7Y0u4nK0huSznn8jjiZXSdo2nP7LWqgDmuWsh3eCg4MTBr82ch0whmzrTyqou5iwadIQBJXGbn86+M5b3G1ewGmkxzEbcPaPq4y9oHhunQFS4RAIyfZSg3wiWuFCyVCUYp1U46MENO68BBxERH+DyYjrOSgY7Ovk/RQ3YjtLT492P2OJ90XDQbvegAE8gzdk5vGYmYQ9aPsWT/vyv90QppbjVAii6neTug1pfi0qvHZyxur3DvORHyM49iD5SWLGFOSEkSLjnyX5a/GOGVFhf/HyXvfX6vQa5u//spmOqDD9hp4Q9yF+d3xbc1kHNMhuskVxVP+B0bgyGp+nB6ZLyCM4SEnX+2hN5alNrtumTxppxzivcnE3Xu2mqk+UNlRQkB3ZGOFlUdaTECZRDDjCb741YscRjUja4VOg/krS1BXbVDDe/HMGonhiTCcxruwL6k8SWVwrXfroEpqthMoeVV+4oWgtg+aUSOKGqO0ldLJB4Gktsmcb0+6ZQ3uSlo8c+a5gLFpxTt+yiajuGdWgyoOnCRyu/mm4cK8DR++D"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1475,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 1727,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "r4zzatqwIffn694PvePZkAY"
+}

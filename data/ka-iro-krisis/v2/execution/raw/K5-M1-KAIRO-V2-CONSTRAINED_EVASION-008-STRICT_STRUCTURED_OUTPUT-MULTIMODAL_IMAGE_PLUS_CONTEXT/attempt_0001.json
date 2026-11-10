@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "85m. Not enough room to pass",
+            "thoughtSignature": "EtoFCtcFAWkUfRNboo3lBda7sRkWSh810XrGrjEiyaQD2x5EQ+Ip4jSUEQN6p8vLBlaxv4WB3RBPZH5eqrxpeGckZ//x8vcmZZ5fW5DXsH/Sj8p2BGfPlxqVvlef6Mlr662uA3ANwebb9M5k7gJpAzhPbrZ0R3es5WTrsnuZ+HN/P1PYB0niJHwVd+nF/EIUKz6ok+TJ2b8tkK/FRV7rAzfReORI2PC61IhBcj2ssXVcDMPy0YN7MnQdJszBIp+CxQdet383gmwFUKp9/65IJKm1BUHCQMyuscgw5FbRcbJII+m9ps6mCaSISGoMnlqOhbiUx7dMR1gyfL0qWo7QRYRcrrcjQhxm44cunbqafUyYrlaFBnrDTtmRcv5/qSP4Vp1M1zvHwvV3FZsmuGPnHjSXyCHJB+RDUfu5y/MHbcLIAPGt292RMSGVJ8v+A6kdYTP0xC23mX+dX9xiw/p0NKBjdG25bavpCJ92HIlKEHaybh20hTQV3d+NdzTaWCRxzfIQJuYpdBFMTtNtyI86Q+Ir8QSj92tjfHKwFrHTyExYPZCN+cHb+ODqfFRip47joqv4ze2KuDjR2wd26erH1DvojDEoT4kSOq9n3Xonbr/hFuXRf2EK/7TakxBn7TW6Nh1Bz+ZSpFA86+eqx+BvqagozrLPQgwem8QJAxJBH/8No+6SmnLtiJIypM6ugBh9gomn5mxKAEeT3VFvrV3gpfzjR5LUF7pxncdHg3r3ygMFJyR9AUHrBEm7g1GI7piNnm9DFRzePDiwPQnv5CGa9oAvgKDh8xAOxR2ViPRel7kURsYdrK5XrNcBQ3VX80+I8bEpHd82dl5r495m4rnAWwX/Bg72VpuWQg2ROlAwE9mh7b+SwaL3Q7u4Ut9OLMkcOMJli5Np6XIc7qlb5ZubGlV0mXYQUvqjhvzGNnB5CTWKuGIcs37dvfMNqu4LcrrUp595t6IEHDCsy12V3Q=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1448,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1700,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 356
+      }
+    ],
+    "thoughtsTokenCount": 243,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "AHfPavCTNJXlg8UPgJr26Q0"
+}

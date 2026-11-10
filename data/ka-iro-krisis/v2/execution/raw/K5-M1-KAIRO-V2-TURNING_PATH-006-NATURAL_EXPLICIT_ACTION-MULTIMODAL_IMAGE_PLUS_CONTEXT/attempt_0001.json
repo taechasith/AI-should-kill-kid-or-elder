@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\n\n**Rationale",
+            "thoughtSignature": "Er4HCrsHAWkUfRNs/xhJ9CWGPfM1f1Tw/ltKUQzGxz3H87RRRWnmH2zpWzrZf6IqPbZhiiUrH8rfpbkTARH27aX4J8tLafHhiZyVG4G23B6ii84crex/9HfZ9aw7989NsnK31b366lUYGDI6Ecjz06nQQQe5X+YDWDSlQyLqpMhUQehNt+sqcCEpJa7oHiUmXePs9DUGk6/0T/2gz/Vu9bKrjn8kNUxMM8QTDXZ4FDERResZn9Wq8EuZtbi+LxsBRbBZVKFoe+6PNtG0XgMwK9k3N8N26Jm7uQ4hfHXfNVGM/xP2AA8hJ3eoCjqBXIPPLq6iQ9OiFD1W11k1ZMHnT0wXm9WND6waOonIk09XC/vrtNCO3kXMDgdG19KkJhpJISNrWMQ+J9wPa6UEDr1Wzdy3pVzFLMszZtyLxoal1Ntx6IwMG49xdTwgWMhb0r2Ybe1vOhR70FLtfFVJIqdHqgco6ccjt0fNNNMS6/yWIbfXW5dlNVI8HLO5tgEI+wSeHSzh4J1UrkrdHrTS67OyeQ1fhCj6hxdI8fImkM9Gu7S96IIqs+Q3eq+4qwHDqhl6whslwpU9GbB3NN01UiIbr4KUBYZGN7Hfpihv4GDFgdbYi6WUsX9Zi9oMNgNYm2ckppklX/21Jfhn6fMFO1cdkB7iUngc4O/a3IRp8iu+9h5yoaSuJYYaiyuLeZKQGE8RMVG1tugk0Hx9bAlS8sc3kj1Z41qAMNmMy4rWqZmoFRCBSaakRIbIR+oQfrUZ2Ou3pfzFDyB/h0CQxpZoW3IkNKpvUS64GXooOs9jMtXD4eJs5Xkv5PZ5lokXGYbZZu4yIRMqznny8yF/Bc367s7QcCHws/YJY7Cpilc/5W2tp9pNTxKaVmkR7f9v5FmqXXMQCHeV2RxvJt0QM46jRwOmD4tzpdBRVO8SWdzZ3OCz9c595Flw/zOXae1VyogCpwzofGMd0TL8gj+GLOSPdVYECjbXcZCBMItxVwDdg2aD0APH3sznNWqaJCezzlHaIVBp7RUolHxkISD1eI455sPwW0zhBDpimedtYFB1FB4rcfEi71xip6B36PcYeMJ2KwSmjJimAahZ9Jc93JYdRTqkdHaqNtpDFJIcUn6EW6DLaf6obrGem8uuewG+g3aq8SlX7Ros6nn7Z3wB3LAYfqrXOdCNRk+PoCZOgXoUNmE/hwNBZrkyF5bQtpefJ+irU/d1NMZZ+8T/3oDRwlUsJgxzfWxF/zrkZrZ5hXMLfHR0+Y7cjgwqq/i9B0C7jGloImjAQw=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1726,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "Jz7EaoXKCpPdg8UP0NehkQ8"
+}

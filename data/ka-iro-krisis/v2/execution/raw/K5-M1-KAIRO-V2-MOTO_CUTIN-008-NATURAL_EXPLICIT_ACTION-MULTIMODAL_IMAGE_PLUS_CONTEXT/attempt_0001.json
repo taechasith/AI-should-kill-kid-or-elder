@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\n\nRationale: A motorcycle ahead",
+            "thoughtSignature": "ErEHCq4HAWkUfROs6sjMuyS1AF5pfWePIB3kwboKFHOFsPfwkDmkhnn5dBOsxtG+nEKrhP1P38PyOUHRP+Q1jI6cln5LIJFo01USt8wRXscUnD2Pwwi8SjF3p5AwHSOD0f6tJzni0r2MNS9gSdYrg/DOtlTi8Df7XjcAZaVXV/IBhf9/Cpds3A2Q/977aBK8Gy5hUH4Tixi2kEVj9TD9rqq9/ZaamQxoQ0SnYxhCyC+CFsjctBdBWkblQvanGIHu3zQffuvlddDPDUCE7XYQg5BSgIT62ns+83OLSmz5hWd0SZW3g5R6G9kZ84DnAp2r649wPRhSQBQ2SuLJKBIV8S6yHbwMzkPmjs6gp6it/fjh/uTuD1AgKs4GonQcWN0WVKHV6JmXrC8wX5DkHF8kbcxIxkBtnoDLjYP62blBI1wa/yU1YJr4yjilbb8kvK9HGVValJP2WUa5DyzrSr1pDALEkFPdcCZ/DrO5aAzkV1TOq0qCk5HvelNC+BJMhBm+kJSDSBz447WAVVPK8xnQQxIuddASfB9TwvGKK95Ya1dT76dVSdQRkEkqJPl8eP8CjwScb/ECAiixgKksDjv4o6FIk8AoOtY6YWMn1HAhDlUzmOe2rcYq2ZchgfwLT3w3ER5pjrdQMrWLSf2jThXozdtMe41LjLyyB4161QLS3PQQ1JOzMx0n8txRXmX9x71aKxzgNYSyeF0apLVmPIG9pWxykAjw1bEvwc3ahNfBEPnHCWvyf8CZFfIRnJcj5ZciEWcJsFH22w44N4w/Dva01QTVKYbtU4LYT+MBbknYpBUdxplByUi7v9SZ8pZUt85RcKDZpvujwIrw7Aa5+rIGcVZXq83cgRBK0X6qg0k0z1zN+A89vCE0R/uLgvPtvLKNXqP48PVJK0a26I7TKeYbKqKefSXhDXH6g+Dd5D8obP44q8vd0CR/55j9tUoS/37RdtyQz+2S3E3KuKOw6Hr2wQtYDf+yL1+W7qzfoJzyIayArni0oVB8FxcdmFmJeqHOEm1spO8VgnMok6b32ACfrQ3qIDp0fPHdeZaKMydrswm7fI+Y5aCLn2Lr/EIdoki7eqTmIBRESDpHHpFJx8mybexvIs+qGXs5NN/Wby2npEPL12f0DEKNN8jXXnp/Nf5XgHRBrDmCXbF6wa5o4ZGgJ/cW8wuQVPnPXCLTagIJzejG5k6hM9FWXQajeXDwRw2Ucu9oPGkHosL2OBwjYWVlB44hFjb4fi87sNTuihEnedUJSlHE"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1505,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 1757,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 413
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "e-nqaoKsJYvujuMP4ruXEQ"
+}

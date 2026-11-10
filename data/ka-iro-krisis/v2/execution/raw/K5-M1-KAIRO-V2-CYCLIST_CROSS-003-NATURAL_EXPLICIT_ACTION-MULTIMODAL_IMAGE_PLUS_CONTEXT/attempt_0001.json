@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\nRationale: The cyclist is crossing",
+            "thoughtSignature": "EvoECvcEAWkUfRNbW6BZNw/jmSxzzY+MhyVUwcYq6qtOHqUyOYT5HNiaS6ICr9e5tFdMjv2i4ANpe887kjevndtWkjoazmBeizsQnS9W31RsJuxr6uElVp6nHgYAY07fAPZB5fjs5gwkdqKZoKZzuOYiquZLmsqCV5Ixea4edtw+szj6nKoc9/mlhgZpKU8/2h4pZ+jRZ/rL4+fFrsqgn4ZPGvryOYfGdz1zmJYDqMVB5S8N9M73JN2q+7bfywMK0c4IKbcjKON2Rx1zdBIl5WBNokCVzyGoeiYfCRSp9JCK1Bwl9Tkfp6ezTGHs6PEb9QdhkmLG5RVRFNNR2icdi6Fu1WJk3NlgS+ON7rgYG8E1QbkbaE+hNKZn9wViK78m3Z3sG28ajs5M+evc7KITb3nE9pvFleCudy/43+8oN/MI0cSsPLGamufaYxdivTsKHCoyyJQ2v+jtH4kps1AKvQoyBq8Kd1i/hgTggqoYBOLkmLfkjbLF29XbU5Z26Vjjzhueoj2sbASC4+gDq02OL+crAm2534NDunhJO/CabgaRkalQIxMilZbcqmJhq0csQ/Gj/XTq5ZPxffc90w3Yz26HJgWkar21bd83hv+nYa/ePJn+UonnAxGf64FNToHEnbtZ3h4qEhvT8znXc50eAAOwakIwL+PdaSbKPHMoeCqfq2NLSX/VcWXE6/0ukwKTYr8kYpPcIcpy3FyVo82YnCiuJkSpjT3nDukGOMctq+RSgcdhU/CzaV9ze31yJM89AEWBkuGTDYYXt4PMR5U1a/Bfu36kT7mVIo88MjzqFlU67yywFvxNAHwlj5i148SJYuJqG5pG4AqCVm6w+w=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1440,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 1692,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 348
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "Nenqatz3OdCJqfkPx4jA2A4"
+}

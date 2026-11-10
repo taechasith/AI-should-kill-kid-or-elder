@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": " right side of ego, since y is",
+            "thoughtSignature": "Ev8FCvwFAWkUfRN71nNDvoPkMO5wel6PurLEBHeA7QR5NwMN8ypqHnTqFoENTpz682xuqcMgYpcKykcgD5Eo6cl/ZTtLJeHZjqqg3fnkhEioRajkmSZ86xvTi3PgVH4xFdmAaFaeqq5OwfVhFv70KBlKVGBWm71QI642Q5iXOkB1MM9ATXGuEJbpQY5DtPtKsZw8T7gKne1AP6G6nzqyvSA5evWHsW/EYMZZhIMcV6X9/ZVGWKufl3gTDIFsFmVN7IJPhOHwj9CTm2CJBBJ8/iOnH3BDFbSrRUwvBiKcdkLzEy2ojAl9HDyG9qrANLCieg9QFH5xqr+ITod8tGuv1h9YVWTEbS5MrjKjjyhsX2GGS41qi3FlNob+PKtiM/LGsuQQozE6ZOUVBIRPHqbGasKXCBTj3T8HrsLrjPqgGsSi0oXd/geWKLt4dd1B6r5B+tCOP6KSzkztSTJ2o1qII2mOp4+kwvdbUjelOa9ssx4Qz129ghtROJO4k97TOVvRYfcqb5e9skY6EK9UkFkdHt5chETcxLwRSf9x27kqwdQdxz05z2l93eZnNpFwb0+7TW+IFfke7MIT1gmKEY5rbs94V5Ih0gTF3mS1PN2em7kWpKPENBvXXPrQdr4oEZKNhzvahCZx701X9vFxVy7BXBQergrShmjChW9QKMfSBUCWYOVeeiXwOVHR9FsuZWDkuIGEzt8/wdM53/93ygMCCcCJOl4OMotAf0BPH5snNH3pA7qjbPrvNTRQ6EE0mtkaDDsTVMnqjmq2NsJIaZn/CWP//oIgQJTob/rbMQX2DrNCeTpxrI3kzOBB9XMly6GCu97ZngWjgYPIm2SvtV5dzGBDOTMpeYYvkcjv8bGx//kRef4iILPPAIcf2V6UONgGobYTlZpSesHTJoXWjKrJlUu0zg2F+3CXxHqJ0golPSwWSkIdvDpitzsRDiqCPo2JtE1nsgY8j2rQi0WG24jOzzi9RbtATrQxPnkQmuZfvl4wsow/KYE0w1UPZa77lQRYMho="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1726,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 244,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "AY7JavLSG8ncg8UPyu_ImQ0"
+}

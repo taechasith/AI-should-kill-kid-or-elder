@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\n\nRationale: Ego is traveling",
+            "thoughtSignature": "EvgGCvUGAWkUfRNWMEtFYPno/72b0lH994Tz4iHTqpne80Ibk1vE63QIK6/MM+GJmowcpMDaltwfdoj3soEOmnXLusfhpt5u/DMukKc74PDw+5GJWxLI+ESkyaMaR+qgFW439HwhMmWNfNukCzSHVEeS+KxK8LIaxN2CUysooyIU/wH21yTvHs1A1dNtSHObvMA0Cb6FjRExFUpJ9JLfMG2zT0XbtERmno/4au2TiOi7zbLIEvC5+XWDW2MG2tw17Uk4FWE5U5Lr0tR50tLKcc2BSajGk1SPdHWrcqR/Wpo+6dNEHJIjXw/lXqYZMH6jhvg9I7n+eyhneyho9K6j+5NlRQX+/mMs88UiLrzMaMBL3HGCHjEaIrYDvHUlL6z0TDmyQZa8Ezf4nlZgRVjvTFIbKQ38+veLiFrq5hjbkiw5S1YMXeeB3ZM1CkaFH+bQNatJSsdpw4WF3RPzkgMCJdJhrH7E9yE06pdFhVPdONAMHY80xb9kiSUbxuCOmD1HYMfF9jlJXlK/vrb83Gvuh6xvWKk/173sZAtknBQ8rDgl2OQT3lXftHSvgtgR++HrYkfR5Fq0Yb1j5+30HwC1uGGiYvtDQ8iZRWeIspftPShdbjo4uuya/WadnFRi5axiI6OR60DOWync/MVIClh6oIR00IIq2QuEmFuY8gDSqHu4OOff8mbjuyPuSoncXLZqc0+mG1/m1mQTa6zRWp14aGVVahSlbFGX+KUksrzH9s9FHLCaB3HU4oxfdseU9wTn5jhQWatXi0vaWhxB6BecZ1zr7GXTbineiVOQUAO1HcW7qLo75yjhByaLPElqR8JnmZcLIzGmrMxi4JyUuqKEyEBFs+DBPQwotg6mNmJEO6dEYnWGMHemZk2hB/SRvFQKolRuTMLjGfQUUAIe2ULCfYh3UG0VWNr42dbK0fICSKyCEeBPipFWiiaDIwSpkqu7T2danmIJa0R7PWOdnbjR4rGJR7Y51loBXKT9lyPUlcB7g9EomdrWLPaFiYqz3O5u5g7IixcaegC9VbY/p11lPJuXUamJ/IFK8bsu6HDi1wLozY6Xlgb5LRZ2n8dNitJhanAQ6V7Zj41NW2/eQeimI5Z2xl3FAEFXu6pGQYnOkhA+Gz3rXwOvejDMF5TBGd3QuQUod7MzAFumZxmMw061hiCXVjrTFNeb2Z8Q"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 1696,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "m-jqarDgH4WomNMPx9f56A4"
+}

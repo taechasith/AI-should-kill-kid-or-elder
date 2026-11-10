@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"rationale\":\"A static obstacle is located directly in",
+            "thoughtSignature": "EpUGCpIGAWkUfRMSVYuT2s/8omla0wh+j5RIFvYZ6TnwDnk8rrL8Yg63BldyQWrsWIjSPM+vPo+xRwfa0RGNbiurryxP+LM9yuWpcS7SPFUwa0oFPGNrUN2v0NWM48cSXTULv7vANS61BuThvO05q63MTJrxPfBGSUH1HoEHt9/GQxEoJzXfq+aUgo36kxkDwDYRL2AnPc5nVwZ4qBv+E0mfzJv3VXPtIGkedqGkAzhCvX9FkTF09tIgEc4IrCCyaRFI15+02+Qd97iNCB82GMWcJCzzixU16HIIrGN4J26JOSCztcIdJP/FfYKCwPLXPde8gEN0o/83J3w8SnNA1XES4G11jhngALBxYgIo9wxklz6ymE/6cUg0DpKzf0H6FW0fI4W4GFFFckvYv6vpnOmH1SB0mY4grIlBFDvZthY0XNeRToxk7E8aVNJDIwRT9H0H9K9/2vQf9ebPjyNIVMyq22T78FNKc1hQ8tj+Egq+2nh5kVCdC5ZsZpi9A3VHF74I4kmg2yrad9BrWhigUIogyReq3yqmmKlY6rAIWloiFLH5vu3SpNLyyjDExOQ9GZQPbQjxNA5WvB23WRe+OfcaI0dVVUr2smlRJ4F2crsJyBDu3kKx99Ct0XzgQEdR+HGOPtjOuRxH3hZ7z7kgS4uEurX3ikdC4gtLwwa01zGR7u4JdWTyQdflhY5L4CU+XpUtuTJ/YKYYWUZ3CZFlWkJ3DgxelN+thd9oGoXvx226ZNhScPoT736hrORV1I5NQKMOY2/9+0YQixUxhxiorExdBKtQynvcgpG2tXIRFV32KWO6s9edI6NCveHGiDiTGFv+SPvkO6GDyOflThIoi1LH2boSJm40D0HFq6rG5BWob/bfFvybS1ZiHVq9igyW7MIxrAj40Ts4weEiwwTymydi8699hGJrC5A30FEa8moUpVrtsmd5OlYo0400W8qALYydvK/NsaLMo+BTsxN1B4JmI0yL1b9w20ySXU8fQnX+T6leFIWABZB41CBdSPmu46EIwHjNUDdjOpz35snv5nGH+ba4BIj2"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 373,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 625,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 373
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "X3fPaorTD_GGjuMPhI6E6A0"
+}

@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1 Decelerate to adjust speed",
+            "thoughtSignature": "ErQGCrEGAWkUfRPCMYvcvF9twLEtx35I5PCNkT6OboSbfXQEvAFXq4XyHDq3ir5lgcaufO/dVLVdKuEAedmidDEHPEkLzyvG94mEmEbYyUjL99ni1xCllr4nATDhj/KWs921YIbnisIAMtUgVbuGBLITF7SzmK8cSBl4AHx2hlKMvSJEJhX0Vb+90JZDcZYusK8TN/8bmj5vVLZxQecolpKQ1sS3b41EmB5L2wUNdRITyJY0QFXAHS5lCu5tYoAG5sUB8cHYcOyDFD6B+PHUhCxky57T4xiSuIyA909PhSb1chwviiZFZKg4oR4rzH48m9VJ5tCH+eUIAD+Meiv+pGnOOGHlX8GZxNF5CD9lXbo4Bke4EEy5AbYNwkctqYYGYY4jtc6aX1CRg2XMaaNPXS+KUR1VOjSmkqsxVw0K/1RkQ+JWPQEQ2o/z71nUNM7LZ+Rp8pzh4rqoAn7qr1N+jlpeHzWmNXwxLSl8CETiWfnnQPl8CXrvSLjIVVIwN99bdMqwzyfHDfCDn5ZDkq+sDrcc+hrer0vXVOdd/sC1/bRgOOoCjC59/0xaXckwmtym4lp1rIUvTkTvKBFwJTrQ+lMmBjMrGVe8Fvt5JREz+6Ubpi2XsjM45EdM2ox1v6eFC4eVle9GG/azGfCKHZk5pSyKbcdyXP9MvS198zLGAFg2odV3DChGf+ZoylK2MNOs9S8p4/gB2Kcd8FXFC4Fx4yxULqSzOLsRg2kQiODOz6TikP6YnI8yGFgvAvwValwXzIWxrYW/QctOPsNUVZUyhSqMzCjpZEieLXBOwu/VdCGnf63pn4cB4r840JAUZgEOKE6gD6BGhqW+teGk0LFf0goekSERPWU/T999SC4jzjoq/XfjYdsNCa7xoewhOpXOUlJo9baPaeI1xNeXig2rOZmUBvFAOmv9K0ffmmAqmdPZAFtqY8ZfnHU6opdGTrpvmW3C/LcF0RUUmnKM6PFI6f783j46dTbb6OP6BDffqkPsCpDQmnqW0+fh5i7A/uFYNQ1NHv8XPMSgJ/V0Mh3zBkFmAppGVknjyWlAUpuIyo7whkktbn7TgNpZCY94BE/5Wo942BtTiw=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 359,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 611,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 359
+      }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "GI3zapnmGIvZg8UPqpLXiA0"
+}

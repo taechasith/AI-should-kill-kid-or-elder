@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\n\nRationale: A motorcycle is cutting",
+            "thoughtSignature": "EqcGCqQGAWkUfRN3QzspUvZ9did7g5E+UdoBb0dvrkpnAq02wXLp6v7Fr032YDHp3Ak2tgfTU50ajMBtA61ZevXC0bDiG0rV1TgNhi7e0tJJJs5bJUqCJ/KHnNQVBpfsWxWQXhTiYB9048iwoJIi5Ze5LhXDz8WNI8R3z9ZBTif1cutnfT33NFFn4gcABIO2+OryYaH71cxocZ0fpY9QY9PyfyvM0adkq7xYLdxAQ9aDEYw70YjwDIuCbFPEtaH1oPSSROynOvbVYO1x4zttiwAYaeOxEAqViAuvNf76Avd4Z46ppfL9oN9nC+i80aNhML+BnsCfJzkTmo8drooICr17z6nV0ulzNvFaKkXxX6gVegkKdzzzKXe93SR0dE7/lTi2j0n2D8yIYTH3qMYiw9vDMUrsJ9MlWDgEEHIk+zKdvUrOw/gElDu5NyoaY1iVquCXnGWDGLWX5vXUSIyJLJLp0gAP3/I5XOKn+0B8G6KqmRSITe6HzgmEohA09Kg1QLcUy1LEI5KpIIJE+TDJDurV7/eYiM4hPzWVy+lioSm0grHfOKuKsO/gUSSk5c694cufqBdBTwd0EEza1Isv/ylwzTJm+E4FgweMB9OLZno63U7FS8+oWvcmm+rVGpKpSEqNqkYD/QqxSSws/wDdiJwYTK5fRTT9mmBKPwKSMLRQwtiB0ntIHufEdsJazpEAE/FgwrdI/4tFMoNGsGjbhZpOzgsHlVh4KrFN7YkYAvXz80VYQxB300shHRl0Baq9d8HCtY97WaHexW9rzEw2SPtjZr9/7P6tb4XyqELTlYZPFpNaCtCVeCKqc31Kc4Dgtdb/Y9JnmmfSm/BktbhXo7xr0F6PZZFuFf+T+W8Tx6TRHUzrntmoMlIJbKCl94ROGRvhDLbsaXla/3QeHgvhXm1lfUMgk8Snh3xQpVQD9gbkElIwJpxCeC0e8yV9qQzH4AmJcqV4K0MNIRPtvHYHiNxwbFUSoTphR+YBkcBMBgENKSYTNn0uNEKgijywvRCw8eCmJm5LgSRzBHZAGo4ncEUutgMaJ/0IRBnKgNzPgX8N2t91iPY+CLK4"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 392,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 644,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 392
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "_VjHapbhL5HEg8UPifXamA0"
+}

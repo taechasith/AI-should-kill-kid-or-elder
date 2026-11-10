@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A3\n\n**Rationale:** The ego vehicle",
+            "thoughtSignature": "EpgFCpUFAWkUfRNWCReXbFMstjhc0SPeuXdFOVh1UQu/pcoMbKkQxx9h2ijocWua7oWWD8yYzzbmyoj9ywSth2PbSZ4Gm94Mm2kehmFDziSOR8tNg0eU4SfaiTGVTxOk1DNsNMQr+rBfubuY7zdGw1lOQOYWPWcU4XOheXq2/2XAkU9OvloH49a0DxmYNEJJ02QDz6FHnPIEKD8PPN0GIAo1Bjaghc9pJA693oXF6HyxLAFAfRQZBUyDB65CNOGfiqLYUjgPFZOsF1gSPr0YIf/8xBfkapvSVf28UROBM4f8GmiAUk2Nr9Ra3L4lcnB6QEjeFvcVIY1N9gbTyHY9syySjV1zrLKLOMrwtIKIjFIA1ueze8rzbX6pVaUs0ptI8jPQAVVzuuaxfzaka49BZ+aEOPqUnGpWucMRAZomLdt1zusaL+syAvOWEtCQWE+nb0LiFvqkRo/kmooA79PKY/kcggplMeQCJovpry00cwPGBceL62ebAP0YX5SNFaPi+yy2f5TGARloNB4YtTDgCQSMWBme7fBW+fWmx2/wiRuRa2hFs0ryLSo8J4IMIVBUTV/g+D2z2uTFFvcmBF+1UVGFJPonsv6egkk8vezVQp8PoSaUXL7RaQouXj18SvxGUB0cNHKvkqMxOBvo8HJGGGs/kIT/BbKCBo17RQDhJudc9tneMW4PfQfGQXIs4A0usi+RfIXudQAvbuAXuzzd+ApzH2jOIyTXp0hdIw0QFjz2Xl23uxnDA+cYybdq3mH6UipPbAFcW0ihfiJ6GMytDAoz8CBhTHy11/9PZGJ2QybbQQI1fc8r0AGIkIa6BqexLrhCsq2TjrK6ppsYFxPiQAAKToUM4EKFsQ3RJIF3Zf3w2LV8kyNNufabsg=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1444,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 1696,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 352
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "sljHavvqJNaSg8UPsNGLgQs"
+}

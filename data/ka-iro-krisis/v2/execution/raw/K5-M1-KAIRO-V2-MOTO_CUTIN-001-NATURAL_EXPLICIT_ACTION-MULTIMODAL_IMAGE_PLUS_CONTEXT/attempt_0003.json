@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1 The motorcycle is cutting into the",
+            "thoughtSignature": "EsQGCsEGAWkUfRPNZP8yyWLBdWV9ZVJwxOWZH857w+MMPTyiM9jRY4WEJurv8psD2cIj78i4aC9WEMz/qSB1clUKQIn3JXUq4juFYWDwARIV3imVA/zf8y4VR8Et1PYYexpO0xgTUda4qS5tjJxJ6p0MCzhpHMogjkzCi3TK/oFGD2iohGvTiXySfOx0ufkNACuusGcPeAieRe3vcN0BGIvYcaQbedjkGPcAe+eowz5laX+olB+nqYUTNNwnKe2461dnEEEVD/TooeCf1O7hIs0n4Y2XmxsC3byuj4uRSbyBFrzNbZNRxDIX7FiQs1iu16Dun1pmqofCo61yfbhXNbUXGyhfFXGZXg2qQ1lYMZicjAgGCeJlUcazbIiiUHECTTQ32WbCMhwbO+rIY3Hu0j+IxB/ZSwC68jbWN5f9dr3JziJCIZjdU9Xy/Nz4qDjMDBtmM7S8e07CByxAKqkR2mRghJyeX0RWyD998AsEYaC65PT0GU7c1OgNoe5iHAKQZgc2W7mfVOANtSsAxOcaUaeC+AblnGrPnYOT/URmBewNOE+oL7PSHnnkW/SSZSuqLBNasaSpTxrlaaVeSBU0V0Z5n/v9XKqLBqZ1veOi1FZRLHEDujSImVAsKRF7xcOMSRwdIG3suHhrhvTmZJqRwqKi8LTeOJc4Muphk4iSdOAPokapOyBaAaN8q+54l1Pchdss8egSlhfUYncpOlE/R3wawbuFgSq0Yj7oAFKrS9jfbJmnveAjEisCH9OjgF9zSGh2b1o4V0XCME4gREQAIFEAkEp17CRv5bNv4wd7pE/hEyGk8lefskbbMB3Lu5fGCZWMulpaE4UU33J9LKni6gaw73+xbx8GFVvqkSytVpUm0bxYDLRbRi7k+2zIJ1kGcDLaztmNCHdrgQO/2NlrDApxYiE2fUn1QnmGeqiADyunlpNjKaqDbOkZ7KpSQp1ZB3iH3zzg+vjI5scVeziR9WbfMkwZYfnwPD2wXg6mj1ibJ6w5UPOx/fCloPYJ1f1eDfiguHujHlp2NXSh+PkqAImkcJPQOh0gSFFcPMrw9G7HVFuay1g1cSmMnDovoA2oNJO+siqld9C9maaXpyxSdX23pnsny6Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1475,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 1727,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "Go7MapTRHN76juMPyv6lwQ4"
+}

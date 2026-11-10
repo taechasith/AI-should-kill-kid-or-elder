@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"rationale\":\"A cyclist is",
+            "thoughtSignature": "ErgFCrUFAWkUfRM3cfsfpJcr3lpk6xUmojK+iVoUtiMx6S6OYbIx02HyqdnjP4UKNzvLgjobmnhNxa7ZcIrNa1R4H6YtzJz6WgENra+XHCw/37+MQIMW1asWyOZjiq1x6kRMZwmGSPDgM26kLV2/Dfe7c2gzt/wmy1+Hj5MlvuIDBdZN4wUqvv9scXNsdHxqOycsYTeSwEPsmOMcy8bdg2FqIPk2205/4u77A2lFvs6Vzt1tJr0zl2EaMvi75XVp8YiEVcK1S5JVikX3qjUX9Bc+5GRTxhNUZnIUsYSCHo4itSWrAmCQBxPUh2ti1Ek+yZBGyxg5qmS2lT0GX5PU6UoUYDbbxBkY7Hs2MJQHVjEFsAWf+DzGznkTNuvrZyioMtiVtg8m9cXRaS85VBcX837hQvbHGaJiXX+lgQd9XGoqb0W3+1yK11myaK4f8L/YBfMLWRER/MICDLsHFr5btfLhmhr8F0jIK+hdR0Qm78L6nKmB3tfufd3urg5h9l/ZOfvyX3j2o377fs7S5WCjdfAtJ3Noau5HuY2LfgombMpwPPLel5uA437Cwjev1GYzT09CeL4Sy+X+PzChgLu7gN+4Q7U52an7vBl81qatBlbygsMvrK+f2h7gSKDQWzFDAUl9cCRCCgHO7DDgw/GizHJNVrZn1S4QHGe/d5sGYAi8xeW7KBpugYgXXF8oKQTsXj+yVDHNgLZgUyDrE+Qz/YkT9MTIn/h8uZkgZQUpThUIsoTupltUr3u+rmT8wrMwyta7GLUbP3ZRtYWNmPdRSLUgijmdztyZhT/89GX40oDwsrWcGBVXA+ulkgiQYg+6Tkl+g1AMHbw9kMDqJIY1R5G3iKL/W/StqB299FxiMC6UzCUDQIv5Y0lromKVcKI9nrguHSNZ8w1Jakgpx9LqPCRN7rjCni4MWOwi"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 374,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 626,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 374
+      }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "oIzzauXDGabNqfkPmZH0oQ4"
+}

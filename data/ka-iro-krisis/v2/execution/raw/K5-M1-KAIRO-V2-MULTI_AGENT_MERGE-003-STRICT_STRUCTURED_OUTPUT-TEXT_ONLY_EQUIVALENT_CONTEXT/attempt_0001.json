@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here is the JSON requested",
+            "thoughtSignature": "EvQFCvEFAWkUfRNLbpedEV3lbnMcNjNhAbqE+ACqDeqfAXiDBEMO5RBL4MUqiyR3+LlwX7UNkUx3g1yXCXm5W82Cv6vRrUcOmOXRb8ubcC6jp2lD29qdtcWEiHgxmg3ixG+TMbp6vGAGwbExLZyzX9xy6Z9zTUSXQlx8zWv2K+Dx7ukmoHSSs7wTizplVVlX4b4Nr+sVe80KVYd6FCxtO62X5I8zwi4ya80jkB1UlJ0zdAN6ShizstcSUP5112P/PQrgGKqEL72seMYBV3v3RbwaEwDaqZdCYu8qpSvw1uhgVfRZeqXJPKeLzV250R32woJercXDAhPlcIRcXqKurdYcWJd4QMvfFp8KmXjhZ3qfGWGaY8cpWHOGEaeCkoE9nFl+Ui6nYZRlXpDHkmbO3OMEhg9XIdIxucRAihWu2tLBTRuc4DEYGHjLBg23NbMj2N4JR9FNWY7bAcckNojfufifw68FAbhr4ZBewiEXBLK7tsQ/1KQ9H0i+rUMlW1MXbVE7fIaBJg1W4LgKK4F8ynRAj9nf/qU74P3DHZnCwAZrm0bHHuS0nA1ULNYItNs1F2p8OR1gM6CSnWwu6DRX/iREtUIz1PrBCmCW1E6a85cfaoFJWN8G6zo9NyBTPydxYyVJhTQ1VtFrW+Azl11a42J/T/xYjWl0La8Ml26E83eZMNlZ+Aho5Hm/XRTNhWosAUzzkdlvKBp1tx/nYdLYRg9QnNx+mfJv3JEoDg1mPtjAHyVltGMiq4rPDIvK1l7Ik4HrX1EYYk+wv1r3W4KGmXIQpr8i/tOEmt11VRysp58drpkn9ewGGxPqwmkkzDJs/SVxp+a70hz94EZESpQiKqGdWEJBLcy6KH4eZcLWHEjMzFfij7aCVaZoVI+LN+AaZZInoS9zynMC8YjWchhEI9v+vMzqckmv8x5HovPJYOP7qTkJswjCsywMLXcywjJYzY299UmrugLZ3FDe+9gVOWOJziZWIrlVPFVKsOB2eGM0tAglcIKQ"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 477,
+    "candidatesTokenCount": 6,
+    "totalTokenCount": 729,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 477
+      }
+    ],
+    "thoughtsTokenCount": 246,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash",
+  "responseId": "Lo7JarSAHse3g8UPpPXZkAU"
+}
