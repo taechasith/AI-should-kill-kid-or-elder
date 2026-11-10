@@ -20,7 +20,7 @@ be sent before the newly recorded resume condition.
 | Resume not before (UTC) | 2026-11-11T07:59:59.440927Z |
 | Resume not before (ICT) | 2026-11-11T14:59:59.440927+07:00 |
 | Integrity audit | `PASS` — `data/ka-iro-krisis/v2/execution/audits/quota_wait_audit_20261110T2133Z.json` |
-| Durable checkpoint | Pending publication commit |
+| Durable checkpoint | `fd8528e` |
 | Canonical resume command | `bash scripts/kairo_resume.sh` |
 
 The exact quota-deferred frozen observation is
