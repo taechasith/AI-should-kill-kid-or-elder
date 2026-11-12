@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a pedestrian crossing ahead at 30 kph. Slowing down (A2) is the most prudent and safe action to yield to the pedestrian crossing the road.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TDJHS6f4D6pNwnsrAjwGn8gjEy4wME1Qd9boSDGrXfiRHU9AKndOdH6PWq1D7fzLq6IsSYfJx2t+r8TsZblEqqdCLiwF71D19qL6Mdha6oAHcA9fKjMIwATU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1480,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 1542,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0Tn0aoLBH5my694Pms_XgAM"
+}

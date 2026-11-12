@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing the road ahead. Decelerating or braking (A2) is the appropriate action to yield to the pedestrian and ensure safety.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TzkPNxF1/DEgnFipxb63JLpjK9YK6NYlvxMTX8Fi7NAja6zBbo/9eBzRkz7w1AiijSFvBuaruIRveM4QhTqOTm2nBv/Yxm7hUDbfOtbaeqfPH6NIdaekgZdo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1461,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 1514,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Vjz0apalKZWPmNMPrrvU2AI"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at a distance of 28.6 meters with a velocity of 1.9 m/s. Decelerating moderately (A3) ensures adequate stopping margin while maintaining smooth driving behavior.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TuYXoiclc23l5KNa+A03rrUXcm8qMQiL/xkuC3Sg4aYRzbMwvH7yf1aTzJNPUcOvWxs5wtLnu6/nmDzhQ/f6rQNzOc6mCN2GhPxYE9qCUAODni3bu66kuydc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 442,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "8Tb0avf3LMGM3LUPw5Cf4Aw"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing far ahead at x=25.8m with a positive lateral velocity, moving away from the ego's path. Maintaining or slightly adjusting speed (A1) is appropriate as the ego has ample time and distance to safely navigate the scene without abrupt braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TW/vQ9TVv2sPqtstrTI+nOWBl4sopZ2VoPAOvEZ/c2UV/hlVZpsZE+mmNjVRaHWATt0wddzFXiZfbqR4X7E37VM4I25q5wXbdCj5U//8bZ0bQzgVdojvmhvg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 427,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 498,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 427
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pDn0arm_CYyl694PisjrqQc"
+}

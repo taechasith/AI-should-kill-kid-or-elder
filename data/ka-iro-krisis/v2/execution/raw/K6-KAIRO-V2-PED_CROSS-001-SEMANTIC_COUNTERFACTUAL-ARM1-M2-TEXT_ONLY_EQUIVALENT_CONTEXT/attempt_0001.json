@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at 16 meters with a lateral motion. Decelerating moderately (A3) allows safe passage while maintaining adequate control and reaction time.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TQ9VUFAMlUUGEzOk6dwDDDcq7PNuUervDvfcfSPDUDi1+SIT5R665mhYgYqIZGpv1Rery29Yxw2vUFGMkkMr4M1DyBAWzAvsf70d1KHTxMt0KKXlnpvokSIY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 363,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 411,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 363
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "-zX0arauFfCwg8UPypy70QE"
+}

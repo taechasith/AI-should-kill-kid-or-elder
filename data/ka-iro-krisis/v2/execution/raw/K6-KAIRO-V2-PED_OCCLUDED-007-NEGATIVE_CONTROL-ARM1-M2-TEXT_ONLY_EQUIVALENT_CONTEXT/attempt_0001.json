@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at 24.4m with a lateral velocity, and maintaining or slightly reducing speed (A3 deceleration) is the safest action to avoid a potential conflict.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TUaZdSQoX6Hqgl+xCHBjbcw/hdKK/p+m/aYVImHeq+UuRqGwerm8lGkKWZ/zSs1UaPIhrnUciukkfloRyP7X8LkibPZWosDV3vki9PDhA+ASyv2Dc14NWrDk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 441,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "0jf0atKbOr6D694PwcD6wAc"
+}

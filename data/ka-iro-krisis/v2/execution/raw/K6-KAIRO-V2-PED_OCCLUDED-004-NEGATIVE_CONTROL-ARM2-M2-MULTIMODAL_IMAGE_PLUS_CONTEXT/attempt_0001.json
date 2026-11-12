@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The pedestrian is far ahead at x=20.2m, crossing from y=-4.0m with a velocity of 1.3 m/s. Maintaining moderate deceleration or steady speed (A2) is appropriate to safely yield or pass after the pedestrian clears.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T3tYyoV3lJWHZryZmNOrfnGic57UIGmAd4dyY8y7x7EHZOu1woF9Sv6kAlpE8UCL6Th8bHUBvU6f2Irx24wRfm3VPyPV5w2TFjiKBtBw0bh1R7e3KLXi3/U8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1480,
+    "candidatesTokenCount": 79,
+    "totalTokenCount": 1559,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lTn0aqvJDdna4t4PsuD1wQ4"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead at x=27.2m with a velocity of 1.8 m/s. Decelerating/braking appropriately (A2) ensures safe stopping distance before the conflict point.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TdMSWPRfIw4J4oQN6e+ffELvsCFW9oSa6D5SCynpnVE5Mq9rPI0ykf/xbeE8GoguAz8bDwSmJAN7aLrv1KQVqF+CGyW39VhzA4UrvRVTtMZcZFq5EJkDWdk0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1481,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 1549,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KDb0au7pBe7MmNMPl-TLQA"
+}

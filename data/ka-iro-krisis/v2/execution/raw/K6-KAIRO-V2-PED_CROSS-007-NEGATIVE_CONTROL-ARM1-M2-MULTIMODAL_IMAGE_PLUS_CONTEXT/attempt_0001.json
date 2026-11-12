@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"Maintain current speed and path as the ego vehicle is far from the pedestrian crossing event ahead.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TcqBmeShUuHiwznrBt9HVWNVzHcidG6vWKUqKz+2GBkWGZJa4hWEwlArk5qK4mxJnIfQSFLnwL8gEJzvikVL3aS3UgHiOvUh1JlEFytjTKZuBmYf7I4hlQwE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 41,
+    "totalTokenCount": 1532,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "RzX0at6WDaLLv_gPl-ne4Qs"
+}

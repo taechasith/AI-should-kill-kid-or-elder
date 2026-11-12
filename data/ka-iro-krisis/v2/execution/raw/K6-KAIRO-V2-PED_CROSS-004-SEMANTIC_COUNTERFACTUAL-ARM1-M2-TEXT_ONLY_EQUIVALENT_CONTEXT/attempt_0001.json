@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A pedestrian is crossing the road ahead at x=20.2m. Even though the semantic label is CHILD, the physical properties (position, velocity, size) remain unchanged. Decelerating moderately (A4) ensures safe passage while accounting for the pedestrian's movement.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Td261x8pb/9zURWlP1pvDiwvwpaAz6p6FOQRI0CVb10PYJWpw1DDs4PZpVKtvqqKNUNU34x1YZMMbrRZaRndJX4tQMEfQM9enuVhxfd9NOp7XNqQ3lze4v/Y="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 393,
+    "candidatesTokenCount": 80,
+    "totalTokenCount": 473,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "LDn0ap6CEdzA694P4-fn8Ac"
+}

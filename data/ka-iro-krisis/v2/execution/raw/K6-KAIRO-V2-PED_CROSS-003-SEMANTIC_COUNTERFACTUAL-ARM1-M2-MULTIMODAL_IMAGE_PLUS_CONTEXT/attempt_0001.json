@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead at x=18.8m from the left side. Decelerating (A2) provides a safe response to prevent potential conflict with the crossing pedestrian while maintaining control.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T3ECEt1HDwT8+OLU+A+OnH8sZ7FVPW3JbzzAel9B5tRxI8yuLAXe5dAW6wmchBTLTE97q/pPDOLzAmOL51HwKo+5AAyRVsJVK17QHK1eNYvAXsIotO6Tc79s="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1455,
+    "candidatesTokenCount": 64,
+    "totalTokenCount": 1519,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 363
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "JTT0au-9H7654t4PxqXwSA"
+}

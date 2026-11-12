@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\": \"A1\", \"rationale\": \"The ego vehicle is traveling at 30 kph with a pedestrian crossing ahead at x=28.6m. Maintaining speed or slight deceleration (A1) is appropriate to ensure safety and yield if necessary as the pedestrian clears the path.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TltSFqoV1xKZaNAmWBf0gAj4nsN/f2yUighTBBnLXWloS+pH8ef8oS1B0CASJLkH24AiRAuw4v9O5KsBtFoQrLh2+Dm2VsV7blEeVbbiXRHqDx7IZPdmYP2c="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 369,
+    "candidatesTokenCount": 67,
+    "totalTokenCount": 436,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "yzP0arHNK5mb0PoPr6K0iAo"
+}

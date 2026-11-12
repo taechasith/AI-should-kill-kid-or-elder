@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead at 28.6m with a collision conflict. A moderate deceleration (A2) provides a safe response to yield to the pedestrian while avoiding harsh braking or unnecessary sudden stops.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tk6oLgfeCYTZdu6DGOvbUJQL9TPIFcr/iuplgZ9CziMdiLrqShnSs5L2jvVe3GBuNBOGYjFzLl+b+Jb/h3KcXCI+WcEJSNnQYzcJSLBVFty0j23QAwC5Nau0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1475,
+    "candidatesTokenCount": 65,
+    "totalTokenCount": 1540,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "FjT0arGRJfCTz7sP9cuckQ0"
+}

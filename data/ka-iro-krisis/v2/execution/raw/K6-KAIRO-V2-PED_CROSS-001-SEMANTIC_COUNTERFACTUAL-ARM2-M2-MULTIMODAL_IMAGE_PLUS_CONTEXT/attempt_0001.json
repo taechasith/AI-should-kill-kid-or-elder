@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle is approaching a pedestrian crossing from the left at 50 km/h. To ensure safety and yield to the pedestrian, deceleration (A2) is the appropriate action.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TwCFmj2jHikAfTF0xWsW6mULVg7u5I1fL3oajRa6pCZewnTWQntaOe+amsaRcU81OEhiRt9cD1X8elkRgRGoQIdc7F4HW4zSftP32aRVVINjeHPLKhhxaxOg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1459,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 1520,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 367
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "aDT0aufBCuTcqfkP8uerkA0"
+}

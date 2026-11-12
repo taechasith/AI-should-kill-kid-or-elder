@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A pedestrian is crossing the road ahead at a distance of 18.8 meters. Applying moderate deceleration (A3) ensures adequate safety margin to yield to the crossing pedestrian.\"}",
+            "thoughtSignature": "EmAKXgFpFH0T0ZWNpDXPSxR1ctA+3DUmmy1J7cNoB6lCqa4v+KhjN/SQ0xpcA04aP2pPvEi0WhXJzYOb79cS9FXxbCwe/euo2IW9Zavk1TqIrbl0gXXVz+WpSigp41pURzk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 432,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "djv0ar6JA9CBg8UPyO7p2AE"
+}

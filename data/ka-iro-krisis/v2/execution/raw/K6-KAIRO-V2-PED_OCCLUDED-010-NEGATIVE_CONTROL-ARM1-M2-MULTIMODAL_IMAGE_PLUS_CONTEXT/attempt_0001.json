@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"The ego vehicle is maintaining its current trajectory and speed along the roadway without any immediate hazards requiring steering intervention or abrupt braking, as the pedestrian interaction is far ahead and does not threaten the current path.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TQSji4FXn89VqZBzm6p9wPyKHP+xI2JPaEdEU8+11CbAHwGfMUYHKsXVU0rnmOEBzADN0lncYoowTwWV5fAndiWvI7PHxc30DzccGRde10HjtstussyWw4DA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1481,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 1543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dDX0auKVO9Wy694P8ee84AY"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A pedestrian is crossing the road ahead. Decelerating moderately ensures safety and allows the pedestrian to clear the path.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TldwQIK7lD0g96GFNbm/ZAkMzVGEST+FDvNWvvpqI2kLAoCl/sa3OThCjc2qilNfP2UX2Y2C4wszQZrBMCWX7QMmDZ9CKehO3P2YZ57EyneGeyJcu1Xg/iH8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 367,
+    "candidatesTokenCount": 37,
+    "totalTokenCount": 404,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 367
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "oTz0avyzK5my694Pms_XgAM"
+}

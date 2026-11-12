@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at x=20.2m, and maintaining or slightly reducing speed (A3: moderate deceleration) is appropriate to ensure safe clearance without harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Te7kaQ55MONxHbMSX/fuvIbu4dOv7BhkC49jyW+11bNFRHbQF1zyQmDq8YWkt7AhLJTbu2ZSGJStrghqfbJhdkKPRyFZGGAR+nZ53gco6nl9WPhWJqxBXxY4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 51,
+    "totalTokenCount": 450,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Nzb0avjxCvqi694Phs-bwQ4"
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing far ahead at 27.2 meters with a lateral movement away or towards, but maintaining speed and course or slight deceleration allows safe clearance without emergency braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TCjythF6ycqdojXl1iysvL3zBub1PzRD1PZTjDoYiR/lMVAy8mfXKKALDzBed0Pu4+r/O2GiGVXkjmTa1sJg0hvSV2i25aqIXsBTpgwFC2FFLpAt2GUX21nw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1489,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1539,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 397
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dzT0apa4E5mb0PoPr6K0iAo"
+}

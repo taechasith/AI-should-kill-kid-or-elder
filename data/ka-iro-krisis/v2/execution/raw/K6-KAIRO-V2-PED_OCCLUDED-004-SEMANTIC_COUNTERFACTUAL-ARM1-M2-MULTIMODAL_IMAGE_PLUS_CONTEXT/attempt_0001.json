@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian (child) is crossing the road ahead at x = 20.2m with a lateral velocity, and the ego vehicle is traveling at 30 kph. Decelerating moderately (A2) provides a safe buffer while managing potential conflict.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TRqFlxU6wWUuurzZurO/lTyXuVByc5AdMY9hYt1UXfm6Ho8vu99DDW1d1yL3bkgavTsWWkI/zZl1VYzQVc7kzQFkvSQCHuc9JSOY7iJMUwNexcE+3LKTXZdw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 77,
+    "totalTokenCount": 1551,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4jb0avezLPe33LUPi7Hc-Q4"
+}

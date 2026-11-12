@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing far ahead at 28.6 meters with a lateral motion. Maintaining speed or slight deceleration is appropriate, and since A1 corresponds to maintaining or standard progress, it safely navigates the scenario.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TIDQ+FOEpLbyePCLJ4XzdiltNjW0FLPkKCnJSFvxuNmh3h6u0qbnz1zJSEtAqLtGI2OwMXibuYrNjuSeMVxrC3WBCQEaACeSU0urIEBKc2Rn5ETQ+4FOJtyg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 447,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "4Dn0at2PI_v9juMPtKGZoQE"
+}

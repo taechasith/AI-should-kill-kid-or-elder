@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing ahead at 16 meters with a lateral velocity. Maintaining speed or slight deceleration is appropriate, but since A1 represents maintaining or cautiously proceeding while monitoring the pedestrian, it is the safest nominal choice.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TdnTXVolNQoetrUDHlXp1MGAfC7HxNzl1Qj7xXm/QSZ0I88F+x/qtFkX5Fvqh7M6/DIA+iKTbVbJhZCNkL52JvoxlCXEmM00NvfLGud4hOTPu9xKCy3IKkbs="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 369,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 427,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ozv0av2_B9ed4-EPhb2p0AY"
+}

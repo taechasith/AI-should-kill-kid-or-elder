@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "ACTION=A1\nRationale: A vehicle",
+            "thoughtSignature": "EooICocIAWkUfRP4LfW589kiP5QiHpda5vkuDA2UE3Ymdv3CZ8b73FBdFqEC+rtBSlWyY5M+ATJ/vQkJg5R8E24PnYC5uYcmOlvv749hnoUcdMUiPOdAoYXvginbxL2GIWUruLp5T99D5AozRVqFXoiI2MlUVTGbTgM4Cn0NhmCMzaeNTc6pCPszoKguS/bjoawE+AT3cFG6RxlwyykTDcEe5oGcZnE2KFQ8nDwvGRk/AmfLfcKqU14vBDI4gSlirjaISfIOGu9qzC1ed4pDMmwulexTv16tbRacdyh8Fh65tO6mkVxkFr/BN39cJwwL7IuslML5F4AL3MEZHNWUQ7ui1bPOj/lMON0UL1D8uFSu6d2jRNsl+lLyvpGp0Tvbhdt0VoXITm8MIXrI0ELYQyfZL3Y2higFYT3nfrxX9BZx6x1djbc1OelR8Obk5CctC83mMHWUlEYHqHMKIc0y2bt0lMhj47wGRtBpV/orGTrKkNNdyqF0YfRXW+s893JNmQJ91AVJZZcXdUShTKkoaWW7Iae0GFSslU6lTgcBEMc6CkYj2roR5P7ekiQBpCk0yM/XnUNHgBg/n/rIMdlNpsy8hfCCyrfa0EMzKVPaUhgISOxgLBb4yHyoyblwpeJDpsk8LMgVVZaENz+xYyCDFVwZKrQ2X3iQzRKteSiyjehPDEV37TbdxErhLFCN1KedQoMa7Sb1Asbq5rLw1YlU0TO38LMMXgaXT3cVxl08IKd4TZ0wwKUUKvFS/uXwFBeUNg51fZyyMoU3ejD+jczomQ0BKpK4vOm7SqmQXKJlkvYq2jde+iJ/A4nFA6D05Wtu9acoD+NaEnhBZJiMaGIvnIVVSdWUPJEU2a5xhA+BCVTcJWBqfpcqSBARG/5Dz/webdUo0WnxDj685Iz4y5Uo4AnoRcucwGNFMmFUjrK5VEiVMp3jQeZQdRiQ2JXFD0JMyYAxmm7F2hQ3DRT5/SwB+/fSrjX62fpS5GM1ky/oVkltfYrAW5jciTuN92P4mdXWqJNZDPbzIt5ejJm5RUDr92Gbp1Jl5A8YdqzP0C6jqy8JxFRuL04552gDA1Ij7yHKzb0j87oU6hiGp36RX42/ZnTx1tJFGC9S4N4Nn0Iv+BPdr3cYIcBPTL0QppwJr2gCGmLxWj7lshp7WSXQSyET6pp1UXItm/oAFJ+YpjUtwGjGtYRkeLczZce0xxrBeWY0sUkNXNgW7626rCssG0HR3Cf923EgUzk70rwjZk2u/08IK7GFy9RiU1YDizQ5lYUThjUo+VdPeqamFOdmh88L6d41RqqxSM6gwjbBEQPf1PuWEnT99zTJRv4lMcIVCX3PaNPX8s7ev+9qJPXgUbTckVDxDl5rq4E6h6bmTqk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 733,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "thoughtsTokenCount": 335,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "KzP0ap-8IfS-694P4ei48QM"
+}

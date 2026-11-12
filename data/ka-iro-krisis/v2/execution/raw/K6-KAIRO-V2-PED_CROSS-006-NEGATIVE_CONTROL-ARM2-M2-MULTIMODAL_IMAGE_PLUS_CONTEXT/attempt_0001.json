@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is traveling at 30 kph with a pedestrian crossing ahead at x=23.0m and y=-4.0m moving leftwards at 1.6 m/s. Maintaining speed or braking moderately ensures safety while allowing the pedestrian to clear the path.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TDjQ09wTeP5/vieAm6MdrFoNv3Ig91NRKzqmtiDf5RsZKVQnqD6l5bppqpVfXFGrI+ggIN61qH6nHe5QsgLiVBZ/g6L7kzECYpPo95IF/4tI5ahZhvsfAuKk="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1461,
+    "candidatesTokenCount": 82,
+    "totalTokenCount": 1543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 369
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "hjT0aqWvCPCL694P88K2CA"
+}

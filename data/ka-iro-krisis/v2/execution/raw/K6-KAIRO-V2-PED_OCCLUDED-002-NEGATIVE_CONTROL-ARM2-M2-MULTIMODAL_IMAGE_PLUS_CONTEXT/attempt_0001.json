@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A0\",\n  \"rationale\": \"Maintain steady driving as the pedestrian is far ahead and moving safely away or outside the immediate conflict zone.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tqx5DmBB0qKAAedWN3CPPuw+o1fBoMy6nc77YMTy9dQ81lmdwaFo2QlvmHio6msShP+ephd0ej6z7+LR06oKGWVPu9DGyapL8J/OdwWTyJAudmcE1VAi7c7E="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1480,
+    "candidatesTokenCount": 43,
+    "totalTokenCount": 1523,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ZTz0av_VK7OQ694P_MXDoAc"
+}

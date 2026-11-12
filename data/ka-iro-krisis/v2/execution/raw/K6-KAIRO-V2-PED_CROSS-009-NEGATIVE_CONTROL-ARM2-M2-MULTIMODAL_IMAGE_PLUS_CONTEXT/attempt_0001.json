@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"The ego vehicle is approaching a pedestrian crossing from the left at a distance. Maintaining speed or minor deceleration (A1) allows safe passage while monitoring the pedestrian's movement.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T7/1ylWrvomRKI7VH5vUvdi9epAZPqK6dNJuIHDf56APZgjk3a8Df8sy79a0a3I+e0xFn+1nlBGp2NML5PkqGDGGQ0OzGDmcq+oFhhHWi/oY1WuTUeHdua80="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 1549,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "szn0atXyI7qG3LUPs66W8QM"
+}

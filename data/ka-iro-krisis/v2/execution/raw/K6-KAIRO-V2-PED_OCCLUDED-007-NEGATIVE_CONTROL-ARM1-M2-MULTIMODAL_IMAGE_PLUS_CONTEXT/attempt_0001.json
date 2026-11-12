@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead on the road. Moderating ego speed through braking provides adequate stopping distance and ensures safe clearance from the pedestrian's path.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T3Vlw0o2Gqlztihg3le95TTwInLvwejFXLnSWMA8F4y5S2C/JtOOaKKTmAhdt3oGyWWVp1eJ8RZ3u4Qlojd9JkyITsF9WOqVzJlgIWqA7wYT2L5GFXzT2IwY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1481,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 1534,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "GTb0arHlCN3s694P8erXsQY"
+}

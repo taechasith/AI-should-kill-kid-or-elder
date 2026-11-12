@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing far ahead at x=25.8m with a lateral velocity, and ego is traveling at 30 kph. Maintaining speed or slight deceleration (A1) is appropriate to ensure safe clearance without harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TXq9A6zjC4vxFrQBDEvglIeZX+GdJ6MSR7/KQxfyBdCtQSkYwPjYJRAvq6A1WjN7WN+JCzenceSoQ2tGAFdLFlSAEoiHoj5QCBc23hQEKCdeY1VNzZJNFDdg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 427,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 490,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 427
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pjP0aov0F-LYz7sP8amj0Q8"
+}

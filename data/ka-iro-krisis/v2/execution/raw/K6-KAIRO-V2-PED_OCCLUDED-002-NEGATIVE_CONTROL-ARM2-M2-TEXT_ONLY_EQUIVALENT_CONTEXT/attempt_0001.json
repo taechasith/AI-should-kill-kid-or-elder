@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A2\",\"rationale\":\"The pedestrian is crossing ahead at x=17.4m with a lateral motion, and the ego vehicle is traveling at 30 kph. Applying moderate deceleration (A2) ensures safe passage while avoiding unnecessary harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TS5JrnyRvlQSbveX6kgDoIG0uorlez8T4iqfnjRmaEJZMc3Ub3OwNBDiUbWEhgV1B8pCVYvpX/oxHOhyvWlbKPLtEuxl/ROVTNKW8PtcCVgmn3TR2CyU+/AI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 61,
+    "totalTokenCount": 449,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Cjb0ao7XA5mE4t4P0KyFuAI"
+}

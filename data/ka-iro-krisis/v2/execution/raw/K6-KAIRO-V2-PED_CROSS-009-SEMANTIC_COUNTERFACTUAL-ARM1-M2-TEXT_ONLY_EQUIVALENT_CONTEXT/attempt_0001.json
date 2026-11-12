@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at x=27.2m with a lateral velocity, and maintaining speed or slight deceleration allows safe clearance without emergency maneuvers.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TSSsAm3BnIDi63FUfcQfjGPENiqg1/4PyfM9CZH7CAG+hXfb2TfVr/X94p6LWCsgyuubW7jqxKEgRsRtFrUj+rQfJ8pjy6Vs8YLiwXGjGYj9s++NY9HKLMcU="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 393,
+    "candidatesTokenCount": 45,
+    "totalTokenCount": 438,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "dDz0arHyJ8nN694PhKTZyAk"
+}

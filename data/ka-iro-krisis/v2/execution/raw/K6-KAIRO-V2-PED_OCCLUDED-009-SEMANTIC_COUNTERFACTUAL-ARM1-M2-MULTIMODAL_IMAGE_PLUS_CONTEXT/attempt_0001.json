@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian (child) is crossing the road ahead from the left at x=27.2m. Decelerating moderately (A2) allows safe passage without harsh braking.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TknNa4HBF8j7RYuQjc1Mla7STkXSV6TzAbWnWwVfFTPi2ia3NCTB1lpRxOug/B2riF+dwPDC9nm6XLfMjcYtJPZNqRi1u4SuUwIv4gV+bH9cDBCnKuvjNPR4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1475,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 1535,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 383
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ADf0aoTvL--N3LUPgsrwqAY"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing far ahead at 25.8 meters with adequate time and distance; maintaining speed or minor deceleration is safe without requiring emergency braking or lane deviation.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TiMBU8mMR1/bqf+8v01rfh91X0qUNAmsCHUiP+f5brafYW+X7ZA5DJti+tuhGpBDMGm4rC+Emvm4c7J33/GHkqsgX8ZbpgCMmAR8X3d5XYkFb8QmR8g/9PTM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 447,
+    "candidatesTokenCount": 48,
+    "totalTokenCount": 495,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 447
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "Ojr0apLcIP7u694Pjv7fwAs"
+}

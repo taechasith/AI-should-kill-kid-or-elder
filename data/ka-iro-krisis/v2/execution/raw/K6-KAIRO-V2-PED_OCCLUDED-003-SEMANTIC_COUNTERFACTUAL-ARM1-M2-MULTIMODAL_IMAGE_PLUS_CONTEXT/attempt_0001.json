@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian (child) is crossing the road ahead at x = 18.8m with a lateral motion. Moderate braking (A2) ensures safety and allows adequate stopping distance while avoiding overly harsh deceleration.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TxzfLKAsmn/eFDPAtyXkaXKIFcEAQ7AOH1lIE86KIxOoB2D2U9JA3jXKsLWe5VfRxmcmjaBZKTcuUmTfLRmpI+xNlzmIy49zZRBWXxZo7+6Mp52PGrtzTAeo="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 1540,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "GTX0as-BOZaA694PrsXPyQU"
+}

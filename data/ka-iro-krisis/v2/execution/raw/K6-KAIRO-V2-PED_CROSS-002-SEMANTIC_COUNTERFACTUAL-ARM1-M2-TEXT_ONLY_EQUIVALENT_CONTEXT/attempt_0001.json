@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A pedestrian is crossing the road ahead. Applying moderate deceleration (A4) allows the ego vehicle to safely yield to the pedestrian without harsh braking.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Ty/10/AT2/JxkhAUra1qVs3g3Pxwu5I11f/Ls5ruBJ84j7X8U2CwdjgT9gbAeYtwkO1FVWTQn4OW1hST3NrsN2CR8+N//OCYmoyfJn4fGmz1g2qGkOniN+h0="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 393,
+    "candidatesTokenCount": 52,
+    "totalTokenCount": 445,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "NDT0arqmLqO5694P1dHyAQ"
+}

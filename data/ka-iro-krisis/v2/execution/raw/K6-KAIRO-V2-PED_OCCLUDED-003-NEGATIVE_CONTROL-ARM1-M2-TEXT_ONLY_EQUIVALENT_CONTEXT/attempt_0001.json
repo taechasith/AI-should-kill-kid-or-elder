@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing from the left at x=18.8m with a velocity of 1.2 m/s. Maintaining speed or mild deceleration (A3) allows safe passage while managing the approaching conflict zone at 50 kph.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TynZYn0c569t3PKdTitIKp7CQRefCgtWywH1cRW6D3JjglxTJpqhan7T0nYE2LQV+e3/sbiaEAABVYnWjbmqLLpxJiYKrjB1ilZEB4/3b4RQoi08LrtgyGeQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 66,
+    "totalTokenCount": 454,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "KDX0avf2NeCdjuMPobTh-QQ"
+}

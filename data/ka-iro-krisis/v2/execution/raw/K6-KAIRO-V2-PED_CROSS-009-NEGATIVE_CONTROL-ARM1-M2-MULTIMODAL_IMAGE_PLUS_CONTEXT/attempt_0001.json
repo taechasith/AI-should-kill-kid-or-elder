@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"The ego vehicle maintains its lane and speed while the pedestrian is crossing safely far ahead, so maintaining speed (A2) is appropriate.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TD4W5GbpSTcBW2jgfkpsgA2z+FebMlDaH5ZFyO3vc6SD113e1jZGzBj7y/a4cHLbMXWwvM9eXSwyOnXXfwH7RfDpYrEQDyfozTKrwEQ+3nXxhnBxO/okkoGw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1491,
+    "candidatesTokenCount": 50,
+    "totalTokenCount": 1541,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "gzz0at-nK6P2694PsZTKmQs"
+}

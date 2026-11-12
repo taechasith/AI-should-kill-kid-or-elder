@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing ahead at 17.4 meters with a lateral velocity of 1.2 m/s. Maintaining or slightly adjusting speed with caution (A1) is appropriate to yield safely to the pedestrian.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TZg2gRXDiJE9G9Yt7Qy7x/88o0uGMTX7S4R3FRgVFxEyAWcpiQWzCopqGFtVNaFTjizDvwKUP+2JWlZE6DlenHIirR/RhM5N6Q9CmNjC9BM450iagAeeEID4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 59,
+    "totalTokenCount": 458,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "lTT0ari0CLD3z7sPhvXdmAE"
+}

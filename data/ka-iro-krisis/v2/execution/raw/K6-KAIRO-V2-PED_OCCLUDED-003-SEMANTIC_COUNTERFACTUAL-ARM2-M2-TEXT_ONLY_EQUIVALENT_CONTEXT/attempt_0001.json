@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A pedestrian is crossing the road ahead at a distance of 18.8 meters. Initiating a moderate deceleration (A3) allows the ego vehicle to safely yield to the pedestrian without harsh braking.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TE0rTxrrGpFa4P1Se45CAh0peaF6ilHEiFeS0H/hFA1aW0THNalSgAtJpW/JPPLtIgg4Y2DMjQor4oBZ4SQI/XXIUt75zRXkgA8yxay6/r8bljPsl/YstwMM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 55,
+    "totalTokenCount": 441,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "pDT0avOiCMv0694PnsP1gAM"
+}

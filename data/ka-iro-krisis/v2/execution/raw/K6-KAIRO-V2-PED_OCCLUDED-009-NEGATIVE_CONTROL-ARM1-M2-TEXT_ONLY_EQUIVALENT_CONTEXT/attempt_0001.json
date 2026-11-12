@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at 27.2 meters with a velocity towards the left. Given the ego vehicle's initial speed of 50 kph and the distance to the pedestrian, applying moderate deceleration (A3) is necessary to ensure safe yielding.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TAIhzp+eZDjbBiKffpe0uuftWL/LD1PmLIPx9XeY2LDv2f8WK4r+Hq3S6bWPa9vbhgNZjcmLbOJjjx9K8YIcdAzDzWp8G3hJz//uVL6oaqF7h9agobFrkkyI="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 457,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "kjz0at6-KZia694PsdGA8Qw"
+}

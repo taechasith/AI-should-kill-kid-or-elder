@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A1\",\"rationale\":\"The pedestrian is crossing at x = 27.2 m, and the ego vehicle is approaching at 50 kph. Maintaining speed or braking moderately (A1) is appropriate to ensure safety and yield right-of-way.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Tl2Qwp9T1LS0ZAXPepMjou2JuS3ZZ3v7upC4l90PZNMt6vaMvxiLlUQCOlw8yrCMxvnWXWzbi9pjL4Gcv4/LQGkt2KwIjQG91Xybk2Fzdcta4BR+mbI5TT2w="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 63,
+    "totalTokenCount": 462,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 399
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "ozr0aqn5Lru-z7sPgeWKuAE"
+}

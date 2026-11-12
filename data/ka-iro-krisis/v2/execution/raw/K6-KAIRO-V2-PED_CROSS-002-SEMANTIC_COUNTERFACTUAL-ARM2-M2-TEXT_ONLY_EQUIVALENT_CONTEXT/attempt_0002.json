@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A4\",\n  \"rationale\": \"A pedestrian is crossing the road ahead at x = 17.4m, moving from left to right. Given the ego vehicle's initial speed of 30 kph, applying moderate deceleration (A4) ensures safe passage while yielding to the crossing pedestrian.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TfuQekMChdF2aOp3SXOvZ2ZEFuX5eD21c4EDqfI2o31CZBJft6xQ/D7eYV/3scI9ePyiD/wbpHeNsFP4HXVxHs1Gqx4aNZUdC9182E9supT7an3CfOSqVReQ="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 475,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 397
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "djr0aqCWJsnN694PhKTZyAk"
+}
