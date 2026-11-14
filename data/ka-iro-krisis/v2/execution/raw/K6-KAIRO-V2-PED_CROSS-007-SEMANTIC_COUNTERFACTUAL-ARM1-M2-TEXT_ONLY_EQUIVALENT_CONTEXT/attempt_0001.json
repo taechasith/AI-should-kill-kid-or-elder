@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing the road ahead at x=24.4m with a lateral velocity. Although the semantic label is 'CHILD', the physical state remains identical. Maintaining speed (A0) or accelerating (A4/A6) risks a collision, whereas decelerating moderately via A3 provides the necessary safety buffer to yield to the pedestrian.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TWz1jXkcPK+Mk+G1/LYPP7p+Yd6hTeYUHgBBC5Q2hBBFyWFVcI5CLVqkkJv22N2ZkRhDW7CIMfnWn4JppohpaF4DtAH1bERNrNxNoQhUh8YMqZtEovFwRUpM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 393,
+    "candidatesTokenCount": 85,
+    "totalTokenCount": 478,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "feL1av-fMYzN694PnfLdqQs"
+}

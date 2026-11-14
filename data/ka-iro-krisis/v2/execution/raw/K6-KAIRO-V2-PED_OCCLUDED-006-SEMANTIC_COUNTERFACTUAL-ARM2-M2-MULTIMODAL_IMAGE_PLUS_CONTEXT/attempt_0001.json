@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing ahead at x=23.0m. Decelerating (A2) provides a safer stopping margin compared to maintaining speed (A0) or braking harshly (A3), considering the moderate speed of 30 km/h.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0Tc5w5qpsD32DDT4JLQHfNCkZivYm+bWmusv0MAqRjgLW0L8HujAb4vnPH5dB6OtzCqtmZ3q18571TxQfy+IqYbtqv/IPvnmYRH58RFVKtR8gq+kpRBwxXq6o="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1479,
+    "candidatesTokenCount": 76,
+    "totalTokenCount": 1555,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 387
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "5-L1arASr-Pr3g_MsZjhAg"
+}

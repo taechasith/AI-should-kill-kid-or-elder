@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The ego vehicle is traveling at 30 kph and approaches a pedestrian crossing the road ahead at x=20.2m. To ensure safety and yield to the pedestrian, moderate deceleration (A3) is appropriate.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TSToBW/fuwdJaojUgK1XljJFwIiN8eNUnAcYJMW+pXGwInWPYfmg2Vg17MpbVLuUgZUR+uQ+JFNVPJtddjDlqB5HZW/7+Gn8OADf0kN9JHxYgMhUIVr4ZyGw="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 60,
+    "totalTokenCount": 448,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "b-H1avnYKZLx4t4PstL0qAQ"
+}

@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"rationale\":\"The pedestrian is entering the road",
+            "thoughtSignature": "ErAFCq0FAWkUfRNkwV6Lb4sUDzNqF4pciuovObLy0aLA4F0v8cbZHLbgJpoImDJ50OU7kgBsZMF4Fl109orj22OUst1wOKgg8xFXJLGzT+a44pKD2jHovUZuzFQbz7JI3JxRQsOz9d5M/ejck2pVqIE1rNWKraMjwgCccwa1NqmMmChdjJTKfJDK/9xfDstCwesIaYtI0kh49yaKVKG5kb4qshk0MIceBYIVpPRyn2GuBbCN1Dn3RrLWACnVQI2DCev99GPqC5lc0PiyysT4X1Ueba5ZJxsJpHxaTLWN62BhOmBXHIA0XcyYd7T76p7LsaTkrqU5sal8XFBoo7eGQpHwSXxqHSj6tDhzB9Rt8ajaffNNAI1FHZm6Pyqz84OoNR8e+CPbsjQy2c752m5scxsDaTfdYiC8vjoYi9X2C8z+Aqj3vwV54hCNVywWjYLYwstU0AzHLvS75oxBN6Lw3qW8bofLgOXlP+qoyDeYxdQEl4c3Ouo5+RtZ2A9darOKJa/QOmg9HAPqgc8epy8LgnsBarA8J/YbL1FpQL4te3n/PYlhEDjnavVQGnS2BDRKN2Jkhfb3wtaoNrx97CRwUapDficvIqLB0sjgvcvOjlv5IwVSLe4VAW+D5+9BICy8d1pFvnsfW4nfOLGrV7rBL5LsadloI0yKiMqvaU1YCYJ/zVpayxOtyNxFujPpHPf0LpEipkkH4r65y1u3fOOFn+P4BFoR0Rh7bkb2oGYbnWAwzjavmaomjE8x6omUTOatXSJ1H/BOD4Qtv3sLAx302jOFXLHXcUd5rsLu6EglPKgmeD0mguu+vk+kTfy8GbC+lPgfDV4ooT6HN7K6tPx6nKu3seXzNhKqGqHNJknKzfEBPCpAsqTPAIfqpnl2g5sgjbNQdzKxAfJ/rgh6Jyc8bLIPwg=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1474,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 1726,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "Et31arHABIjB694Pm-3PyAQ"
+}

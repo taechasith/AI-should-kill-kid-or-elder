@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"A pedestrian is crossing the road ahead at x=20.2m. To ensure safety and allow the pedestrian to clear the path, applying moderate deceleration (A3) is the appropriate response.\"}",
+            "thoughtSignature": "EmAKXgFpFH0Tvc8rInuKnGz5x8FquRjSyuE09mHq0vVSA8fS2Yko/hvoAuvqOLxpWNrY00543MYf59NVxJKnXR6Iu3tJAP/uBALsJFqAJYbohEU3bmTXXhmqYCAMMmhlD04="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 54,
+    "totalTokenCount": 436,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 382
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "UOL1aqO-KOfMjuMP6cu0-Ao"
+}

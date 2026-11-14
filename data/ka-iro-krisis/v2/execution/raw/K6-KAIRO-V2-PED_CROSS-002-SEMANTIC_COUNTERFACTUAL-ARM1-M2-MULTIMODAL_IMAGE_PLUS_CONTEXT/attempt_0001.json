@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A1\",\n  \"rationale\": \"A pedestrian (child) is crossing the road ahead at x = 17.4m. It is necessary to decelerate or brake moderately to yield and ensure safety.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T79utGtDqRwWhDN7Pq/556B7J6h+8eoTMJdCvW4WrblY3zar5AxMMBV341gxx3ocCKWGA7wRM8IyRWvC3yeZXcfKaNT620r4EDgZGNeY/0MgAX12sd7NhJM8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1485,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 1543,
+    "promptTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      },
+      {
+        "modality": "TEXT",
+        "tokenCount": 393
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "yOL1auO9PN6V3LUP-IWvuQs"
+}

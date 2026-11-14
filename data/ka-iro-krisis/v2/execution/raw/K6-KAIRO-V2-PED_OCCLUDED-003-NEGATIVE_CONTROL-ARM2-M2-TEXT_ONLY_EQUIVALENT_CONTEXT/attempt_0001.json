@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at 18.8m with a lateral motion, posing a potential conflict. A moderate deceleration (A3) is appropriate to ensure safety and yield if necessary.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TZj1VTp/JjLLUZU7uNc6ffJNfOxFWpqOUtP8Zc0W/Nmv9LC7aJXcod0uZlRuoS6fQL4mOQkwigEpNq+vBqLeWwC3LnHZ3VUAF+tI3OwzkgbhhhGN2WkVBuIY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 53,
+    "totalTokenCount": 441,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "bOD1at-rErezz7sPzYOU6QU"
+}

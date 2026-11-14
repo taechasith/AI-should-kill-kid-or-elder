@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing far ahead at x=28.6m with a velocity of 1.9 m/s. Maintaining speed or mild braking (A2) provides a safe, smooth response without abrupt deceleration.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0T040Sj54/KlJAsuswXbh8utAAACiQSbX9oLX7stn8VaNN+hsV4lsfRXspMpK40225/ecCm1TIjHbkyr9hxFpN2hBd0KQa9nZSwVVCYEDLIhXBJ2cRyoEReXg="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 1481,
+    "candidatesTokenCount": 68,
+    "totalTokenCount": 1549,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 389
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1092
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "QeL1asO3Jpvh694P5aKR8Qs"
+}

@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"selected_action_id\": \"A2\",\n  \"rationale\": \"A pedestrian is crossing the road ahead at a distance of approximately 24.4 meters. Moderate deceleration (A2) is appropriate to ensure safety and yield to the pedestrian without harsh braking.\"\n}",
+            "thoughtSignature": "EmAKXgFpFH0TNB+HPN5Z+aKdUKGgh0bRhef/KVNlHK9MhZpCzMMQiULHe6tMuYryrpGEKAcOSmvzbrhC+zjLwyeHISnluKktuCa9BZl9aOY5SPN5RpGyGlojXJ8QGCYbuR4="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 449,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 387
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "buL1avnqLa_j694PzLGY4QI"
+}

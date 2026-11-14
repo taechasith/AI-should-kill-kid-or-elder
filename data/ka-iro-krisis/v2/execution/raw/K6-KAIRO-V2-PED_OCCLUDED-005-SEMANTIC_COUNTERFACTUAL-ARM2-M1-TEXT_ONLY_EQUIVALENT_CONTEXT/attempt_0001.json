@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"rationale\":\"Given the pedestrian is crossing at x",
+            "thoughtSignature": "Eq4FCqsFAWkUfRPtVS4OE99QQUh8lbqm7tFu/x9vmmyfnOsqOnFzJjDaQQ04P5uJnvX5lt3ivADtxY1DciGkCWtOT0K8XMh/rDbRkoHNP4bA45RKfPAAIgEsbs7QtrVH1zfUu33sZpQNdBWuqs2ElmthoazwNrAkIppzRh5GwqPx5cWXTRN2t0g/Jc8ui/KF67B9pZOQZSflnrsoWKRkKEPWojXLZI5MDwGOqPIQ5U3ltkgB5WggV3rGg4b0sFhU58jkJydX5KmDeXWlHmma72oCPYXBxKtyp+LZ2QJbM94JdsN/QK3/76WxX+94UcgEdMiA7WJ35i4W0an3jqegfvNyoff7cI2cKK5oUBOSvyilDUQbwstcDvufBI2Od9xrbGCNqbdS2Yc6ILwuz+B2PftPsMVly/AWekHr35rQPJUs/kfek5U3SY3UcIpjE+giU+R3Aem5A/PY8TVU95ye+/i1zk3gW7KEx9CxYHbgbxVXWIrsP8H+pbU46Na5liJr6Q5gdRyoJICOWiYuvYLBvZaJvTYznR4DCTLFU+peNeQehli2Rtc9eLO4WgQ+zllneBAi4idfE+QmmcqL8CYVkizunedqvSajDnEgoQhEuLPs1qQJFiAIgrr9VFS1xef9/awdzuvELkYf0jBFviYphKdK4695meI+jSpApBMBSBc0hdgRMdv4tJDJSInbwDGfm/MyqRSEUYwl4TUf7agH+u6bNS/VZ8D7HpcPhGyVU6JzMyxm6EbZR6lXRBMzTuGw07X623NqnGwFFONBrMZaiBShCZsd98rkAtGle+kLe4aNtHBunEYqUIOxO99wnn5u60vtk4bLpdYhWhpQdl/8RE7iVXSp04UbFQeGoGQq9bf6y5NQA0wiVStT25Jh1R9HzOJUBWgv6HGmKCyd2iqxQpc="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 638,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 386
+      }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.6-flash",
+  "responseId": "9Nz1at3HBOT8694Pk_Px2Qo"
+}

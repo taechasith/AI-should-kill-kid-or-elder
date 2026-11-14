@@ -1,0 +1,31 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "{\"selected_action_id\":\"A3\",\"rationale\":\"The pedestrian is crossing ahead at x=17.4m and moving into the path of the ego vehicle. Maintaining speed or accelerating (A0, A1, A2, A4) would increase collision risk, whereas braking (A3) allows safe deceleration and avoidance.\"}",
+            "thoughtSignature": "EmAKXgFpFH0TsFNih2dwG9ObNrHKD3CIoCQQDEdcdVqxAzLO1r1o4mI2GjCd7S3JurRWoYdswadp0t09DydEf4zyPaTlddCUZA0ttWN4VL+0Bw/vcpoUdRXzrIGpTHUHLUM="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 71,
+    "totalTokenCount": 459,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 388
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-3.5-flash-lite",
+  "responseId": "YOH1asWdJuKw694Psq6TwQM"
+}
