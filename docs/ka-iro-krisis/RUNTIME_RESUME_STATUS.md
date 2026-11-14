@@ -22,7 +22,7 @@ authorized.
 | Resume not before (UTC) | 2026-11-13T07:59:59.789330Z |
 | Resume not before (ICT) | 2026-11-13T14:59:59.789330+07:00 |
 | Integrity audit | `PASS` — `data/ka-iro-krisis/v2/execution/audits/quota_wait_audit_20261114T0817Z.json` |
-| Durable checkpoint | Pending publication commit |
+| Durable checkpoint | `ae6eab8` |
 | Canonical resume command | `bash scripts/kairo_resume.sh` |
 
 The exact quota-deferred frozen observation is
